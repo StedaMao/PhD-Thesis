@@ -4,7 +4,7 @@
 \chapter{THEORETICAL FOUNDATIONS} 
 \label{ch:ch2}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Crystallography properties}
+\section{Crystallography Properties}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The hexagonal lattice nanostructure, a fundamental Bravais lattice, manifests as a distinctive geometric arrangement prevalent across a spectrum of materials, owing to its highly efficient packing characteristics. This lattice's spatial configuration profoundly influences the mechanical, electrical, and thermal properties of materials. Understanding lattice structures is crucial for deciphering material behavior across diverse conditions, spanning from semimetals to topological insulators. This significance is particularly noteworthy in the realm of two-dimensional materials. We have selected graphene, exemplifying a semimetal, and hexagonal boron nitride (h-BN), recognized as an insulator, for our discussion on nonlinear optical response on 2d materials.\\
 \begin{figure}[htpb]
@@ -17,7 +17,7 @@ Graphene, an extraordinary carbon allotrope, showcases a captivating atomic arra
 
 Similar to graphene, Hexagonal boron nitride (\gls{h-BN}) also features a hexagonal lattice structure, but with alternating boron and nitrogen atoms forming the hexagons, making it a wide-gap insulator due to inversion symmetry breaking, which is used as a dielectric material in electronics, a substrate for graphene-based devices, and as a solid lubricant.
 % Example Subsubsection
-\subsection{Structural parameters}
+\subsection{Structural Parameters}
 % begin{figure}[tb] % t = top, b = bottom, etc.
  We define the basis of hexagonal lattice primitive vectors $E = (\vec{a}_{1}, \vec{a}_{2})$ as shown in Fig \ref{fig: lattice} (a):
 $$
@@ -39,7 +39,7 @@ $$
 \vec{\delta}_{3}=a\left(\begin{array}{l} -\frac{1}{2 \sqrt{3}}\\ -\frac{1}{2}\end{array}\right)
 \end{array}
 $$
-\subsection{Reciprocal space}
+\subsection{Reciprocal Space}
 The reciprocal basis $B=\left(b_{1}, b_{2}, b_{3}\right)$ is generated using the formula:
 $$
 \overrightarrow{b_{k}}=\frac{2 \pi \cdot \overrightarrow{a_{i}} \times \overrightarrow{a_{j}}}{V}
@@ -148,7 +148,7 @@ Their corresponding eigenvectors are:
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Electron dynamics}
+\section{Electron Dynamics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Consider the crystal under the electric field $\vecb {E}$, to avoid that
 Bloch’s theorem cannot be applied, let the electric field enter through a uniform vector potential $\vecb {A} (t)$. The time-dependent Hamiltonian is written as
@@ -162,7 +162,7 @@ Transforming to the $\boldsymbol{k}$ -space representation, we have
 \end{equation}
 where $\boldsymbol k$ denotes the Bloch wavevector, and $|\psi_{\boldsymbol k}(t)\rangle$ is a single-particle electroinc wavefunction at $\boldsymbol k$. The vector potential $\vecb A(t)$ is related to the applied electric field $\vecb E(t)$ as $\vecb E(t)=-d\vecb A(t)/dt$, and it is included in the Hamiltonian as the wavevector shift $\boldsymbol k \rightarrow \boldsymbol k + e\vecb A(t)/\hbar$ via the Peierls substitution  \cite{hofstadter1976energy}.\\
 %===================================================================================================================================
-\subsection{Time-dependent Schr\"odinger equation}
+\subsection{Time-dependent Schr\"odinger Equation}
 The light-induced electron dynamics can be described by solving the following time-dependent Schr\"odinger equation (\gls {TDSE}) at each $\vecb k$-point:
 \begin{equation}
 i\hbar \frac{d}{dt}| \psi_{\boldsymbol {k}}(t) \rangle = \hat{H}\left ( \boldsymbol k + \frac{e\vecb A(t)}{\hbar} \right )| \psi_{\boldsymbol k}(t) \rangle,
