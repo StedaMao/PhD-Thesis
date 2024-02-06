@@ -1,7 +1,7 @@
 %----------------------------------------------------------------------------------------
 % CHAPTER THREE
 %----------------------------------------------------------------------------------------
-\chapter{THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT}
+\chapter{THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT \label{ch:ch4}}
 
 Researchers have probed HHG in graphene particularly within the terahertz (THz) regime \cite{hafez2018extremely,kovalev2021electrical}. THz-induced transparency of graphene, an intriguing nonlinear optical effect, has been explored \cite{Hwang2013,Paul_2013,doi:10.1063/1.4902999}, often analyzed through a thermodynamic model emphasizing the reduction of electric conductivity \cite{mics2015thermodynamic,kovalev2021electrical}.
 Despite these advancements, a comprehensive understanding of the microscopic mechanisms governing these nonlinear effects remains elusive. The existing studies predominantly rely on thermodynamic models, lacking a thorough exploration of nonequilibrium quantum dynamics under dissipation. This research gap highlights the need for a deeper exploration of the underlying microscopic processes to unravel the intricacies of HHG and related nonlinear optical effects in graphene.
@@ -108,7 +108,7 @@ In our iterative simulations, we systematically vary the field strength $E_0$ an
 In the initial step of constructing the continuous function, we employ a polynomial regression with the following odd function:
 
 \begin{align}
-\vecb{J}{\mathrm{polynomials }}(E_0)= \sum\limits{j=0}^{4} \vecb e_x \alpha^{(2j+1)} E^{2j+1}_0,
+\vecb{J}_{\mathrm{polynomials }}(E_0)= \sum\limits{j=0}^{4} \vecb e_x \alpha^{(2j+1)} E^{2j+1}_0,
 \label{eq:appendix-polynomial}
 \end{align}
 
@@ -117,13 +117,13 @@ where $\alpha^{(j)}$ represents optimization parameters. These parameters are fi
 Moving on to the second step, we aim to refine the discrepancy between the discrete points in Figure~\ref{fig:insert} and the polynomial function $\vecb{J}_{\mathrm{polynomials }}(E_0)$. To achieve this, we define the residual error of the polynomial regression as:
 
 \begin{align}
-\Delta \vecb{J}k=\vecb{J}{k}-\vecb{J}_{\mathrm{polynomials}}(E_k).
+\Delta \vecb{J}_k=\vecb{J}_{k}-\vecb{J}_{\mathrm{polynomials}}(E_k).
 \end{align}
 
 Subsequently, we apply spline interpolation to the data points ${E_k, \Delta \vecb{J}k}$, denoting the interpolated function as $\Delta \vecb{J}{\mathrm{spline}}(E_0)$. Finally, we approximate the continuous function, $\vecb J_S(E_0)$, as:
 
 \begin{align}
-\vecb J_S(E_0)\approx \vecb{J}{\mathrm{polynomials }}(E_0)+\Delta \vecb{J}{\mathrm{spline}}(E_0).
+\vecb J_S(E_0)\approx \vecb{J}_{\mathrm{polynomials }}(E_0)+\Delta \vecb{J}_{\mathrm{spline}}(E_0).
 \label{eqn:approx}
 \end{align}
 

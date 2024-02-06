@@ -247,7 +247,7 @@ $\frac{\partial\epsilon_{b,\boldsymbol{k}+\boldsymbol{A}(t)}}{\partial\boldsymbo
     \label{band velocity_c}
 \end{equation}
 %==================================================================================================================================
-\subsection{Quantum Master Equation}
+\subsection{Quantum Master Equation \label{sec:master}}
 In contrast to closed quantum systems, which are entirely isolated from external influences and can be adequately described by the Schrödinger equation, the quantum master equation is typically used in the context of the time evolution of an open quantum system, where the system of interest is susceptible to exchanges of energy, particles, or information with its external environment. 
 To expound processes such as relaxation, dephasing, and thermalization of the nonlinear response experiments, the quantum master equation is predominantly employed which is salient in the realm of open quantum systems.\\
 We describe the light-induced electron dynamics in graphene with the following quantum master equation \cite{sato2019light,sato2019microscopic,sato2021high,sato2021nonlinear}:
@@ -268,8 +268,10 @@ The expansion of the reduced density matrix can then be carried out using the Ho
 \end{align}
 where $\rho_{bb',\vecb k}(t)$ are the expansion coefficients. On the basis of the Houston state expansion, we define the relaxation operator \cite{sato2019microscopic,PhysRevB.99.214302,sato2019light} as
 \begin{align}
-  \hat D\left [\rho_{\vecb k}(t) \right ]=-\sum_{b}\frac{\rho_{bb,\vecb k}(t)-f^{FD}\left (\epsilon_{b,\vecb k+e\vecb A(t)/\hbar},T_e,\mu \right)}{T_1}|u^H_{b\vecb k}(t)\rangle \langle u^H_{b\vecb k}(t)| 
-  -\sum_{b\neq b'} \frac{\rho_{bb',\vecb k}(t)}{T_2}|u^H_{b\vecb k}(t)\rangle \langle u^H_{b'\vecb k}(t)|,
+    \hat D\left [\rho_{\vecb k}(t) \right ]=&-\sum_{b}\frac{\rho_{bb,\vecb k}(t)-f^{FD}\left
+(\epsilon_{b,\vecb k+e\vecb A(t)/\hbar},T_e,\mu \right)}{T_1}|u^H_{b\vecb k}(t)\rangle \langle
+u^H_{b\vecb k}(t)|\\ 
+                                            &-\sum_{b\neq b'} \frac{\rho_{bb',\vecb k}(t)}{T_2}|u^H_{b\vecb k}(t)\rangle \langle u^H_{b'\vecb k}(t)|,
 \label{eqn:relaxation}
 \end{align}
 $T_1$ is the longitudinal relaxation time, $T_2$ is the transverse relaxation time, and $f^{\mathrm{FD}}(\epsilon)$ is the Fermi--Dirac distribution

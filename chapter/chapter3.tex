@@ -1,4 +1,4 @@
-\chapter{CO-LINEAR POLARIZATION INDUCED PHOTOVOLTAIC EFFECT} 
+\chapter{CO-LINEAR POLARIZATION INDUCED PHOTOVOLTAIC EFFECT \label{ch:ch3}} 
 Addressing the photovoltaic effect within the perturbative regime has garnered significant attention, particularly in the exploration of dc current injection using two-color linearly polarized light~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}. Early investigations have underscored the intricate interplay between a fundamental frequency, denoted as $\omega$, and its second harmonic, $2\omega$~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306}. 
 A notable study by Jimenez-Galan et al.~\cite{Jimenez-Galan2020} utilized deeply off-resonant bi-circular laser fields with frequencies $\omega$ and $2\omega$ to generate a substantial population imbalance in the Brillouin zone. However, it is worth noting that, in principle, the use of linearly polarized light with two frequencies is sufficient to break time-reversal symmetry.
 
@@ -170,8 +170,10 @@ we get:
 Similarly to the first-order perturbation coefficient vector's derivation, the second-order coefficient $c^{(2)}_{c,\vecb k}(t)$ can be written as:
 \begin{equation}
 \begin{aligned}
-    c^{(2)}_{c,\vecb k,dyn}(t)=\frac{(A_2 \vec e)^2 \cdot \sigma \sqrt{\pi}}{2i} \frac{\partial  \Delta \epsilon_{vc,\vecb k}}{\partial \vecb k} \left \langle u_{c,\vecb k}\Big |\frac{\partial u_{v,\vecb k}}{\partial \vecb k} \right \rangle \cdot e^{-i\Delta \epsilon_{vc,\vecb k} T_0}
-    \cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\vecb k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}+2w)^2})]
+    c^{(2)}_{c,\vecb k,dyn}(t)=&\frac{(A_2 \vec e)^2 \cdot \sigma \sqrt{\pi}}{2i} \frac{\partial
+    \Delta \epsilon_{vc,\vecb k}}{\partial \vecb k} \left \langle u_{c,\vecb k}\Big |\frac{\partial
+u_{v,\vecb k}}{\partial \vecb k} \right \rangle \cdot e^{-i\Delta \epsilon_{vc,\vecb k} T_0}\\
+    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\vecb k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}+2w)^2})]
 \end{aligned}
 \end{equation}
 
@@ -212,8 +214,10 @@ To compare the $|c_{c,-\vecb k}(t)|^2$, the absolute value of the coefficient be
 
 \begin{equation}
 \begin{aligned}
-  |c^{(2)}_{c,\vecb k,dyn}(t)|^2&= \lvert \frac{(A_2 \vec e)^2 \cdot \sigma \sqrt{\pi}}{2} \frac{\partial  \Delta \epsilon_{vc,\vecb k}}{\partial \vecb k} \left \langle u_{c,\vecb k}\Big |\frac{\partial u_{v,\vecb k}}{\partial \vecb k} \right \rangle 
-    \cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\vecb k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}+2w)^2})] \rvert^2\\
+    |c^{(2)}_{c,\vecb k,dyn}(t)|^2&=& \lvert \frac{(A_2 \vec e)^2 \cdot \sigma \sqrt{\pi}}{2}
+  \frac{\partial  \Delta \epsilon_{vc,\vecb k}}{\partial \vecb k} \left \langle u_{c,\vecb k}\Big
+  |\frac{\partial u_{v,\vecb k}}{\partial \vecb k} \right \rangle\\ 
+                                  &    \cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\vecb k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\vecb k}+2w)^2})] \rvert^2\\
     &=|c^{(2)}_{c,-\vecb k,dyn}(t)|^2
 \end{aligned}
 \end{equation}

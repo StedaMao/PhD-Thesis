@@ -4423,6 +4423,7 @@
       \strng{authorbibnamehash}{b3a7323430bf688167a985f43a84b017}
       \strng{authornamehash}{b3a7323430bf688167a985f43a84b017}
       \strng{authorfullhash}{1b215debbb277bc135842b8e2cf4e93e}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -4545,6 +4546,7 @@
       \strng{authorbibnamehash}{3b54e0985221141774c73db6b00a340f}
       \strng{authornamehash}{3b54e0985221141774c73db6b00a340f}
       \strng{authorfullhash}{819fe76bfd96c94bd6402f8bf474de6f}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -4795,6 +4797,831 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.4902999
+      \endverb
+    \endentry
+    \entry{PhysRevB.100.035434}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3f4462c305b6ea1d6f7a19f7f89f6c64}{%
+           family={Avetissian},
+           familyi={A\bibinitperiod},
+           given={H.\bibnamedelimi K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=265428fd5d56242b0f3d7d53838a4c9c}{%
+           family={Avetissian},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5e150d05e3b20f40d3e0861acae882a7}{%
+           family={Avchyan},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=33b52b04792ee5eaa6fb0af70feee43f}{%
+           family={Mkrtchian},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1d1b3676af00a34627727ff4c05b886d}
+      \strng{fullhash}{4b8e5d144f38edaeee86149f01e7cceb}
+      \strng{bibnamehash}{4b8e5d144f38edaeee86149f01e7cceb}
+      \strng{authorbibnamehash}{4b8e5d144f38edaeee86149f01e7cceb}
+      \strng{authornamehash}{1d1b3676af00a34627727ff4c05b886d}
+      \strng{authorfullhash}{4b8e5d144f38edaeee86149f01e7cceb}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{7}
+      \field{title}{Wave mixing and high harmonic generation at two-color multiphoton excitation in two-dimensional hexagonal nanostructures}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{pages}{035434}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.100.035434
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.035434
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.035434
+      \endverb
+    \endentry
+    \entry{PhysRevB.105.195405}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d7d38d9918f02b61fe2ca2b6792733a5}{%
+           family={Avetissian},
+           familyi={A\bibinitperiod},
+           given={Hamlet\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e2d32e44eb9f7003592cea50880175e0}{%
+           family={Mkrtchian},
+           familyi={M\bibinitperiod},
+           given={Garnik\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=086569609c52090baa08b6dc6054e2ca}{%
+           family={Knorr},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e0b5b4f9b8a546f2c9df1746f90b70b9}
+      \strng{fullhash}{d259585d66c0dd46ec622524c385b8e1}
+      \strng{bibnamehash}{d259585d66c0dd46ec622524c385b8e1}
+      \strng{authorbibnamehash}{d259585d66c0dd46ec622524c385b8e1}
+      \strng{authornamehash}{e0b5b4f9b8a546f2c9df1746f90b70b9}
+      \strng{authorfullhash}{d259585d66c0dd46ec622524c385b8e1}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{19}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Efficient high-harmonic generation in graphene with two-color laser field at orthogonal polarization}
+      \field{volume}{105}
+      \field{year}{2022}
+      \field{pages}{195405}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.105.195405
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.105.195405
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.105.195405
+      \endverb
+    \endentry
+    \entry{doi:10.1126/science.aam8861}{article}{}
+      \name{author}{3}{}{%
+        {{hash=03366186591a1e4bb2bb4be40a94b181}{%
+           family={Yoshikawa},
+           familyi={Y\bibinitperiod},
+           given={Naotaka},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c9fd5809bfbdda369f5062d557cdfcfe}{%
+           family={Tamaya},
+           familyi={T\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8497f8f141233a4b2e309ade08811f37}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Koichiro},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{bca3d2cbc148da90f41ed722c37c709e}
+      \strng{fullhash}{650a441a005abb9feff040d2240e64f8}
+      \strng{bibnamehash}{650a441a005abb9feff040d2240e64f8}
+      \strng{authorbibnamehash}{650a441a005abb9feff040d2240e64f8}
+      \strng{authornamehash}{bca3d2cbc148da90f41ed722c37c709e}
+      \strng{authorfullhash}{650a441a005abb9feff040d2240e64f8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6339}
+      \field{title}{High-harmonic generation in graphene enhanced by elliptically polarized light excitation}
+      \field{volume}{356}
+      \field{year}{2017}
+      \field{pages}{736\bibrangedash 738}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.aam8861
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.aam8861
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.aam8861
+      \endverb
+    \endentry
+    \entry{cha2022gate}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=539af989aa48cc22171e0aba28668ca6}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Soonyoung},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5a25a6efc80704d566f6e74f2542b9c3}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minjeong},
+           giveni={M\bibinitperiod}}}%
+        {{hash=efa2a3a59af8861d014826ac8dd0a7d0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2a8607bf350581f81fe295222124aae3}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Shinyoung},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8946dc20967a0f168df7501f7e7a02f8}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Sejong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b87a4c1df5dd642082f7c8794a6f755f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hoon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b8d01dd832e1b1fdde6d1888e727db79}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Sangho},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5233351e5da58be87a23d6ace6b9021a}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Gunho},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5f196405975d13fb02f5c03680ba81cc}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeho},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7fb83f680d53768efd9061c3c2e1c023}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ye\bibnamedelima Won},
+           giveni={Y\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{331c9096c764046279136419ea517eab}
+      \strng{fullhash}{ac5d37f0fe3829046f50a7d40a8293be}
+      \strng{bibnamehash}{331c9096c764046279136419ea517eab}
+      \strng{authorbibnamehash}{331c9096c764046279136419ea517eab}
+      \strng{authornamehash}{331c9096c764046279136419ea517eab}
+      \strng{authorfullhash}{ac5d37f0fe3829046f50a7d40a8293be}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{Gate-tunable quantum pathways of high harmonic generation in graphene}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{6630}
+      \range{pages}{1}
+    \endentry
+    \entry{Hafez2018}{article}{}
+      \name{author}{19}{}{%
+        {{hash=4e67af4a1b60bd458e71314008e78338}{%
+           family={Hafez},
+           familyi={H\bibinitperiod},
+           given={Hassan\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bd3b28fe578863cb1cd195150cb88567}{%
+           family={Kovalev},
+           familyi={K\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4b0edc51942237376570c8897b7d748c}{%
+           family={Deinert},
+           familyi={D\bibinitperiod},
+           given={Jan-Christoph},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=1dcf1ce430f1cac2e156e7608ed55752}{%
+           family={Mics},
+           familyi={M\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5d56a8d2cc7a720d7342e5a8f97ed3e3}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Bertram},
+           giveni={B\bibinitperiod}}}%
+        {{hash=57b858fb10d5cd271ecc3d519e4f4465}{%
+           family={Awari},
+           familyi={A\bibinitperiod},
+           given={Nilesh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d491f1b21c6dd1e0f7ce9ffb3005799}{%
+           family={Germanskiy},
+           familyi={G\bibinitperiod},
+           given={Semyon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=258833e89ea8b822159dbdad1017444c}{%
+           family={Lehnert},
+           familyi={L\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+        {{hash=82f1e62611c8fe2f86da72fcdf0b6064}{%
+           family={Teichert},
+           familyi={T\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=edcb27361de88ed2a8ec1c9dca30dd7a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c9af53d40953383e5f94bbd1c5b04d65}{%
+           family={Tielrooij},
+           familyi={T\bibinitperiod},
+           given={Klaas-Jan},
+           giveni={K\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=1e2a24df5d6310ca8ee12a2b54da84c8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhaoyang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5453eb4e074698c2b18df312ced40c7e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zongping},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=87effa3c4652952051413ec824bb3759}{%
+           family={Narita},
+           familyi={N\bibinitperiod},
+           given={Akimitsu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=292cdd8dc7aa65a9e731be2d0574c26b}{%
+           family={Müllen},
+           familyi={M\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d7a35406b10dcebd80573acb0c3cd306}{%
+           family={Bonn},
+           familyi={B\bibinitperiod},
+           given={Mischa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=63ba822182137cb6f752ae3ea6a3baf0}{%
+           family={Gensch},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7f4b3057c76560e280945a0d70e9854}{%
+           family={Turchinovich},
+           familyi={T\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3a7323430bf688167a985f43a84b017}
+      \strng{fullhash}{1b215debbb277bc135842b8e2cf4e93e}
+      \strng{bibnamehash}{b3a7323430bf688167a985f43a84b017}
+      \strng{authorbibnamehash}{b3a7323430bf688167a985f43a84b017}
+      \strng{authornamehash}{b3a7323430bf688167a985f43a84b017}
+      \strng{authorfullhash}{1b215debbb277bc135842b8e2cf4e93e}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{number}{7724}
+      \field{title}{Extremely efficient terahertz high-harmonic generation in graphene by hot Dirac fermions}
+      \field{volume}{561}
+      \field{year}{2018}
+      \field{pages}{507\bibrangedash 511}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41586-018-0508-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41586-018-0508-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41586-018-0508-1
+      \endverb
+    \endentry
+    \entry{doi:10.1126/sciadv.abf9809}{article}{}
+      \name{author}{18}{}{%
+        {{hash=bd3b28fe578863cb1cd195150cb88567}{%
+           family={Kovalev},
+           familyi={K\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4e67af4a1b60bd458e71314008e78338}{%
+           family={Hafez},
+           familyi={H\bibinitperiod},
+           given={Hassan\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c9af53d40953383e5f94bbd1c5b04d65}{%
+           family={Tielrooij},
+           familyi={T\bibinitperiod},
+           given={Klaas-Jan},
+           giveni={K\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=4b0edc51942237376570c8897b7d748c}{%
+           family={Deinert},
+           familyi={D\bibinitperiod},
+           given={Jan-Christoph},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=b77ebe57f19cb2093c8f97fe01dea4ac}{%
+           family={Ilyakov},
+           familyi={I\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=57b858fb10d5cd271ecc3d519e4f4465}{%
+           family={Awari},
+           familyi={A\bibinitperiod},
+           given={Nilesh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=73479b1a27f475ac04b0c713a205491f}{%
+           family={Alcaraz},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9a2f33ec522ff32e9d0951488a5b3277}{%
+           family={Soundarapandian},
+           familyi={S\bibinitperiod},
+           given={Karuppasamy},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3417f953b5dac5dac1e49b9001e34708}{%
+           family={Saleta},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9d491f1b21c6dd1e0f7ce9ffb3005799}{%
+           family={Germanskiy},
+           familyi={G\bibinitperiod},
+           given={Semyon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d859feb10a56b9b795561ad2f976c703}{%
+           family={Bawatna},
+           familyi={B\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d56a8d2cc7a720d7342e5a8f97ed3e3}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Bertram},
+           giveni={B\bibinitperiod}}}%
+        {{hash=44d79bc0ba4a0652fb789794ed70c66e}{%
+           family={Koppens},
+           familyi={K\bibinitperiod},
+           given={Frank\bibnamedelimb H.\bibnamedelimi L.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cfbe00d5307cf274e1caf4e732888deb}{%
+           family={Mittendorff},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d7a35406b10dcebd80573acb0c3cd306}{%
+           family={Bonn},
+           familyi={B\bibinitperiod},
+           given={Mischa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=63ba822182137cb6f752ae3ea6a3baf0}{%
+           family={Gensch},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7f4b3057c76560e280945a0d70e9854}{%
+           family={Turchinovich},
+           familyi={T\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b54e0985221141774c73db6b00a340f}
+      \strng{fullhash}{819fe76bfd96c94bd6402f8bf474de6f}
+      \strng{bibnamehash}{3b54e0985221141774c73db6b00a340f}
+      \strng{authorbibnamehash}{3b54e0985221141774c73db6b00a340f}
+      \strng{authornamehash}{3b54e0985221141774c73db6b00a340f}
+      \strng{authorfullhash}{819fe76bfd96c94bd6402f8bf474de6f}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science Advances}
+      \field{number}{15}
+      \field{title}{Electrical tunability of terahertz nonlinearity in graphene}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{eabf9809}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.abf9809
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.abf9809
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.abf9809
+      \endverb
+    \endentry
+    \entry{PhysRevB.103.L041408}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e7c9e35e2f090afb4a8e5a59a027b8d8}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Shunsuke\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d95863a668f113fdf4ed21c321e648f0}{%
+           family={Hirori},
+           familyi={H\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bd405f5c9ffc5ea2fda0043952cf9f69}{%
+           family={Sanari},
+           familyi={S\bibinitperiod},
+           given={Yasuyuki},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1b51d53d0d1a7d5447ecc5d405f49d3b}{%
+           family={Kanemitsu},
+           familyi={K\bibinitperiod},
+           given={Yoshihiko},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a05b6c6d1062b5c142ffab8693708b21}{%
+           family={Rubio},
+           familyi={R\bibinitperiod},
+           given={Angel},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3baf38b3af2858cee3fce16e6b6e1268}
+      \strng{fullhash}{d068cb9703cf22b850b9f060487254d3}
+      \strng{bibnamehash}{d068cb9703cf22b850b9f060487254d3}
+      \strng{authorbibnamehash}{d068cb9703cf22b850b9f060487254d3}
+      \strng{authornamehash}{3baf38b3af2858cee3fce16e6b6e1268}
+      \strng{authorfullhash}{d068cb9703cf22b850b9f060487254d3}
+      \field{extraname}{6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{High-order harmonic generation in graphene: Nonlinear coupling of intraband and interband transitions}
+      \field{volume}{103}
+      \field{year}{2021}
+      \field{pages}{L041408}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.103.L041408
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.103.L041408
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.103.L041408
+      \endverb
+    \endentry
+    \entry{PhysRevB.106.024313}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6479e78ed8f6f5f74a42d960d16c46c4}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Wenwen},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a05b6c6d1062b5c142ffab8693708b21}{%
+           family={Rubio},
+           familyi={R\bibinitperiod},
+           given={Angel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e7c9e35e2f090afb4a8e5a59a027b8d8}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Shunsuke\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ab453ae4a11518693365fd157e486244}
+      \strng{fullhash}{e00f41ee2f8f289afa6c4a819289f5c4}
+      \strng{bibnamehash}{e00f41ee2f8f289afa6c4a819289f5c4}
+      \strng{authorbibnamehash}{e00f41ee2f8f289afa6c4a819289f5c4}
+      \strng{authornamehash}{ab453ae4a11518693365fd157e486244}
+      \strng{authorfullhash}{e00f41ee2f8f289afa6c4a819289f5c4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{7}
+      \field{title}{Terahertz-induced high-order harmonic generation and nonlinear charge transport in graphene}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{024313}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.106.024313
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.106.024313
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.106.024313
+      \endverb
+    \endentry
+    \entry{10.1063/1.3560062}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f45d6b0cecfa9d0bbc0f5aa61f6fdecf}{%
+           family={Hirori},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=693dfa6750b3673bd2932a36a3b69a14}{%
+           family={Doi},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c086d3e857d8ba6f54461c5a1bb196b5}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f3cdb8626da1f3061662eabc60da2b84}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8648341ae96fe180325d6c7db2009f38}
+      \strng{fullhash}{76297326a987ff8576057c331fb78abe}
+      \strng{bibnamehash}{76297326a987ff8576057c331fb78abe}
+      \strng{authorbibnamehash}{76297326a987ff8576057c331fb78abe}
+      \strng{authornamehash}{8648341ae96fe180325d6c7db2009f38}
+      \strng{authorfullhash}{76297326a987ff8576057c331fb78abe}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-6951}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{month}{03}
+      \field{number}{9}
+      \field{title}{{Single-cycle terahertz pulses with amplitudes exceeding 1 MV/cm generated by optical rectification in LiNbO3}}
+      \field{volume}{98}
+      \field{year}{2011}
+      \field{pages}{091106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3560062
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3560062
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3560062
+      \endverb
+    \endentry
+    \entry{PhysRevLett.8.404}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ce4812b8d9c0e9450753267bfd31022d}{%
+           family={Terhune},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=77869f4a3edac28c8a176914b84e309b}{%
+           family={Maker},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=31b343c9793865c6c784cba3a7c40889}{%
+           family={Savage},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{61c610a260e47ec8f529c1191516310a}
+      \strng{fullhash}{5546eb1d521c7ff86a798300a40b14ea}
+      \strng{bibnamehash}{5546eb1d521c7ff86a798300a40b14ea}
+      \strng{authorbibnamehash}{5546eb1d521c7ff86a798300a40b14ea}
+      \strng{authornamehash}{61c610a260e47ec8f529c1191516310a}
+      \strng{authorfullhash}{5546eb1d521c7ff86a798300a40b14ea}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{title}{Optical Harmonic Generation in Calcite}
+      \field{volume}{8}
+      \field{year}{1962}
+      \field{pages}{404\bibrangedash 406}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.8.404
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.8.404
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.8.404
+      \endverb
+    \endentry
+    \entry{PhysRev.137.A801}{article}{}
+      \name{author}{2}{}{%
+        {{hash=77869f4a3edac28c8a176914b84e309b}{%
+           family={Maker},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ce4812b8d9c0e9450753267bfd31022d}{%
+           family={Terhune},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e65fa3eada6aa9f8fd0030d5e8b50b1b}
+      \strng{fullhash}{e65fa3eada6aa9f8fd0030d5e8b50b1b}
+      \strng{bibnamehash}{e65fa3eada6aa9f8fd0030d5e8b50b1b}
+      \strng{authorbibnamehash}{e65fa3eada6aa9f8fd0030d5e8b50b1b}
+      \strng{authornamehash}{e65fa3eada6aa9f8fd0030d5e8b50b1b}
+      \strng{authorfullhash}{e65fa3eada6aa9f8fd0030d5e8b50b1b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3A}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{2}
+      \field{title}{Study of Optical Effects Due to an Induced Polarization Third Order in the Electric Field Strength}
+      \field{volume}{137}
+      \field{year}{1965}
+      \field{pages}{A801\bibrangedash A818}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRev.137.A801
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.137.A801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.137.A801
+      \endverb
+    \endentry
+    \entry{Nahata:98}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0e3a1d6b528f84d24920741ed39f6b17}{%
+           family={Nahata},
+           familyi={N\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e229afa7b7665dcd373a95b2b539fd7}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={Tony\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{63efeb24b6b4bb4865d5fc3251d594cd}
+      \strng{fullhash}{63efeb24b6b4bb4865d5fc3251d594cd}
+      \strng{bibnamehash}{63efeb24b6b4bb4865d5fc3251d594cd}
+      \strng{authorbibnamehash}{63efeb24b6b4bb4865d5fc3251d594cd}
+      \strng{authornamehash}{63efeb24b6b4bb4865d5fc3251d594cd}
+      \strng{authorfullhash}{63efeb24b6b4bb4865d5fc3251d594cd}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Opt. Lett.}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Detection of freely propagating terahertz radiation by use of optical second-harmonic generation}
+      \field{volume}{23}
+      \field{year}{1998}
+      \field{pages}{67\bibrangedash 69}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1364/OL.23.000067
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/ol/abstract.cfm?URI=ol-23-1-67
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/ol/abstract.cfm?URI=ol-23-1-67
+      \endverb
+      \keyw{Harmonic generation and mixing ; Nonlinear optics at surfaces; Ultrafast nonlinear optics; Radiation; Absorption coefficient; Electric fields; Femtosecond pulses; Laser sources; Phase matching; Ultrafast lasers}
+    \endentry
+    \entry{COOK1999221}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f5ade807e2cf88558691be4c2164872f}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={D.J.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e54977941fe20bae4164dfe534ce5504}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J.X.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6dc3e708e751c32d9f4843dd0402eabb}{%
+           family={Morlino},
+           familyi={M\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9ddd17a725885e818612f7270c0485e6}{%
+           family={Hochstrasser},
+           familyi={H\bibinitperiod},
+           given={R.M.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ec60d4a98b9088d6e2e80fd9ea456d2}
+      \strng{fullhash}{bf718ceb71c28ccdac42102bad2aa4af}
+      \strng{bibnamehash}{bf718ceb71c28ccdac42102bad2aa4af}
+      \strng{authorbibnamehash}{bf718ceb71c28ccdac42102bad2aa4af}
+      \strng{authornamehash}{7ec60d4a98b9088d6e2e80fd9ea456d2}
+      \strng{authorfullhash}{bf718ceb71c28ccdac42102bad2aa4af}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2614}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{number}{3}
+      \field{title}{Terahertz-field-induced second-harmonic generation measurements of liquid dynamics}
+      \field{volume}{309}
+      \field{year}{1999}
+      \field{pages}{221\bibrangedash 228}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0009-2614(99)00668-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0009261499006685
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0009261499006685
       \endverb
     \endentry
   \enddatalist

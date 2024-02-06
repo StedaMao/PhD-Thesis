@@ -2506,8 +2506,34 @@
     <bcf:citekey order="67" intorder="1">Hwang2013</bcf:citekey>
     <bcf:citekey order="67" intorder="2">Paul_2013</bcf:citekey>
     <bcf:citekey order="67" intorder="3">doi:10.1063/1.4902999</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">PhysRev.57.184</bcf:citekey>
-    <bcf:citekey order="68" intorder="2">PhysRevB.33.5494</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">PhysRevB.100.035434</bcf:citekey>
+    <bcf:citekey order="68" intorder="2">Mrudul:21</bcf:citekey>
+    <bcf:citekey order="68" intorder="3">PhysRevB.105.195405</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">PhysRevB.100.035434</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">Mrudul:21</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">PhysRevB.105.195405</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">doi:10.1126/science.aam8861</bcf:citekey>
+    <bcf:citekey order="72" intorder="2">cha2022gate</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">Hafez2018</bcf:citekey>
+    <bcf:citekey order="73" intorder="2">doi:10.1126/sciadv.abf9809</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">PhysRevB.103.L041408</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">doi:10.1126/science.aam8861</bcf:citekey>
+    <bcf:citekey order="75" intorder="2">cha2022gate</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">PhysRevB.103.L041408</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">PhysRevB.106.024313</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">10.1063/1.3560062</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">PhysRevLett.8.404</bcf:citekey>
+    <bcf:citekey order="79" intorder="2">PhysRev.137.A801</bcf:citekey>
+    <bcf:citekey order="79" intorder="3">Nahata:98</bcf:citekey>
+    <bcf:citekey order="79" intorder="4">COOK1999221</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">PhysRevB.106.024313</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">PhysRevB.103.L041408</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">mics2015thermodynamic</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">Hafez2018</bcf:citekey>
+    <bcf:citekey order="83" intorder="2">doi:10.1126/sciadv.abf9809</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">mics2015thermodynamic</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">PhysRevB.106.024313</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">PhysRevB.106.024313</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

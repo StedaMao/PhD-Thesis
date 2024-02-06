@@ -18,15 +18,20 @@
 \contentsline {section}{\numberline {2.2}Tight-binding Approach }{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Electron Dynamics}{11}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Time-dependent Schr\"odinger Equation}{12}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Quantum Master Equation}{14}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}CO-LINEAR POLARIZATION INDUCED PHOTOVOLTAIC EFFECT}{17}{chapter.3}%
+\contentsline {subsection}{\numberline {2.3.2}Quantum Master Equation }{14}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}CO-LINEAR POLARIZATION INDUCED PHOTOVOLTAIC EFFECT }{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Time-dependent Perturbative Analysis on QuI }{18}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Third-order Nonlinear Regime: $1+2$\nobreakspace {}QuIC }{26}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Deeply Off-resonant Highly-nonlinear Regime }{36}{section.3.3}%
-\contentsline {chapter}{\numberline {4}THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT}{45}{chapter.4}%
+\contentsline {chapter}{\numberline {4}THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT }{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Fully Dynamical Simulations for THz Field}{46}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Quasi-static Approximation}{49}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Nonlinear Charge Transport in Nonequilibrium Steady-state}{54}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Comparison with Thermodynamic Model }{59}{section.4.4}%
-\contentsline {chapter}{\numberline {A}ADIABATIC BASIS REPRESENTATION }{67}{chapter.1}%
-\contentsline {chapter}{Bibliography}{71}{equation.1.0.10}%
+\contentsline {chapter}{\numberline {5}ENHANCEMENT OF MIR-INDUCED HHG BY COHERENT COUPLING WITH THZ FIELD }{67}{chapter.5}%
+\contentsline {section}{\numberline {5.1}MIR-induced HHG in Graphene under THz Fields}{68}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Orientational Dependence of HHG}{76}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comparison of Nonequilibrium Steady State and Thermodynamic Model}{79}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Contribution of Nonequilibrium Population}{80}{section.5.4}%
+\contentsline {chapter}{\numberline {6}CONCLUSION AND OUTLOOK}{87}{chapter.6}%
+\contentsline {chapter}{Bibliography}{89}{chapter.6}%
