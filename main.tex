@@ -1,0 +1,92 @@
+\documentclass[a4paper, twoside]{NUSThesis}
+\usepackage[
+backend=biber,
+style=nature,
+%citestyle=numeric,
+giveninits=true,
+doi=false]{biblatex}
+%\DeclareFieldFormat*{title}{``#1''\newunitpunct} % move comma outside the quotation mark
+\addbibresource{references.bib}
+\usepackage[PetersLenny]{fncychap}
+%\ChNumVar{\fontsize{60}{70}\rm\textcolor[rgb]{.21, .34, .50}}
+\renewcommand{\TL}[1]{\color[HTML]{888888}\setlength{\tl}{#1}}
+\ChNameVar{\color[HTML]{888888}\fontsize{14}{16}\rm}
+\ChNumVar{\fontsize{60}{62}\rm\color[HTML]{888888}}
+\ChTitleVar{\huge\notosans\bfseries\color[HTML]{000000}}
+%\ChTitleVar{\huge\bfseries\sf}
+\usepackage{pkg_def}
+\usepackage{thesis_sym}
+
+\usepackage{calligra} % for dedication
+
+\title{Modeling Nonlinear Optical Response in 2D materials from Nonequilibrium Quantum Dynamics}
+\author{Wenwen Mao}
+\prevdegrees{Universität Hamburg}
+\degree{Erlangung des Doktorgrades}
+\field{der Fakultät für Mathematik, Informatik und Naturwissenschaften, Fachbereich Physik}
+\degreeyear{2023}
+
+\supervisor{Professor Angel Rubio\\Assitant Professor Shunsuke Sato}
+
+% only involve the examiners in the final submission
+\examiners{%
+    Professor YAN Jie\\
+    Associate Professor Andrivo RUSYDI\\
+    Assistant Professor WONG Liang Jie, Nanyang Technological University}
+
+\hypersetup{
+    pdfauthor={Wenwen Mao},
+    pdftitle={Modeling Nonlinear Optical Response in 2D materials from Nonequilibrium Quantum Dynamics},
+}
+
+%\hyphenation{thatshouldnot}
+%\usepackage[none]{hyphenat}
+\begin{document}
+\maketitle
+\makedeclaration
+\frontmatter
+
+\begin{acknowledgments}
+    First, I would like to thank my supervisors Angel Rubio and Shunsuke Sato for their continuous support of my Ph.D
+\end{acknowledgments}
+\clearpage
+\begin{dedication}
+    \calligra \large To my
+\end{dedication}
+\clearpage
+{
+    \hypersetup{linkcolor=[rgb]{.21, .34, .50}}
+    \tableofcontents
+\cleardoublepage
+\begin{abstract}
+\textcolor{red}{1. Tight-binding bandstructures in 3D and 1D-along high symmetry points add in 2.2}\\
+\textcolor{red}{2. Effect of removing the relaxation term in master equation}\\
+\textcolor{red}{3. Higher order HHG intensities might not depend on the first order charge carrier
+effect but might be higher order, }\\
+\textcolor{red}{4. Only consider the population at the initial state, not considering pupolation
+changed by THz during the polarization.}\\
+\textcolor{red}{5. Valley Hall effect}\\
+Through the exploration of high-order harmonic generation, this research contributes to the broader scientific community's knowledge and paves the way for new discoveries and technological breakthroughs. The study of HHG not only deepens our comprehension of fundamental physics but also holds great promise for revolutionizing various fields, ranging from materials science and chemistry to biology and quantum technologies.
+\end{abstract}
+\listoftables
+\listoffigures
+}
+\printglossary[type=symbols, style=long, title={List of Abbreviations}]
+\mainmatter
+%\include{chapter/background_theory}
+\include{chapter/chapter1}
+\include{chapter/chapter2}
+\include{chapter/chapter3}
+\include{chapter/chapter4}
+\include{chapter/chapter5}
+\include{chapter/chapter6}
+\appendix
+% \include{chapter/A_adiabatic}
+
+%\include{chapter/A_math}
+\backmatter
+\begingroup
+    \onehalfspacing
+    \printbibliography[heading=bibintoc]
+\endgroup
+\end{document}

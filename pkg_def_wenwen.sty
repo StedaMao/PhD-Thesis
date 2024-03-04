@@ -1,0 +1,39 @@
+% Formatting
+\usepackage[]{xcolor} 
+\usepackage[utf8]{inputenc}
+\usepackage[titletoc,title]{appendix}
+
+% Math
+% https://www.overleaf.com/learn/latex/Mathematical_expressions
+% https://en.wikibooks.org/wiki/LaTeX/Mathematics
+\usepackage{amsmath,amsfonts,amssymb,mathtools}
+
+% Images
+% https://www.overleaf.com/learn/latex/Inserting_Images
+% https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+
+%\usepackage{color}
+\usepackage[draft]{graphicx}	
+%\usepackage{mathrsfs}
+%\usepackage{abstract}
+\mathchardef\mhyphen="2D
+
+\newcommand*\mycommand[1]{\texttt{\emph{#1}}}
+\def\be{\begin{eqnarray}}   
+\def\ee{\end{eqnarray}}
+%\def\vecb{\mathbf}
+\def\vecb{\boldsymbol}
+% Tables
+% https://www.overleaf.com/learn/latex/Tables
+% https://en.wikibooks.org/wiki/LaTeX/Tables
+
+% Algorithms
+% https://www.overleaf.com/learn/latex/algorithms
+% https://en.wikibooks.org/wiki/LaTeX/Algorithms
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algorithmic}
+
+% Code syntax highlighting
+% https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted
+\usepackage{minted}
+\usemintedstyle{borland}
