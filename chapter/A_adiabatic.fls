@@ -1,4 +1,4 @@
-PWD /home/maowen/thesis/phd_thesis/chapter
+PWD /home/maowen/thesis/phd_thesis/PhD-Thesis/chapter
 INPUT /usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./A_adiabatic.tex
 OUTPUT A_adiabatic.log

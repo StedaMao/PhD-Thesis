@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.27)  28 DEC 2023 17:13
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.27)  10 MAR 2024 17:30
  restricted system commands enabled.
 **A_adiabatic.tex
 (./A_adiabatic.tex
@@ -43,12 +43,12 @@ Inserting `tracingstacklevels' in `input_level_string'.
 ! Undefined control sequence.
 l.1 \chapter
           {ADIABATIC BASIS REPRESENTATION \label{sec:A_ADIABATIC}}
-? 
-! Interruption.
-<to be read again> 
-{
-l.1 \chapter{
-           ADIABATIC BASIS REPRESENTATION \label{sec:A_ADIABATIC}}
+? ^^[:q
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? X
 
 
@@ -60,7 +60,7 @@ nodes
    avail lists: 2:10,3:3,4:1
  20343 multiletter control sequences out of 65536+600000
  14 fonts using 591679 bytes
- 13i,0n,12p,83b,15s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 13i,0n,12p,85b,15s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): no pages of output.
 

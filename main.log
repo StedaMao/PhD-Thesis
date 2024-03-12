@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  6 FEB 2024 17:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  12 MAR 2024 16:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ LaTeX Font Info:    Trying to load font information for U+bbold on input line 8
 
 
 ]
-Overfull \hbox (7.81955pt too wide) in paragraph at lines 31--31
+Overfull \hbox (7.81955pt too wide) in paragraph at lines 30--30
  [] [][][]\TU/NotoSerif(0)/b/n/10 ENHANCEMENT OF MIR-INDUCED HHG BY COHERENT CO
 UPLING WITH 
  []
@@ -2026,65 +2026,74 @@ Overfull \hbox (10.36226pt too wide) in paragraph at lines 27--27
 
  (./chapter/chapter1.tex
 Chapter 1.
+
+Overfull \hbox (15.99553pt too wide) in paragraph at lines 8--17
+\TU/NotoSerif(1)/m/n/10 nology, groundbreaking research in the field of nonline
+ar optics have been driven [[][]2[][]–
+ []
+
 [1
 
 
 ] [2]
-Overfull \hbox (4.8822pt too wide) in paragraph at lines 28--29
-\TU/NotoSerif(1)/m/n/10 into the realm of photovoltaic effects induced by inten
-se few-cycle laser pulses [[][]13[][]–
+Overfull \hbox (4.0022pt too wide) in paragraph at lines 61--66
+[]\TU/NotoSerif(1)/m/n/10 Nonlinear response often involves multiphoton process
+es, where multiple pho-
+ []
+
+
+Overfull \hbox (12.4822pt too wide) in paragraph at lines 69--70
+\TU/NotoSerif(1)/m/n/10 current, detailed in references [[][]6[][]–[][]9[][]], 
+exemplify the significance of this phenomenon. 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
-
+Overfull \hbox (4.8822pt too wide) in paragraph at lines 85--91
+\TU/NotoSerif(1)/m/n/10 into the realm of photovoltaic effects induced by inten
+se few-cycle laser pulses [[][]14[][]–
  []
 
 [4]
-Overfull \hbox (5.17883pt too wide) in paragraph at lines 48--49
-\TU/NotoSerif(1)/m/n/10 erated electron ()holes, propelling its acceleration aw
-ay from the ionized molecule. 
+Overfull \hbox (4.47556pt too wide) in paragraph at lines 106--112
+\TU/NotoSerif(1)/m/n/10 tense laser light interacts with a gas, causing the gen
+eration of very high-frequency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 106--112
 
- []
-
-
-Overfull \hbox (27.87552pt too wide) in paragraph at lines 52--53
-\TU/NotoSerif(1)/m/n/10 velopment of sophisticated theoretical models, such as 
-the time-dependent Schrödinger
- []
-
-
-Overfull \hbox (41.31798pt too wide) in paragraph at lines 55--55
-[]\TU/NotoSerif(0)/b/n/14.4 Experiments and Thermodynamic model on graphene 
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
-LaTeX Warning: Reference `sec:summary' on page 6 undefined on input line 59.
+ []
 
-) [6]
+[6]
+Overfull \hbox (6.148pt too wide) in paragraph at lines 137--138
+[]\TU/NotoSerif(1)/m/n/10 The time-dependent-Schrödinger equation ([][][]TDSE[]
+[]) model, utilizing both Bloch
+ []
+
+[7]) [8] [9]
 \openout2 = `chapter/chapter2.aux'.
 
- (./chapter/chapter2.tex
+ (./chapter/chapter2.tex [10
+
+
+
+
+]
 Chapter 2.
 File: pic/lattice.pdf Graphic file (type pdf)
 <use pic/lattice.pdf>
-[7
-
-
-
-
-] [8] [9] [10] [11]
+[11] [12] [13] [14] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
 
-LaTeX Warning: Reference `sec:A_ADIABATIC' on page 12 undefined on input line 1
+LaTeX Warning: Reference `sec:A_ADIABATIC' on page 16 undefined on input line 1
 78.
 
 
@@ -2093,41 +2102,41 @@ Overfull \hbox (11.51884pt too wide) in paragraph at lines 177--179
  in solving time-propagation,
  []
 
-[12]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
-[13]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 237--239
 
  []
 
-[14] [15]) [16]
+[18] [19]) [20]
 \openout2 = `chapter/chapter3.aux'.
 
  (./chapter/chapter3.tex
 Chapter 3.
-[17
+[21
 
 
 
 
 ]
 
-LaTeX Warning: Reference `ch:Adiabatic' on page 18 undefined on input line 15.
+LaTeX Warning: Reference `ch:Adiabatic' on page 22 undefined on input line 15.
 
 
 Overfull \hbox (113.1595pt too wide) detected at line 32
 []
  []
 
-[18]
+[22]
 Overfull \hbox (117.0982pt too wide) detected at line 71
 []
  []
 
-[19] [20]
+[23] [24]
 Overfull \hbox (19.69641pt too wide) detected at line 169
 [][][][][]
  []
@@ -2143,7 +2152,7 @@ Overfull \hbox (15.6794pt too wide) detected at line 184
 [][][][][]
  []
 
-[21]
+[25]
 Overfull \hbox (11.0722pt too wide) in paragraph at lines 193--195
 \TU/NotoSerif(1)/m/n/10 We consider a prototypical two-dimensional insulator, m
 onolayer hexagonal boron-
@@ -2159,7 +2168,7 @@ Overfull \hbox (79.36113pt too wide) detected at line 223
 [][][][][]
  []
 
-[22]
+[26]
 Overfull \hbox (45.93617pt too wide) detected at line 255
 [][][][][]
  []
@@ -2169,7 +2178,7 @@ Overfull \hbox (59.60817pt too wide) detected at line 279
 [][][][][]
  []
 
-[23]
+[27]
 Overfull \hbox (43.29814pt too wide) detected at line 290
 [][][][][]
  []
@@ -2184,12 +2193,12 @@ Overfull \hbox (45.15494pt too wide) detected at line 329
 [][][][][]
  []
 
-[24]
+[28]
 Overfull \hbox (23.52017pt too wide) detected at line 344
 [][][][][]
  []
 
-[25]
+[29]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 14.40152pt on input line 349.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
@@ -2208,19 +2217,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
-[26]
+[30]
 File: pic/electric.pdf Graphic file (type pdf)
 <use pic/electric.pdf>
- [27]
+ [31]
 File: pic/population.pdf Graphic file (type pdf)
 <use pic/population.pdf>
- [28]
+ [32]
 Overfull \hbox (3.71057pt too wide) in paragraph at lines 397--400
 \TU/NotoSerif(1)/m/n/10 Given the constraint $[] [] [][] [] []$, the population
  imbalance distribution is bounded
  []
 
-[29]
+[33]
 Overfull \hbox (12.89185pt too wide) in paragraph at lines 402--403
 []\TU/NotoSerif(1)/m/n/10 The temporal evolution of the corresponding electric 
 current, denoted as $[][][][][]$,
@@ -2230,19 +2239,19 @@ File: pic/initial_current.pdf Graphic file (type pdf)
 <use pic/initial_current.pdf>
 File: pic/dc_current.pdf Graphic file (type pdf)
 <use pic/dc_current.pdf>
-[30] [31] [32]
+[34] [35] [36]
 File: pic/relativephase.pdf Graphic file (type pdf)
 <use pic/relativephase.pdf>
 File: pic/frequency.pdf Graphic file (type pdf)
 <use pic/frequency.pdf>
- [33] [34] [35]
+ [37] [38] [39]
 File: pic/nex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/nex_pop_E0_1e10.pdf>
 File: pic/dnex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/dnex_pop_E0_1e10.pdf>
 File: pic/current_off_resonant.pdf Graphic file (type pdf)
 <use pic/current_off_resonant.pdf>
- [36]
+ [40]
 Overfull \hbox (1.86552pt too wide) in paragraph at lines 503--507
 \TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant 
 population imbalance through
@@ -2261,7 +2270,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--532
 
  []
 
-[37]
+[41]
 File: pic/dc_current_vs_E0.pdf Graphic file (type pdf)
 <use pic/dc_current_vs_E0.pdf>
 File: pic/nex_vs_E0.pdf Graphic file (type pdf)
@@ -2278,16 +2287,16 @@ Overfull \hbox (8.11552pt too wide) in paragraph at lines 549--550
 ng that indicates seventh-
  []
 
-[38]
+[42]
 Overfull \hbox (11.58885pt too wide) in paragraph at lines 561--562
 \TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under we
 ak applied field strength.
  []
 
-[39]) [40] [41] [42] [43]
+[43]) [44] [45] [46] [47]
 \openout2 = `chapter/chapter4.aux'.
 
- (./chapter/chapter4.tex [44
+ (./chapter/chapter4.tex [48
 
 
 
@@ -2306,7 +2315,7 @@ Overfull \hbox (16.4413pt too wide) in paragraph at lines 9--10
 tric transport in graphene.
  []
 
-[45] [46]
+[49] [50]
 Overfull \hbox (9.3255pt too wide) in paragraph at lines 33--34
 \TU/NotoSerif(1)/m/n/10 work for a comprehensive analysis of high-order harmoni
 c generation in graphene. 
@@ -2314,7 +2323,7 @@ c generation in graphene.
 
 File: pic/hhg_mu.pdf Graphic file (type pdf)
 <use pic/hhg_mu.pdf>
-[47]
+[51]
 Overfull \hbox (0.14218pt too wide) in paragraph at lines 56--58
 \TU/NotoSerif(1)/m/n/10 servations, where high-order harmonic generation is sim
 ilarly enhanced through
@@ -2326,10 +2335,10 @@ Overfull \hbox (10.13551pt too wide) in paragraph at lines 60--62
  to dissect the THz-induced
  []
 
-[48]
+[52]
 File: pic/steady_current_appendix.pdf Graphic file (type pdf)
 <use pic/steady_current_appendix.pdf>
- [49]
+ [53]
 File: pic/jsteady_interpolate.pdf Graphic file (type pdf)
 <use pic/jsteady_interpolate.pdf>
 
@@ -2340,39 +2349,39 @@ ion in capturing the nonequi-
 
 File: pic/current_comparison_appendix.pdf Graphic file (type pdf)
 <use pic/current_comparison_appendix.pdf>
-[50]
+[54]
 Overfull \hbox (7.7553pt too wide) in paragraph at lines 117--118
 \TU/NotoSerif(1)/m/n/10 discrete points in Figure [][]4.3[][] and the polynomia
 l function $[][][][][][]$. To achieve
  []
 
-[51]
+[55]
 File: pic/hhg_qstatic.pdf Graphic file (type pdf)
 <use pic/hhg_qstatic.pdf>
 
 
-LaTeX Warning: Reference `subsec:dynamical_simulation' on page 52 undefined on 
+LaTeX Warning: Reference `subsec:dynamical_simulation' on page 56 undefined on 
 input line 134.
 
 
-LaTeX Warning: Reference `subsec:quasi-static' on page 52 undefined on input li
+LaTeX Warning: Reference `subsec:quasi-static' on page 56 undefined on input li
 ne 134.
 
 
-LaTeX Warning: Reference `subsec:dynamical_simulation' on page 52 undefined on 
+LaTeX Warning: Reference `subsec:dynamical_simulation' on page 56 undefined on 
 input line 134.
 
 
-LaTeX Warning: Reference `subsec:quasi-static' on page 52 undefined on input li
+LaTeX Warning: Reference `subsec:quasi-static' on page 56 undefined on input li
 ne 134.
 
-[52]
+[56]
 Overfull \hbox (17.45885pt too wide) in paragraph at lines 153--157
 \TU/NotoSerif(1)/m/n/10 To provide a broader context, we juxtapose the nonequil
 ibrium steady-state achieved
  []
 
-[53]
+[57]
 Overfull \hbox (3.56854pt too wide) in paragraph at lines 167--168
 []\TU/NotoSerif(1)/m/n/10 Figure [][]4.6[][] illustrates the computed effective
  conductivities, $[][][][][]$ and $[][][][][][]$,
@@ -2386,12 +2395,12 @@ Overfull \hbox (0.76189pt too wide) in paragraph at lines 176--181
 ][][][][]$, exhibit an initial reduction across
  []
 
-[54]
+[58]
 File: pic/pop_fig.pdf Graphic file (type pdf)
 <use pic/pop_fig.pdf>
- [55]
+ [59]
 Overfull \hbox (20.23471pt too wide) in paragraph at lines 207--208
-[]\TU/NotoSerif(1)/m/n/10 In prior investigations [[][]72[][], [][]73[][]], the
+[]\TU/NotoSerif(1)/m/n/10 In prior investigations [[][]73[][], [][]74[][]], the
  interpretation of THz-induced HHG in graphene
  []
 
@@ -2401,13 +2410,13 @@ Overfull \hbox (2.9155pt too wide) in paragraph at lines 207--208
 ermodynamic model—
  []
 
-[56]
+[60]
 Overfull \hbox (16.5355pt too wide) in paragraph at lines 211--213
 []\TU/NotoSerif(1)/m/n/10 We define the field-induced alteration in conduction 
 population within a nonequi-
  []
 
-[57] [58]
+[61] [62]
 File: pic/sigma_thermo.pdf Graphic file (type pdf)
 <use pic/sigma_thermo.pdf>
 
@@ -2422,29 +2431,29 @@ Overfull \hbox (4.61217pt too wide) in paragraph at lines 245--250
 by the applied field strength
  []
 
-[59] [60] [61]) [62] [63] [64] [65]
+[63] [64] [65]) [66] [67] [68] [69]
 \openout2 = `chapter/chapter5.aux'.
 
- (./chapter/chapter5.tex [66
+ (./chapter/chapter5.tex [70
 
 
 
 
 ]
 Chapter 5.
-[67]
+[71]
 Overfull \hbox (2.10217pt too wide) in paragraph at lines 16--18
 \TU/NotoSerif(1)/m/n/10 comes from fully dynamical calculations are juxtaposed 
 against a thermodynamic
  []
 
-[68]
+[72]
 File: pic/polar_mir.pdf Graphic file (type pdf)
 <use pic/polar_mir.pdf>
- [69]
+ [73]
 File: pic/fig1.pdf Graphic file (type pdf)
 <use pic/fig1.pdf>
- [70] [71]
+ [74] [75]
 Overfull \hbox (1.42665pt too wide) in paragraph at lines 72--73
 \TU/NotoSerif(1)/m/n/10 Figs.[][]5.2[][](a) and (b). Consequently, performing e
 lectron dynamics calculations with
@@ -2453,25 +2462,25 @@ lectron dynamics calculations with
 
 Overfull \hbox (1.68887pt too wide) in paragraph at lines 72--73
 \TU/NotoSerif(1)/m/n/10 we adopt a static field approximation based on the quas
-istatic approximation [[][]84[][]]. 
+istatic approximation [[][]85[][]]. 
  []
 
-[72]
+[76]
 File: pic/SI_t1t2.pdf Graphic file (type pdf)
 <use pic/SI_t1t2.pdf>
- [73]
+ [77]
 File: pic/SI_hhg.pdf Graphic file (type pdf)
 <use pic/SI_hhg.pdf>
- [74]
+ [78]
 File: pic/polar.pdf Graphic file (type pdf)
 <use pic/polar.pdf>
- [75]
+ [79]
 Overfull \hbox (11.67886pt too wide) in paragraph at lines 127--128
 \TU/NotoSerif(1)/m/n/10 static approximation, varying the relative angle betwee
 n the static and mid-infrared
  []
 
-[76] [77]
+[80] [81]
 Overfull \hbox (1.04118pt too wide) in paragraph at lines 172--172
 []\TU/NotoSerif(1)/b/n/14.4 Comparison of Nonequilibrium Steady State and
  []
@@ -2495,13 +2504,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--180
 
 LaTeX Warning: Float too large for page by 151.52283pt on input line 181.
 
-[78]
+[82]
 Overfull \hbox (0.98218pt too wide) in paragraph at lines 183--184
 \TU/NotoSerif(1)/m/n/10 dates the influence of nonequilibrium distributions, de
 lineating their significance
  []
 
-[79]
+[83]
 File: pic/pop_dist.pdf Graphic file (type pdf)
 <use pic/pop_dist.pdf>
 File: pic/pop_c.pdf Graphic file (type pdf)
@@ -2511,28 +2520,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--196
 [][]
  []
 
-[80] [81]
+[84] [85]
 
-LaTeX Warning: Reference `sec:angle-dep-higher' on page 82 undefined on input l
+LaTeX Warning: Reference `sec:angle-dep-higher' on page 86 undefined on input l
 ine 229.
 
-[82]
+[86]
 Overfull \hbox (0.85553pt too wide) in paragraph at lines 235--236
 []\TU/NotoSerif(1)/m/n/10 Importantly, these enhancement mechanisms are not con
 fined to specific laser
  []
 
-) [83] [84] [85] [86]
+) [87] [88] [89] [90]
 \openout2 = `chapter/chapter6.aux'.
 
  (./chapter/chapter6.tex
 Chapter 6.
-) [87
+) [91
 
 
 
 
-] [88
+] [92
 
 
 
@@ -2553,15 +2562,15 @@ Overfull \hbox (3.9128pt too wide) in paragraph at lines 90--90
 e in semiconductors. \TU/NotoSerif(0)/m/it/10 Phys-
  []
 
-[89
+[93
 
-]
+] [94]
 Overfull \hbox (1.51169pt too wide) in paragraph at lines 90--90
 []\TU/NotoSerif(1)/m/n/10 McPherson, A. \TU/NotoSerif(0)/m/it/10 et al. \TU/Not
 oSerif(1)/m/n/10 Studies of multiphoton production of vacuum-ultraviolet
  []
 
-[90]
+
 Overfull \hbox (13.7861pt too wide) in paragraph at lines 90--90
 \TU/NotoSerif(0)/m/it/10 ture \TU/NotoSerif(1)/b/n/10 466, \TU/NotoSerif(1)/m/n
 /10 739–743. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 : 1476-4687. 
@@ -2569,7 +2578,7 @@ Overfull \hbox (13.7861pt too wide) in paragraph at lines 90--90
 [][][][]$[][]
  []
 
-
+[95]
 Overfull \hbox (5.86505pt too wide) in paragraph at lines 90--90
 []\TU/NotoSerif(1)/m/n/10 Reduzzi, M. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoS
 erif(1)/m/n/10 Observation of autoionization dynamics and sub-cycle quan-
@@ -2581,7 +2590,7 @@ Overfull \hbox (9.39835pt too wide) in paragraph at lines 90--90
 otoSerif(0)/m/it/10 Journal of Physics B: Atomic,
  []
 
-[91]
+
 Overfull \hbox (4.19832pt too wide) in paragraph at lines 90--90
 \TU/NotoSerif(1)/m/n/10 solids and its implications for attosecond science. \TU
 /NotoSerif(0)/m/it/10 Journal of Physics B: Atomic,
@@ -2599,13 +2608,13 @@ Overfull \hbox (1.92734pt too wide) in paragraph at lines 90--90
 olids. \TU/NotoSerif(0)/m/it/10 Nature Physics
  []
 
-
+[96]
 Overfull \hbox (12.64835pt too wide) in paragraph at lines 90--90
 []\TU/NotoSerif(1)/m/n/10 Mics, Z. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSeri
 f(1)/m/n/10 Thermodynamic picture of ultrafast charge transport in graphene.
  []
 
-[92]
+
 Overfull \hbox (0.42616pt too wide) in paragraph at lines 90--90
 []\TU/NotoSerif(1)/m/n/10 Sławi ńska, J., Zasada, I. & Klusek, Z. Energy gap tu
 ning in graphene on hexag-
@@ -2623,14 +2632,14 @@ Overfull \hbox (4.07272pt too wide) in paragraph at lines 90--90
 ty and THz-induced charge
  []
 
-
+[97]
 Overfull \hbox (5.56721pt too wide) in paragraph at lines 90--90
 \TU/NotoSerif(1)/m/n/10 Controlled Currents in Semiconductors. \TU/NotoSerif(0)
 /m/it/10 Phys. Rev. Lett. \TU/NotoSerif(1)/b/n/10 74, \TU/NotoSerif(1)/m/n/10 3
 596–3599. [][]$[][][][][] []
  []
 
-[93]
+
 Overfull \hbox (3.52695pt too wide) in paragraph at lines 90--90
 \TU/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 98, \TU/NotoSerif
 (1)/m/n/10 035202. [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][
@@ -2643,14 +2652,14 @@ Overfull \hbox (1.56943pt too wide) in paragraph at lines 90--90
 zation \TU/NotoSerif(1)/m/n/10 2023. arXiv: [][]$[][][][] []
  []
 
-
+[98]
 Overfull \hbox (0.94846pt too wide) in paragraph at lines 90--90
 \TU/NotoSerif(1)/m/n/10 Grown Graphene. \TU/NotoSerif(0)/m/it/10 The Journal of
  Physical Chemistry B \TU/NotoSerif(1)/b/n/10 117, \TU/NotoSerif(1)/m/n/10 1581
 9–15824. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 :
  []
 
-[94]
+
 Overfull \hbox (14.65547pt too wide) in paragraph at lines 90--90
 \TU/NotoSerif(1)/m/n/10 in two-dimensional hexagonal nanostructures. \TU/NotoSe
 rif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 100, \TU/NotoSerif(1)/m/n/1
@@ -2677,13 +2686,13 @@ Overfull \hbox (1.68697pt too wide) in paragraph at lines 90--90
 )/m/n/10 024313.
  []
 
-[95]
+[99]
 Overfull \hbox (11.67801pt too wide) in paragraph at lines 90--90
 []\TU/NotoSerif(1)/m/n/10 Cook, D., Chen, J., Morlino, E. & Hochstrasser, R. Te
 rahertz-field-induced second-
  []
 
-[96] (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
+[100] (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
 (./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux)
 (./chapter/chapter6.aux))
 
@@ -2696,18 +2705,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8FEBDB6F40CBFC4899B5474C0D376E28;7833.
+(rerunfilecheck)             Checksum: B9413EC12944185E8523C887AD29EE04;7551.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42401 strings out of 476683
- 866912 string characters out of 5804046
+ 42475 strings out of 476683
+ 868147 string characters out of 5804046
  1905018 words of memory out of 5000000
- 62029 multiletter control sequences out of 15000+600000
+ 62103 multiletter control sequences out of 15000+600000
  517358 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 121i,22n,139p,2279b,7075s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,22n,139p,2279b,7073s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (112 pages).
+Output written on main.pdf (116 pages).

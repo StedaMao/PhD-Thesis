@@ -1,0 +1,1019 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.27)  10 MAR 2024 17:31
+ restricted system commands enabled.
+**background_theory.tex
+(./background_theory.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/maowen/.texlive2023/texmf-var
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/maowen/.texlive2023/texmf-var
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-02-22>
+Inserting `tracingstacklevels' in `input_level_string'.
+! Undefined control sequence.
+l.1 \chapter
+          {Background and Theory}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{B
+            ackground and Theory}
+? 
+! Undefined control sequence.
+l.5 (\cref
+        {fig:SPI_experiment}).
+? 
+! Missing $ inserted.
+<inserted text> 
+$
+l.5 (\cref{fig:SPI_
+                 experiment}).
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+! Extra }, or forgotten $.
+l.5 (\cref{fig:SPI_experiment}
+                            ).
+? 
+\citation{lohReconstructionAlgorithmSingleparticle2009}
+luaotfload | db : Font names database loaded from /home/maowen/.texlive2023/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.6 ...lohReconstructionAlgorithmSingleparticle2009}
+                                                   in a sparse diffraction p...
+? 
+
+LaTeX Warning: Citation `lohReconstructionAlgorithmSingleparticle2009' on page 
+ undefined on input line 6.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.8 
+  
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--8
+[]Background
+ []
+
+
+Overfull \hbox (223.8551pt too wide) in paragraph at lines 1--8
+(fig:SPI$[][]\OML/cmm/m/it/10 xperiment\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :Wewill
+describehow; onthebasisofX \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (542.63545pt too wide) in paragraph at lines 1--8
+\OML/cmm/m/it/10 rayscatteringtheory; thestructuralinformationofmoleculesinSPIex
+perimentsisencoded\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 inasparsediffractionpatte
+rn \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 1--8
+\OMS/cmsy/m/n/10 ^^@ ^^@
+ []
+
+
+Overfull \hbox (395.03374pt too wide) in paragraph at lines 1--8
+\OML/cmm/m/it/10 PoissonsampledEwaldsphereslicesofthediffractionintensitywithunk
+nownorientations:$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 T
+   he XFEL SPI is an inverse problem of this encoding procedure and typicall...
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--11
+[]The
+ []
+
+! Undefined control sequence.
+l.24 \section
+           {Basics of X-ray scalar diffraction theory}
+? 
+! Interruption.
+<to be read again> 
+{
+l.24 \section{
+            Basics of X-ray scalar diffraction theory}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--26
+[]Basics
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--30
+[]In
+ []
+
+! Undefined control sequence.
+l.33 \SI
+      {200}{eV} to \SI{500}{keV} \cite{raubenheimerLCLSIIStatusCW2015}:
+? 
+! Interruption.
+<to be read again> 
+{
+l.33 \SI{
+       200}{eV} to \SI{500}{keV} \cite{raubenheimerLCLSIIStatusCW2015}:
+? 
+! Undefined control sequence.
+l.33 \SI{200}{eV} to \SI
+                      {500}{keV} \cite{raubenheimerLCLSIIStatusCW2015}:
+? 
+\citation{raubenheimerLCLSIIStatusCW2015}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.33 ...}{keV} \cite{raubenheimerLCLSIIStatusCW2015}
+                                                  :
+? 
+
+LaTeX Warning: Citation `raubenheimerLCLSIIStatusCW2015' on page  undefined on 
+input line 33.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--34
+[]The
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 31--34
+[[]]: 
+ []
+
+
+Overfull \hbox (18.91pt too wide) in paragraph at lines 35--38
+\TU/lmr/m/it/10 pho-
+ []
+
+
+Overfull \hbox (12.01001pt too wide) in paragraph at lines 35--38
+\TU/lmr/m/it/10 to-
+ []
+
+
+Overfull \hbox (19.43002pt too wide) in paragraph at lines 35--38
+\TU/lmr/m/it/10 elec-
+ []
+
+
+Overfull \hbox (15.21002pt too wide) in paragraph at lines 35--38
+\TU/lmr/m/it/10 tric
+ []
+
+
+Overfull \hbox (11.25002pt too wide) in paragraph at lines 35--38
+\TU/lmr/m/it/10 ef-
+ []
+
+
+Overfull \hbox (15.69003pt too wide) in paragraph at lines 35--38
+\TU/lmr/m/it/10 fect\nullfont :
+ []
+
+
+Overfull \hbox (12.78001pt too wide) in paragraph at lines 38--41
+\TU/lmr/m/it/10 co-
+ []
+
+
+Overfull \hbox (17.51001pt too wide) in paragraph at lines 38--41
+\TU/lmr/m/it/10 her-
+ []
+
+
+Overfull \hbox (13.54001pt too wide) in paragraph at lines 38--41
+\TU/lmr/m/it/10 ent
+ []
+
+
+Overfull \hbox (20.19002pt too wide) in paragraph at lines 38--41
+\TU/lmr/m/it/10 scat-
+ []
+
+
+Overfull \hbox (15.72002pt too wide) in paragraph at lines 38--41
+\TU/lmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (13.76001pt too wide) in paragraph at lines 38--41
+\TU/lmr/m/it/10 ing\nullfont :
+ []
+
+
+Overfull \hbox (29.14pt too wide) in paragraph at lines 41--42
+\TU/lmr/m/it/10 Comp-
+ []
+
+
+Overfull \hbox (14.05pt too wide) in paragraph at lines 41--42
+\TU/lmr/m/it/10 ton
+ []
+
+
+Overfull \hbox (20.19002pt too wide) in paragraph at lines 41--42
+\TU/lmr/m/it/10 scat-
+ []
+
+
+Overfull \hbox (15.72002pt too wide) in paragraph at lines 41--42
+\TU/lmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (13.76001pt too wide) in paragraph at lines 41--42
+\TU/lmr/m/it/10 ing\nullfont :
+ []
+
+\citation{raubenheimerLCLSIIStatusCW2015}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.44 ...example\cite{raubenheimerLCLSIIStatusCW2015}
+                                                  ,
+? 
+
+LaTeX Warning: Citation `raubenheimerLCLSIIStatusCW2015' on page  undefined on 
+input line 44.
+
+! Undefined control sequence.
+l.45 ...ge of SPI experiment with XFEL is around \SI
+                                                  {200}{eV} and
+? 
+! Undefined control sequence.
+l.46 \SI
+      {25}{keV}. In this range, the recorded photons are mainly from coherent
+? 
+\citation{hubbellReviewPhotonInteraction1999}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.47 ...ing\cite{hubbellReviewPhotonInteraction1999}
+                                                  . The fluorescence photons
+? 
+
+LaTeX Warning: Citation `hubbellReviewPhotonInteraction1999' on page  undefined
+ on input line 47.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--50
+[]Taking
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 44--50
+example[[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 44--50
+scattering[[]].
+ []
+
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.53 ... incident plane electromagnetic wave, $\bvec
+                                                   E_\text{in}$,
+? 
+! Undefined control sequence.
+l.53 ...t plane electromagnetic wave, $\bvec E_\text
+                                                  {in}$,
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.54 ...e electric field part at the position $\bvec
+                                                   x$ could be expressed as
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--55
+[]A
+ []
+
+
+Overfull \hbox (15.65456pt too wide) in paragraph at lines 51--55
+\OML/cmm/m/it/10 E[]$\nullfont ,
+ []
+
+
+Overfull \hbox (5.71527pt too wide) in paragraph at lines 51--55
+\OML/cmm/m/it/10 x$
+ []
+
+! Undefined control sequence.
+l.56     \bvec
+            {E}_\text{e}(\bvec x)=\frac{e^2}{4 \pi \varepsilon_{0} m_\text{e...
+? 
+! Undefined control sequence.
+l.56     \bvec{E}_\text
+                     {e}(\bvec x)=\frac{e^2}{4 \pi \varepsilon_{0} m_\text{e...
+? 
+! Undefined control sequence.
+l.56     \bvec{E}_\text{e}(\bvec
+                               x)=\frac{e^2}{4 \pi \varepsilon_{0} m_\text{e...
+? 
+! Undefined control sequence.
+<argument> 4 \pi \varepsilon _{0} m_\text 
+                               {e} c^{2}
+l.56 ...e^2}{4 \pi \varepsilon_{0} m_\text{e} c^{2}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \bvec 
+      {x} \times (\bvec {x} \times \bvec {E}_{\text {in}})
+l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
+                                             \text{,}
+? 
+! Undefined control sequence.
+<argument> \bvec {x} \times (\bvec 
+                        {x} \times \bvec {E}_{\text {in}})
+l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
+                                             \text{,}
+? 
+! Undefined control sequence.
+<argument> \bvec {x} \times (\bvec {x} \times \bvec 
+                                         {E}_{\text {in}})
+l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
+                                             \text{,}
+? 
+! Undefined control sequence.
+<argument> ... {x} \times (\bvec {x} \times \bvec {E}_{\text 
+                                                  {in}})
+l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
+                                             \text{,}
+? 
+! Undefined control sequence.
+<argument> |\bvec 
+       {x}|^{3}
+l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
+                                             \text{,}
+? 
+! Undefined control sequence.
+l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}\text
+                                                  {,}
+? 
+
+Overfull \hbox (147.48361pt too wide) detected at line 60
+\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][]
+[][]
+ []
+
+! Undefined control sequence.
+l.61 ...is the vacuum permittivity, $e$ and $m_\text
+                                                  {e}$ represent the charge ...
+? 
+\citation{griffithsIntroductionQuantumMechanics2014}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.62 ...e{griffithsIntroductionQuantumMechanics2014}
+                                                  
+? 
+
+LaTeX Warning: Citation `griffithsIntroductionQuantumMechanics2014' on page  un
+defined on input line 62.
+
+
+Overfull \hbox (9.1493pt too wide) in paragraph at lines 60--63
+\OML/cmm/m/it/10 "[]$
+ []
+
+
+Overfull \hbox (4.65627pt too wide) in paragraph at lines 60--63
+\OML/cmm/m/it/10 e$
+ []
+
+
+Overfull \hbox (13.07425pt too wide) in paragraph at lines 60--63
+\OML/cmm/m/it/10 m[]$
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 60--63
+radius[[]] 
+ []
+
+! Undefined control sequence.
+l.64     r_\text
+              {e}=\frac{e^{2}}{4 \pi \varepsilon_{0} m_\text{e} c^{2}} \appr...
+? 
+! Undefined control sequence.
+<argument> 4 \pi \varepsilon _{0} m_\text 
+                               {e} c^{2}
+l.64 ...{2}}{4 \pi \varepsilon_{0} m_\text{e} c^{2}}
+                                                   \approx \SI{2.818e-15}{m}
+? 
+! Undefined control sequence.
+l.64 ...varepsilon_{0} m_\text{e} c^{2}} \approx \SI
+                                                  {2.818e-15}{m}
+? 
+
+Overfull \hbox (138.40486pt too wide) detected at line 66
+\OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10  []\OML/cmm/m/it/10
+ m[]
+ []
+
+! Undefined control sequence.
+l.67 is introduced to simplify \cref
+                                  {eq:Esc}.
+? 
+\citation{thibaultAlgorithmicMethodsDiffraction2007}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.69 ...e{thibaultAlgorithmicMethodsDiffraction2007}
+                                                  .
+? 
+
+LaTeX Warning: Citation `thibaultAlgorithmicMethodsDiffraction2007' on page  un
+defined on input line 69.
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 66--70
+thin[[]]. 
+ []
+
+! Undefined control sequence.
+l.71 In the XFEL SPI experiment (\cref
+                                    {fig:lab_frame}), the distance between t...
+? 
+! Missing $ inserted.
+<inserted text> 
+$
+l.71 In the XFEL SPI experiment (\cref{fig:lab_
+                                             frame}), the distance between t...
+? 
+! Extra }, or forgotten $.
+l.71 ...he XFEL SPI experiment (\cref{fig:lab_frame}
+                                                  ), the distance between th...
+? 
+! Undefined control sequence.
+l.72 on the detector, $R \sim \SI
+                               {1}{m}$, is several orders of magnitudes larg...
+? 
+! Undefined control sequence.
+l.73 the scale of a nano-sized particle ($\sim\SI
+                                               {10}{nm}$). Therefore, under ...
+? 
+\citation{jacksonClassicalElectrodynamics2007}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.73 ...on\cite{jacksonClassicalElectrodynamics2007}
+                                                  ,
+? 
+
+LaTeX Warning: Citation `jacksonClassicalElectrodynamics2007' on page  undefine
+d on input line 73.
+
+! Undefined control sequence.
+l.75 density $\rho(\bvec
+                       x_\text{p})$ at $\bvec x_\text{d}$ (usually the posit...
+? 
+! Missing $ inserted.
+<inserted text> 
+$
+l.75 density $\rho(\bvec x_
+                         \text{p})$ at $\bvec x_\text{d}$ (usually the posit...
+? 
+! Undefined control sequence.
+l.75 density $\rho(\bvec x_\text
+                              {p})$ at $\bvec x_\text{d}$ (usually the posit...
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.75 density $\rho(\bvec x_\text{p})$ at $\bvec
+                                              x_\text{d}$ (usually the posit...
+? 
+! Undefined control sequence.
+l.75 ...y $\rho(\bvec x_\text{p})$ at $\bvec x_\text
+                                                  {d}$ (usually the position...
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 71--77
+[]In
+ []
+
+
+Overfull \hbox (389.64627pt too wide) in paragraph at lines 71--77
+(fig:lab$[][]\OML/cmm/m/it/10 rame\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; thedistanc
+ebetweentheilluminatedparticleandanobservationpointonthedetector;$\nullfont R
+ []
+
+
+Overfull \hbox (275.81569pt too wide) in paragraph at lines 71--77
+\OMS/cmsy/m/n/10 \nullfont 1m$\OML/cmm/m/it/10 ; isseveralordersofmagnitudeslar
+gerthanthescaleofanano \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (550.3556pt too wide) in paragraph at lines 71--77
+\OML/cmm/m/it/10 sizedparticle\OT1/cmr/m/n/10 ($\OMS/cmsy/m/n/10 \nullfont 10nm
+$\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :Therefore; underthefarfieldapproximation\OT
+1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 ; theelectricfieldscatteredbyaparticlewithelec
+trondensity$\nullfont (x$[][]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (10.37814pt too wide) in paragraph at lines 71--77
+\OML/cmm/m/it/10 x[]$
+ []
+
+! Undefined control sequence.
+l.78     \bvec
+            {E}(\bvec x_\text{d})=r_\text{e} \frac{\bvec x_\text{d} \times\l...
+? 
+! Undefined control sequence.
+l.78     \bvec{E}(\bvec
+                      x_\text{d})=r_\text{e} \frac{\bvec x_\text{d} \times\l...
+? 
+! Undefined control sequence.
+l.78     \bvec{E}(\bvec x_\text
+                             {d})=r_\text{e} \frac{\bvec x_\text{d} \times\l...
+? 
+! Undefined control sequence.
+l.78     \bvec{E}(\bvec x_\text{d})=r_\text
+                                         {e} \frac{\bvec x_\text{d} \times\l...
+? 
+! Undefined control sequence.
+<argument> \bvec 
+      x_\text {d} \times \left (\bvec x_\text {d} \times \bvec {E}_{\text {in}}
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \bvec x_\text 
+              {d} \times \left (\bvec x_\text {d} \times \bvec {E}_{\text {in}}
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \bvec x_\text {d} \times \left (\bvec 
+                                      x_\text {d} \times \bvec {E}_{\text {in}}
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \bvec x_\text {d} \times \left (\bvec x_\text 
+                                              {d} \times \bvec {E}_{\text {in}}
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> ...} \times \left (\bvec x_\text {d} \times \bvec 
+                                                  {E}_{\text {in}}\right )
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> ...eft (\bvec x_\text {d} \times \bvec {E}_{\text 
+                                                  {in}}\right )
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> |\bvec 
+       x_\text {d}|^{3}
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> |\bvec x_\text 
+               {d}|^{3}
+l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
+                                                  
+? 
+! Undefined control sequence.
+l.80     \int \rho(\bvec
+                       x_\text{p}) \exp\bigl[-2 \pi \img(\bvec k_\text{out} ...
+? 
+! Undefined control sequence.
+l.80     \int \rho(\bvec x_\text
+                              {p}) \exp\bigl[-2 \pi \img(\bvec k_\text{out} ...
+? 
+! Undefined control sequence.
+l.80 ...\rho(\bvec x_\text{p}) \exp\bigl[-2 \pi \img
+                                                  (\bvec k_\text{out} - \bve...
+? 
+! Undefined control sequence.
+l.80 ...bvec x_\text{p}) \exp\bigl[-2 \pi \img(\bvec
+                                                   k_\text{out} - \bvec k_\t...
+? 
+! Undefined control sequence.
+l.80 ...text{p}) \exp\bigl[-2 \pi \img(\bvec k_\text
+                                                  {out} - \bvec k_\text{in})
+? 
+! Undefined control sequence.
+l.80 ...\bigl[-2 \pi \img(\bvec k_\text{out} - \bvec
+                                                   k_\text{in})
+? 
+! Undefined control sequence.
+l.80 ... \pi \img(\bvec k_\text{out} - \bvec k_\text
+                                                  {in})
+? 
+! Undefined control sequence.
+l.81     \cdot \bvec
+                   x_\text{p}\bigr] \dif \bvec x_\text{p}
+? 
+! Undefined control sequence.
+l.81     \cdot \bvec x_\text
+                          {p}\bigr] \dif \bvec x_\text{p}
+? 
+! Undefined control sequence.
+l.81     \cdot \bvec x_\text{p}\bigr] \dif
+                                         \bvec x_\text{p}
+? 
+! Undefined control sequence.
+l.81     \cdot \bvec x_\text{p}\bigr] \dif \bvec
+                                               x_\text{p}
+? 
+! Undefined control sequence.
+l.81 ...ot \bvec x_\text{p}\bigr] \dif \bvec x_\text
+                                                  {p}
+? 
+
+Overfull \hbox (269.90904pt too wide) detected at line 83
+\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = \OML
+/cmm/m/it/10 r[][] [] \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) [
+][]\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 k[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k[]\OT1/cmr/m/n/10 ) \OM
+S/cmsy/m/n/10  \OML/cmm/m/it/10 x[][]x[][]
+ []
+
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.84 where $\bvec
+                k_\text{out}$ and $\bvec k_\text{in}$ are the scattered and ...
+? 
+! Undefined control sequence.
+l.84 where $\bvec k_\text
+                       {out}$ and $\bvec k_\text{in}$ are the scattered and ...
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.84 where $\bvec k_\text{out}$ and $\bvec
+                                         k_\text{in}$ are the scattered and ...
+? 
+! Undefined control sequence.
+l.84 where $\bvec k_\text{out}$ and $\bvec k_\text
+                                                {in}$ are the scattered and ...
+? 
+! Undefined control sequence.
+l.85 $(\bvec
+           k_\text{out} - \bvec k_\text{in}) \cdot \bvec x_\text{p}$ is the ...
+? 
+! Undefined control sequence.
+l.85 $(\bvec k_\text
+                  {out} - \bvec k_\text{in}) \cdot \bvec x_\text{p}$ is the ...
+? 
+! Undefined control sequence.
+l.85 $(\bvec k_\text{out} - \bvec
+                                k_\text{in}) \cdot \bvec x_\text{p}$ is the ...
+? 
+! Undefined control sequence.
+l.85 $(\bvec k_\text{out} - \bvec k_\text
+                                       {in}) \cdot \bvec x_\text{p}$ is the ...
+? 
+! Undefined control sequence.
+l.85 ..._\text{out} - \bvec k_\text{in}) \cdot \bvec
+                                                   x_\text{p}$ is the differ...
+? 
+! Undefined control sequence.
+l.85 ...ut} - \bvec k_\text{in}) \cdot \bvec x_\text
+                                                  {p}$ is the difference bet...
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.86 optical paths passing the origin and $\bvec
+                                               x_\text{p}$.
+? 
+! Undefined control sequence.
+l.86 ... paths passing the origin and $\bvec x_\text
+                                                  {p}$.
+? 
+! Undefined control sequence.
+<recently read> \envert 
+        
+l.88 is the same as the incident photon, or $\envert
+                                                  {\bvec k_\text{out}} = \en...
+? 
+! Undefined control sequence.
+l.88 ...me as the incident photon, or $\envert{\bvec
+                                                   k_\text{out}} = \envert{\...
+? 
+! Undefined control sequence.
+l.88 ...e incident photon, or $\envert{\bvec k_\text
+                                                  {out}} = \envert{\bvec k_\...
+? 
+! Undefined control sequence.
+l.88 ...n, or $\envert{\bvec k_\text{out}} = \envert
+                                                  {\bvec k_\text{in}}=
+? 
+! Undefined control sequence.
+l.88 ...$\envert{\bvec k_\text{out}} = \envert{\bvec
+                                                   k_\text{in}}=
+? 
+! Undefined control sequence.
+l.88 ...{\bvec k_\text{out}} = \envert{\bvec k_\text
+                                                  {in}}=
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.89 ...length of X-ray, and the direction of $\bvec
+                                                   k_\text{out}$
+? 
+! Undefined control sequence.
+l.89 ...f X-ray, and the direction of $\bvec k_\text
+                                                  {out}$
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.90 is the same as the direction $\bvec
+                                       x_\text{d}$. By introducing a new vec...
+? 
+! Undefined control sequence.
+l.90 is the same as the direction $\bvec x_\text
+                                              {d}$. By introducing a new vec...
+? 
+
+Overfull \hbox (17.40216pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 k[]$
+ []
+
+
+Overfull \hbox (13.47865pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 k[]$
+ []
+
+
+Overfull \hbox (29.06886pt too wide) in paragraph at lines 83--91
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (20.14534pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 k[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (10.33762pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 x[]$
+ []
+
+
+Overfull \hbox (10.33762pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 x[]$\nullfont .
+ []
+
+
+Overfull \hbox (27.95767pt too wide) in paragraph at lines 83--91
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (24.03416pt too wide) in paragraph at lines 83--91
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (15.83339pt too wide) in paragraph at lines 83--91
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =$\nullfont ,
+ []
+
+
+Overfull \hbox (5.83336pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 $
+ []
+
+
+Overfull \hbox (17.40216pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 k[]$
+ []
+
+
+Overfull \hbox (10.37814pt too wide) in paragraph at lines 83--91
+\OML/cmm/m/it/10 x[]$\nullfont .
+ []
+
+! Undefined control sequence.
+l.92     \bvec
+             k = \gls{torec}(\bvec x_\text{d}) = \bvec k_\text{out} - \bvec ...
+? 
+! Undefined control sequence.
+l.92     \bvec k = \gls
+                     {torec}(\bvec x_\text{d}) = \bvec k_\text{out} - \bvec ...
+? 
+! Undefined control sequence.
+l.92     \bvec k = \gls{torec}(\bvec
+                                   x_\text{d}) = \bvec k_\text{out} - \bvec ...
+? 
+! Undefined control sequence.
+l.92     \bvec k = \gls{torec}(\bvec x_\text
+                                          {d}) = \bvec k_\text{out} - \bvec ...
+? 
+! Undefined control sequence.
+l.92 ...ec k = \gls{torec}(\bvec x_\text{d}) = \bvec
+                                                   k_\text{out} - \bvec k_\t...
+? 
+! Undefined control sequence.
+l.92 ...gls{torec}(\bvec x_\text{d}) = \bvec k_\text
+                                                  {out} - \bvec k_\text{in} ...
+? 
+! Undefined control sequence.
+l.92 ...vec x_\text{d}) = \bvec k_\text{out} - \bvec
+                                                   k_\text{in} = \envert{\bv...
+? 
+! Undefined control sequence.
+l.92 ...ext{d}) = \bvec k_\text{out} - \bvec k_\text
+                                                  {in} = \envert{\bvec k_\te...
+? 
+! Undefined control sequence.
+l.92 ...c k_\text{out} - \bvec k_\text{in} = \envert
+                                                  {\bvec k_\text{in}}\hat{\b...
+? 
+! Undefined control sequence.
+l.92 ...ext{out} - \bvec k_\text{in} = \envert{\bvec
+                                                   k_\text{in}}\hat{\bvec x}...
+? 
+! Undefined control sequence.
+l.92 ... - \bvec k_\text{in} = \envert{\bvec k_\text
+                                                  {in}}\hat{\bvec x}_\text{d...
+? 
+! Undefined control sequence.
+l.92 ...t{in} = \envert{\bvec k_\text{in}}\hat{\bvec
+                                                   x}_\text{d} - \bvec k_\te...
+? 
+! Undefined control sequence.
+l.92 ...envert{\bvec k_\text{in}}\hat{\bvec x}_\text
+                                                  {d} - \bvec k_\text{in}
+? 
+! Undefined control sequence.
+l.92 ...c k_\text{in}}\hat{\bvec x}_\text{d} - \bvec
+                                                   k_\text{in}
+? 
+! Undefined control sequence.
+l.92 ...t{in}}\hat{\bvec x}_\text{d} - \bvec k_\text
+                                                  {in}
+? 
+
+Overfull \hbox (169.67986pt too wide) detected at line 94
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 = [][] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k[][]
+ []
+
+! Undefined control sequence.
+l.95 where $\hat{\bvec
+                    {a}}$ indicates the direction unit vector of a vector $\...
+? 
+! Undefined control sequence.
+<recently read> \bvec 
+      
+l.95 ...the direction unit vector of a vector $\bvec
+                                                  {a}$,
+? 
+! Undefined control sequence.
+l.96 and the Fourier transform of $\rho(\bvec
+                                            x)$,
+? 
+
+Overfull \hbox (5.28589pt too wide) in paragraph at lines 94--97
+[]$
+ []
+
+
+Overfull \hbox (5.28589pt too wide) in paragraph at lines 94--97
+\OML/cmm/m/it/10 a$\nullfont ,
+ []
+
+
+Overfull \hbox (18.66322pt too wide) in paragraph at lines 94--97
+\OML/cmm/m/it/10 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\nullfon
+t , 
+ []
+
+! Undefined control sequence.
+l.98     \tilde{\rho}(\bvec
+                          k) = \Fourier[\rho](\bvec k)= \int \rho(\bvec x_\t...
+? 
+! Undefined control sequence.
+l.98     \tilde{\rho}(\bvec k) = \Fourier
+                                       [\rho](\bvec k)= \int \rho(\bvec x_\t...
+? 
+! Undefined control sequence.
+l.98 ...\tilde{\rho}(\bvec k) = \Fourier[\rho](\bvec
+                                                   k)= \int \rho(\bvec x_\te...
+? 
+! Undefined control sequence.
+l.98 ...) = \Fourier[\rho](\bvec k)= \int \rho(\bvec
+                                                   x_\text{p}) \exp(- 2 \pi
+? 
+! Undefined control sequence.
+l.98 ...rier[\rho](\bvec k)= \int \rho(\bvec x_\text
+                                                  {p}) \exp(- 2 \pi
+? 
+! Undefined control sequence.
+l.99     \img
+           \bvec{k} \cdot \bvec x_\text{p}) \dif \bvec x_\text{p}\text{,}
+? 
+! Undefined control sequence.
+l.99     \img\bvec
+                {k} \cdot \bvec x_\text{p}) \dif \bvec x_\text{p}\text{,}
+? 
+! Undefined control sequence.
+l.99     \img\bvec{k} \cdot \bvec
+                                x_\text{p}) \dif \bvec x_\text{p}\text{,}
+? 
+! Undefined control sequence.
+l.99     \img\bvec{k} \cdot \bvec x_\text
+                                       {p}) \dif \bvec x_\text{p}\text{,}
+? 
+! Undefined control sequence.
+l.99     \img\bvec{k} \cdot \bvec x_\text{p}) \dif
+                                                 \bvec x_\text{p}\text{,}
+? 
+! Undefined control sequence.
+l.99 ...g\bvec{k} \cdot \bvec x_\text{p}) \dif \bvec
+                                                   x_\text{p}\text{,}
+? 
+! Undefined control sequence.
+l.99 ...} \cdot \bvec x_\text{p}) \dif \bvec x_\text
+                                                  {p}\text{,}
+? 
+! Undefined control sequence.
+l.99 ...\bvec x_\text{p}) \dif \bvec x_\text{p}\text
+                                                  {,}
+? 
+
+Overfull \hbox (179.42258pt too wide) detected at line 101
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 ) = [\OML/cmm/m/it/10 \OT
+1/cmr/m/n/10 ](\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 ) = [] \OML/cmm/m/it/10 \OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) [](\OMS/cmsy/m/n/10 ^^@\OT1/c
+mr/m/n/10 2\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 x[]\OT1/cmr/
+m/n/10 )\OML/cmm/m/it/10 x[][][]
+ []
+
+! Undefined control sequence.
+l.102 \cref
+         {eq:Esc_int} could be rewritten as
+? 
+! Missing $ inserted.
+<inserted text> 
+$
+l.102 \cref{eq:Esc_
+                 int} could be 

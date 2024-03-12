@@ -5,35 +5,106 @@
 
 \chapter{INTRODUCTION } 
 \label{ch:introduction}
-In the conventional understanding of linear optics, the response of a material to an incident electromagnetic wave is linearly proportional to the strength of the electric field. However, when the intensity of the incident light exceeds a certain threshold, the nonlinear optical response becomes significant. This regime reveals a rich variety of phenomena, including the generation of new frequencies, phase modulation, and harmonic generation.
-Recent advancements in laser technology, driven by groundbreaking research in the field of nonlinear optics ~\cite{RevModPhys.72.545, RevModPhys.81.163, MOUROU2012720}, have ushered in a new era of intense light generation. These developments have paved the way for in-depth exploration of light-matter interactions in highly nonlinear regimes. One of the most captivating nonlinear optical phenomena made accessible by these advances is High-order Harmonic Generation (\gls{HHG}), a process characterized by its extreme photon upconversion and remarkable nonlinear characteristics. 
+In the conventional understanding of linear optics, the response of a material to an incident
+electromagnetic wave is linearly proportional to the strength of the electric field. However, when
+the intensity of the incident light exceeds a certain threshold, the nonlinear optical response
+becomes significant. This regime reveals a rich variety of phenomena, including the photon carrier
+injection, phase modulation, and harmonic generation.
+After the first observation of nonlinear optical phenomena by Franken~\cite{franken1961generation},
+based on recent advancements in laser technology, groundbreaking research in the field of nonlinear
+optics have been driven~\cite{RevModPhys.72.545, RevModPhys.81.163, MOUROU2012720}, have conducted in a new era of intense light generation. These developments have paved the way for in-depth exploration of light-matter interactions in highly nonlinear regimes. One of the most captivating nonlinear optical phenomena made accessible by these advances is High-order Harmonic Generation (\gls{HHG}), a process characterized by its extreme photon upconversion and remarkable nonlinear characteristics. 
 %=====================================================================================================================================
 \section{Nonlinear Optical Response}
- Linear response theory is most applicable when the perturbations are small. In other words, the system's behavior is approximately linear in the vicinity of its equilibrium or initial state, the behavior of a system when it reacts proportionally to an applied perturbation.
-The system's behavior is described by linear susceptibility ($\chi^{(1)}$). Mathematically, if $R$ is the response and $P$ is the perturbation, linearity can be expressed as $R = \alpha P$, where $\alpha$ is a constant. 
-Nonlinear response extends the concept of linear response by considering the behavior of a system when the response is not directly proportional to the magnitude of the applied perturbation. In nonlinear systems, the response may involve higher-order terms, and the relationship between the perturbation and the response becomes more complex. Higher-order susceptibility terms are introduced, leading to nonlinear susceptibilities ($\chi^{(2)}, \chi^{(3)}, \ldots$). Nonlinear susceptibilities are coefficients that relate higher-order terms of the perturbing field to the response of the system. The response of a nonlinear system can often be expressed as a power series expansion, where the terms involve powers of the perturbing field. For example, $R = \alpha P + \beta P^2 + \gamma P^3 + \ldots$.
-Nonlinear response often involves multiphoton processes, where multiple photons are absorbed simultaneously.  The absorption of two or more photons can occur during a single interaction with the material. The probability of multiphoton absorption processes increases with the intensity of the incident light, making these processes more prominent at higher light intensities.
-Multiphoton absorption is often associated with higher harmonic generation, where the absorbed photons contribute to the generation of new frequencies that are integer multiples of the incident frequency. 
-the absorption properties of a material can become intensity-dependent. This means that the absorption coefficient of the material varies with the intensity of the incident light.
-Intensity-dependent absorption is a key feature of nonlinear response and is often exploited in applications such as laser-induced material processing.
+ Linear response theory is most applicable when the perturbations are weak. In other words, the system's behavior is approximately linear in the vicinity of its equilibrium or initial state, the behavior of a system when it reacts proportionally to an applied perturbation.
+In such cases. the system's behavior is described by linear susceptibility ($\chi^{(1)}$). 
+
+The electric susceptibility ($\chi_e$) describes the response of a material to an applied electric field ($\mathbf{E}$). The relationship between the induced polarization ($\mathbf{P}$) and the applied electric field can be expressed as:
+
+\[
+\mathbf{P(t)} =\epsilon_0 \chi_e \cdot \mathbf{E(t)}
+\]
+
+Where:
+\begin{itemize}
+    \item $\mathbf{P}$ is the induced polarization tensor,
+    \item $\chi_e$ is the electric susceptibility tensor, and
+    \item $\mathbf{E}$ is the applied electric field tensor.
+\end{itemize}
+
+The components of the induced polarization tensor $\mathbf{P}$, electric susceptibility tensor $\chi_e$, and applied electric field tensor $\mathbf{E}$ are denoted by indices.
+In onlinear response. the relationship can be expressed using a power series expansion:
+\[
+    \mathbf{P} =\epsilon_0( \chi^{(1)} \cdot \mathbf{E}+\chi^{(2)} \cdot \mathbf{E}^2 + \chi^{(3)}
+    \cdot \mathbf{E}^3 + ...)
+\]
+In nonlinear response theory, when considering the time-domain response of a material to an external perturbation, one often encounters frequency-dependent susceptibilities. These susceptibilities can be expressed in terms of tensor notation and integrated over frequency to account for the material's response over a range of frequencies.
+
+Let's denote the electric susceptibility tensor as $\chi^{(2)}$ as an example, representing the second-order susceptibility. In the frequency domain, the induced polarization ($P$) can be expressed in terms of the applied electric field ($E$) and the susceptibility tensor as:
+
+\[
+P_i(\omega) = \int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
+\]
+
+Where:
+\begin{itemize}
+    \item $P_i(\omega)$ is the induced polarization component at frequency $\omega$,
+    \item $\chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2)$ is the frequency-dependent second-order susceptibility tensor,
+    \item $E_j(\omega_1)$ and $E_k(\omega_2)$ are the components of the applied electric field at frequencies $\omega_1$ and $\omega_2$ respectively, and
+    \item The integral is taken over all possible frequencies.
+\end{itemize}
+
+In summary, the nonlinear response of a material to external perturbations can be described using
+tensor notation, incorporating frequency or time integrals to capture the material's response over
+a range of frequencies or times. The high-order susceptibility tensor ($\chi^{(n)}$) plays a crucial role in characterizing this nonlinear response.
+
+
+Nonlinear response often involves multiphoton processes, where multiple photons are absorbed
+simultaneously, lead the progress to be complicated. The multiphoton absorption and the harmonic
+generation are different nonlinear optical phenomena associated with different components of
+nonlinear suceptibilities.
+Frequency and Intensity-dependent absorption is a key feature of nonlinear response and is often exploited in applications such as laser-induced material processing.
 
 %=========================================================================================================================================================
-\section{Photocarrier Effect}
-In the realm of photovoltaic effects, the second-order nonlinear optical effect, as explored in~\cite{PhysRevB.61.5337}, has garnered considerable attention for its potential in achieving highly efficient light-to-current conversion. Investigations into shift-current, detailed in references~\cite{PhysRevLett.107.126805,doi:10.1126/science.1168636,Yang2010,10.1063/5.0101513}, exemplify the significance of this phenomenon.
+\section{Photocarrier Injection}
+In the realm of bulk photovoltaic injection, the second-order nonlinear optical effect, as explored in~\cite{PhysRevB.61.5337}, has garnered considerable attention for its potential in achieving highly efficient light-to-current conversion. Investigations into shift-current, detailed in references~\cite{PhysRevLett.107.126805,doi:10.1126/science.1168636,Yang2010,10.1063/5.0101513}, exemplify the significance of this phenomenon.
 
-Another noteworthy aspect of second-order nonlinear current is the "injection current"\cite{sipe2000second,laman2005ultrafast, 10.1063/1.125084,PhysRevB.61.5337,10.1063/1.2131191}. This current can be induced by the disruption of time-reversal symmetry through elliptically or circularly polarized light, in addition to the breaking of intrinsic spatial inversion symmetry. The injection current results from the population imbalance induced by quantum interference (\gls{QuI}) between various excitation paths, arising from the interference between absorption pathways associated with orthogonal components of polarization. Consequently, this leads to a polar distribution of electrons or holes in momentum space, generating a current injection that temporally aligns with optical intensity. Remarkably, the non-oscillating current induced by quantum interference may persist even after the perturbing laser irradiation ceases.
+Another noteworthy aspect of second-order nonlinear current is the "injection
+current"\cite{sipe2000second,laman2005ultrafast,
+10.1063/1.125084,PhysRevB.61.5337,10.1063/1.2131191}. This current can be induced by the disruption
+of time-reversal symmetry through elliptically or circularly polarized light, in addition to the
+breaking of intrinsic spatial inversion symmetry. The injection current results from the population
+imbalance induced by quantum interference (\gls{QuI}) between various excitation paths, arising
+from the interference between absorption pathways associated with orthogonal components of
+polarization. Consequently, this leads to a polar distribution of electrons or holes in momentum
+space, generating a current injection that temporally aligns with optical intensity. Remarkably,
+the non-oscillating current induced by quantum interference may persist even after the perturbing
+laser irradiation stops.
 
 It is noteworthy that, unlike the shift-current, which occurs solely during laser irradiation, the injection current exhibits persistence even after the conclusion of laser irradiation. This enduring quality underscores the unique and sustained contribution of the injection current in the context of nonlinear optical effects.
 
-Venturing beyond second-order nonlinear effects, researchers have delved into the realm of photovoltaic effects induced by intense few-cycle laser pulses~\cite{Schiffrin2013,PhysRevLett.113.087401,PhysRevLett.116.057401,Higuchi2017,Heide_2020,Morimoto_2022}. Notably, such laser pulses possess the capability to extrinsically break spatial inversion symmetry. In addition to this, the presence of a strong field introduces highly nonlinear excitation channels, including pathways such as tunneling excitation. The amalgamation of extrinsic spatial inversion symmetry breaking and intense nonlinear interactions between light and matter opens the possibility for an intense few-cycle laser pulse to induce a direct current (dc-current) even in a material with intrinsic inversion symmetry.
+Going, beyond second-order nonlinear effects, researchers have investigated into the realm of
+photovoltaic effects induced by intense few-cycle laser
+pulses~\cite{Schiffrin2013,PhysRevLett.113.087401,PhysRevLett.116.057401,Higuchi2017,Heide_2020,Morimoto_2022}.
+Notably, such laser pulses possess the capability to extrinsically break spatial inversion
+symmetry. In addition to this, the presence of a strong field introduces highly nonlinear
+excitation channels, including pathways such as tunneling excitation. The combination of extrinsic spatial inversion symmetry breaking and intense nonlinear interactions between light and matter opens the possibility for an intense few-cycle laser pulse to induce a direct current (dc-current) even in a material with intrinsic inversion symmetry.
+
 
 The uniqueness of the photovoltaic effect with a few-cycle pulse lies in its dependence on breaking the inversion symmetry of the incident light fields. This intrinsic connection allows for the manipulation of the induced current by controlling both the intensity and carrier-envelope phase of the pulse~\cite{Schiffrin2013,Higuchi2017}. The exploration of these intense few-cycle laser pulses not only expands the understanding of nonlinear optical phenomena but also unveils avenues for precise control and manipulation of induced currents through tailored light-matter interactions.
 
 
-In recent research, an effective method for manipulating valley population has surfaced, centered around the synergistic interplay of two circularly polarized lights with distinct frequencies, denoted as $\omega$ and $2\omega$. This investigation is particularly pertinent in the context of two-dimensional systems~\cite{Jimenez-Galan2020,Mrudul:21}. Individually, each circularly polarized light disrupts time-reversal symmetry, and when combined, the fields exhibit the added capability of breaking spatial inversion symmetry. This dual infringement upon time-reversal and spatial inversion symmetries gives rise to a population imbalance in momentum space upon laser excitation. This, in turn, manifests as a sustained net charge flow persisting even after the cessation of laser irradiation. Notably, this methodology has extended beyond theoretical exploration, with numerical studies incorporating first-principles calculations applied to bulk solids~\cite{PhysRevLett.127.126601}. The multifaceted approach of combining circularly polarized lights at different frequencies not only enriches our understanding of valley population dynamics but also holds promise for diverse applications in the realm of materials and quantum phenomena.
+In recent research, an effective method for manipulating valley population has surfaced, centered
+around the interplay of two circularly polarized lights with different frequencies, denoted as
+$\omega$ and $2\omega$. This investigation is particularly fitting in the context of
+two-dimensional systems~\cite{Jimenez-Galan2020,Mrudul:21}. Individually, each circularly polarized
+light breaks time-reversal symmetry, and when combined, the fields exhibit the added capability of
+breaking spatial inversion symmetry. This coupled contravention upon time-reversal and spatial
+inversion symmetries gives rise to a population imbalance in momentum space upon laser excitation.
+This, in turn, apperas as a sustained charge flow persisting even after the laser irradiation. Notably, this methodology has extended beyond theoretical exploration, with numerical studies incorporating first-principles calculations applied to bulk solids~\cite{PhysRevLett.127.126601}. The multifaceted approach of combining circularly polarized lights at different frequencies not only enriches our understanding of valley population dynamics but also holds promise for diverse applications in the realm of materials and quantum phenomena.
 %=========================================================================================================================================================
 \section{High-order Harmonic Generation}
-In the nonlinear optical process High-order Harmonic Generation (\gls{HHG}), photons from the laser field are absorbed by the material, promoting electrons to higher energy states. These electrons then undergo complex dynamics, involving acceleration, coherent motion, and recombination with their parent ions. Through this intricate dance, the electrons emit high-energy photons with frequencies much higher than that of the incident laser, often extending into the extreme ultraviolet (XUV) and X-ray regions of the electromagnetic spectrum \cite{gaumnitz2017streaking}.\\
+Traditional hgh-order harmonic generation (\gls{HHG}) is a phenomenon where intense laser light interacts with a gas, causing the generation of very high-frequency light waves. This process typically occurs when a strong laser field ionizes a material, causing electrons to be ripped away from atoms.
+ These electrons then undergo complex dynamics, involving acceleration, coherent motion, and recombination with their parent ions. Through this intricate dance, the electrons emit high-energy photons with frequencies much higher than that of the incident laser, often extending into the extreme ultraviolet (XUV) and X-ray regions of the electromagnetic spectrum \cite{gaumnitz2017streaking}.\\
 \\
 Since first observed in 1987 using rare gases as target specimens \cite{McPherson:87, Ferray_1988},  gas-phase HHG has been intensively utilized to generate ultrashort attosecond light pulses~\cite{PhysRevLett.68.3535, PhysRevLett.70.1599, PhysRevA.49.2117} for investigating ultrafast dynamics in matter in the time domain which is a typical time scale for the motion of electrons.\cite{baltuvska2003attosecond, Goulielmakis2010, doi:10.1126/science.1260311, doi:10.1126/science.aag1268}. HHG provides a unique window into electron dynamics and allows us to investigate processes occurring on attosecond timescales. The emitted harmonics carry valuable information about the electronic structure, band gaps, and transient states of the material, offering a powerful tool for probing and controlling ultrafast processes.
 In recent years, there have been significant advancements in experimental techniques for studying high-order harmonic generation. The use of intense femtosecond laser pulses, pulse shaping methods, and advanced detection schemes have enabled precise control and characterization of the generated harmonics. These experimental advances have led to breakthroughs in attosecond science, providing tools for investigating ultrafast phenomena in a wide range of atoms ~\cite{Goulielmakis2010,PhysRevLett.105.143002,PhysRevLett.106.123601}, molecules~\cite{Warrick2016,Reduzzi2016,PhysRevResearch.3.043222}, and solids~\cite{doi:10.1126/science.1260311, doi:10.1126/science.aag1268, Mashiko2016,Siegrist2019, vampa2017merge}. 
@@ -42,18 +113,54 @@ The HHG in solid-state systems was first observed in ZnO in 2011 in mid-infrared
 
 %=========================================================================================================================================================
 \section{Review on Numerical Methods}
-The generation of high-order harmonics involves complex quantum mechanical processes and intricate interplays between the laser field and the electronic structure of the material. The phenomenon can be understood within the framework of the three-step model  \cite{corkum1993plasma, lewenstein1994theory}. This semi-classical framework delineates the solid HHG process through three stages:
-1. Ionization: Initially, an electron is ionized by the intense laser field and electron tunneling excitation from the valence band to the conduction band.
+The generation of high-order harmonics involves complex quantum mechanical processes and intricate
+interplays between the laser field and the electronic structure of atoms. The fundamental processes involved in HHG in a gaseous medium can
+be understood within the framework of the well-known three-step model  \cite{corkum1993plasma,
+lewenstein1994theory}. This semi-classical framework delineates the gas HHG process through three stages:
+\begin{itemize}
+\item 1. Ionization: Initially, an electron is ionized by the intense laser field and electron tunneling excitation from the valence band to the conduction band.
 
-2. Acceleration: Subsequently, the strong laser field imparts energy to the liberated electron ()holes, propelling its acceleration away from the ionized molecule.
+\item 2. Acceleration: Subsequently, the strong laser field imparts energy to the liberated electron ()holes, propelling its acceleration away from the ionized molecule.
 
-3. Recombination: In the final step, the oscillatory force of the laser field drives the electron back toward the ionized parent molecule. During this process, the electron undergoes recombination with the molecule, releasing the surplus kinetic energy acquired in the second step in the form of a high-energy photon.\\
+\item 3. Recombination: In the final step, the oscillatory force of the laser field drives the electron back toward the ionized parent molecule. During this process, the electron undergoes recombination with the molecule, releasing the surplus kinetic energy acquired in the second step in the form of a high-energy photon.\\
+\end{itemize}
 
-The understanding and control of HHG have been greatly advanced by the development of sophisticated theoretical models, such as the time-dependent Schrödinger equation and time-dependent density functional theory, enabling accurate predictions and interpretations of experimental observations.
+However, this model is not directly applicable to solid-state HHG due to differences in density, structure, band structure, Coulomb interactions, and surface effects between gases and solids. Solid-state HHG involves more complex mechanisms, including interactions with the crystalline lattice and surface effects, requiring sophisticated theoretical models for accurate description.
 
+The understanding and control of HHG have been greatly advanced by the development of sophisticated
+theoretical models, the primary and widely used numerical methods are based on time-dependent
+Schrödinger equation (\gls{TDSE}) , semiconductor Bloch equations (\gls{SBE})
+ and time-dependent density-functional theory (\gls{TDDFT}).
+We won't go in detailed about the theoretical foundations, but just summarize current status and some challenges of present numerical simulations which are yet to be improved or solved.
+
+\begin{itemize}
+    \item The time-dependent-Schr\"odinger equation (\gls{TDSE}) model, utilizing both Bloch state basis and Houston state basis, is proficient in examining electronic dynamics within periodic potentials. Nonetheless, simulating the HHG of real solid materials proves challenging, primarily due to the method's reliance on idealized model potentials.
+    \item The semiconductor Bloch equations (\gls{SBE}), improving it from a two-band model to a multiband model allows for a more comprehensive study of real systems, effectively capturing the main features of High-Order Harmonic Generation (HHG) in solids. This enhancement involves incorporating accurate energy bands and transition dipole moments derived from first-principles calculations. Future endeavors should focus on obtaining the correct phase of transition dipole elements. However, a significant challenge persists as current first-principles codes often yield random phases for transition dipole moments.
+    \item The time-dependent density-functional theory (\gls{TDDFT}) model appears to be the ideal approach for straightforwardly studying High-Order Harmonic Generation (HHG) in solids within real coordinate space. However, its main drawback lies in its significant computational time requirements. Additionally, directly and intuitively analyzing the physical processes or mechanisms within the solid-state energy band picture can pose challenges within the TDDFT framework.
+\end{itemize}
+Furthermore, properly incorporating Berry curvature in models and understanding its role in solid High-Order Harmonic Generation (HHG) requires more attention in future theoretical simulations. Despite lingering open questions in this evolving field, it's hoped that this review can offer valuable reference points, and ongoing efforts from the relevant community will gradually illuminate the intricacies of solid HHG studies.
 %==============================================================================================================================================================================
-\section{Experiments and Thermodynamic model on graphene}
 \section{Structure of the Thesis}
-This thesis aims to provide a comprehensive overview of the phenomenon of high-order harmonic generation in the context of nonlinear optics. We will explore the theoretical foundations of HHG, including the quantum mechanical description of the process and the role of electron dynamics. Additionally, we will delve into the experimental techniques and state-of-the-art advancements in generating and characterizing high-order harmonics. By investigating HHG, we seek to deepen our understanding of the nonlinear optical response of materials and unlock the potential for applications in fields such as ultrafast spectroscopy, attosecond science, and advanced imaging techniques.
+This thesis aims to provide a comprehensive overview of the nonlinear response phenomenons
+including photocarrier injection and high-order harmonic generation in the context of nonlinear
+optics. We will explore the theoretical foundations of light induced time-dependent quantum
+dynamics evolution in solid systems,
+including the quantum mechanical description of the light-matter ineraction process and the role of
+excited electron dynamics.  By investigating photocarrier injection and HHG, we seek to deepen our understanding of the nonlinear optical response of materials and unlock the potential for applications in fields such as ultrafast spectroscopy, attosecond science, and advanced imaging techniques.
 
-This thesis is organized as follows: Chapter 2 first introduces the theoretical foundations to study the light-induced electron dynamics in graphene based on the tight-binding model and quantum master equation. In Chapter 3 we investigate the THz-induced HHG in graphene with the method described in Chapter 2. The microscopic mechanism of HHG with the quasi-static approximation and the population distribution in the Brillouin zone is described in detail together with its numerical implementation in Chapter 3. In Chapter 4, we elucidate the role of the nonequilibrium nature of THz-induced electron dynamics by comparing the nonequilibrium picture in the present work and the thermodynamic picture in the previous work \cite{mics2015thermodynamic}. Finally, our findings are summarized in Sec.~\ref{sec:summary}.
+This thesis is organized as follows: Chapter.~\ref{ch:ch2} first introduces the crystallographic discription
+for typical hexagonal lattice we are studying, then we study the light-induced electron dynamics in 2D materials based on the tight-binding model by
+time-dependent Schrodinger Equation and quantum master equation. 
+In Chapter.~\ref{ch:ch3} we investigate light-induced electron dynamics in monolayer hexagonal
+boron nitride under the influence of two-color linearly-polarized laser fields at frequencies
+$\omega$ and $2\omega$, by solving the time-dependent Schr\"odinger equation with a tight-binding
+model. We start from time-dependent perturbative analysis in the weak field regime, then we expand
+our results to third-order nonlinear regime and deeply off-resonant highly-nonlinear regime.
+In Chapter.~\ref{ch:ch4}, we study THz-induced HHG in graphene with the method described by quantum
+master equation. The microscopic mechanism of
+HHG with the quasi-static approximation and the population distribution in the Brillouin zone is
+described in detail together with its numerical implementation in Chapter.~\ref{ch:ch5}. We further elucidate the role of the nonequilibrium nature of THz-induced electron dynamics by comparing the nonequilibrium picture in the present work and the thermodynamic picture in the previous work \cite{mics2015thermodynamic}. 
+We explore the possibility of using a THz
+field to enhance MIR-induced HHG in graphene based
+on the knowledge gained from Chapter.~\ref{ch:ch4}. We investigate the dynamics under MIR and THz fields and evaluate the emitted harmonic spectra. As a result of the analysis, we find that cou- pling via the induced coherence by THz and MIR fields plays an essential role in enhancing MIR-induced HHG, clarifying the importance of the field-induced coherence beyond the simple population effect.
+Finally, the conclusion of this thesis is summarized in in Chapter.~\ref{ch:ch6}
