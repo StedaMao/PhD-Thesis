@@ -10,7 +10,8 @@ The hexagonal lattice nanostructure, a fundamental Bravais lattice, manifests as
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.96\textwidth]{pic/lattice.pdf}
-    \caption[Lab coordinate system]{(a) Hexagonal lattice showing in different colors the two triangular sublattices. (b) Brillouin zone in momentum space.}
+    \caption[Lab coordinate system]{(a) Hexagonal lattice,the two triangular sublattices are shown
+    in two different colors. (b) Brillouin zone in momentum space.}
     \label{fig: lattice}
 \end{figure}
 Graphene, an extraordinary carbon allotrope, showcases a captivating atomic arrangement within a
@@ -51,7 +52,10 @@ The reciprocal basis $B=\left(b_{1}, b_{2}, b_{3}\right)$ is generated using the
 $$
 \overrightarrow{b_{k}}=\frac{2 \pi \cdot \overrightarrow{a_{i}} \times \overrightarrow{a_{j}}}{V}
 $$
-$i, j, k$ are circular permutations, $\mathrm{V}$ the mix product between the three vectors, i.e. the volume of the unitary cell.  Then we get the $2 \mathrm{D}$ reciprocal vectors as shown in Fig\ref{fig: lattice} (b):
+$i, j, k$ are circular permutations, $\mathrm{V}=\overrightarrow{a_{1}}\cdot (\overrightarrow{a_{2}}
+\times \overrightarrow{a_3})$, presents the mix product between the three vectors, i.e. the volume
+of the unitary cell.  By assuming the lattice primitive vector in the vertical direction of the
+two-dimensional material plane is infinit, $\overrightarrow{a_{3}}\to\infty$, we get the $2 \mathrm{D}$ reciprocal vectors as shown in Fig\ref{fig: lattice} (b):
 $$
 \vec b_{1}=k_{D}\left(\begin{array}{l}
 \frac{1}{2} \\
@@ -107,7 +111,7 @@ Here $\epsilon_{A}$ and $\epsilon_{B}$ are the on-site energies of electrons on 
 $$
 t_{0}=\left\langle\phi_{A}\left(\mathbf{r}-\mathbf{R}_{\mathbf{A}}\right)|\hat{H}| \phi_{B}\left(\mathbf{r}-\mathbf{R}_{A}-\vec{\delta}_{i}\right)\right\rangle \quad(i=1,2,3)
 $$\\
-For graphene, we set $\epsilon_{A}$ and $\epsilon_{B}$ to 0, and $t_0=2.8~eV$ in accordance with the previous work  \cite{sarma2011electronic}. For h-BN $\epsilon_{\mathrm{B}}$ and $\epsilon_{\mathrm{N}}$ denote the on-site energies for boron and nitrogen sites, respectively. 
+The three nearest neighbor hoping strength here are identical here due to the hexagonal lattice symmetry. For graphene, we set $\epsilon_{A}$ and $\epsilon_{B}$ to 0, and $t_0=2.8~eV$ in accordance with the previous work  \cite{sarma2011electronic}. For h-BN $\epsilon_{\mathrm{B}}$ and $\epsilon_{\mathrm{N}}$ denote the on-site energies for boron and nitrogen sites, respectively. 
 \begin{equation}
 \hat{H}(\mathbf{k})=\left(\begin{array}{cc}
 \epsilon_{\mathrm{B}} & t_{0} f(\mathbf{k}) \\
@@ -115,7 +119,7 @@ t_{0} f(\mathbf{k})^{*} & \epsilon_{\mathrm{N}}
 \end{array}\right),
 \label{eqn:hBNhamiltonian}
 \end{equation}
-We set $\epsilon_{\mathrm{B}}$ to $3.34$~eV and $\epsilon_{\mathrm{N}}$ to $-2.56~eV$ and $t0$ to $2.6~eV$ computed with the first-principles calculations~\cite{PhysRevB.51.6868}, the band gap $E_{g}=\epsilon_{b}-\epsilon_{n}$ equals 5.9~eV. 
+We set $\epsilon_{\mathrm{B}}$ to $3.34$~eV and $\epsilon_{\mathrm{N}}$ to $-2.56~eV$ and $t_0$ to $2.6~eV$ computed with the first-principles calculations~\cite{PhysRevB.51.6868}, the band gap $E_{g}=\epsilon_{b}-\epsilon_{n}$ equals 5.9~eV. 
 
 The off-diagonal terms of the tight-binding Hamiltonian \ref{eqn: TBh}:
 \begin{equation}
@@ -127,13 +131,13 @@ f(\mathbf{k}) &=e^{i \mathbf{k} \vec{\delta}_{1}}+e^{i \mathbf{k} \vec{\delta}_{
 \end{equation}
 Solving the stationary Schrödinger equation using matrix diagonalization:
 \begin{align}
-\hat{H}_{\vecb{k}}|\phi_{b \vecb{k}}\rangle = \epsilon_{b\vecb{k}}|\phi_{b}\rangle,
+\hat{H}_{\mathbf{k}}|\phi_{b \mathbf{k}}\rangle = \epsilon_{b\mathbf{k}}|\phi_{b}\rangle,
 \label{eq:eqigenstates-h0}
 \end{align}
-We get the eigenenergy of Hamiltonian from \ref{eqn: TBh}, where $b$ is a band index, $|\phi_{b\vecb{k}}\rangle$ is an eigenstate, and $\epsilon_{b\vecb{k}}$ corresponds to the eigenenergy. As the Hamiltonian is a $2$-by-$2$ matrix in this work, the band index $b$ denotes either a conduction ($b=c$) or valence ($b=v$) state.
+We get the eigenenergy of Hamiltonian from \ref{eqn: TBh}, where $b$ is a band index, $|\phi_{b\mathbf{k}}\rangle$ is an eigenstate, and $\epsilon_{b\mathbf{k}}$ corresponds to the eigenenergy. As the Hamiltonian is a $2$-by-$2$ matrix in this work, the band index $b$ denotes either a conduction ($b=c$) or valence ($b=v$) state.
 
 \begin{equation}
-\epsilon_{b\vecb{k}}=E_{0} \pm \frac{1}{2} \sqrt{E_{g}^{2}+4t_{0}^{2}|f|^{2}}
+\epsilon_{b\mathbf{k}}=E_{0} \pm \frac{1}{2} \sqrt{E_{g}^{2}+4t_{0}^{2}|f|^{2}}
 \label{eigenvalues}
 \end{equation}
 $E_{0}=\frac{\epsilon_{A}+\epsilon_{B}}{2}$ and $E_{g}=\epsilon_{b}-\epsilon_{n}$ is the energy gap. For graphene, $\epsilon_{A} = \epsilon_{B} =0$ the band gap equals 0.
@@ -149,18 +153,18 @@ Their corresponding eigenvectors are:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Electron Dynamics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Consider the crystal under the homoheneous electric field $\vecb {E}$, the wavelength of the fields
+Consider the crystal under the homoheneous electric field $\mathbf {E}$, the wavelength of the fields
 is much longer than the spatial scale of the electron dynamics, so-callsed long wavelength approximation, or dipole approximation. The electric field enter the solid system through a uniform
-vector potential $\vecb {A} (t)$ under Peierls substitution\cite{hofstadter1976energy}. The time-dependent Hamiltonian is written as
+vector potential $\mathbf {A} (t)$ under Peierls substitution\cite{hofstadter1976energy}. The time-dependent Hamiltonian is written as
 \begin{align}
-\hat{H}(t)=\frac{[\hat{\boldsymbol{p}}+e \boldsymbol{A}(t)]^{2}}{2 m}+V(\boldsymbol{r})
+\hat{H}(t)=\frac{[\hat{\mathbf{p}}+e \mathbf{A}(t)]^{2}}{2 m}+V(\mathbf{r})
 \end{align}
-Transforming to the $\boldsymbol{k}$ -space representation, we have
+Transforming to the $\mathbf{k}$ -space representation, we have
 \begin{equation}
-     \hat{H}(\vecb{k}, t)=\hat{H}\left(\vecb{k}+\frac{e}{\hbar} \boldsymbol{A}(t)\right)
+     \hat{H}(\mathbf{k}, t)=\hat{H}\left(\mathbf{k}+\frac{e}{\hbar} \mathbf{A}(t)\right)
      \label{eqn:vTD}
 \end{equation}
-where $\boldsymbol k$ denotes the Bloch wavevector, The vector potential $\vecb A(t)$ is related to the applied electric field $\vecb E(t)$ as $\vecb E(t)=-d\vecb A(t)/dt$, and it is included in the Hamiltonian as the wavevector shift $\boldsymbol k \rightarrow \boldsymbol k + e\vecb A(t)/\hbar$ via the Peierls substitution  \cite{hofstadter1976energy}.\\
+where $\mathbf k$ denotes the Bloch wavevector, The vector potential $\mathbf A(t)$ is related to the applied electric field $\mathbf E(t)$ as $\mathbf E(t)=-d\mathbf A(t)/dt$, and it is included in the Hamiltonian as the wavevector shift $\mathbf k \rightarrow \mathbf k + e\mathbf A(t)/\hbar$ via the Peierls substitution  \cite{hofstadter1976energy}.\\
 
 To study the nonlinear photocarrier injection, we need to introduce time-dependent Schr\"odinger
 equation (\gls {TDSE}) for close quantum systems since the injection carriers need to be discussed
@@ -171,51 +175,51 @@ open system seperated in the next sections to get nonlinear response current, wh
 observable for both theory and experiment. 
 %===================================================================================================================================
 \subsection{Time-dependent Schr\"odinger Equation}
-The light-induced electron dynamics can be described by solving the following \gls {TDSE} at each $\vecb k$-point:
+The light-induced electron dynamics can be described by solving the following \gls {TDSE} at each $\mathbf k$-point:
 \begin{equation}
-i\hbar \frac{d}{dt}| \psi_{\boldsymbol {k}}(t) \rangle = \hat{H}\left ( \boldsymbol k + \frac{e\vecb A(t)}{\hbar} \right )| \psi_{\boldsymbol k}(t) \rangle,
+i\hbar \frac{d}{dt}| \psi_{\mathbf {k}}(t) \rangle = \hat{H}\left ( \mathbf k + \frac{e\mathbf A(t)}{\hbar} \right )| \psi_{\mathbf k}(t) \rangle,
 \label{eqn:TDSE}
 \end{equation}
-$|\psi_{\boldsymbol k}(t)\rangle$ is a single-particle electroinc wavefunction at $\boldsymbol k$.
-Solving this time-dependent Schr\"odinger equation (\gls {TDSE}) is an initial value problem. In two-band systems, usually the ground state $\psi_{\boldsymbol k}(0)$ is used as the initial state occupied at the valence band with:
+$|\psi_{\mathbf k}(t)\rangle$ is a single-particle electroinc wavefunction at $\mathbf k$.
+Solving this time-dependent Schr\"odinger equation (\gls {TDSE}) is an initial value problem. In two-band systems, usually the ground state $\psi_{\mathbf k}(0)$ is used as the initial state occupied at the valence band with:
 \begin{align}
-\psi_{\boldsymbol k}(0) = \left(\begin{array}{cc}
+\psi_{\mathbf k}(0) = \left(\begin{array}{cc}
 0 \\
 1
 \end{array}\right)
 \end{align}
 Various numerical methods can be chosen for doing the time propagation, here we split the propagation into short-time propagation using the composition property rely on a sufficiently small $\Delta t$, $t'=t+\Delta t$,:
 \begin{equation}
-\left|\psi_{\boldsymbol{k}}(t')\right\rangle=\exp \left[-i \int_{t}^{t'} d \tau \hat{H}(\tau) \right]\left|\psi_{\boldsymbol{k}+\vecb{A}(t)}\right\rangle
-\label{eqn:Houston}
+\left|\psi_{\mathbf{k}}(t')\right\rangle=\exp \left[-i \int_{t}^{t'} d \tau \hat{H}(\tau) \right]\left|\psi_{\mathbf{k}+\mathbf{A}(t)}\right\rangle
+\label{eqn:deltat}
 \end{equation}
 Since $\Delta t$ is sufficiently small, the exponential mid-point propagator:
 \begin{align}
-    =\exp \{-\mathrm{i} \Delta t \hat{H}(t+\Delta t / 2)\}
+ \exp \left[-i \int_{t}^{t'} d \tau \hat{H}(\tau) \right] \approx  \exp \{-\mathrm{i} \Delta t \hat{H}(t+\Delta t / 2)\}
 \end{align}
 We approximate the exponential using a Taylor expansion to fourth-order:
 \begin{align}
- \exp \left[-i \int_{t}^{t'} d \tau \hat{H}(\tau) \right] \approx \exp \{A\}=\sum_{k=0}^{\infty} \frac{1}{k!} A^k
+\exp \{A\}=\sum_{k=0}^{\infty} \frac{1}{k!} A^k
 \end{align}
-Once the time-evolution of the wavefunctions, $|\psi_{\vecb k}(t)\rangle$ is computed, the current induced in the matter can be further evaluated with
+Once the time-evolution of the wavefunctions, $|\psi_{\mathbf k}(t)\rangle$ is computed, the current induced in the matter can be further evaluated with
 \begin{align}
-\vecb{J}_{\vecb k}(t)=\frac{1}{(2\pi)^2} \int_{BZ} d\vecb k\langle \psi_{\vecb k}(t)|\hat{\vecb J}_{\vecb k}(t)| \psi_{\vecb{k}}(t)\rangle.
+\mathbf{J}_{\mathbf k}(t)=\frac{1}{(2\pi)^2} \int_{BZ} d\mathbf k\langle \psi_{\mathbf k}(t)|\hat{\mathbf J}_{\mathbf k}(t)| \psi_{\mathbf{k}}(t)\rangle.
 \label{eq:current}
 \end{align}
-Here, $\hat {\vecb J}_{\vecb k}(t)$ is the current operator, and it is defined as
+Here, $\hat {\mathbf J}_{\mathbf k}(t)$ is the current operator, and it is defined as
 \begin{align}
-\hat {\vecb J}_{\vecb k}(t) = \frac{\partial }{\partial \vecb k}\hat H \left (\vecb k + \frac{e\vecb A(t)}{\hbar} \right ) = 
+\hat {\mathbf J}_{\mathbf k}(t) = \frac{\partial }{\partial \mathbf k}\hat H \left (\mathbf k + \frac{e\mathbf A(t)}{\hbar} \right ) = 
 -t_0 \left(\begin{array}{cc}
-0 & \frac{\partial f(\boldsymbol{k}+\boldsymbol{A})}{\partial \boldsymbol A} \\
-\frac{\partial f^*(\boldsymbol{k}+\boldsymbol{A})}{\partial \boldsymbol A}  & 0
+0 & \frac{\partial f(\mathbf{k}+\mathbf{A})}{\partial \mathbf A} \\
+\frac{\partial f^*(\mathbf{k}+\mathbf{A})}{\partial \mathbf A}  & 0
 \end{array}\right),
 \end{align}
 
-where $\frac{\partial f(\vecb k)}{\partial \vecb k}$ is given by 
+where $\frac{\partial f(\mathbf k)}{\partial \mathbf k}$ is given by 
 \begin{align}
-\frac{\partial f(\vecb k)}{\partial \vecb k}=i \vecb{\delta}_1e^{i\vecb k \cdot \vecb \delta_1}
-+i \vecb{\delta}_2e^{i\vecb k \cdot \vecb \delta_2}
-+i \vecb{\delta}_3e^{i\vecb k \cdot \vecb \delta_3}.
+\frac{\partial f(\mathbf k)}{\partial \mathbf k}=i \overrightarrow{\delta}_1e^{i\mathbf k \cdot \overrightarrow\delta_1}
++i \overrightarrow{\delta}_2e^{i\mathbf k \cdot \vec \delta_2}
++i \overrightarrow{\delta}_3e^{i\mathbf k \cdot \overrightarrow\delta_3}.
 \end{align}
 %==================================================================================================================================
 \subsection{Quantum Master Equation \label{sec:master}}
@@ -223,57 +227,62 @@ In contrast to closed quantum systems, which are entirely isolated from external
 To expound processes such as relaxation, dephasing, and thermalization of the nonlinear response experiments, the quantum master equation is predominantly employed which is salient in the realm of open quantum systems.\\
 We describe the light-induced electron dynamics in graphene with the following quantum master equation \cite{sato2019light,sato2019microscopic,sato2021high,sato2021nonlinear}:
 \begin{equation}
-\frac{\mathrm{d}}{\mathrm{d}t}\rho_{\boldsymbol{k}}(t) = \frac{1}{i \hbar}	\left[ \hat{H}_{\boldsymbol{k}+e\boldsymbol{A}(t)/\hbar}, \rho_{\boldsymbol{k}} (t)) \right] + 	
-\hat{D}\left[ \rho_{\boldsymbol{k}} (t)) \right],
+\frac{\mathrm{d}}{\mathrm{d}t}\rho_{\mathbf{k}}(t) = \frac{1}{i \hbar}	\left[ \hat{H}_{\mathbf{k}+e\mathbf{A}(t)/\hbar}, \rho_{\mathbf{k}} (t)) \right] + 	
+\hat{D}\left[ \rho_{\mathbf{k}} (t)) \right],
 \label{eqn:masterequation}
 \end{equation}
-$\rho_{\vecb k}(t)$ is the reduced density matrix at $\vecb k$. The quantum master equation delineates the dynamical evolution of the density matrix associated with the quantum system, which encompasses both pure and mixed quantum states. 
-To elucidate the impact of dissipation, we formulate the relaxation operator, denoted as $\hat{D}\left[\rho_{\vecb{k}} (t)\right]$, within the framework of Eq.(\ref{eqn:masterequation}) employing the relaxation time approximation\cite{meier1994coherent} and employing the Houston basis \cite{PhysRev.57.184, PhysRevB.33.5494}. The Houston states are characterized as eigenstates of the instantaneous Hamiltonian, expressed as:
+$\rho_{\mathbf k}(t)$ is the reduced density matrix at $\mathbf k$. The quantum master equation delineates the dynamical evolution of the density matrix associated with the quantum system, which encompasses both pure and mixed quantum states. 
+To elucidate the impact of dissipation, we formulate the relaxation operator, denoted as
+$\hat{D}\left[\rho_{\mathbf{k}} (t)\right]$, within the framework of Eq.(\ref{eqn:masterequation})
+employing the relaxation time approximation\cite{meier1994coherent} and employing the Houston basis
+\cite{PhysRev.57.184, PhysRevB.33.5494}. The Houston states, $|u^H_{b\mathbf k}(t)\rangle $,  are characterized as eigenstates of the instantaneous Hamiltonian, expressed as:
 \begin{align}
-\hat{H}_{\vecb{k}+e\vecb{A}(t)/\hbar} |u^H_{b\vecb k}(t)\rangle = \epsilon_{b,\vecb k + e\vecb A(t)/\hbar}|u^H_{b\vecb k}(t)\rangle   
+\hat{H}_{\mathbf{k}+e\mathbf{A}(t)/\hbar} |u^H_{b\mathbf k}(t)\rangle = \epsilon_{b,\mathbf k + e\mathbf A(t)/\hbar}|u^H_{b\mathbf k}(t)\rangle   
 \label{eqn:Houston}
 \end{align}
 The expansion of the reduced density matrix can then be carried out using the Houston states.
 \begin{align}
-  \rho_{\vecb k}(t) = \sum_{bb'}\rho_{bb',\vecb k}(t)|u^H_{b\vecb k}(t)\rangle \langle u^H_{b'\vecb k}(t)|,
+  \rho_{\mathbf k}(t) = \sum_{bb'}\rho_{bb',\mathbf k}(t)|u^H_{b\mathbf k}(t)\rangle \langle u^H_{b'\mathbf k}(t)|,
 \end{align}
-where $\rho_{bb',\vecb k}(t)$ are the expansion coefficients. On the basis of the Houston state expansion, we define the relaxation operator \cite{sato2019microscopic,PhysRevB.99.214302,sato2019light} as
+where $\rho_{bb',\mathbf k}(t)$ are the expansion coefficients. On the basis of the Houston state expansion, we define the relaxation operator \cite{sato2019microscopic,PhysRevB.99.214302,sato2019light} as
 \begin{align}
-    \hat D\left [\rho_{\vecb k}(t) \right ]=&-\sum_{b}\frac{\rho_{bb,\vecb k}(t)-f^{FD}\left
-(\epsilon_{b,\vecb k+e\vecb A(t)/\hbar},T_e,\mu \right)}{T_1}|u^H_{b\vecb k}(t)\rangle \langle
-u^H_{b\vecb k}(t)|\\ 
-                                            &-\sum_{b\neq b'} \frac{\rho_{bb',\vecb k}(t)}{T_2}|u^H_{b\vecb k}(t)\rangle \langle u^H_{b'\vecb k}(t)|,
+    \hat D\left [\rho_{\mathbf k}(t) \right ]=&-\sum_{b}\frac{\rho_{bb,\mathbf k}(t)-f^{FD}\left
+(\epsilon_{b,\mathbf k+e\mathbf A(t)/\hbar},T_e,\mu \right)}{T_1}|u^H_{b\mathbf k}(t)\rangle \langle
+u^H_{b\mathbf k}(t)|\\ 
+                                            &-\sum_{b\neq b'} \frac{\rho_{bb',\mathbf k}(t)}{T_2}|u^H_{b\mathbf k}(t)\rangle \langle u^H_{b'\mathbf k}(t)|,
 \label{eqn:relaxation}
 \end{align}
-$T_1$ is the longitudinal relaxation time, $T_2$ is the transverse relaxation time, and $f^{\mathrm{FD}}(\epsilon)$ is the Fermi--Dirac distribution
+$T_1$ is the longitudinal relaxation time, $T_2$ is the transverse relaxation time, and
+$f^{\mathrm{FD}}(\epsilon)$ is the Fermi--Dirac distribution:
 \begin{align}
 f^{\mathrm{FD}}(\epsilon, T_e, \mu)=\frac{1}{e^{(\epsilon-\mu)/k_BT_e}+1}.
 \label{eq:fd-dist}
 \end{align}
-$\mu$ is the chemical potential, and $T_e$ is the electron temperature.
+When $t=0$, the eletron system are identical fermions in thermodynamic equilibrium, the average number of fermions in a single-particle state is given by the Fermi–Dirac distribution. $\mu$ is the chemical potential, and $T_e$ is the electron temperature.
+
 In the following discussion, we set the longitudinal relaxation time $T_1$ to $100$~fs and the transverse relaxation time $T_2$ to $20$~fs in accordance with the previous works \cite{sato2021nonlinear,sato2021high,sato2019light,sato2019microscopic}. The electron temperature $T_e$ is set to $300$~K unless stated otherwise. The chemical potential $\mu$ is treated as a tunable parameter to study the effect of doping.\\
 We directly solve the quantum master equation, Eq.~(\ref{eqn:masterequation}), in the time domain by employing the Runge-Kutta method without any approximation.
-The electric current is obtained by employing the time-dependent density matrix $\rho_{\vecb k}(t)$, which evolves according to Eq.~(\ref{eqn:masterequation}):
+The electric current is obtained by employing the time-dependent density matrix $\rho_{\mathbf k}(t)$, which evolves according to Eq.~(\ref{eqn:masterequation}):
 \begin{eqnarray}
-  \vecb{J}(t)=\frac{2}{(2\pi)^2} \int d\vecb k \mathrm{Tr}\left[\hat{\boldsymbol{J}}_{\boldsymbol{k}}(t)\rho_{\boldsymbol{k}}(t)\right],
+  \mathbf{J}(t)=\frac{2}{(2\pi)^2} \int d\mathbf k \mathrm{Tr}\left[\hat{\mathbf{J}}_{\mathbf{k}}(t)\rho_{\mathbf{k}}(t)\right],
 \label{eqn:totalcurrent}
 \end{eqnarray}
-where $\hat{\boldsymbol{J}}_{\boldsymbol{k}}(t)$ is the current operator defined as
+where $\hat{\mathbf{J}}_{\mathbf{k}}(t)$ is the current operator defined as
 \begin{align}
-\hat{\boldsymbol J}_{\boldsymbol{k}}(t) = -\frac{\partial H(\boldsymbol{k}+e\boldsymbol{A}(t)/\hbar)}{\partial \boldsymbol A(t)}.
+\hat{\mathbf J}_{\mathbf{k}}(t) = -\frac{\partial H(\mathbf{k}+e\mathbf{A}(t)/\hbar)}{\partial \mathbf A(t)}.
 \label{totalcurrent}
 \end{align}
 The intraband component of the current is the dominant component for nonlinear current contribute
 HHG progress which will be discussed in the Chapter~\ref{ch:ch4}, we can get the intraband current by:
 \begin{align}
-\boldsymbol{J}^{\mathrm{intra}}_{\vecb k}(t)&=\sum_{b=v,c} \frac{(-2)}{(2\pi)^2}
+\mathbf{J}^{\mathrm{intra}}_{\mathbf k}(t)&=\sum_{b=v,c} \frac{(-2)}{(2\pi)^2}
 \frac{e}{\hbar} \nonumber \times  
-\int d\boldsymbol{k}\frac{\partial\epsilon_{b,\boldsymbol{k}+e\boldsymbol{A}(t)/\hbar}}{\partial\boldsymbol{k}} n_{b,\boldsymbol{k}+e\boldsymbol{A}(t)/\hbar},
+\int d\mathbf{k}\frac{\partial\epsilon_{b,\mathbf{k}+e\mathbf{A}(t)/\hbar}}{\partial\mathbf{k}} n_{b,\mathbf{k}+e\mathbf{A}(t)/\hbar},
 \label{eqn:intra-steady-current}
 \end{align}
-where the band population $n_{b,\boldsymbol{k}+e\boldsymbol{A}(t)/\hbar}$ is defined with the Houston states of the Hamiltonian $|u^H_{b,\boldsymbol k} (t)\rangle$ computed from Eq ~\ref{eqn:Houston}:
+where the band population $n_{b,\mathbf{k}+e\mathbf{A}(t)/\hbar}$ is defined with the Houston states of the Hamiltonian $|u^H_{b,\mathbf k} (t)\rangle$ computed from Eq ~\ref{eqn:Houston}:
 \begin{align}
-n_{b,\boldsymbol{k}+e\boldsymbol{A}(t)/\hbar}(t)=\langle u^H_{b,\boldsymbol k}(t) |\rho_{\boldsymbol{k}}(t)|u^H_{b,\boldsymbol k}(t) \rangle
+n_{b,\mathbf{k}+e\mathbf{A}(t)/\hbar}(t)=\langle u^H_{b,\mathbf k}(t) |\rho_{\mathbf{k}}(t)|u^H_{b,\mathbf k}(t) \rangle
 \end{align}
 %=====================================================================================================================================================
 

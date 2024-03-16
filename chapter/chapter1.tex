@@ -13,6 +13,13 @@ injection, phase modulation, and harmonic generation.
 After the first observation of nonlinear optical phenomena by Franken~\cite{franken1961generation},
 based on recent advancements in laser technology, groundbreaking research in the field of nonlinear
 optics have been driven~\cite{RevModPhys.72.545, RevModPhys.81.163, MOUROU2012720}, have conducted in a new era of intense light generation. These developments have paved the way for in-depth exploration of light-matter interactions in highly nonlinear regimes. One of the most captivating nonlinear optical phenomena made accessible by these advances is High-order Harmonic Generation (\gls{HHG}), a process characterized by its extreme photon upconversion and remarkable nonlinear characteristics. 
+
+This thesis aims to provide a comprehensive overview of the nonlinear response phenomenons
+including photocarrier injection and high-order harmonic generation in the context of nonlinear
+optics. We will explore the theoretical foundations of light induced time-dependent quantum
+dynamics evolution in solid systems,
+including the quantum mechanical description of the light-matter ineraction process and the role of
+excited electron dynamics.  By investigating photocarrier injection and HHG, we seek to deepen our understanding of the nonlinear optical response of materials and unlock the potential for applications in fields such as ultrafast spectroscopy, attosecond science, and advanced imaging techniques.
 %=====================================================================================================================================
 \section{Nonlinear Optical Response}
  Linear response theory is most applicable when the perturbations are weak. In other words, the system's behavior is approximately linear in the vicinity of its equilibrium or initial state, the behavior of a system when it reacts proportionally to an applied perturbation.
@@ -26,28 +33,28 @@ The electric susceptibility ($\chi_e$) describes the response of a material to a
 
 Where:
 \begin{itemize}
-    \item $\mathbf{P}$ is the induced polarization tensor,
+    \item $\mathbf{P}$ is the induced polarization vector,
     \item $\chi_e$ is the electric susceptibility tensor, and
-    \item $\mathbf{E}$ is the applied electric field tensor.
+    \item $\mathbf{E}$ is the applied electric field vector.
 \end{itemize}
 
-The components of the induced polarization tensor $\mathbf{P}$, electric susceptibility tensor $\chi_e$, and applied electric field tensor $\mathbf{E}$ are denoted by indices.
-In onlinear response. the relationship can be expressed using a power series expansion:
+In nonlinear response. the relationship can be expressed using a power series expansion:
 \[
-    \mathbf{P} =\epsilon_0( \chi^{(1)} \cdot \mathbf{E}+\chi^{(2)} \cdot \mathbf{E}^2 + \chi^{(3)}
-    \cdot \mathbf{E}^3 + ...)
+    \mathbf{P(t)} =\epsilon_0( \chi^{(1)} \cdot \mathbf{E(t)}+\chi^{(2)} \cdot \mathbf{E(t)}^2 + \chi^{(3)}
+    \cdot \mathbf{E(t)}^3 + ...)
 \]
 In nonlinear response theory, when considering the time-domain response of a material to an external perturbation, one often encounters frequency-dependent susceptibilities. These susceptibilities can be expressed in terms of tensor notation and integrated over frequency to account for the material's response over a range of frequencies.
 
-Let's denote the electric susceptibility tensor as $\chi^{(2)}$ as an example, representing the second-order susceptibility. In the frequency domain, the induced polarization ($P$) can be expressed in terms of the applied electric field ($E$) and the susceptibility tensor as:
+Let's use the electric susceptibility tensor as $\chi^{(2)}$ as an example, representing the second-order susceptibility. In the frequency domain, the induced polarization ($P$) can be expressed in terms of the applied electric field ($E$) and the susceptibility tensor as:
 
 \[
-P_i(\omega) = \int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
+P_i(\omega) =  \sum_{j=1}^{3} \sum_{k=1}^{3}\int\int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
 \]
 
 Where:
 \begin{itemize}
-    \item $P_i(\omega)$ is the induced polarization component at frequency $\omega$,
+    \item $P_i(\omega)$ is the induced polarization component at frequency $\omega$ along direction
+        $i$,
     \item $\chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2)$ is the frequency-dependent second-order susceptibility tensor,
     \item $E_j(\omega_1)$ and $E_k(\omega_2)$ are the components of the applied electric field at frequencies $\omega_1$ and $\omega_2$ respectively, and
     \item The integral is taken over all possible frequencies.
@@ -112,7 +119,7 @@ The HHG in solid-state systems was first observed in ZnO in 2011 in mid-infrared
 
 
 %=========================================================================================================================================================
-\section{Review on Numerical Methods}
+\section{Review on Theoretical Models}
 The generation of high-order harmonics involves complex quantum mechanical processes and intricate
 interplays between the laser field and the electronic structure of atoms. The fundamental processes involved in HHG in a gaseous medium can
 be understood within the framework of the well-known three-step model  \cite{corkum1993plasma,
@@ -141,13 +148,6 @@ We won't go in detailed about the theoretical foundations, but just summarize cu
 Furthermore, properly incorporating Berry curvature in models and understanding its role in solid High-Order Harmonic Generation (HHG) requires more attention in future theoretical simulations. Despite lingering open questions in this evolving field, it's hoped that this review can offer valuable reference points, and ongoing efforts from the relevant community will gradually illuminate the intricacies of solid HHG studies.
 %==============================================================================================================================================================================
 \section{Structure of the Thesis}
-This thesis aims to provide a comprehensive overview of the nonlinear response phenomenons
-including photocarrier injection and high-order harmonic generation in the context of nonlinear
-optics. We will explore the theoretical foundations of light induced time-dependent quantum
-dynamics evolution in solid systems,
-including the quantum mechanical description of the light-matter ineraction process and the role of
-excited electron dynamics.  By investigating photocarrier injection and HHG, we seek to deepen our understanding of the nonlinear optical response of materials and unlock the potential for applications in fields such as ultrafast spectroscopy, attosecond science, and advanced imaging techniques.
-
 This thesis is organized as follows: Chapter.~\ref{ch:ch2} first introduces the crystallographic discription
 for typical hexagonal lattice we are studying, then we study the light-induced electron dynamics in 2D materials based on the tight-binding model by
 time-dependent Schrodinger Equation and quantum master equation. 

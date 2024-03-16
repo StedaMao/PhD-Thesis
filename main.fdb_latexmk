@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber main"] 1710345952 "main.bcf" "main.bbl" "main" 1710426461 0
+["biber main"] 1710585587 "main.bcf" "main.bbl" "main" 1710589420 0
   "./references.bib" 1710084642 71478 5f177e079e4a55d9b91099b01b34a716 ""
-  "main.bcf" 1710426460 119784 19000ca92b0988f9c613adbe58eea114 "pdflatex"
+  "main.bcf" 1710589420 119926 71ff284941d0fc76a95ef50cf4d721ae "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["cusdep slo sls main"] 1710345952 "main.slo" "main.sls" "main" 1710426461 0
-  "main.slo" 1710426460 2755 f535035a73973745131d4dd41cbae4b8 "pdflatex"
+["cusdep slo sls main"] 1710588470 "main.slo" "main.sls" "main" 1710589420 0
+  "main.slo" 1710589420 2755 94d2d91184fd884a708c98ce403f728c "pdflatex"
   (generated)
   "main.sls"
   (rewritten before read)
-["pdflatex"] 1710426455 "main.tex" "main.pdf" "main" 1710426461 0
+["pdflatex"] 1710589414 "main.tex" "main.pdf" "main" 1710589420 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm" 1246382020 1496 c79f6914c6d39ffb3759967363d1be79 ""
@@ -180,27 +180,29 @@
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1703680086 10502840 d439e54ae70b889629b0dead4dc09eaa ""
   "/usr/local/texlive/2023/texmf.cnf" 1703680015 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "NUSThesis.cls" 1703774844 8053 fb106e5df9922b5d70f5bc43eb30ddcd ""
-  "chapter/chapter1.aux" 1710426456 5473 b7f41fdd691ddf9bb8c983d14061f33f "pdflatex"
-  "chapter/chapter1.tex" 1710257116 19163 a461b093bd4a9c91af18dffe3562a0c8 ""
-  "chapter/chapter2.aux" 1710426457 9094 a1204267d917a79f626f159200feb2a5 "pdflatex"
-  "chapter/chapter2.tex" 1710426460 20341 00f52412e8533c4f948b5350a45fd9f0 ""
-  "chapter/chapter3.aux" 1710426457 14503 5cbf9b37ee97f7acd3a61e51e0ea06a7 "pdflatex"
-  "chapter/chapter3.tex" 1710422725 60854 7e6013c949cb27beb758d0c94038fcf9 ""
-  "chapter/chapter4.aux" 1710426458 13059 f9297e6a00f82576096da576b3a5710c "pdflatex"
+  "chapter/A_adiabatic.aux" 1710589418 6354 4939f10b829d4f9843c8b7f0457d7bbc "pdflatex"
+  "chapter/A_adiabatic.tex" 1710540431 8609 7d33d0be7ec5d531e3ae9f0f6cc77163 ""
+  "chapter/chapter1.aux" 1710589416 5474 5303bc38ab4a143bf2ce07807a50424a "pdflatex"
+  "chapter/chapter1.tex" 1710587469 19060 ae454b7b66028c3bed0e34705541dad2 ""
+  "chapter/chapter2.aux" 1710589416 9092 f90c86de39b85896b81fc07b786ab531 "pdflatex"
+  "chapter/chapter2.tex" 1710589412 20882 25270ba220f2f95a1b3be14ec9c95d1b ""
+  "chapter/chapter3.aux" 1710589417 14503 66dc722655786cd54ce91863c6397fb7 "pdflatex"
+  "chapter/chapter3.tex" 1710518699 60403 1579a2ab18b00bef48cb7d71ae0c9041 ""
+  "chapter/chapter4.aux" 1710589418 13059 f9297e6a00f82576096da576b3a5710c "pdflatex"
   "chapter/chapter4.tex" 1706429914 39780 764f59abb63a41e403acaea1a9ca6eae ""
-  "chapter/chapter5.aux" 1710426458 17182 ba1dd9db0b5aaba2b88b28db637afade "pdflatex"
+  "chapter/chapter5.aux" 1710589418 17182 ba1dd9db0b5aaba2b88b28db637afade "pdflatex"
   "chapter/chapter5.tex" 1707211363 40939 389a0b61950169324d67b38d418b77f5 ""
-  "chapter/chapter6.aux" 1710426458 4847 005aaec79a8379e38e274a6808b0d38e "pdflatex"
+  "chapter/chapter6.aux" 1710589418 4847 005aaec79a8379e38e274a6808b0d38e "pdflatex"
   "chapter/chapter6.tex" 1710257209 246 177acbf9b3df59bbcb25c95f73343336 ""
-  "main.aux" 1710426460 21867 b686a3a189ce17304c1cf710f22deecd "pdflatex"
-  "main.bbl" 1710345953 217552 af156c391b75eeec6e194faf67864f97 "biber main"
-  "main.lof" 1710426460 11089 f0cce49f05f6121ee954ded89d946575 "pdflatex"
-  "main.lot" 1710426460 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "pdflatex"
-  "main.out" 1710426460 7551 b9413ec12944185e8523c887ad29ee04 "pdflatex"
-  "main.run.xml" 1710426460 2441 ff81cfbdeed668ad6703930eeb031ebf "pdflatex"
-  "main.sls" 1710345952 1337 377cd329a54942090e7a570b7b3932c0 "cusdep slo sls main"
-  "main.tex" 1710426372 2838 94f0f43257a413fe3dc864461c454309 ""
-  "main.toc" 1710426460 3177 ed71f27e0554e7174b9cbc1c027aacc9 "pdflatex"
+  "main.aux" 1710589420 22048 b7f13269fec98e6ba7833b31cbfe03c5 "pdflatex"
+  "main.bbl" 1710585589 217552 af156c391b75eeec6e194faf67864f97 "biber main"
+  "main.lof" 1710589420 11109 3c851c61f788374185819943f6cbb61f "pdflatex"
+  "main.lot" 1710589420 140 104a8a462b27a2267fd07b368245cdd0 "pdflatex"
+  "main.out" 1710589420 7770 eb5141232dfdf0c732113cef157b6b90 "pdflatex"
+  "main.run.xml" 1710589420 2441 ff81cfbdeed668ad6703930eeb031ebf "pdflatex"
+  "main.sls" 1710588470 1456 162d6c8e9f37e5174447c6cfd1756a65 "cusdep slo sls main"
+  "main.tex" 1710541451 2835 005fd33a4b728a9aba91114d1e80a9eb ""
+  "main.toc" 1710589420 3272 291222c2892ed2974ece1e64bc85b5a4 "pdflatex"
   "pic/3rd_hh_vs_thermal.pdf" 1703062942 7901 1fb9e547697d630fe9f1fe5c7dcbf6d0 ""
   "pic/5th_hh_vs_thermal.pdf" 1703062942 7934 4aa22f4482eb163806dafbfa182cc8a9 ""
   "pic/7th_hh_vs_thermal.pdf" 1703062942 7977 90485374ba956a51d8b815afd3efea66 ""
@@ -236,6 +238,7 @@
   "pkg_def.sty" 1703779381 1758 74a2dbf5c9c30affebb1e7c9e23d9dd6 ""
   "thesis_sym.sty" 1710087110 1817 0b0f8c329dfa6119f8d08394c735c164 ""
   (generated)
+  "chapter/A_adiabatic.aux"
   "chapter/chapter1.aux"
   "chapter/chapter2.aux"
   "chapter/chapter3.aux"

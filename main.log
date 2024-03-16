@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  14 MAR 2024 15:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  16 MAR 2024 12:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1531,16 +1531,10 @@ Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 \@quotelevel=\count509
 \@quotereset=\count510
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 44.
+h' as default language. on input line 43.
 
-(./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux
-
-LaTeX Warning: Label `eqn:Houston' multiply defined.
-
-
-LaTeX Warning: Label `eqn:Houston@cref' multiply defined.
-
-) (./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux
+(./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
+(./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux
 
 LaTeX Warning: Label `eqn:laser_pulse' multiply defined.
 
@@ -1559,29 +1553,36 @@ LaTeX Warning: Label `fig:current' multiply defined.
 
 LaTeX Warning: Label `fig:current@cref' multiply defined.
 
-) (./chapter/chapter6.aux))
+) (./chapter/chapter6.aux) (./chapter/A_adiabatic.aux
+
+LaTeX Warning: Label `eq:tdse-ad-basis' multiply defined.
+
+
+LaTeX Warning: Label `eq:tdse-ad-basis@cref' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1627,7 +1628,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 43.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
@@ -1649,10 +1650,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 44.
+Package chemgreek Info: Activating mapping `fontspec' on line 43.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-d
@@ -1661,7 +1662,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 44.
+or `english'. on input line 43.
 
 Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             'latinmodern-math.otf' with options
@@ -1702,15 +1703,15 @@ latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 44.
+(Font)              `operators' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 44.
+ line 43.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 44.
+(Font)              `operators' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 44.
+t line 43.
 
 Package fontspec Info: latinmodern-math scale = 1.0001.
 
@@ -1781,15 +1782,15 @@ uage=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 44.
+(Font)              `symbols' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 44.
+t line 43.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 44.
+(Font)              `symbols' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 44.
+t line 43.
 
 Package fontspec Info: latinmodern-math scale = 0.9999.
 
@@ -1843,16 +1844,16 @@ uage=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 4
-4.
+3.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 44.
+t line 43.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 44.
+(Font)              `largesymbols' in the math version `bold' on input line 43.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 44.
+t line 43.
 
 
 Package unicode-math Warning: Using \overbracket and \underbracket from
@@ -1881,13 +1882,13 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \openout4 = `main.ist'.
 
 ]
-Overfull \hbox (6.29016pt too wide) in paragraph at lines 46--46
+Overfull \hbox (6.29016pt too wide) in paragraph at lines 45--45
 \TU/NotoSerif(0)/m/n/12 Die Dissertation wurde in der vorgelegten oder einer äh
 nlichen Form
  []
 
 
-Overfull \hbox (16.45816pt too wide) in paragraph at lines 46--46
+Overfull \hbox (16.45816pt too wide) in paragraph at lines 45--45
 \TU/NotoSerif(0)/m/n/12 nicht schon einmal in einem früheren Promotionsverfahre
 n angenom-
  []
@@ -1903,20 +1904,20 @@ File: pic/signature.pdf Graphic file (type pdf)
 ]
 
 LaTeX Font Warning: Font shape `T1/calligra/m/it' undefined
-(Font)              using `T1/calligra/m/n' instead on input line 54.
+(Font)              using `T1/calligra/m/n' instead on input line 53.
 
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 14.40002pt on input line 54.
+(Font)              scaled to size 14.40002pt on input line 53.
 LaTeX Font Info:    Font shape `T1/calligra/m/it' will be
-(Font)              scaled to size 17.28003pt on input line 54.
+(Font)              scaled to size 17.28003pt on input line 53.
 [2
 
 
 ]
 LaTeX Font Info:    Font shape `TU/NotoSans(1)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 59.
+(Font)              scaled to size 20.74pt on input line 58.
 LaTeX Font Info:    Font shape `TU/NotoSans(1)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 59.
+(Font)              scaled to size 20.74pt on input line 58.
  (./main.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.00107pt on input line 8.
@@ -2021,7 +2022,7 @@ Overfull \hbox (10.36226pt too wide) in paragraph at lines 27--27
  (./chapter/chapter1.tex
 Chapter 1.
 
-Overfull \hbox (15.99553pt too wide) in paragraph at lines 8--17
+Overfull \hbox (15.99553pt too wide) in paragraph at lines 8--16
 \TU/NotoSerif(1)/m/n/10 nology, groundbreaking research in the field of nonline
 ar optics have been driven [[][]2[][]–
  []
@@ -2030,41 +2031,41 @@ ar optics have been driven [[][]2[][]–
 
 
 ] [2]
-Overfull \hbox (4.0022pt too wide) in paragraph at lines 61--66
+Overfull \hbox (4.0022pt too wide) in paragraph at lines 68--73
 []\TU/NotoSerif(1)/m/n/10 Nonlinear response often involves multiphoton process
 es, where multiple pho-
  []
 
 
-Overfull \hbox (12.4822pt too wide) in paragraph at lines 69--70
+Overfull \hbox (12.4822pt too wide) in paragraph at lines 76--77
 \TU/NotoSerif(1)/m/n/10 current, detailed in references [[][]6[][]–[][]9[][]], 
 exemplify the significance of this phenomenon. 
  []
 
 [3]
-Overfull \hbox (4.8822pt too wide) in paragraph at lines 85--91
+Overfull \hbox (4.8822pt too wide) in paragraph at lines 92--98
 \TU/NotoSerif(1)/m/n/10 into the realm of photovoltaic effects induced by inten
 se few-cycle laser pulses [[][]14[][]–
  []
 
 [4]
-Overfull \hbox (4.47556pt too wide) in paragraph at lines 106--112
+Overfull \hbox (4.47556pt too wide) in paragraph at lines 113--119
 \TU/NotoSerif(1)/m/n/10 tense laser light interacts with a gas, causing the gen
 eration of very high-frequency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 [6]
-Overfull \hbox (6.148pt too wide) in paragraph at lines 137--138
+Overfull \hbox (6.148pt too wide) in paragraph at lines 144--145
 []\TU/NotoSerif(1)/m/n/10 The time-dependent-Schrödinger equation ([][][]TDSE[]
 []) model, utilizing both Bloch
  []
@@ -2081,19 +2082,19 @@ Overfull \hbox (6.148pt too wide) in paragraph at lines 137--138
 Chapter 2.
 File: pic/lattice.pdf Graphic file (type pdf)
 <use pic/lattice.pdf>
-[11] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+[11] [12] [13] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
-[15]
-Overfull \hbox (25.31885pt too wide) in paragraph at lines 165--173
+
+Overfull \hbox (25.31885pt too wide) in paragraph at lines 169--177
 []\TU/NotoSerif(1)/m/n/10 To study the nonlinear photocarrier injection, we nee
 d to introduce time-dependent
  []
 
 
-Overfull \hbox (6.16199pt too wide) in paragraph at lines 178--181
+Overfull \hbox (7.86198pt too wide) in paragraph at lines 182--185
 $[][][][][][][]$ \TU/NotoSerif(1)/m/n/10 is a single-particle electroinc wavefu
 nction at $[]$. Solving this time-dependent
  []
@@ -2109,129 +2110,113 @@ nction at $[]$. Solving this time-dependent
 ]
 Chapter 3.
 [21]
-
-LaTeX Warning: Reference `sec:A_ADIABATIC' on page 22 undefined on input line 1
-2.
-
-
-LaTeX Warning: Reference `ch:Adiabatic' on page 22 undefined on input line 16.
-
-
-Overfull \hbox (11.51884pt too wide) in paragraph at lines 12--17
-\TU/NotoSerif(1)/m/n/10 The adiabatic approximation is used almost all the time
- in solving time-propagation,
- []
-
-
-Overfull \hbox (113.1595pt too wide) detected at line 33
+Overfull \hbox (113.1595pt too wide) detected at line 46
 []
  []
 
 [22]
-Overfull \hbox (117.0982pt too wide) detected at line 72
+Overfull \hbox (117.0982pt too wide) detected at line 85
 []
  []
 
 [23] [24]
-Overfull \hbox (19.69641pt too wide) detected at line 170
+Overfull \hbox (19.69641pt too wide) detected at line 183
 [][][][][]
  []
 
 
-Overfull \hbox (3.7955pt too wide) in paragraph at lines 170--172
+Overfull \hbox (3.7955pt too wide) in paragraph at lines 183--185
 \TU/NotoSerif(1)/m/n/10 Similarly to the first-order perturbation coefficient v
 ector’s derivation, the second-
  []
 
 
-Overfull \hbox (15.6794pt too wide) detected at line 185
+Overfull \hbox (15.6794pt too wide) detected at line 198
 [][][][][]
  []
 
-[25]
-Overfull \hbox (11.0722pt too wide) in paragraph at lines 194--196
+
+Overfull \hbox (11.0722pt too wide) in paragraph at lines 207--209
 \TU/NotoSerif(1)/m/n/10 We consider a prototypical two-dimensional insulator, m
 onolayer hexagonal boron-
  []
 
-
-Overfull \hbox (0.62659pt too wide) detected at line 214
+[25]
+Overfull \hbox (0.62659pt too wide) detected at line 227
 [][][][][]
  []
 
 
-Overfull \hbox (79.36113pt too wide) detected at line 224
+Overfull \hbox (79.36113pt too wide) detected at line 237
+[][][][][]
+ []
+
+
+Overfull \hbox (45.93617pt too wide) detected at line 269
 [][][][][]
  []
 
 [26]
-Overfull \hbox (45.93617pt too wide) detected at line 256
+Overfull \hbox (59.60817pt too wide) detected at line 293
 [][][][][]
  []
 
 
-Overfull \hbox (59.60817pt too wide) detected at line 280
+Overfull \hbox (43.29814pt too wide) detected at line 304
+[][][][][]
+ []
+
+
+Overfull \hbox (54.19014pt too wide) detected at line 316
 [][][][][]
  []
 
 [27]
-Overfull \hbox (43.29814pt too wide) detected at line 291
-[][][][][]
- []
-
-
-Overfull \hbox (54.19014pt too wide) detected at line 303
-[][][][][]
- []
-
-
-Overfull \hbox (45.15494pt too wide) detected at line 330
+Overfull \hbox (45.15494pt too wide) detected at line 343
 [][][][][]
  []
 
 [28]
-Overfull \hbox (23.52017pt too wide) detected at line 345
+Overfull \hbox (23.52017pt too wide) detected at line 358
 [][][][][]
  []
 
-[29]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 350.
+(Font)              scaled to size 14.40152pt on input line 363.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 350.
+(Font)              scaled to size 14.39845pt on input line 363.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 363.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 350.
+(hyperref)                removing `math shift' on input line 363.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 350.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-[30]
+[29]
 File: pic/electric.pdf Graphic file (type pdf)
 <use pic/electric.pdf>
-
+ [30]
 
 LaTeX Warning: Reference `eq:population_tdse' on page 31 undefined on input lin
-e 381.
+e 394.
 
 [31]
 File: pic/population.pdf Graphic file (type pdf)
 <use pic/population.pdf>
- [32]
-Overfull \hbox (3.71057pt too wide) in paragraph at lines 398--401
+
+Overfull \hbox (3.71057pt too wide) in paragraph at lines 411--414
 \TU/NotoSerif(1)/m/n/10 Given the constraint $[] [] [][] [] []$, the population
  imbalance distribution is bounded
  []
 
-[33]
-Overfull \hbox (12.89185pt too wide) in paragraph at lines 403--404
+[32]
+Overfull \hbox (12.89185pt too wide) in paragraph at lines 416--417
 []\TU/NotoSerif(1)/m/n/10 The temporal evolution of the corresponding electric 
 current, denoted as $[][][][][]$,
  []
@@ -2240,56 +2225,57 @@ File: pic/initial_current.pdf Graphic file (type pdf)
 <use pic/initial_current.pdf>
 File: pic/dc_current.pdf Graphic file (type pdf)
 <use pic/dc_current.pdf>
-[34] [35] [36]
+[33] [34] [35]
 File: pic/relativephase.pdf Graphic file (type pdf)
 <use pic/relativephase.pdf>
+ [36]
 File: pic/frequency.pdf Graphic file (type pdf)
 <use pic/frequency.pdf>
- [37] [38] [39]
+ [37] [38]
 File: pic/nex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/nex_pop_E0_1e10.pdf>
 File: pic/dnex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/dnex_pop_E0_1e10.pdf>
 File: pic/current_off_resonant.pdf Graphic file (type pdf)
 <use pic/current_off_resonant.pdf>
- [40]
-Overfull \hbox (1.86552pt too wide) in paragraph at lines 504--508
+ [39]
+Overfull \hbox (1.86552pt too wide) in paragraph at lines 517--521
 \TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant 
 population imbalance through
  []
 
 
-Overfull \hbox (0.58885pt too wide) in paragraph at lines 509--510
+Overfull \hbox (0.58885pt too wide) in paragraph at lines 522--523
 \TU/NotoSerif(1)/m/n/10 posed using bi-circular fields with counter-rotating $[
 ]$ and $[][]$ two-color laser fields.
  []
 
+[40]
 File: pic/jdc_vs_phi_off_resonance.pdf Graphic file (type pdf)
 <use pic/jdc_vs_phi_off_resonance.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--533
+Underfull \hbox (badness 10000) in paragraph at lines 537--546
 
  []
 
-[41]
 File: pic/dc_current_vs_E0.pdf Graphic file (type pdf)
 <use pic/dc_current_vs_E0.pdf>
 File: pic/nex_vs_E0.pdf Graphic file (type pdf)
 <use pic/nex_vs_E0.pdf>
 
-Overfull \hbox (2.82887pt too wide) in paragraph at lines 546--549
+Overfull \hbox (2.82887pt too wide) in paragraph at lines 559--562
 \TU/NotoSerif(1)/m/n/10 strength might initially seem inconsistent with the exp
 ected behavior of a straight-
  []
 
-
-Overfull \hbox (8.11552pt too wide) in paragraph at lines 550--551
+[41]
+Overfull \hbox (8.11552pt too wide) in paragraph at lines 563--564
 []\TU/NotoSerif(1)/m/n/10 However, our experimental observations reveal a scali
 ng that indicates seventh-
  []
 
 [42]
-Overfull \hbox (11.58885pt too wide) in paragraph at lines 562--563
+Overfull \hbox (11.58885pt too wide) in paragraph at lines 575--576
 \TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under we
 ak applied field strength.
  []
@@ -2542,15 +2528,46 @@ Chapter 6.
 
 
 
-] [92
+]
+\openout2 = `chapter/A_adiabatic.aux'.
+
+ (./chapter/A_adiabatic.tex [92
+
 
 
 
 ]
-LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 83.
+Appendix A.
 
-Overfull \hbox (37.36943pt too wide) in paragraph at lines 83--83
+Overfull \hbox (11.51884pt too wide) in paragraph at lines 3--6
+\TU/NotoSerif(1)/m/n/10 The adiabatic approximation is used almost all the time
+ in solving time-propagation,
+ []
+
+[93]
+
+LaTeX Warning: Reference `eq:tdse00' on page 94 undefined on input line 27.
+
+[94]
+Overfull \hbox (128.16432pt too wide) detected at line 76
+[]
+ []
+
+
+Overfull \hbox (24.2642pt too wide) detected at line 95
+[]
+ []
+
+
+Overfull \hbox (91.27069pt too wide) detected at line 117
+[]
+ []
+
+[95]) [96]
+LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 82.
+
+Overfull \hbox (37.36943pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(0)/m/it/10 tics Communications \TU/NotoSerif(1)/b/n/10 285, \TU/N
 otoSerif(1)/m/n/10 720–724. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/1
 0 : 0030-4018. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] []
@@ -2558,144 +2575,147 @@ otoSerif(1)/m/n/10 720–724. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/
  []
 
 
-Overfull \hbox (3.9128pt too wide) in paragraph at lines 83--83
+Overfull \hbox (3.9128pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Sipe, J. & Shkrebtii, A. Second-order optical respons
 e in semiconductors. \TU/NotoSerif(0)/m/it/10 Phys-
  []
 
-[93
+[97
 
-] [94]
-Overfull \hbox (1.51169pt too wide) in paragraph at lines 83--83
+
+
+
+] [98]
+Overfull \hbox (1.51169pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 McPherson, A. \TU/NotoSerif(0)/m/it/10 et al. \TU/Not
 oSerif(1)/m/n/10 Studies of multiphoton production of vacuum-ultraviolet
  []
 
 
-Overfull \hbox (13.7861pt too wide) in paragraph at lines 83--83
+Overfull \hbox (13.7861pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(0)/m/it/10 ture \TU/NotoSerif(1)/b/n/10 466, \TU/NotoSerif(1)/m/n
 /10 739–743. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 : 1476-4687. 
 [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][]
 [][][][]$[][]
  []
 
-[95]
-Overfull \hbox (5.86505pt too wide) in paragraph at lines 83--83
+[99]
+Overfull \hbox (5.86505pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Reduzzi, M. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoS
 erif(1)/m/n/10 Observation of autoionization dynamics and sub-cycle quan-
  []
 
 
-Overfull \hbox (9.39835pt too wide) in paragraph at lines 83--83
+Overfull \hbox (9.39835pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 tum beating in electronic molecular wave packets. \TU/N
 otoSerif(0)/m/it/10 Journal of Physics B: Atomic,
  []
 
 
-Overfull \hbox (4.19832pt too wide) in paragraph at lines 83--83
+Overfull \hbox (4.19832pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 solids and its implications for attosecond science. \TU
 /NotoSerif(0)/m/it/10 Journal of Physics B: Atomic,
  []
 
 
-Overfull \hbox (4.92787pt too wide) in paragraph at lines 83--83
+Overfull \hbox (4.92787pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Ghimire, S. & Reis, D. A. High-harmonic generation fr
 om solids. \TU/NotoSerif(0)/m/it/10 Nature Physics
  []
 
 
-Overfull \hbox (1.92734pt too wide) in paragraph at lines 83--83
+Overfull \hbox (1.92734pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 band transitions on high-order harmonic generation in s
 olids. \TU/NotoSerif(0)/m/it/10 Nature Physics
  []
 
-[96]
-Overfull \hbox (12.64835pt too wide) in paragraph at lines 83--83
+[100]
+Overfull \hbox (12.64835pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Mics, Z. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSeri
 f(1)/m/n/10 Thermodynamic picture of ultrafast charge transport in graphene.
  []
 
 
-Overfull \hbox (0.42616pt too wide) in paragraph at lines 83--83
+Overfull \hbox (0.42616pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Sławi ńska, J., Zasada, I. & Klusek, Z. Energy gap tu
 ning in graphene on hexag-
  []
 
 
-Overfull \hbox (4.42343pt too wide) in paragraph at lines 83--83
+Overfull \hbox (4.42343pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Sato, S. A. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoS
 erif(1)/m/n/10 Light-induced anomalous Hall effect in massless Dirac fermion
  []
 
 
-Overfull \hbox (4.07272pt too wide) in paragraph at lines 83--83
+Overfull \hbox (4.07272pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Sato, S. A. & Rubio, A. Nonlinear electric conductivi
 ty and THz-induced charge
  []
 
-[97]
-Overfull \hbox (5.56721pt too wide) in paragraph at lines 83--83
+[101]
+Overfull \hbox (5.56721pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 Controlled Currents in Semiconductors. \TU/NotoSerif(0)
 /m/it/10 Phys. Rev. Lett. \TU/NotoSerif(1)/b/n/10 74, \TU/NotoSerif(1)/m/n/10 3
 596–3599. [][]$[][][][][] []
  []
 
 
-Overfull \hbox (3.52695pt too wide) in paragraph at lines 83--83
+Overfull \hbox (3.52695pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 98, \TU/NotoSerif
 (1)/m/n/10 035202. [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][
 ][] [] [][] [] [][][][] [] [][][][][][][][] []
  []
 
 
-Overfull \hbox (1.56943pt too wide) in paragraph at lines 83--83
+Overfull \hbox (1.56943pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(0)/m/it/10 highly nonlinear optical excitations and valley polari
 zation \TU/NotoSerif(1)/m/n/10 2023. arXiv: [][]$[][][][] []
  []
 
-[98]
-Overfull \hbox (0.94846pt too wide) in paragraph at lines 83--83
+[102]
+Overfull \hbox (0.94846pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 Grown Graphene. \TU/NotoSerif(0)/m/it/10 The Journal of
  Physical Chemistry B \TU/NotoSerif(1)/b/n/10 117, \TU/NotoSerif(1)/m/n/10 1581
 9–15824. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 :
  []
 
 
-Overfull \hbox (14.65547pt too wide) in paragraph at lines 83--83
+Overfull \hbox (14.65547pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 in two-dimensional hexagonal nanostructures. \TU/NotoSe
 rif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 100, \TU/NotoSerif(1)/m/n/1
 0 035434. [][]$[][][][][] []
  []
 
 
-Overfull \hbox (7.7228pt too wide) in paragraph at lines 83--83
+Overfull \hbox (7.7228pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Yoshikawa, N., Tamaya, T. & Tanaka, K. High-harmonic 
 generation in graphene
  []
 
 
-Overfull \hbox (14.19513pt too wide) in paragraph at lines 83--83
+Overfull \hbox (14.19513pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 enhanced by elliptically polarized light excitation. \T
 U/NotoSerif(0)/m/it/10 Science \TU/NotoSerif(1)/b/n/10 356, \TU/NotoSerif(1)/m/
 n/10 736–738. [][]$[][][][][] []
  []
 
 
-Overfull \hbox (1.68697pt too wide) in paragraph at lines 83--83
+Overfull \hbox (1.68697pt too wide) in paragraph at lines 82--82
 \TU/NotoSerif(1)/m/n/10 eration and nonlinear charge transport in graphene. \TU
 /NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 106, \TU/NotoSerif(1
 )/m/n/10 024313.
  []
 
-[99]
-Overfull \hbox (11.67801pt too wide) in paragraph at lines 83--83
+[103]
+Overfull \hbox (11.67801pt too wide) in paragraph at lines 82--82
 []\TU/NotoSerif(1)/m/n/10 Cook, D., Chen, J., Morlino, E. & Hochstrasser, R. Te
 rahertz-field-induced second-
  []
 
-[100] (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
+[104] (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
 (./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux)
-(./chapter/chapter6.aux))
+(./chapter/chapter6.aux) (./chapter/A_adiabatic.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2706,18 +2726,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B9413EC12944185E8523C887AD29EE04;7551.
+(rerunfilecheck)             Checksum: EB5141232DFDF0C732113CEF157B6B90;7770.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42464 strings out of 476683
- 867955 string characters out of 5804046
- 1905018 words of memory out of 5000000
- 62092 multiletter control sequences out of 15000+600000
+ 42511 strings out of 476683
+ 869308 string characters out of 5804046
+ 1902018 words of memory out of 5000000
+ 62132 multiletter control sequences out of 15000+600000
  517358 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 121i,22n,139p,2279b,7073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,22n,139p,2317b,7079s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (116 pages).
+Output written on main.pdf (120 pages).

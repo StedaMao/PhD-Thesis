@@ -1,5 +1,7 @@
-\chapter{ADIABATIC BASIS REPRESENTATION \label{sec:A_ADIABATIC}}
+\chapter{ADIABATIC BASIS REPRESENTATION \label{ch:A_ADIABATIC}}
 \label{ch:Adiabatic}
+The adiabatic approximation is used almost all the time in solving time-propagation, which will be
+explained in more detail here.
 To analytically investigate nonlinear photocarrier injection in solids, we first introduce the equation of motion in the adiabatic basis representation. In this representation, we can naturally separate the interband transitions, the dynamical phase factor, and the geometric phase factor. To introduce the representation, we consider the following one-body Schr\"odinger equation for a $\vecb k$-point,
 \begin{equation}
 i \frac{d}{dt} | \psi_{\vecb k}(t) \rangle = H \left [\vecb k + \vecb A(t) \right ] | \psi_{\vecb k}(t) \rangle,
@@ -95,7 +97,12 @@ As seen from the last expression in Eq.~(\ref{eq;geometric-phase}), the phase $\
 
 With the expression of the geometric phases in Eq.~(\ref{eq;geometric-phase}), one can rewrite the equation of motion for the coefficient vector as
 \begin{align}
-&i\frac{d}{dt} \vecb c_{\vecb k}(t) = 
+&i\frac{d}{dt} \vecb c_{\vecb k}(t) = \mathcal{H}(t) \vecb c_{\vecb k}(t)
+.
+\label{eq:tdse-ad-basis}
+\end{align}
+\begin{align}
+&\mathcal{H}(t)= 
  \nonumber \\
 & i\vecb E(t)\cdot \left(
     \begin{array}{cc}
@@ -106,9 +113,7 @@ With the expression of the geometric phases in Eq.~(\ref{eq;geometric-phase}), o
   \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle &
       0
     \end{array}
-    \right) \vecb c_{\vecb k}(t) \nonumber \\
-&= \mathcal{H}(t) \vecb c_{\vecb k}(t)
-.
-\label{eq:tdse-ad-basis}
+    \right)
 \end{align}
+
 This is nothing but the time-dependent Schr\"odinger equation on the adiabatic basis, and it is closely related to the Houston basis expansion \cite{PhysRev.57.184,PhysRevB.33.5494}. 

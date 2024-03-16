@@ -1552,6 +1552,9 @@ INPUT chapter/chapter5.aux
 INPUT ./chapter/chapter6.aux
 INPUT chapter/chapter6.aux
 INPUT chapter/chapter6.aux
+INPUT ./chapter/A_adiabatic.aux
+INPUT chapter/A_adiabatic.aux
+INPUT chapter/A_adiabatic.aux
 OUTPUT main.aux
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1793,6 +1796,16 @@ INPUT ./chapter/chapter6.tex
 INPUT chapter/chapter6.tex
 INPUT ./chapter/chapter6.tex
 INPUT chapter/chapter6.tex
+INPUT ./chapter/A_adiabatic.tex
+INPUT ./chapter/A_adiabatic.tex
+INPUT ./chapter/A_adiabatic.tex
+OUTPUT chapter/A_adiabatic.aux
+INPUT ./chapter/A_adiabatic.tex
+INPUT ./chapter/A_adiabatic.tex
+INPUT ./chapter/A_adiabatic.tex
+INPUT chapter/A_adiabatic.tex
+INPUT ./chapter/A_adiabatic.tex
+INPUT chapter/A_adiabatic.tex
 INPUT main.aux
 INPUT ./chapter/chapter1.aux
 INPUT chapter/chapter1.aux
@@ -1812,6 +1825,9 @@ INPUT chapter/chapter5.aux
 INPUT ./chapter/chapter6.aux
 INPUT chapter/chapter6.aux
 INPUT chapter/chapter6.aux
+INPUT ./chapter/A_adiabatic.aux
+INPUT chapter/A_adiabatic.aux
+INPUT chapter/A_adiabatic.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT main.run.xml

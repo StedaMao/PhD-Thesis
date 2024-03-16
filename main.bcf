@@ -2537,6 +2537,8 @@
     <bcf:citekey order="87" intorder="1">mics2015thermodynamic</bcf:citekey>
     <bcf:citekey order="88" intorder="1">PhysRevB.106.024313</bcf:citekey>
     <bcf:citekey order="89" intorder="1">PhysRevB.106.024313</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">PhysRev.57.184</bcf:citekey>
+    <bcf:citekey order="90" intorder="2">PhysRevB.33.5494</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
