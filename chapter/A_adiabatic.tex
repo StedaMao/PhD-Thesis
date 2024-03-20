@@ -4,116 +4,122 @@ The adiabatic approximation is used almost all the time in solving time-propagat
 explained in more detail here.
 To analytically investigate nonlinear photocarrier injection in solids, we first introduce the equation of motion in the adiabatic basis representation. In this representation, we can naturally separate the interband transitions, the dynamical phase factor, and the geometric phase factor. To introduce the representation, we consider the following one-body Schr\"odinger equation for a $\vecb k$-point,
 \begin{equation}
-i \frac{d}{dt} | \psi_{\vecb k}(t) \rangle = H \left [\vecb k + \vecb A(t) \right ] | \psi_{\vecb k}(t) \rangle,
-\label{eqn:tdse00}
+	i \frac{d}{dt} | \psi_{\vecb k}(t) \rangle = H \left [\vecb k + \vecb A(t) \right ] | \psi_{\vecb k}(t) \rangle,
+	\label{eqn:tdse00}
 \end{equation}
 where $\vecb A(t)$ is an external vector potential, which is related to the external electric field as $\vecb E(t)=-d\vecb A(t)/dt$. In this note, we assume that the vector potential is zero for the negative time; $\vecb A(t\leq 0)=0$.
 
 To introduce the adiabatic basis representation, we introduce the instantaneous eigenstates of the Hamiltonian as
 \begin{align}
-H\left [\vecb k + \vecb A(t) \right ] |u_{b,\vecb k+\vecb A(t)}\rangle = \epsilon_{b,\vecb k + \vecb A(t)}|u_{b,\vecb k+\vecb A(t)}\rangle,
-\label{eq:static-se}
+	H\left [\vecb k + \vecb A(t) \right ] |u_{b,\vecb k+\vecb A(t)}\rangle = \epsilon_{b,\vecb k + \vecb A(t)}|u_{b,\vecb k+\vecb A(t)}\rangle,
+	\label{eq:static-se}
 \end{align}
 where $b$ is the band index. Hereafter, we assume the two-band system, which has the valence band ($b=v$) and the conduction band ($b=c$). However, we can straightforwardly extend it to general systems.
 
 On the basis of the instantaneous eigenstates defined by Eq.~(\ref{eq:static-se}), we consider the following expansion of the wavefunction
 \begin{align}
-|\psi_{\vecb k}(t)\rangle = c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} |u_{v,\vecb k+\vecb A(t)}\rangle
-+c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} |u_{c,\vecb k+\vecb A(t)}\rangle,
-\label{eq:ansatz}
+	|\psi_{\vecb k}(t)\rangle = c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} |u_{v,\vecb k+\vecb A(t)}\rangle
+	+c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} |u_{c,\vecb k+\vecb A(t)}\rangle,
+	\label{eq:ansatz}
 \end{align}
 where $c_{b,\vecb k}(t)$ are the expansion coefficients. In the expansion, we explicitly include the dynamical phase factor, $e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}}$, and the additional phase factor, $e^{i\phi^g_{b,\vecb k}(t)}$. The latter one will be defined later as the geometric phase factor.
 
 Inserting Eq.~(\ref{eq:ansatz}) into Eq.~(\ref{eq:tdse00}), one obtains
 \begin{align}
-\left [i\frac{d}{dt}-H\left [\vecb k + \vecb A(t) \right ] \right ]|\psi_{\vecb k}(t) \rangle &=
-i \dot c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} |u_{v,\vecb k+\vecb A(t)}\rangle \nonumber \\
-&+ i\dot c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} |u_{c,\vecb k+\vecb A(t)}\rangle \nonumber \\
-&- \dot \phi^g_{v,\vecb k}(t) c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} |u_{v,\vecb k+\vecb A(t)}\rangle \nonumber \\
-&- \dot \phi^g_{c,\vecb k}(t) c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} |u_{c,\vecb k+\vecb A(t)}\rangle \nonumber \\
-&- i c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} \vecb E(t)\cdot \frac{\partial |u_{v,\vecb k+\vecb A(t)}\rangle}{\partial \vecb k} \nonumber \\
-&- i c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} \vecb E(t)\cdot \frac{\partial |u_{c,\vecb k+\vecb A(t)}\rangle}{\partial \vecb k} = 0.
-\label{eq:tdse01}
+	\left [i\frac{d}{dt}-H\left [\vecb k + \vecb A(t) \right ] \right ]|\psi_{\vecb k}(t) \rangle & =
+	i \dot c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} |u_{v,\vecb k+\vecb A(t)}\rangle \nonumber                                                                                                                                                \\
+	                                                                                              & + i\dot c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} |u_{c,\vecb k+\vecb A(t)}\rangle \nonumber                                               \\
+	                                                                                              & - \dot \phi^g_{v,\vecb k}(t) c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} |u_{v,\vecb k+\vecb A(t)}\rangle \nonumber                          \\
+	                                                                                              & - \dot \phi^g_{c,\vecb k}(t) c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} |u_{c,\vecb k+\vecb A(t)}\rangle \nonumber                          \\
+	                                                                                              & - i c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\phi^g_{v,\vecb k}(t)} \vecb E(t)\cdot \frac{\partial |u_{v,\vecb k+\vecb A(t)}\rangle}{\partial \vecb k} \nonumber \\
+	                                                                                              & - i c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\phi^g_{c,\vecb k}(t)} \vecb E(t)\cdot \frac{\partial |u_{c,\vecb k+\vecb A(t)}\rangle}{\partial \vecb k} = 0.
+	\label{eq:tdse01}
 \end{align}
 
 By multiplying $e^{+i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}} e^{-i\phi^g_{v,\vecb k}(t)} \langle u_{v,\vecb k+\vecb A(t)}|$ to Eq.~(\ref{eq:tdse01}), one obtains
 \begin{align}
-&i \dot c_{v,\vecb k}(t) - \dot \phi^g_{v,\vecb k}(t) c_{v,\vecb k}(t) - i c_{v,\vecb k}(t) \vecb E(t)\cdot \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle \nonumber \\
-&- i c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}-\epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\left (\phi^g_{c,\vecb k}(t)-\phi^g_{v,\vecb k}(t)\right )} 
-\vecb E(t)\cdot \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle = 0.
-\label{eq:eom-valence}
+	 & i \dot c_{v,\vecb k}(t) - \dot \phi^g_{v,\vecb k}(t) c_{v,\vecb k}(t) - i c_{v,\vecb k}(t) \vecb E(t)\cdot \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle \nonumber \\
+	 & - i c_{c,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}-\epsilon_{v,\vecb k+ \vecb A(t')}} e^{i\left (\phi^g_{c,\vecb k}(t)-\phi^g_{v,\vecb k}(t)\right )}
+	\vecb E(t)\cdot \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb
+	A(t)}}{\partial \vecb k} \right \rangle                                                                                                                                                                                                       \\& = 0.
+	\label{eq:eom-valence}
 \end{align}
 
 Likewise, by multiplying $e^{+i\int^t_0dt' \epsilon_{c,\vecb k+ \vecb A(t')}} e^{-i\phi^g_{c,\vecb k}(t)} \langle u_{c,\vecb k+\vecb A(t)}|$ to Eq.~(\ref{eq:tdse01}), one obtains
 \begin{align}
-&i \dot c_{c,\vecb k}(t) - \dot \phi^g_{c,\vecb k}(t) c_{c,\vecb k}(t) - i c_{c,\vecb k}(t) \vecb E(t)\cdot \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle \nonumber \\
-&- i c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}-\epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\left (\phi^g_{v,\vecb k}(t)-\phi^g_{c,\vecb k}(t)\right )} 
-\vecb E(t)\cdot \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle = 0.
-\label{eq:eom-conduction}
+	 & i \dot c_{c,\vecb k}(t) - \dot \phi^g_{c,\vecb k}(t) c_{c,\vecb k}(t) - i c_{c,\vecb k}(t) \vecb E(t)\cdot \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle \nonumber \\
+	 & - i c_{v,\vecb k}(t) e^{-i\int^t_0dt' \epsilon_{v,\vecb k+ \vecb A(t')}-\epsilon_{c,\vecb k+ \vecb A(t')}} e^{i\left (\phi^g_{v,\vecb k}(t)-\phi^g_{c,\vecb k}(t)\right )}
+	\vecb E(t)\cdot \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle = 0.
+	\label{eq:eom-conduction}
 \end{align}
 
 Combining Eq.~(\ref{eq:eom-valence}) and Eq.~(\ref{eq:eom-conduction}), one can obtain the following matrix form,
 \begin{align}
-&i\frac{d}{dt} \vecb c_{\vecb k}(t) = 
-\left(
-    \begin{array}{cc}
-      \dot \phi^g_{v,\vecb k}(t) & 
-      0 \\
-      0 &
-      \dot \phi^g_{c,\vecb k}(t)
-    \end{array}
-    \right) \vecb c_{\vecb k}(t) \nonumber \\
-& +i\vecb E(t)\cdot \left(
-    \begin{array}{cc}
-      \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle & 
-      e^{-i\int^t_0dt' \Delta \epsilon_{cv,\vecb k+ \vecb A(t')}+i \Delta \phi^g_{cv,\vecb k}(t)} 
-  \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle \\
-      e^{-i\int^t_0dt' \Delta \epsilon_{vc,\vecb k+ \vecb A(t')}+i \Delta \phi^g_{vc,\vecb k}(t)} 
-  \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle &
-      \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle
-    \end{array}
-    \right) \vecb c_{\vecb k}(t),
+	 & i\frac{d}{dt} \vecb c_{\vecb k}(t) =
+	\left(
+	\begin{array}{cc}
+			\dot \phi^g_{v,\vecb k}(t) &
+			0                            \\
+			0                          &
+			\dot \phi^g_{c,\vecb k}(t)
+		\end{array}
+	\right) \vecb c_{\vecb k}(t)
+	+i\vecb E(t)\cdot \left(
+	\begin{array}{cc}
+			M_{11} & M_{12} \\
+			M_{21} & M_{22}
+		\end{array}
+	\right) \vecb c_{\vecb k}(t),
 \end{align}
+
+\begin{align}
+	 & M_{11} = \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb
+	A(t)}}{\partial \vecb k} \right \rangle                                                                                           \\
+	 & M_{12} = e^{-i\int^t_0dt' \Delta \epsilon_{cv,\vecb k+ \vecb A(t')}+i \Delta \phi^g_{cv,\vecb k}(t)}
+	\left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb A(t)}}{\partial
+	\vecb k} \right \rangle                                                                                                           \\
+	 & M_{21} = e^{-i\int^t_0dt' \Delta \epsilon_{vc,\vecb k+ \vecb A(t')}+i \Delta \phi^g_{vc,\vecb k}(t)}
+	\left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial
+	\vecb k} \right \rangle                                                                                                           \\
+	 & M_{22} = \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle
+\end{align}
+
 where $\Delta\epsilon_{bb',\vecb k+ \vecb A(t)}$ is defined by the difference of the single particle energies as $\epsilon_{b,\vecb k+ \vecb A(t)}-\epsilon_{b',\vecb k+ \vecb A(t)}$, and $\Delta \phi^g_{bb',\vecb k}(t)$ is defined by the difference of the geometric phases as $\phi^g_{b,\vecb k}(t)-\phi^g_{b',\vecb k}(t)$. Here, the coefficient vector was introduced as
 \begin{align}
-\vecb c_{\vecb k}(t) = \left(
-    \begin{array}{cc}
-      c_{v,\vecb k}(t) \\
-      c_{c,\vecb k}(t)
-    \end{array}
-    \right).
+	\vecb c_{\vecb k}(t) = \left(
+	\begin{array}{cc}
+			c_{v,\vecb k}(t) \\
+			c_{c,\vecb k}(t)
+		\end{array}
+	\right).
 \end{align}
 
 Here, we define the geometric phases as
 \begin{align}
-\phi^g_{b,\vecb k}(t) &= -i\int^t_0 dt' \vecb E(t')\cdot 
-\left \langle u_{b,\vecb k+\vecb A(t')}\Big |\frac{\partial u_{b,\vecb k+\vecb A(t')}}{\partial \vecb k} \right \rangle
-=i\int^t_0 dt' \frac{dA(t')}{dt'}\cdot 
-\left \langle u_{b,\vecb k+\vecb A(t')}\Big |\frac{\partial u_{b,\vecb k+\vecb A(t')}}{\partial \vecb k} \right \rangle \nonumber \\
-&= i \oint^{\vecb A(t)}_{\vecb A(0)} d\vecb A \cdot \left \langle u_{b,\vecb k+\vecb A}\Big |\frac{\partial u_{b,\vecb k+\vecb A}}{\partial \vecb k} \right \rangle.
-\label{eq;geometric-phase}
+	\phi^g_{b,\vecb k}(t) & = -i\int^t_0 dt' \vecb E(t')\cdot
+	\left \langle u_{b,\vecb k+\vecb A(t')}\Big |\frac{\partial u_{b,\vecb k+\vecb A(t')}}{\partial
+	\vecb k} \right \rangle                                                                                                                                                                     \\
+	                      & =i\int^t_0 dt' \frac{dA(t')}{dt'}\cdot
+	\left \langle u_{b,\vecb k+\vecb A(t')}\Big |\frac{\partial u_{b,\vecb k+\vecb A(t')}}{\partial \vecb k} \right \rangle \nonumber                                                           \\
+	                      & = i \oint^{\vecb A(t)}_{\vecb A(0)} d\vecb A \cdot \left \langle u_{b,\vecb k+\vecb A}\Big |\frac{\partial u_{b,\vecb k+\vecb A}}{\partial \vecb k} \right \rangle.
+	\label{eq;geometric-phase}
 \end{align}
 As seen from the last expression in Eq.~(\ref{eq;geometric-phase}), the phase $\phi^g_{b,\vecb k}$ depends only on the geometry of the path of the integral.
 
 With the expression of the geometric phases in Eq.~(\ref{eq;geometric-phase}), one can rewrite the equation of motion for the coefficient vector as
 \begin{align}
-&i\frac{d}{dt} \vecb c_{\vecb k}(t) = \mathcal{H}(t) \vecb c_{\vecb k}(t)
-.
-\label{eq:tdse-ad-basis}
+	 & i\frac{d}{dt} \vecb c_{\vecb k}(t) = \mathcal{H}(t) \vecb c_{\vecb k}(t)
+	.
+	\label{eq:tdse-ad-basis}
 \end{align}
 \begin{align}
-&\mathcal{H}(t)= 
- \nonumber \\
-& i\vecb E(t)\cdot \left(
-    \begin{array}{cc}
-      0 & 
-      e^{-i\int^t_0dt' \Delta \epsilon_{cv,\vecb k+ \vecb A(t')}+i \Delta \phi^g_{cv,\vecb k}(t)} 
-  \left \langle u_{v,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{c,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle \\
-      e^{-i\int^t_0dt' \Delta \epsilon_{vc,\vecb k+ \vecb A(t')}+i \Delta \phi^g_{vc,\vecb k}(t)} 
-  \left \langle u_{c,\vecb k+\vecb A(t)}\Big |\frac{\partial u_{v,\vecb k+\vecb A(t)}}{\partial \vecb k} \right \rangle &
-      0
-    \end{array}
-    \right)
+	 & \mathcal{H}(t)=
+	i\vecb E(t)\cdot \left(
+	\begin{array}{cc}
+			0      & M_{12} \\
+			M_{21} & 0
+		\end{array}
+	\right)
 \end{align}
 
-This is nothing but the time-dependent Schr\"odinger equation on the adiabatic basis, and it is closely related to the Houston basis expansion \cite{PhysRev.57.184,PhysRevB.33.5494}. 
+This is the time-dependent Schr\"odinger equation on the adiabatic basis, and it is closely related to the Houston basis expansion \cite{PhysRev.57.184,PhysRevB.33.5494}.

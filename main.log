@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  16 MAR 2024 12:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  20 MAR 2024 17:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1962,20 +1962,7 @@ UPLING WITH
  [7] [8
 
 
-] (./main.lof
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
-(Font)              scaled to size 10.00107pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
-(Font)              scaled to size 7.00075pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
-(Font)              scaled to size 5.00053pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
-(Font)              scaled to size 9.99893pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
-(Font)              scaled to size 6.99925pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
-(Font)              scaled to size 4.99947pt on input line 6.
- [9]
+] (./main.lof [9]
 Overfull \hbox (5.72221pt too wide) in paragraph at lines 16--16
  [][] [][][]\TU/NotoSerif(1)/m/n/10 Computed harmonic spectra $[][][][][]$ with
  Eq. (4.2) for different chem- 
@@ -1987,6 +1974,18 @@ Overfull \hbox (4.73795pt too wide) in paragraph at lines 17--17
  electric field, $[][] [] [][][]$ MV/m.[][] [][]  
  []
 
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
+(Font)              scaled to size 10.00107pt on input line 18.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
+(Font)              scaled to size 7.00075pt on input line 18.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
+(Font)              scaled to size 5.00053pt on input line 18.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
+(Font)              scaled to size 9.99893pt on input line 18.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
+(Font)              scaled to size 6.99925pt on input line 18.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
+(Font)              scaled to size 4.99947pt on input line 18.
 
 LaTeX Warning: Reference `subsec:dynamical_simulation' on page x undefined on i
 nput line 20.
@@ -2094,129 +2093,116 @@ d to introduce time-dependent
  []
 
 
-Overfull \hbox (7.86198pt too wide) in paragraph at lines 182--185
+Overfull \hbox (7.86198pt too wide) in paragraph at lines 182--188
 $[][][][][][][]$ \TU/NotoSerif(1)/m/n/10 is a single-particle electroinc wavefu
 nction at $[]$. Solving this time-dependent
  []
 
-[16] [17] [18]) [19]
+[16] [17] [18] [19]) [20]
 \openout2 = `chapter/chapter3.aux'.
 
- (./chapter/chapter3.tex [20
-
-
-
-
-]
+ (./chapter/chapter3.tex
 Chapter 3.
-[21]
-Overfull \hbox (113.1595pt too wide) detected at line 46
-[]
- []
+[21
 
-[22]
-Overfull \hbox (117.0982pt too wide) detected at line 85
-[]
- []
 
-[23] [24]
-Overfull \hbox (19.69641pt too wide) detected at line 183
+
+
+] [22] [23] [24]
+Overfull \hbox (2.55432pt too wide) detected at line 180
 [][][][][]
  []
 
 
-Overfull \hbox (3.7955pt too wide) in paragraph at lines 183--185
+Overfull \hbox (23.2964pt too wide) detected at line 192
+[][][][][]
+ []
+
+
+Overfull \hbox (3.7955pt too wide) in paragraph at lines 192--194
 \TU/NotoSerif(1)/m/n/10 Similarly to the first-order perturbation coefficient v
 ector’s derivation, the second-
  []
 
 
-Overfull \hbox (15.6794pt too wide) detected at line 198
+Overfull \hbox (19.07939pt too wide) detected at line 207
 [][][][][]
  []
 
-
-Overfull \hbox (11.0722pt too wide) in paragraph at lines 207--209
+[25]
+Overfull \hbox (11.0722pt too wide) in paragraph at lines 216--218
 \TU/NotoSerif(1)/m/n/10 We consider a prototypical two-dimensional insulator, m
 onolayer hexagonal boron-
  []
 
-[25]
-Overfull \hbox (0.62659pt too wide) detected at line 227
-[][][][][]
- []
 
-
-Overfull \hbox (79.36113pt too wide) detected at line 237
-[][][][][]
- []
-
-
-Overfull \hbox (45.93617pt too wide) detected at line 269
+Overfull \hbox (3.32658pt too wide) detected at line 237
 [][][][][]
  []
 
 [26]
-Overfull \hbox (59.60817pt too wide) detected at line 293
+Overfull \hbox (50.93616pt too wide) detected at line 279
 [][][][][]
  []
 
 
-Overfull \hbox (43.29814pt too wide) detected at line 304
-[][][][][]
- []
-
-
-Overfull \hbox (54.19014pt too wide) detected at line 316
+Overfull \hbox (64.60815pt too wide) detected at line 303
 [][][][][]
  []
 
 [27]
-Overfull \hbox (45.15494pt too wide) detected at line 343
+Overfull \hbox (50.59811pt too wide) detected at line 314
+[][][][][]
+ []
+
+
+Overfull \hbox (61.49011pt too wide) detected at line 326
+[][][][][]
+ []
+
+
+Overfull \hbox (50.15492pt too wide) detected at line 353
 [][][][][]
  []
 
 [28]
-Overfull \hbox (23.52017pt too wide) detected at line 358
+Overfull \hbox (30.12015pt too wide) detected at line 368
 [][][][][]
  []
 
+[29]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 363.
+(Font)              scaled to size 14.40152pt on input line 382.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 363.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 363.
+(Font)              scaled to size 14.39845pt on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 363.
+(hyperref)                removing `math shift' on input line 382.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 382.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-[29]
+[30]
 File: pic/electric.pdf Graphic file (type pdf)
 <use pic/electric.pdf>
- [30]
-
-LaTeX Warning: Reference `eq:population_tdse' on page 31 undefined on input lin
-e 394.
-
-[31]
+ [31]
 File: pic/population.pdf Graphic file (type pdf)
 <use pic/population.pdf>
-
-Overfull \hbox (3.71057pt too wide) in paragraph at lines 411--414
+ [32]
+Overfull \hbox (4.41057pt too wide) in paragraph at lines 435--438
 \TU/NotoSerif(1)/m/n/10 Given the constraint $[] [] [][] [] []$, the population
  imbalance distribution is bounded
  []
 
-[32]
-Overfull \hbox (12.89185pt too wide) in paragraph at lines 416--417
+[33]
+Overfull \hbox (10.25185pt too wide) in paragraph at lines 440--441
 []\TU/NotoSerif(1)/m/n/10 The temporal evolution of the corresponding electric 
 current, denoted as $[][][][][]$,
  []
@@ -2225,36 +2211,47 @@ File: pic/initial_current.pdf Graphic file (type pdf)
 <use pic/initial_current.pdf>
 File: pic/dc_current.pdf Graphic file (type pdf)
 <use pic/dc_current.pdf>
-[33] [34] [35]
+[34] [35] [36]
 File: pic/relativephase.pdf Graphic file (type pdf)
 <use pic/relativephase.pdf>
- [36]
 File: pic/frequency.pdf Graphic file (type pdf)
 <use pic/frequency.pdf>
- [37] [38]
+ [37]
+Overfull \hbox (2.09883pt too wide) in paragraph at lines 495--497
+[]\TU/NotoSerif(1)/m/n/10 The investigation helps understand the complicated re
+lationship between pho-
+ []
+
+
+Overfull \hbox (14.40027pt too wide) in paragraph at lines 495--497
+\TU/NotoSerif(1)/m/n/10 lated for two distinct field strengths: (b) $[][] [] []
+[][][][]$ MV/cm and (c) $[][] [] [][][][][][]$ MV/cm.
+ []
+
+[38] [39]
 File: pic/nex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/nex_pop_E0_1e10.pdf>
 File: pic/dnex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/dnex_pop_E0_1e10.pdf>
 File: pic/current_off_resonant.pdf Graphic file (type pdf)
 <use pic/current_off_resonant.pdf>
- [39]
-Overfull \hbox (1.86552pt too wide) in paragraph at lines 517--521
+ [40] [41]
+Overfull \hbox (1.86552pt too wide) in paragraph at lines 541--545
 \TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant 
 population imbalance through
  []
 
 
-Overfull \hbox (0.58885pt too wide) in paragraph at lines 522--523
+Overfull \hbox (0.58885pt too wide) in paragraph at lines 546--547
 \TU/NotoSerif(1)/m/n/10 posed using bi-circular fields with counter-rotating $[
 ]$ and $[][]$ two-color laser fields.
  []
 
-[40]
+[42]
 File: pic/jdc_vs_phi_off_resonance.pdf Graphic file (type pdf)
 <use pic/jdc_vs_phi_off_resonance.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--546
+Underfull \hbox (badness 10000) in paragraph at lines 561--570
 
  []
 
@@ -2262,25 +2259,25 @@ File: pic/dc_current_vs_E0.pdf Graphic file (type pdf)
 <use pic/dc_current_vs_E0.pdf>
 File: pic/nex_vs_E0.pdf Graphic file (type pdf)
 <use pic/nex_vs_E0.pdf>
-
-Overfull \hbox (2.82887pt too wide) in paragraph at lines 559--562
+[43] [44]
+Overfull \hbox (2.82887pt too wide) in paragraph at lines 583--586
 \TU/NotoSerif(1)/m/n/10 strength might initially seem inconsistent with the exp
 ected behavior of a straight-
  []
 
-[41]
-Overfull \hbox (8.11552pt too wide) in paragraph at lines 563--564
+
+Overfull \hbox (8.11552pt too wide) in paragraph at lines 587--588
 []\TU/NotoSerif(1)/m/n/10 However, our experimental observations reveal a scali
 ng that indicates seventh-
  []
 
-[42]
-Overfull \hbox (11.58885pt too wide) in paragraph at lines 575--576
+[45]
+Overfull \hbox (11.58885pt too wide) in paragraph at lines 599--600
 \TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under we
 ak applied field strength.
  []
 
-[43]) [44] [45] [46] [47]
+[46]) [47]
 \openout2 = `chapter/chapter4.aux'.
 
  (./chapter/chapter4.tex [48
@@ -2548,22 +2545,7 @@ Overfull \hbox (11.51884pt too wide) in paragraph at lines 3--6
 
 LaTeX Warning: Reference `eq:tdse00' on page 94 undefined on input line 27.
 
-[94]
-Overfull \hbox (128.16432pt too wide) detected at line 76
-[]
- []
-
-
-Overfull \hbox (24.2642pt too wide) detected at line 95
-[]
- []
-
-
-Overfull \hbox (91.27069pt too wide) detected at line 117
-[]
- []
-
-[95]) [96]
+[94] [95]) [96]
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 82.
 
@@ -2726,18 +2708,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EB5141232DFDF0C732113CEF157B6B90;7770.
+(rerunfilecheck)             Checksum: 216BF9BF717462C110400A23C09AB7EA;7770.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42511 strings out of 476683
- 869308 string characters out of 5804046
- 1902018 words of memory out of 5000000
- 62132 multiletter control sequences out of 15000+600000
+ 42514 strings out of 476683
+ 869376 string characters out of 5804046
+ 1900018 words of memory out of 5000000
+ 62135 multiletter control sequences out of 15000+600000
  517358 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 121i,22n,139p,2317b,7079s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,19n,139p,2317b,7079s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (120 pages).

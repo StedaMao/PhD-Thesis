@@ -3,7 +3,7 @@
 %----------------------------------------------------------------------------------------
 
 
-\chapter{INTRODUCTION } 
+\chapter{INTRODUCTION }
 \label{ch:introduction}
 In the conventional understanding of linear optics, the response of a material to an incident
 electromagnetic wave is linearly proportional to the strength of the electric field. However, when
@@ -12,7 +12,7 @@ becomes significant. This regime reveals a rich variety of phenomena, including 
 injection, phase modulation, and harmonic generation.
 After the first observation of nonlinear optical phenomena by Franken~\cite{franken1961generation},
 based on recent advancements in laser technology, groundbreaking research in the field of nonlinear
-optics have been driven~\cite{RevModPhys.72.545, RevModPhys.81.163, MOUROU2012720}, have conducted in a new era of intense light generation. These developments have paved the way for in-depth exploration of light-matter interactions in highly nonlinear regimes. One of the most captivating nonlinear optical phenomena made accessible by these advances is High-order Harmonic Generation (\gls{HHG}), a process characterized by its extreme photon upconversion and remarkable nonlinear characteristics. 
+optics have been driven~\cite{RevModPhys.72.545, RevModPhys.81.163, MOUROU2012720}, have conducted in a new era of intense light generation. These developments have paved the way for in-depth exploration of light-matter interactions in highly nonlinear regimes. One of the most captivating nonlinear optical phenomena made accessible by these advances is High-order Harmonic Generation (\gls{HHG}), a process characterized by its extreme photon upconversion and remarkable nonlinear characteristics.
 
 This thesis aims to provide a comprehensive overview of the nonlinear response phenomenons
 including photocarrier injection and high-order harmonic generation in the context of nonlinear
@@ -22,42 +22,42 @@ including the quantum mechanical description of the light-matter ineraction proc
 excited electron dynamics.  By investigating photocarrier injection and HHG, we seek to deepen our understanding of the nonlinear optical response of materials and unlock the potential for applications in fields such as ultrafast spectroscopy, attosecond science, and advanced imaging techniques.
 %=====================================================================================================================================
 \section{Nonlinear Optical Response}
- Linear response theory is most applicable when the perturbations are weak. In other words, the system's behavior is approximately linear in the vicinity of its equilibrium or initial state, the behavior of a system when it reacts proportionally to an applied perturbation.
-In such cases. the system's behavior is described by linear susceptibility ($\chi^{(1)}$). 
+Linear response theory is most applicable when the perturbations are weak. In other words, the system's behavior is approximately linear in the vicinity of its equilibrium or initial state, the behavior of a system when it reacts proportionally to an applied perturbation.
+In such cases. the system's behavior is described by linear susceptibility ($\chi^{(1)}$).
 
 The electric susceptibility ($\chi_e$) describes the response of a material to an applied electric field ($\mathbf{E}$). The relationship between the induced polarization ($\mathbf{P}$) and the applied electric field can be expressed as:
 
 \[
-\mathbf{P(t)} =\epsilon_0 \chi_e \cdot \mathbf{E(t)}
+	\mathbf{P(t)} =\epsilon_0 \chi_e \cdot \mathbf{E}(t)
 \]
 
 Where:
 \begin{itemize}
-    \item $\mathbf{P}$ is the induced polarization vector,
-    \item $\chi_e$ is the electric susceptibility tensor, and
-    \item $\mathbf{E}$ is the applied electric field vector.
+	\item $\mathbf{P}$ is the induced polarization vector,
+	\item $\chi_e$ is the electric susceptibility tensor, and
+	\item $\mathbf{E}$ is the applied electric field vector.
 \end{itemize}
 
 In nonlinear response. the relationship can be expressed using a power series expansion:
 \[
-    \mathbf{P(t)} =\epsilon_0( \chi^{(1)} \cdot \mathbf{E(t)}+\chi^{(2)} \cdot \mathbf{E(t)}^2 + \chi^{(3)}
-    \cdot \mathbf{E(t)}^3 + ...)
+	\mathbf{P(t)} =\epsilon_0( \chi^{(1)} \cdot \mathbf{E}(t)+\chi^{(2)} \cdot \mathbf{E}(t)^2 + \chi^{(3)}
+	\cdot \mathbf{E}(t)^3 + ...)
 \]
 In nonlinear response theory, when considering the time-domain response of a material to an external perturbation, one often encounters frequency-dependent susceptibilities. These susceptibilities can be expressed in terms of tensor notation and integrated over frequency to account for the material's response over a range of frequencies.
 
 Let's use the electric susceptibility tensor as $\chi^{(2)}$ as an example, representing the second-order susceptibility. In the frequency domain, the induced polarization ($P$) can be expressed in terms of the applied electric field ($E$) and the susceptibility tensor as:
 
 \[
-P_i(\omega) =  \sum_{j=1}^{3} \sum_{k=1}^{3}\int\int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
+	P_i(\omega) =  \sum_{j=1}^{3} \sum_{k=1}^{3}\int\int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
 \]
 
 Where:
 \begin{itemize}
-    \item $P_i(\omega)$ is the induced polarization component at frequency $\omega$ along direction
-        $i$,
-    \item $\chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2)$ is the frequency-dependent second-order susceptibility tensor,
-    \item $E_j(\omega_1)$ and $E_k(\omega_2)$ are the components of the applied electric field at frequencies $\omega_1$ and $\omega_2$ respectively, and
-    \item The integral is taken over all possible frequencies.
+	\item $P_i(\omega)$ is the induced polarization component at frequency $\omega$ along direction
+	      $i$,
+	\item $\chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2)$ is the frequency-dependent second-order susceptibility tensor,
+	\item $E_j(\omega_1)$ and $E_k(\omega_2)$ are the components of the applied electric field at frequencies $\omega_1$ and $\omega_2$ respectively, and
+	\item The integral is taken over all possible frequencies.
 \end{itemize}
 
 In summary, the nonlinear response of a material to external perturbations can be described using
@@ -77,7 +77,7 @@ In the realm of bulk photovoltaic injection, the second-order nonlinear optical 
 
 Another noteworthy aspect of second-order nonlinear current is the "injection
 current"\cite{sipe2000second,laman2005ultrafast,
-10.1063/1.125084,PhysRevB.61.5337,10.1063/1.2131191}. This current can be induced by the disruption
+	10.1063/1.125084,PhysRevB.61.5337,10.1063/1.2131191}. This current can be induced by the disruption
 of time-reversal symmetry through elliptically or circularly polarized light, in addition to the
 breaking of intrinsic spatial inversion symmetry. The injection current results from the population
 imbalance induced by quantum interference (\gls{QuI}) between various excitation paths, arising
@@ -111,10 +111,10 @@ This, in turn, apperas as a sustained charge flow persisting even after the lase
 %=========================================================================================================================================================
 \section{High-order Harmonic Generation}
 Traditional hgh-order harmonic generation (\gls{HHG}) is a phenomenon where intense laser light interacts with a gas, causing the generation of very high-frequency light waves. This process typically occurs when a strong laser field ionizes a material, causing electrons to be ripped away from atoms.
- These electrons then undergo complex dynamics, involving acceleration, coherent motion, and recombination with their parent ions. Through this intricate dance, the electrons emit high-energy photons with frequencies much higher than that of the incident laser, often extending into the extreme ultraviolet (XUV) and X-ray regions of the electromagnetic spectrum \cite{gaumnitz2017streaking}.\\
+These electrons then undergo complex dynamics, involving acceleration, coherent motion, and recombination with their parent ions. Through this intricate dance, the electrons emit high-energy photons with frequencies much higher than that of the incident laser, often extending into the extreme ultraviolet (XUV) and X-ray regions of the electromagnetic spectrum \cite{gaumnitz2017streaking}.\\
 \\
 Since first observed in 1987 using rare gases as target specimens \cite{McPherson:87, Ferray_1988},  gas-phase HHG has been intensively utilized to generate ultrashort attosecond light pulses~\cite{PhysRevLett.68.3535, PhysRevLett.70.1599, PhysRevA.49.2117} for investigating ultrafast dynamics in matter in the time domain which is a typical time scale for the motion of electrons.\cite{baltuvska2003attosecond, Goulielmakis2010, doi:10.1126/science.1260311, doi:10.1126/science.aag1268}. HHG provides a unique window into electron dynamics and allows us to investigate processes occurring on attosecond timescales. The emitted harmonics carry valuable information about the electronic structure, band gaps, and transient states of the material, offering a powerful tool for probing and controlling ultrafast processes.
-In recent years, there have been significant advancements in experimental techniques for studying high-order harmonic generation. The use of intense femtosecond laser pulses, pulse shaping methods, and advanced detection schemes have enabled precise control and characterization of the generated harmonics. These experimental advances have led to breakthroughs in attosecond science, providing tools for investigating ultrafast phenomena in a wide range of atoms ~\cite{Goulielmakis2010,PhysRevLett.105.143002,PhysRevLett.106.123601}, molecules~\cite{Warrick2016,Reduzzi2016,PhysRevResearch.3.043222}, and solids~\cite{doi:10.1126/science.1260311, doi:10.1126/science.aag1268, Mashiko2016,Siegrist2019, vampa2017merge}. 
+In recent years, there have been significant advancements in experimental techniques for studying high-order harmonic generation. The use of intense femtosecond laser pulses, pulse shaping methods, and advanced detection schemes have enabled precise control and characterization of the generated harmonics. These experimental advances have led to breakthroughs in attosecond science, providing tools for investigating ultrafast phenomena in a wide range of atoms ~\cite{Goulielmakis2010,PhysRevLett.105.143002,PhysRevLett.106.123601}, molecules~\cite{Warrick2016,Reduzzi2016,PhysRevResearch.3.043222}, and solids~\cite{doi:10.1126/science.1260311, doi:10.1126/science.aag1268, Mashiko2016,Siegrist2019, vampa2017merge}.
 The HHG in solid-state systems was first observed in ZnO in 2011 in mid-infrared (MIR) laser field~\cite{Ghimire2011}, and it has since garnered significant attention, both from a fundamental research perspective and due to its technological potential, as evidenced by recent studies in solids~\cite{Ghimire2019, Silva2019, Nakagawa2022,gorlach2022high, neufeld2023universal}.
 
 
@@ -123,13 +123,13 @@ The HHG in solid-state systems was first observed in ZnO in 2011 in mid-infrared
 The generation of high-order harmonics involves complex quantum mechanical processes and intricate
 interplays between the laser field and the electronic structure of atoms. The fundamental processes involved in HHG in a gaseous medium can
 be understood within the framework of the well-known three-step model  \cite{corkum1993plasma,
-lewenstein1994theory}. This semi-classical framework delineates the gas HHG process through three stages:
+	lewenstein1994theory}. This semi-classical framework delineates the gas HHG process through three stages:
 \begin{itemize}
-\item 1. Ionization: Initially, an electron is ionized by the intense laser field and electron tunneling excitation from the valence band to the conduction band.
+	\item 1. Ionization: Initially, an electron is ionized by the intense laser field and electron tunneling excitation from the valence band to the conduction band.
 
-\item 2. Acceleration: Subsequently, the strong laser field imparts energy to the liberated electron ()holes, propelling its acceleration away from the ionized molecule.
+	\item 2. Acceleration: Subsequently, the strong laser field imparts energy to the liberated electron ()holes, propelling its acceleration away from the ionized molecule.
 
-\item 3. Recombination: In the final step, the oscillatory force of the laser field drives the electron back toward the ionized parent molecule. During this process, the electron undergoes recombination with the molecule, releasing the surplus kinetic energy acquired in the second step in the form of a high-energy photon.\\
+	\item 3. Recombination: In the final step, the oscillatory force of the laser field drives the electron back toward the ionized parent molecule. During this process, the electron undergoes recombination with the molecule, releasing the surplus kinetic energy acquired in the second step in the form of a high-energy photon.\\
 \end{itemize}
 
 However, this model is not directly applicable to solid-state HHG due to differences in density, structure, band structure, Coulomb interactions, and surface effects between gases and solids. Solid-state HHG involves more complex mechanisms, including interactions with the crystalline lattice and surface effects, requiring sophisticated theoretical models for accurate description.
@@ -137,20 +137,20 @@ However, this model is not directly applicable to solid-state HHG due to differe
 The understanding and control of HHG have been greatly advanced by the development of sophisticated
 theoretical models, the primary and widely used numerical methods are based on time-dependent
 Schrödinger equation (\gls{TDSE}) , semiconductor Bloch equations (\gls{SBE})
- and time-dependent density-functional theory (\gls{TDDFT}).
+and time-dependent density-functional theory (\gls{TDDFT}).
 We won't go in detailed about the theoretical foundations, but just summarize current status and some challenges of present numerical simulations which are yet to be improved or solved.
 
 \begin{itemize}
-    \item The time-dependent-Schr\"odinger equation (\gls{TDSE}) model, utilizing both Bloch state basis and Houston state basis, is proficient in examining electronic dynamics within periodic potentials. Nonetheless, simulating the HHG of real solid materials proves challenging, primarily due to the method's reliance on idealized model potentials.
-    \item The semiconductor Bloch equations (\gls{SBE}), improving it from a two-band model to a multiband model allows for a more comprehensive study of real systems, effectively capturing the main features of High-Order Harmonic Generation (HHG) in solids. This enhancement involves incorporating accurate energy bands and transition dipole moments derived from first-principles calculations. Future endeavors should focus on obtaining the correct phase of transition dipole elements. However, a significant challenge persists as current first-principles codes often yield random phases for transition dipole moments.
-    \item The time-dependent density-functional theory (\gls{TDDFT}) model appears to be the ideal approach for straightforwardly studying High-Order Harmonic Generation (HHG) in solids within real coordinate space. However, its main drawback lies in its significant computational time requirements. Additionally, directly and intuitively analyzing the physical processes or mechanisms within the solid-state energy band picture can pose challenges within the TDDFT framework.
+	\item The time-dependent-Schr\"odinger equation (\gls{TDSE}) model, utilizing both Bloch state basis and Houston state basis, is proficient in examining electronic dynamics within periodic potentials. Nonetheless, simulating the HHG of real solid materials proves challenging, primarily due to the method's reliance on idealized model potentials.
+	\item The semiconductor Bloch equations (\gls{SBE}), improving it from a two-band model to a multiband model allows for a more comprehensive study of real systems, effectively capturing the main features of High-Order Harmonic Generation (HHG) in solids. This enhancement involves incorporating accurate energy bands and transition dipole moments derived from first-principles calculations. Future endeavors should focus on obtaining the correct phase of transition dipole elements. However, a significant challenge persists as current first-principles codes often yield random phases for transition dipole moments.
+	\item The time-dependent density-functional theory (\gls{TDDFT}) model appears to be the ideal approach for straightforwardly studying High-Order Harmonic Generation (HHG) in solids within real coordinate space. However, its main drawback lies in its significant computational time requirements. Additionally, directly and intuitively analyzing the physical processes or mechanisms within the solid-state energy band picture can pose challenges within the TDDFT framework.
 \end{itemize}
 Furthermore, properly incorporating Berry curvature in models and understanding its role in solid High-Order Harmonic Generation (HHG) requires more attention in future theoretical simulations. Despite lingering open questions in this evolving field, it's hoped that this review can offer valuable reference points, and ongoing efforts from the relevant community will gradually illuminate the intricacies of solid HHG studies.
 %==============================================================================================================================================================================
 \section{Structure of the Thesis}
 This thesis is organized as follows: Chapter.~\ref{ch:ch2} first introduces the crystallographic discription
 for typical hexagonal lattice we are studying, then we study the light-induced electron dynamics in 2D materials based on the tight-binding model by
-time-dependent Schrodinger Equation and quantum master equation. 
+time-dependent Schrodinger Equation and quantum master equation.
 In Chapter.~\ref{ch:ch3} we investigate light-induced electron dynamics in monolayer hexagonal
 boron nitride under the influence of two-color linearly-polarized laser fields at frequencies
 $\omega$ and $2\omega$, by solving the time-dependent Schr\"odinger equation with a tight-binding
@@ -159,7 +159,7 @@ our results to third-order nonlinear regime and deeply off-resonant highly-nonli
 In Chapter.~\ref{ch:ch4}, we study THz-induced HHG in graphene with the method described by quantum
 master equation. The microscopic mechanism of
 HHG with the quasi-static approximation and the population distribution in the Brillouin zone is
-described in detail together with its numerical implementation in Chapter.~\ref{ch:ch5}. We further elucidate the role of the nonequilibrium nature of THz-induced electron dynamics by comparing the nonequilibrium picture in the present work and the thermodynamic picture in the previous work \cite{mics2015thermodynamic}. 
+described in detail together with its numerical implementation in Chapter.~\ref{ch:ch5}. We further elucidate the role of the nonequilibrium nature of THz-induced electron dynamics by comparing the nonequilibrium picture in the present work and the thermodynamic picture in the previous work \cite{mics2015thermodynamic}.
 We explore the possibility of using a THz
 field to enhance MIR-induced HHG in graphene based
 on the knowledge gained from Chapter.~\ref{ch:ch4}. We investigate the dynamics under MIR and THz fields and evaluate the emitted harmonic spectra. As a result of the analysis, we find that cou- pling via the induced coherence by THz and MIR fields plays an essential role in enhancing MIR-induced HHG, clarifying the importance of the field-induced coherence beyond the simple population effect.
