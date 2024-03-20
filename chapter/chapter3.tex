@@ -1,15 +1,14 @@
 \chapter{CO-LINEAR POLARIZATION INDUCED PHOTOVOLTAIC EFFECT \label{ch:ch3}} 
 Addressing the photovoltaic effect within the perturbative regime has garnered significant
 attention, particularly in the exploration of dc current injection using two-color linearly
-polarized
-light~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}.
+polarized light~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}.
 Early investigations have underscored the complex interaction between a fundamental frequency, denoted as $\omega$, and its second harmonic, $2\omega$~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306}. 
-A notable study by Jimenez-Galan et al.~\cite{Jimenez-Galan2020} utilized deeply off-resonant bi-circular laser fields with frequencies $\omega$ and $2\omega$ to generate a substantial population imbalance in the Brillouin zone. However, it is worth noting that, in principle, the use of linearly polarized light with two frequencies is sufficient to break time-reversal symmetry.
+A notable study by Jimenez-Galan et al.~\cite{Jimenez-Galan2020} utilized deeply off-resonant bi-circular laser fields with $\omega$ and $2\omega$ to generate a substantial population imbalance in the Brillouin zone. However, it is worth noting that, in principle, linearly polarized light with two frequencies is sufficient to break time-reversal symmetry.
 
-In this Chapter, we first theoretically explore the phenomenon of dc-current injection and the
+In this chapter, we first theoretically explore the phenomenon of dc-current injection and the
 generation of population imbalance through the application of two-color linearly polarized laser
 fields with frequencies $\omega$ and $2\omega$ based on time-dependent perturbation analysis.
-We first look into light-induced electron dynamics in a typical two-dimensional material, $h$-BN, a simple tight-binding approximation first in a perturbative resonant regime.
+Then we look into light-induced electron dynamics in a typical two-dimensional insulator, $h$-BN, based on a simple tight-binding approximation in a perturbative resonant regime.
 
 In our quantum dynamics simulations, we further uncover that ballistic current can be induced even
 in the deeply off-resonant regime with two-color linearly polarized light.  Consequently, efficient
@@ -18,15 +17,15 @@ employing two-color linearly polarized laser fields with frequencies $\omega$ an
 without relying on the ellipticity of light. These findings offer a potential pathway for achieving
 ultrafast and efficient control of electron population in matter using multi-color linearly
 polarized light, opening new avenues for exploring the frontiers of quantum dynamics and
-optoelectronic applications. This simplify approach offers a promising avenue for achieving efficient and controlled current injection under conditions of deep off-resonance, potentially opening up new possibilities for nonlinear optoelectronic applications.
+optoelectronic applications. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Time-dependent Perturbative Analysis on QuI \label{sec:deriveperturbation}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Time-dependent perturbation theory provides a form for describing the response of quantum systems to time-varying external fields, making it well-suited for analyzing the interaction of materials with intense electromagnetic radiation. 
+Time-dependent perturbation theory provides a form for describing the response of quantum systems to time-varying external fields, makes it well-suited for analyzing the interaction of materials with intense electromagnetic radiation. 
 Exploring the photovoltaic effect within the perturbative regime has led to a notable focus on elucidating the injection of direct current (dc) through the use of two-color linearly polarized light ~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}. 
 Here, we investigate the nonlinear photocarrier injection process via the time-dependent perturbation analysis.
-Under adiabatic basis representation described in Appendix ~\ref{ch:Adiabatic}, one can rewrite the equation of motion for the coefficient vector as
+Under adiabatic basis representation described in Appendix ~\ref{ch:Adiabatic}, one can rewrite the equation of motion for the coefficient vector $c_{\mathbf k} (t)$ after expansion as
 
 \begin{align}
 &i\frac{d}{dt} \mathbf c_{\mathbf k}(t) = \mathcal{H}(t) \mathbf c_{\mathbf k}(t).
@@ -55,7 +54,7 @@ $\mathbf c_{\mathbf k}(t) = \left(
       c_{v,\mathbf k}(t) \\
       c_{c,\mathbf k}(t)
     \end{array}
-    \right)$ is the coefficient vector,  $\Delta\epsilon_{bb',\mathbf k+ \mathbf A(t)}$ is defined by the difference of the single-particle energies as $\epsilon_{b,\mathbf k+ \mathbf A(t)}-\epsilon_{b',\mathbf k+ \mathbf A(t)}$. For simplicity, here assume that the contributions from the geometric phases, $\Delta \phi^g_{cv,\mathbf k}(t)$ are zero. Then expand the Hamiltonian in Eq.~(\ref{eq:tdse-ad-basis}) up to the second order of the field $\mathbf A(t)$ as
+    \right)$ is the coefficient vector,  $\Delta\epsilon_{bb',\mathbf k+ \mathbf A(t)}$ is defined by the difference of the single-particle energies as $\epsilon_{b,\mathbf k+ \mathbf A(t)}-\epsilon_{b',\mathbf k+ \mathbf A(t)}$. For simplicity, here assume that the contribution from the geometric phases, $\Delta \phi^g_{cv,\mathbf k}(t)$ is zero. Then expand the Hamiltonian in Eq.~(\ref{eq:tdse-ad-basis}) up to the second order of the field $\mathbf A(t)$ as
 \begin{align}
 \mathcal{H}(t)\approx \mathcal{H}^{(1)}(t) + \mathcal{H}^{(2)}_{dyn}(t) + \mathcal{H}^{(2)}_{dip}(t),
 \end{align}
@@ -122,7 +121,7 @@ M_{dip,21}=e^{-i\Delta \epsilon_{vc,\mathbf k}t}
 \end{align}
 Hereafter, we analyze the photocarrier injection process based on this perturbative expansion of the Hamiltonian. Use perturbation expansion of Eq.~(\ref{eq:tdse-ad-basis}):
 \begin{align}
-i\frac{\mathrm{d}  }{\mathrm{d} t} (\mathbf c^{(0)}_{\mathbf k}(t)+\mathbf c^{(1)}_{\mathbf k}(t)+\mathbf c^{(2)}_{\mathbf k}(t))=(\mathcal{H}^{(0)}_{\mathbf k}+\mathcal{H}^{(1)}_{\mathbf k}(t)+\mathcal{H}^{(2)}_{\mathbf k}(t)) (\mathbf c^{(0)}_{\mathbf k}(t)+\mathbf c^{(1)}_{\mathbf k}(t)+\mathbf c^{(2)}_{\mathbf k}(t))
+i\frac{d  }{d t} (\mathbf c^{(0)}_{\mathbf k}(t)+\mathbf c^{(1)}_{\mathbf k}(t)+\mathbf c^{(2)}_{\mathbf k}(t))=(\mathcal{H}^{(0)}_{\mathbf k}+\mathcal{H}^{(1)}_{\mathbf k}(t)+\mathcal{H}^{(2)}_{\mathbf k}(t)) (\mathbf c^{(0)}_{\mathbf k}(t)+\mathbf c^{(1)}_{\mathbf k}(t)+\mathbf c^{(2)}_{\mathbf k}(t))
 \label{perturbative}
 \end{align}
 Under initial condition $\mathcal{H}^{(0)}_{\mathbf k}(t=0)=0$, $\mathbf c^{(0)}_{\mathbf k}(t=0) = \left(
@@ -130,7 +129,7 @@ Under initial condition $\mathcal{H}^{(0)}_{\mathbf k}(t=0)=0$, $\mathbf c^{(0)}
       1\\
      0
     \end{array}
-    \right)$ ,  the first and second-order coefficient vectors for the conduction band can be written as:
+    \right)$ ,  the first ($c^{(1)}_{c,\mathbf k}(t)$) and second-order coefficient vectors ($c^{(2)}_{c,\mathbf k, dyn}(t)$, $c^{(2)}_{c,\mathbf k, dip}(t)$) for the conduction band can be written as:
 \begin{align}
      c^{(1)}_{c,\mathbf k}(t) = \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \int_0^t dt' e^{-i \Delta \epsilon_{vc,\mathbf k}t'} 
       \mathbf E_1(t') 
@@ -147,25 +146,25 @@ Under initial condition $\mathcal{H}^{(0)}_{\mathbf k}(t=0)=0$, $\mathbf c^{(0)}
      c^{(2)}_{c,\mathbf k,dip}(t) =  \frac{\partial \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}{\partial \mathbf k}   \int_0^t dt' e^{-i \Delta \epsilon_{vc,\mathbf k}t'}\mathbf E_2(t')  \mathbf A_2(t') 
     \label{second_dip}
 \end{align}
-Under two-color linearly polarized light, here we consider the perturbation by the external linearly polarized vector potential for $\vec e$-direction, assuming that the perturbation only exits time between 0 and $T_0$ under the Gaussian distribution:
+Under two-color linearly polarized light, here we consider the perturbation by the external linearly polarized vector potential for $\vec e$-direction, assuming that the perturbation only exits time between 0 and $2T_0$ under the Gaussian distribution:
 \begin{align}
 f(t)=e^{-\frac{(t-T_0)^2}{2\sigma^2}}    
 \end{align}
 \begin{align}
-   \mathbf A_1(t)=A_1 \vec e cos[2w(t-T_0)+\phi]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}, \\
-   \mathbf A_2(t)=A_2 \vec e cos[w(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}
+   \mathbf A_1(t)=A_1 \vec e \cos[2\omega(t-T_0)+\phi]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}, \\
+   \mathbf A_2(t)=A_2 \vec e \cos[\omega(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}
    \label{vector}
 \end{align}
 $w$ is the carrier frequency of the field,  $\vec{e}$ represents a unit vector along the polarization direction of the laser field
 We assume $T_0\gg0$ and $\sigma\gg0$ to make the approximation:
 \begin{align}
-\int_0^t A_2 \vec e cos[w(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}=\frac{A_2 \vec e}{w} sin[w(t'-T_0)]  e^{-\frac{(t'-T_0)^2}{2\sigma^2}}    
+    \int_0^{t'} A_2 \vec e \cos[\omega(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}} dt = \frac{A_2 \vec e}{\omega} \sin[\omega(t'-T_0)]  e^{-\frac{(t'-T_0)^2}{2\sigma^2}}    
 \end{align}
 The corresponding external electric field $\mathbf E(t)=-d\mathbf A(t)/dt$ can be written as the following pulsed form:
 
 \begin{align}
-   \mathbf E_1(t)=2wA_1 \vec e sin[2w(t-T_0)+\phi]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}, \\
-   \mathbf E_2(t)=wA_2 \vec e sin[w(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}
+   \mathbf E_1(t)=2\omega A_1 \vec e \sin[2\omega (t-T_0)+\phi]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}, \\
+   \mathbf E_2(t)=\omega A_2 \vec e \sin[\omega (t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}
    \label{feild}
 \end{align}
 
@@ -173,21 +172,21 @@ Now, let's express this in terms of the first-order coefficient vector is:
 \begin{equation}
 \begin{aligned}
      c^{(1)}_{c,\mathbf k}(t) &= \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \int_0^t dt' e^{-i \Delta \epsilon_{vc,\mathbf k}t'} 
-      2wA_1 \vec e \cdot sin[2w(t'-T_0)+\phi]  e^{-\frac{(t'-T_0)^2}{2\sigma^2}}\\
-      &=\frac{A_1 \vec e w}{i} \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \int_0^t dt' e^{-i \Delta \epsilon_{vc,\mathbf k}t' - \frac{(t'-T_0)^2}{2\sigma^2}} 
-      \cdot (e^{i[2w(t'-T_0)+\phi]}-e^{-i[2w(t'-T_0)+\phi]}) 
+      2\omega A_1 \vec e \cdot \sin[2\omega (t'-T_0)+\phi]  e^{-\frac{(t'-T_0)^2}{2\sigma^2}}\\
+      &=\frac{A_1 \vec e \omega }{i} \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \int_0^t dt' e^{-i \Delta \epsilon_{vc,\mathbf k}t' - \frac{(t'-T_0)^2}{2\sigma^2}} 
+      \cdot (e^{i[2\omega (t'-T_0)+\phi]}-e^{-i[2\omega (t'-T_0)+\phi]}) 
 \end{aligned}
 \end{equation}
-We consider the population distribution after the laser pulse, so we replace the integra $\int_0^t$ by $\int_\infty^\infty$. Under the Gaussian integral, 
+We consider the population distribution after the laser pulse, so we replace the integra $\int_0^t$ by $\int_{-\infty}^\infty$. Under the Gaussian integral, 
 \begin{align}
 \int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
 \end{align}
 we get:
 \begin{equation}
 \begin{aligned}
-     c^{(1)}_{c,\mathbf k}(t) = \frac{A_1 \vec e w \cdot \sigma \sqrt{2\pi}}{i} \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \cdot  e^{-i\Delta \epsilon_{vc,\mathbf k} T_0}
-    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2-i\phi}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2+i\phi}]
+     c^{(1)}_{c,\mathbf k}(t) = \frac{A_1 \vec e \omega  \cdot \sigma \sqrt{2\pi}}{i} \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \cdot  e^{-i\Delta \epsilon_{vc,\mathbf k} T_0}
+    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2-i\phi}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2+i\phi}]
 \end{aligned}
 \end{equation}
 Similarly to the first-order perturbation coefficient vector's derivation, the second-order coefficient $c^{(2)}_{c,\mathbf k}(t)$ can be written as:
@@ -196,13 +195,13 @@ Similarly to the first-order perturbation coefficient vector's derivation, the s
     c^{(2)}_{c,\mathbf k,dyn}(t)=&\frac{(A_2 \vec e)^2 \cdot \sigma \sqrt{\pi}}{2i} \frac{\partial
     \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} \left \langle u_{c,\mathbf k}\Big |\frac{\partial
 u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \cdot e^{-i\Delta \epsilon_{vc,\mathbf k} T_0}\\
-    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]
+    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]
 \end{aligned}
 \end{equation}
 
 \begin{equation}
 \begin{aligned}
-    c^{(2)}_{c,\mathbf k,dip}(t)=\frac{(A_2 \vec e)^2 w \cdot \sigma \sqrt{\pi}}{4i} \cdot \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}} \cdot e^{-i\Delta \epsilon_{vc,\mathbf k} T_0} [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]
+    c^{(2)}_{c,\mathbf k,dip}(t)=\frac{(A_2 \vec e)^2 \omega  \cdot \sigma \sqrt{\pi}}{4i} \cdot \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}} \cdot e^{-i\Delta \epsilon_{vc,\mathbf k} T_0} [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]
 \end{aligned}
 \end{equation}
 This completes the derivation of the population of the conduction band after the laser pulse:
@@ -214,7 +213,7 @@ This completes the derivation of the population of the conduction band after the
     &+c^{(2)}_{c,\mathbf k,dyn}(t)^* c^{(2)}_{c,\mathbf k,dip}(t)+c.c.
 \end{aligned}
 \end{equation}
-We consider a prototypical two-dimensional insulator, monolayer hexagonal boron-nitride ($h$-BN). For the 2-band hBN-tight-binding model, the inversion symmetric is breaking:
+$c.c.$ represents complex conjugate. We consider a prototypical two-dimensional insulator, monolayer hexagonal boron-nitride (\gls{h-BN}). For the 2-band \gls{h-BN}-tight-binding model, the inversion symmetric is breaking:
 \begin{align}
 u_{\mathbf k}(-\vec r)\neq u_{-\mathbf k}(\vec r)    
 \end{align}
@@ -226,12 +225,12 @@ To compare the $|c_{c,-\mathbf k}(t)|^2$, the absolute value of the coefficient 
 
 \begin{equation}
 \begin{aligned}
-  |c^{(1)}_{c,\mathbf k}(t)|^2 &=\lvert \frac{A_1 \vec e w \cdot \sigma \sqrt{2\pi}}{i} \left \langle
+  |c^{(1)}_{c,\mathbf k}(t)|^2 &=\lvert \frac{A_1 \vec e \omega  \cdot \sigma \sqrt{2\pi}}{i} \left \langle
   u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle \rvert^2\\ 
- & \cdot [e^{-(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2}
-    +e^{-(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2}
-    -2e^{-\frac{1}{2}((\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2
-    +(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2)}cos(2\phi)]\\
+ & \cdot [e^{-(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2}
+    +e^{-(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2}
+    -2e^{-\frac{1}{2}((\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2
+    +(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2)}\cos(2\phi)]\\
     &=  |c^{(1)}_{c,-\mathbf k}(t)|^2
 \end{aligned}
 \end{equation}
@@ -241,14 +240,14 @@ To compare the $|c_{c,-\mathbf k}(t)|^2$, the absolute value of the coefficient 
     |c^{(2)}_{c,\mathbf k,dyn}(t)|^2&= \lvert \frac{(A_2 \vec e)^2 \cdot \sigma \sqrt{\pi}}{2}
   \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} \left \langle u_{c,\mathbf k}\Big
   |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle\\ 
-                                  &    \cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})] \rvert^2\\
+                                  &    \cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})] \rvert^2\\
     &=|c^{(2)}_{c,-\mathbf k,dyn}(t)|^2
 \end{aligned}
 \end{equation}
 
 \begin{equation}
 \begin{aligned}
-  |c^{(2)}_{c,\mathbf k,dip}(t)|^2&= \lvert \frac{(A_2 \vec e)^2 w \cdot \sigma \sqrt{\pi}}{4} \cdot \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}  [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})] \rvert^2\\
+  |c^{(2)}_{c,\mathbf k,dip}(t)|^2&= \lvert \frac{(A_2 \vec e)^2 \omega  \cdot \sigma \sqrt{\pi}}{4} \cdot \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}  [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})] \rvert^2\\
   &=  |c^{(2)}_{c,-\mathbf k,dip}(t)|^2
 \end{aligned}
 \end{equation}
@@ -256,25 +255,25 @@ The interference terms are:
 \begin{equation}
 \begin{aligned}
     c^{(1)}_{c,\mathbf k}(t)^* c^{(2)}_{c,\mathbf k,dyn}(t) +c.c.&=
-   \sqrt{2} A_1 A_2^2 \vec e w \cdot \sigma^2 \pi \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 \\
-    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]\\
-    &\cdot[e^{-\frac{1}2{}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2}
-    ]cos\phi\\
+   \sqrt{2} A_1 A_2^2 \vec e \omega  \cdot \sigma^2 \pi \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 \\
+    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]\\
+    &\cdot[e^{-\frac{1}2{}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2}
+    ]\cos\phi\\
     &= -(c^{(1)}_{c,-\mathbf k}(t)^* c^{(2)}_{c,-\mathbf k,dyn}(t) +c.c.)
 \end{aligned}
 \end{equation}
 
 \begin{equation}
 \begin{aligned}
-    c^{(1)}_{c,\mathbf k}(t)^* c^{(2)}_{c,\mathbf k,dip}(t) +c.c.&=\frac{\sqrt{2}A_1A_2^2 \vec e w^2 \cdot \sigma^2 \pi}{4}\cdot(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})\\
+    c^{(1)}_{c,\mathbf k}(t)^* c^{(2)}_{c,\mathbf k,dip}(t) +c.c.&=\frac{\sqrt{2}A_1A_2^2 \vec e \omega ^2 \cdot \sigma^2 \pi}{4}\cdot(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})\\
     &\cdot (\left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}} 
-    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2+i\phi}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2-i\phi}]\\
+    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2+i\phi}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2-i\phi}]\\
     &+ \frac{\partial{\left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \Big |u_{c,\mathbf k} \right \rangle}}{\partial {\mathbf k}} 
     \left \langle  u_{c,\mathbf k}| \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle 
-    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2-i\phi}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2+i\phi}])
+    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2-i\phi}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2+i\phi}])
 \end{aligned}
 \end{equation}
  Here under the time-reversal relation, $u^*_{\mathbf k}(\vec r)= u_{-\mathbf k}(\vec r)$, so for $-\mathbf k$, we have:
@@ -290,22 +289,22 @@ The interference terms are:
  The interference terms for central symmetry point $-\mathbf k$ can be written as:
 \begin{equation}
 \begin{aligned}
-    c^{(1)}_{c,-\mathbf k}(t)^* c^{(2)}_{c,-\mathbf k,dip}(t) +c.c.&=\frac{\sqrt{2}A_1A_2^2 \vec e w^2 \cdot \sigma^2 \pi}{4}\cdot(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})\\
+    c^{(1)}_{c,-\mathbf k}(t)^* c^{(2)}_{c,-\mathbf k,dip}(t) +c.c.&=\frac{\sqrt{2}A_1A_2^2 \vec e \omega ^2 \cdot \sigma^2 \pi}{4}\cdot(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})\\
     &\cdot (-\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}}
-    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2+i\phi}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2-i\phi}]\\
+    [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2+i\phi}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2-i\phi}]\\
     &-\frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}
     \left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle
-     [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2-i\phi}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2+i\phi}]
+     [e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2-i\phi}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2+i\phi}]
     )
 \end{aligned}
 \end{equation}
 
 \begin{equation}
 \begin{aligned}
-    c^{(2)}_{c,\mathbf k,dyn}(t)^* c^{(2)}_{c,\mathbf k,dip}(t)+c.c. &=\frac{(A_2 \vec e)^4 w \cdot \sigma^2 \pi}{8}  \cdot [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]\\
-    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]\\
+    c^{(2)}_{c,\mathbf k,dyn}(t)^* c^{(2)}_{c,\mathbf k,dip}(t)+c.c. &=\frac{(A_2 \vec e)^4 \omega  \cdot \sigma^2 \pi}{8}  \cdot [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]\\
+    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]\\
    & \cdot \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} 
    (\left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}+
    \frac{\partial{\left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \Big |u_{c,\mathbf k} \right \rangle}}{\partial {\mathbf k}} 
@@ -315,8 +314,8 @@ The interference terms are:
 
 \begin{equation}
 \begin{aligned}
-    c^{(2)}_{c,-\mathbf k,dyn}(t)^* c^{(2)}_{c,-\mathbf k,dip}(t)+c.c. &=\frac{(A_2 \vec e)^4 w \cdot \sigma^2 \pi}{8}  \cdot [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]\\
-    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]\\
+    c^{(2)}_{c,-\mathbf k,dyn}(t)^* c^{(2)}_{c,-\mathbf k,dip}(t)+c.c. &=\frac{(A_2 \vec e)^4 \omega  \cdot \sigma^2 \pi}{8}  \cdot [e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]\\
+    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]\\
    & \cdot \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} 
    (\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}} +
    \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}
@@ -331,38 +330,38 @@ To summarize the steps, the asymmetric population distribution between $\mathbf 
     \begin{aligned}
     |c_{c,\mathbf k}(t)|^2-|c_{c,-\mathbf k}(t)|^2&=
  2c^{(1)}_{c,\mathbf k}(t)^* c^{(2)}_{c,\mathbf k,dyn}(t) +c^{(1)}_{c,\mathbf k}(t)^* c^{(2)}_{c,\mathbf k,dip}(t)-c^{(1)}_{c,-\mathbf k}(t)^* c^{(2)}_{c,-\mathbf k,dip}(t) + c.c.\\
- &=2\sqrt{2} A_1 A_2^2 \vec e w \cdot \sigma^2 \pi \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 \\
-    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})]\\
-    &\cdot[e^{-\frac{1}2{}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2} ]cos\phi\\
-    &+\frac{\sqrt{2}A_1A_2^2 \vec e w^2 \cdot \sigma^2 \pi}{2}\cdot(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})\\
+ &=2\sqrt{2} A_1 A_2^2 \vec e \omega  \cdot \sigma^2 \pi \frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 \\
+    &\cdot [e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-\frac{1}{2}(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}+e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})]\\
+    &\cdot[e^{-\frac{1}2{}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2} ]\cos\phi\\
+    &+\frac{\sqrt{2}A_1A_2^2 \vec e \omega ^2 \cdot \sigma^2 \pi}{2}\cdot(e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})\\
     &\cdot (\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}} +
    \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}
     \left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle)\\
-    &\cdot[e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2} ]cos\phi\\
-    &=\sqrt{2} A_1 A_2^2 \vec e w \cdot \sigma^2 \pi [e^{-\frac{1}2{}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2}
-    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2} ]\\
-    &\cdot[\frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 (2e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2w)^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2w)^2})\\
-    &+\frac{w}{2} (\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}} +
+    &\cdot[e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2} ]\cos\phi\\
+    &=\sqrt{2} A_1 A_2^2 \vec e \omega  \cdot \sigma^2 \pi [e^{-\frac{1}2{}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2}
+    -e^{-\frac{1}{2}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2} ]\\
+    &\cdot[\frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 (2e^{-\frac{\sigma^2}{4} \Delta \epsilon_{vc,\mathbf k} ^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}-2\omega )^2}-e^{-\frac{\sigma^2}{4} (\Delta \epsilon_{vc,\mathbf k}+2\omega )^2})\\
+    &+\frac{\omega }{2} (\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}} +
    \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}
     \left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle)\\
-    &\cdot(e^{-\frac{1}{4}(\Delta \epsilon_{vc,\mathbf k} - 2w)^2 \sigma^2}
-    -e^{-\frac{1}{4}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2})]cos\phi
+    &\cdot(e^{-\frac{1}{4}(\Delta \epsilon_{vc,\mathbf k} - 2\omega )^2 \sigma^2}
+    -e^{-\frac{1}{4}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2})]\cos\phi
     \end{aligned}
 \end{equation}
 We consider the band gap between valence and conduction bands close to twice the field's frequency:
 \begin{align}
-\Delta \epsilon_{vc,\mathbf k}+2w\approx0    
+\Delta \epsilon_{vc,\mathbf k}+2\omega \approx0    
 \end{align}
 Because $\sigma\gg 0$. In a nutshell, the population imbalance becomes:
 
 \begin{equation}
     \begin{aligned}
- |c_{c,\mathbf k}(t)|^2-|c_{c,-\mathbf k}(t)|^2&\approx\sqrt{2} A_1 A_2^2 \vec e w \cdot \sigma^2 \pi e^{-\frac{3}{4}(\Delta \epsilon_{vc,\mathbf k} + 2w)^2 \sigma^2}[\frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 \\
-    &+\frac{w}{2} (\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}} +
+ |c_{c,\mathbf k}(t)|^2-|c_{c,-\mathbf k}(t)|^2&\approx\sqrt{2} A_1 A_2^2 \vec e \omega  \cdot \sigma^2 \pi e^{-\frac{3}{4}(\Delta \epsilon_{vc,\mathbf k} + 2\omega )^2 \sigma^2}[\frac{\partial  \Delta \epsilon_{vc,\mathbf k}}{\partial \mathbf k} |\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle|^2 \\
+    &+\frac{\omega }{2} (\left \langle u_{c,\mathbf k} \big | \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}  \right \rangle \frac{\partial{\left \langle\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k}\Big |u_{c,\mathbf k}\right \rangle}}{\partial {\mathbf k}} +
    \frac{\partial{\left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}}{\partial {\mathbf k}}
-    \left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle)]cos\phi
+    \left \langle \frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} |  u_{c,\mathbf k} \right \rangle)]\cos\phi
     \end{aligned}
 \label{perturbationresult}
 \end{equation}
