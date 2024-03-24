@@ -1771,6 +1771,9 @@ INPUT pic/SI_hhg.pdf
 INPUT ./pic/polar.pdf
 INPUT ./pic/polar.pdf
 INPUT pic/polar.pdf
+INPUT ./pic/SI_polar.pdf
+INPUT ./pic/SI_polar.pdf
+INPUT pic/SI_polar.pdf
 INPUT ./pic/3rd_hh_vs_thermal.pdf
 INPUT ./pic/3rd_hh_vs_thermal.pdf
 INPUT pic/3rd_hh_vs_thermal.pdf
@@ -1786,6 +1789,9 @@ INPUT pic/pop_dist.pdf
 INPUT ./pic/pop_c.pdf
 INPUT ./pic/pop_c.pdf
 INPUT pic/pop_c.pdf
+INPUT ./pic/SI_pop.pdf
+INPUT ./pic/SI_pop.pdf
+INPUT pic/SI_pop.pdf
 INPUT ./chapter/chapter6.tex
 INPUT ./chapter/chapter6.tex
 INPUT ./chapter/chapter6.tex
