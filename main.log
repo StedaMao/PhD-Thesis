@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  24 MAR 2024 19:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  1 APR 2024 15:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2015,56 +2015,42 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
 
  (./chapter/chapter1.tex
 Chapter 1.
-
-Overfull \hbox (15.99553pt too wide) in paragraph at lines 8--16
-\TU/NotoSerif(1)/m/n/10 nology, groundbreaking research in the field of nonline
-ar optics have been driven [[][]2[][]–
- []
-
 [1
 
 
-] [2]
-Overfull \hbox (4.0022pt too wide) in paragraph at lines 69--74
-[]\TU/NotoSerif(1)/m/n/10 Nonlinear response often involves multiphoton process
-es, where multiple pho-
- []
-
-[3]
-Overfull \hbox (12.4822pt too wide) in paragraph at lines 77--78
-\TU/NotoSerif(1)/m/n/10 current, detailed in references [[][]6[][]–[][]9[][]], 
-exemplify the significance of this phenomenon. 
- []
-
-
-Overfull \hbox (4.8822pt too wide) in paragraph at lines 93--99
+] [2] [3]
+Overfull \hbox (4.8822pt too wide) in paragraph at lines 92--98
 \TU/NotoSerif(1)/m/n/10 into the realm of photovoltaic effects induced by inten
 se few-cycle laser pulses [[][]14[][]–
  []
 
 [4]
-Overfull \hbox (4.47556pt too wide) in paragraph at lines 114--120
+Overfull \hbox (4.47556pt too wide) in paragraph at lines 113--119
 \TU/NotoSerif(1)/m/n/10 tense laser light interacts with a gas, causing the gen
 eration of very high-frequency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
 
  []
 
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Overfull \hbox (6.148pt too wide) in paragraph at lines 145--146
+Overfull \hbox (6.148pt too wide) in paragraph at lines 144--145
 []\TU/NotoSerif(1)/m/n/10 The time-dependent-Schrödinger equation ([][][]TDSE[]
 []) model, utilizing both Bloch
  []
 
-[7]) [8] [9]
+[7]
+
+LaTeX Warning: Reference `ch:ch3' on page 8 undefined on input line 154.
+
+) [8] [9]
 \openout2 = `chapter/chapter2.aux'.
 
  (./chapter/chapter2.tex [10
@@ -2077,18 +2063,18 @@ Chapter 2.
 File: pic/lattice.pdf Graphic file (type pdf)
 <use pic/lattice.pdf>
 [11] [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
-Overfull \hbox (25.31885pt too wide) in paragraph at lines 169--177
+Overfull \hbox (25.31885pt too wide) in paragraph at lines 167--175
 []\TU/NotoSerif(1)/m/n/10 To study the nonlinear photocarrier injection, we nee
 d to introduce time-dependent
  []
 
 
-Overfull \hbox (7.86198pt too wide) in paragraph at lines 182--188
+Overfull \hbox (7.86198pt too wide) in paragraph at lines 180--186
 $[][][][][][][]$ \TU/NotoSerif(1)/m/n/10 is a single-particle electroinc wavefu
 nction at $[]$. Solving this time-dependent
  []
@@ -2104,115 +2090,117 @@ Chapter 3.
 
 
 ] [22] [23] [24]
-Overfull \hbox (0.20032pt too wide) detected at line 179
+Overfull \hbox (0.20032pt too wide) detected at line 181
 [][][][][]
  []
 
 
-Overfull \hbox (20.9424pt too wide) detected at line 191
+Overfull \hbox (20.9424pt too wide) detected at line 193
 [][][][][]
  []
 
-
-Overfull \hbox (3.7955pt too wide) in paragraph at lines 191--193
+[25]
+Overfull \hbox (3.7955pt too wide) in paragraph at lines 193--195
 \TU/NotoSerif(1)/m/n/10 Similarly to the first-order perturbation coefficient v
 ector’s derivation, the second-
  []
 
-[25]
-Overfull \hbox (16.72539pt too wide) detected at line 206
+
+Overfull \hbox (16.72539pt too wide) detected at line 208
 [][][][][]
  []
 
 
-Overfull \hbox (2.98537pt too wide) detected at line 236
+Overfull \hbox (2.98537pt too wide) detected at line 238
 [][][][][]
  []
 
 [26]
-Overfull \hbox (49.45215pt too wide) detected at line 278
-[][][][][]
- []
-
-
-Overfull \hbox (63.12415pt too wide) detected at line 302
+Overfull \hbox (49.45215pt too wide) detected at line 280
 [][][][][]
  []
 
 [27]
-Overfull \hbox (50.59811pt too wide) detected at line 313
+Overfull \hbox (63.12415pt too wide) detected at line 304
 [][][][][]
  []
 
 
-Overfull \hbox (61.49011pt too wide) detected at line 325
+Overfull \hbox (50.59811pt too wide) detected at line 315
 [][][][][]
  []
 
 
-Overfull \hbox (48.67091pt too wide) detected at line 352
+Overfull \hbox (61.49011pt too wide) detected at line 327
+[][][][][]
+ []
+
+
+Overfull \hbox (48.67091pt too wide) detected at line 354
 [][][][][]
  []
 
 [28]
-Overfull \hbox (33.54376pt too wide) detected at line 367
+Overfull \hbox (33.54376pt too wide) detected at line 369
 [][][][][]
  []
 
 [29]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 381.
+(Font)              scaled to size 14.40152pt on input line 383.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 381.
+(Font)              scaled to size 14.39845pt on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 381.
+(hyperref)                removing `math shift' on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 381.
+(hyperref)                removing `math shift' on input line 383.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 [30]
 File: pic/electric.pdf Graphic file (type pdf)
 <use pic/electric.pdf>
- [31]
+ [31] [32]
 File: pic/population.pdf Graphic file (type pdf)
 <use pic/population.pdf>
- [32]
-Overfull \hbox (4.41057pt too wide) in paragraph at lines 434--437
+
+Overfull \hbox (4.41057pt too wide) in paragraph at lines 436--439
 \TU/NotoSerif(1)/m/n/10 Given the constraint $[] [] [][] [] []$, the population
  imbalance distribution is bounded
  []
 
-[33]
-Overfull \hbox (10.25185pt too wide) in paragraph at lines 439--440
+[33] [34]
+Overfull \hbox (10.25185pt too wide) in paragraph at lines 441--442
 []\TU/NotoSerif(1)/m/n/10 The temporal evolution of the corresponding electric 
 current, denoted as $[][][][][]$,
  []
 
 File: pic/initial_current.pdf Graphic file (type pdf)
 <use pic/initial_current.pdf>
+[35]
 File: pic/dc_current.pdf Graphic file (type pdf)
 <use pic/dc_current.pdf>
-[34] [35] [36]
+ [36]
 File: pic/relativephase.pdf Graphic file (type pdf)
 <use pic/relativephase.pdf>
+ [37]
 File: pic/frequency.pdf Graphic file (type pdf)
 <use pic/frequency.pdf>
- [37]
-Overfull \hbox (2.09883pt too wide) in paragraph at lines 494--496
+
+Overfull \hbox (2.09883pt too wide) in paragraph at lines 496--498
 []\TU/NotoSerif(1)/m/n/10 The investigation helps understand the complicated re
 lationship between pho-
  []
 
 
-Overfull \hbox (14.40027pt too wide) in paragraph at lines 494--496
+Overfull \hbox (14.40027pt too wide) in paragraph at lines 496--498
 \TU/NotoSerif(1)/m/n/10 lated for two distinct field strengths: (b) $[][] [] []
 [][][][]$ MV/cm and (c) $[][] [] [][][][][][]$ MV/cm.
  []
@@ -2224,57 +2212,52 @@ File: pic/dnex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/dnex_pop_E0_1e10.pdf>
 File: pic/current_off_resonant.pdf Graphic file (type pdf)
 <use pic/current_off_resonant.pdf>
- [40] [41]
-Overfull \hbox (1.86552pt too wide) in paragraph at lines 540--544
+ [40]
+Overfull \hbox (1.86552pt too wide) in paragraph at lines 542--546
 \TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant 
 population imbalance through
  []
 
 
-Overfull \hbox (0.58885pt too wide) in paragraph at lines 545--546
+Overfull \hbox (0.58885pt too wide) in paragraph at lines 547--548
 \TU/NotoSerif(1)/m/n/10 posed using bi-circular fields with counter-rotating $[
 ]$ and $[][]$ two-color laser fields.
  []
 
-[42]
 File: pic/jdc_vs_phi_off_resonance.pdf Graphic file (type pdf)
 <use pic/jdc_vs_phi_off_resonance.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--569
+Underfull \hbox (badness 10000) in paragraph at lines 562--571
 
  []
 
+[41]
 File: pic/dc_current_vs_E0.pdf Graphic file (type pdf)
 <use pic/dc_current_vs_E0.pdf>
 File: pic/nex_vs_E0.pdf Graphic file (type pdf)
 <use pic/nex_vs_E0.pdf>
-[43] [44]
-Overfull \hbox (2.82887pt too wide) in paragraph at lines 582--585
+
+Overfull \hbox (2.82887pt too wide) in paragraph at lines 584--587
 \TU/NotoSerif(1)/m/n/10 strength might initially seem inconsistent with the exp
 ected behavior of a straight-
  []
 
 
-Overfull \hbox (8.11552pt too wide) in paragraph at lines 586--587
+Overfull \hbox (8.11552pt too wide) in paragraph at lines 588--589
 []\TU/NotoSerif(1)/m/n/10 However, our experimental observations reveal a scali
 ng that indicates seventh-
  []
 
-[45]
-Overfull \hbox (11.58885pt too wide) in paragraph at lines 598--599
+[42]
+Overfull \hbox (11.58885pt too wide) in paragraph at lines 600--601
 \TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under we
 ak applied field strength.
  []
 
-[46]) [47]
+[43]) [44] [45] [46] [47] [48]
 \openout2 = `chapter/chapter4.aux'.
 
- (./chapter/chapter4.tex [48
-
-
-
-
-]
+ (./chapter/chapter4.tex
 Chapter 4.
 
 Overfull \hbox (3.12463pt too wide) in paragraph at lines 6--8
@@ -2288,7 +2271,12 @@ Overfull \hbox (3.31133pt too wide) in paragraph at lines 6--8
  optical effects in graphene. 
  []
 
-[49]
+[49
+
+
+
+
+]
 Overfull \hbox (0.33218pt too wide) in paragraph at lines 20--25
 \TU/NotoSerif(1)/m/n/10 graphene, the electronic structure is discriped by the 
 tight-binding model in Chap-
@@ -2686,16 +2674,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 216BF9BF717462C110400A23C09AB7EA;7770.
+(rerunfilecheck)             Checksum: 55F5C28C5D20D8646DA77E1724A1A6E9;7803.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42536 strings out of 476683
- 869808 string characters out of 5804046
- 1900018 words of memory out of 5000000
- 62155 multiletter control sequences out of 15000+600000
+ 42535 strings out of 476683
+ 869795 string characters out of 5804046
+ 1905018 words of memory out of 5000000
+ 62154 multiletter control sequences out of 15000+600000
  517358 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  121i,19n,139p,2317b,7079s stack positions out of 10000i,1000n,20000p,200000b,200000s

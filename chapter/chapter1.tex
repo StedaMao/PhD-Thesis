@@ -7,16 +7,15 @@
 \label{ch:introduction}
 In the conventional understanding of linear optics, the response of a material to an incident
 electromagnetic wave is linearly proportional to the strength of the electric field. However, when
-the intensity of the incident light exceeds a certain threshold, the nonlinear optical response
-becomes significant. This regime reveals a rich variety of phenomena, including the photon carrier
+the intensity of the incident light becomes strong enough, the nonlinear optical response
+becomes significant. This regime reveals a rich variety of phenomena, including the photoncarrier
 injection, phase modulation, and harmonic generation.
 After the first observation of nonlinear optical phenomena by Franken~\cite{franken1961generation},
 based on recent advancements in laser technology, groundbreaking research in the field of nonlinear
 optics have been driven~\cite{RevModPhys.72.545, RevModPhys.81.163, MOUROU2012720}, have conducted in a new era of intense light generation. These developments have paved the way for in-depth exploration of light-matter interactions in highly nonlinear regimes. One of the most captivating nonlinear optical phenomena made accessible by these advances is High-order Harmonic Generation (\gls{HHG}), a process characterized by its extreme photon upconversion and remarkable nonlinear characteristics.
 
 This thesis aims to provide a comprehensive overview of the nonlinear response phenomenons
-including photocarrier injection and high-order harmonic generation in the context of nonlinear
-optics. We will explore the theoretical foundations of light induced time-dependent quantum
+including photocarrier injection and high-order harmonic generation from view point of microscopic electron dynamics. We will explore the theoretical foundations of light induced time-dependent quantum
 dynamics evolution in solid systems,
 including the quantum mechanical description of the light-matter ineraction process and the role of
 excited electron dynamics.  By investigating photocarrier injection and HHG, we seek to deepen our understanding of the nonlinear optical response of materials and unlock the potential for applications in fields such as ultrafast spectroscopy, attosecond science, and advanced imaging techniques.
@@ -26,30 +25,36 @@ In studies of optical response theory within solid systems, the dielectric funct
 Linear response theory is most applicable when the perturbations are weak. In other words, the system's behavior is approximately linear in the vicinity of its equilibrium or initial state, the behavior of a system when it reacts proportionally to an applied perturbation.
 In such cases. the system's behavior is described by linear susceptibility ($\chi^{(1)}$).
 
-The electric susceptibility ($\chi_e$) describes the response of a material to an applied electric field ($\mathbf{E}$). The relationship between the induced polarization ($\mathbf{P}$) and the applied electric field can be expressed as:
+The electric susceptibility ($\chi^{(1)}$) describes the response of a material to an applied electric field ($\mathbf{E}$). The relationship between the induced polarization ($\mathbf{P}$) and the applied electric field can be expressed as:
 
 \[
-	\mathbf{P(t)} =\epsilon_0 \chi_e \cdot \mathbf{E}(t)
+	\mathbf{P(t)} =\epsilon_0 \chi^{(1)} \cdot \mathbf{E}(t)
 \]
-
+j
 Where:
 \begin{itemize}
 	\item $\mathbf{P}$ is the induced polarization vector,
-	\item $\chi_e$ is the electric susceptibility tensor, and
+	\item $\chi^{(1)}$ is the electric susceptibility tensor, and
 	\item $\mathbf{E}$ is the applied electric field vector.
 \end{itemize}
 
-In nonlinear response. the relationship can be expressed using a power series expansion:
+In nonlinear response, the relationship can be expressed using a power series expansion:
 \[
-	\mathbf{P(t)} =\epsilon_0( \chi^{(1)} \cdot \mathbf{E}(t)+\chi^{(2)} \cdot \mathbf{E}(t)^2 + \chi^{(3)}
+	\mathbf{P}(t) =\epsilon_0( \chi^{(1)} \cdot \mathbf{E}(t)+\chi^{(2)} \cdot \mathbf{E}(t)^2 + \chi^{(3)}
 	\cdot \mathbf{E}(t)^3 + ...)
 \]
-In nonlinear response theory, when considering the time-domain response of a material to an external perturbation, one often encounters frequency-dependent susceptibilities. These susceptibilities can be expressed in terms of tensor notation and integrated over frequency to account for the material's response over a range of frequencies.
-
-Let's use the electric susceptibility tensor as $\chi^{(2)}$ as an example, representing the second-order susceptibility. In the frequency domain, the induced polarization ($P$) can be expressed in terms of the applied electric field ($E$) and the susceptibility tensor as:
+For Second Harmonic Generation (SHG), the nonlinear polarization $P_i (t)$ in terms of tensor notation and write down the integral expression for time can be expressed as:
+\[
+	P_i(t) = \varepsilon_0 \chi^{(2)}_{ijk} E_j(t)E_k(t)
+\]
+We can express the nonlinear polarization $P_i(t)$ as a convolution integral involving the electric field $E_j(t)$ and the time-dependent response function $\chi^{(2)}_{ijk}(t-t_1,t-t_2)$ for the second-order nonlinear process:
+\[
+	P_i(t) = \epsilon_0 \sum_{j=1}^{3} \sum_{k=1}^{3}\int_{-\infty}^t \int_{-\infty}^t \, \chi^{(2)}_{ijk}(t-t_1,t-t_2) E_j(t_1)E_k(t_2) dt_1 dt_2
+\]
+In nonlinear response theory, when considering the time-domain response of a material to an external perturbation, one often encounters frequency-dependent susceptibilities. These susceptibilities can be expressed in terms of tensor notation and integrated over frequency to account for the material's response over a range of frequencies. In the frequency domain, the induced polarization ($P$) can be expressed in terms of the applied electric field ($E$) and the susceptibility tensor as:
 
 \[
-	P_i(\omega) =  \sum_{j=1}^{3} \sum_{k=1}^{3}\int\int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
+	P_i(\omega) = \epsilon_0 \sum_{j=1}^{3} \sum_{k=1}^{3}\int\int \chi^{(2)}_{ijk}(\omega, \omega_1, \omega_2) E_j(\omega_1) E_k(\omega_2) \, d\omega_1 \, d\omega_2
 \]
 
 Where:
@@ -64,22 +69,16 @@ Where:
 In summary, the nonlinear response of a material to external perturbations can be described using
 tensor notation, incorporating frequency or time integrals to capture the material's response over
 a range of frequencies or times. The high-order susceptibility tensor ($\chi^{(n)}$) plays a crucial role in characterizing this nonlinear response.
-
-
-Nonlinear response often involves multiphoton processes, where multiple photons are absorbed
-simultaneously, lead the progress to be complicated. The multiphoton absorption and the harmonic
-generation are different nonlinear optical phenomena associated with different components of
-nonlinear suceptibilities.
 Frequency and Intensity-dependent absorption is a key feature of nonlinear response and is often exploited in applications such as laser-induced material processing.
 
 %=========================================================================================================================================================
 \section{Photocarrier Injection}
-In the realm of bulk photovoltaic injection, the second-order nonlinear optical effect, as explored in~\cite{PhysRevB.61.5337}, has garnered considerable attention for its potential in achieving highly efficient light-to-current conversion. Investigations into shift-current, detailed in references~\cite{PhysRevLett.107.126805,doi:10.1126/science.1168636,Yang2010,10.1063/5.0101513}, exemplify the significance of this phenomenon.
+For the photovoltaic injection in bulk systems, the second-order nonlinear optical effect, as explored in~\cite{PhysRevB.61.5337}, has garnered considerable attention for its potential in achieving highly efficient light-to-current conversion. Investigations into shift-current, detailed in references~\cite{PhysRevLett.107.126805,doi:10.1126/science.1168636,Yang2010,10.1063/5.0101513}, exemplify the significance of this phenomenon.
 
 Another noteworthy aspect of second-order nonlinear current is the "injection
 current"\cite{sipe2000second,laman2005ultrafast,
-	10.1063/1.125084,PhysRevB.61.5337,10.1063/1.2131191}. This current can be induced by the disruption
-of time-reversal symmetry through elliptically or circularly polarized light, in addition to the
+	10.1063/1.125084,PhysRevB.61.5337,10.1063/1.2131191}. This current can be induced by the
+breakdown of time-reversal symmetry through elliptically or circularly polarized light, in addition to the
 breaking of intrinsic spatial inversion symmetry. The injection current results from the population
 imbalance induced by quantum interference (\gls{QuI}) between various excitation paths, arising
 from the interference between absorption pathways associated with orthogonal components of
@@ -126,9 +125,9 @@ interplays between the laser field and the electronic structure of atoms. The fu
 be understood within the framework of the well-known three-step model  \cite{corkum1993plasma,
 	lewenstein1994theory}. This semi-classical framework delineates the gas HHG process through three stages:
 \begin{itemize}
-	\item 1. Ionization: Initially, an electron is ionized by the intense laser field and electron tunneling excitation from the valence band to the conduction band.
+	\item 1. Ionization: Initially, an electron is ionized by the intense laser field and electrons are stripped away from the atom due to the strong electric field of the laser.
 
-	\item 2. Acceleration: Subsequently, the strong laser field imparts energy to the liberated electron ()holes, propelling its acceleration away from the ionized molecule.
+	\item 2. Acceleration: Subsequently, the strong laser field imparts energy to the liberated electron kinetic energy, propelling its acceleration away from the ionized molecule.
 
 	\item 3. Recombination: In the final step, the oscillatory force of the laser field drives the electron back toward the ionized parent molecule. During this process, the electron undergoes recombination with the molecule, releasing the surplus kinetic energy acquired in the second step in the form of a high-energy photon.\\
 \end{itemize}

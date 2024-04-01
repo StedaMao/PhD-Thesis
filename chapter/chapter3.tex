@@ -1,4 +1,4 @@
-\chapter{CO-LINEAR POLARIZATION INDUCED PHOTOVOLTAIC EFFECT \label{ch:ch3}} 
+\chapter{PHOTOVOLTAIC EFFECTS INDUCED BY CO-LINEAR POLARIZED LIGHT} 
 Addressing the photovoltaic effect within the perturbative regime has garnered significant
 attention, particularly in the exploration of dc current injection using two-color linearly
 polarized light~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}.
@@ -8,7 +8,7 @@ A notable study by Jimenez-Galan et al.~\cite{Jimenez-Galan2020} utilized deeply
 In this chapter, we first theoretically explore the phenomenon of dc-current injection and the
 generation of population imbalance through the application of two-color linearly polarized laser
 fields with frequencies $\omega$ and $2\omega$ based on time-dependent perturbation analysis.
-Then we look into light-induced electron dynamics in a typical two-dimensional insulator, $h$-BN, based on a simple tight-binding approximation in a perturbative resonant regime.
+Then we look into light-induced electron dynamics in a typical two-dimensional insulator, $h$-BN, based on a simple tight-binding approximation in a perturbative resonant regime using the \gls{TDSE} introduced in Chapter.~(\ref{ch:ch2}).
 
 In our quantum dynamics simulations, we further uncover that ballistic current can be induced even
 in the deeply off-resonant regime with two-color linearly polarized light.  Consequently, efficient
@@ -23,7 +23,7 @@ optoelectronic applications.
 \section{Time-dependent Perturbative Analysis on QuI \label{sec:deriveperturbation}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Time-dependent perturbation theory provides a form for describing the response of quantum systems to time-varying external fields, makes it well-suited for analyzing the interaction of materials with intense electromagnetic radiation. 
-Exploring the photovoltaic effect within the perturbative regime has led to a notable focus on elucidating the injection of direct current (dc) through the use of two-color linearly polarized light ~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}. 
+Exploring the photovoltaic effect within the perturbative regime has led to a notable focus on elucidating the injection of dc-current through the use of two-color linearly polarized light ~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}. 
 Here, we investigate the nonlinear photocarrier injection process via the time-dependent perturbation analysis.
 Under adiabatic basis representation described in Appendix ~\ref{ch:Adiabatic}, one can rewrite the equation of motion for the coefficient vector $c_{\mathbf k} (t)$ after expansion as
 
@@ -54,7 +54,9 @@ $\mathbf c_{\mathbf k}(t) = \left(
       c_{v,\mathbf k}(t) \\
       c_{c,\mathbf k}(t)
     \end{array}
-    \right)$ is the coefficient vector,  $\Delta\epsilon_{bb',\mathbf k+ \mathbf A(t)}$ is defined by the difference of the single-particle energies as $\epsilon_{b,\mathbf k+ \mathbf A(t)}-\epsilon_{b',\mathbf k+ \mathbf A(t)}$. For simplicity, here assume that the contribution from the geometric phases, $\Delta \phi^g_{cv,\mathbf k}(t)$ is zero. Then expand the Hamiltonian in Eq.~(\ref{eq:tdse-ad-basis}) up to the second order of the field $\mathbf A(t)$ as
+    \right)$ is the coefficient vector,  $\Delta\epsilon_{bb',\mathbf k+ \mathbf A(t)}$ is defined by the difference of the single-particle energies as $\epsilon_{b,\mathbf k+ \mathbf A(t)}-\epsilon_{b',\mathbf k+ \mathbf A(t)}$. 
+$|u^H_{b\vecb k}(t)\rangle $ is the Houston states are eigenstates of the instantaneous Hamiltonian: $H_{\vecb{k}+e\vecb{A}(t)/\hbar} |u^H_{b\vecb k}(t)\rangle = \epsilon_{b,\vecb k + e\vecb A(t)/\hbar}|u^H_{b\vecb k}(t)\rangle$, 
+    For simplicity, here assume that the contribution from the geometric phases, $\Delta \phi^g_{cv,\mathbf k}(t)$ is zero. Then expand the Hamiltonian in Eq.~(\ref{eq:tdse-ad-basis}) up to the second order of the field $\mathbf A(t)$ as
 \begin{align}
 \mathcal{H}(t)\approx \mathcal{H}^{(1)}(t) + \mathcal{H}^{(2)}_{dyn}(t) + \mathcal{H}^{(2)}_{dip}(t),
 \end{align}
@@ -146,7 +148,7 @@ Under initial condition $\mathcal{H}^{(0)}_{\mathbf k}(t=0)=0$, $\mathbf c^{(0)}
      c^{(2)}_{c,\mathbf k,dip}(t) =  \frac{\partial \left \langle u_{c,\mathbf k}\Big |\frac{\partial u_{v,\mathbf k}}{\partial \mathbf k} \right \rangle}{\partial \mathbf k}   \int_0^t dt' e^{-i \Delta \epsilon_{vc,\mathbf k}t'}\mathbf E_2(t')  \mathbf A_2(t') 
     \label{second_dip}
 \end{align}
-Under two-color linearly polarized light, here we consider the perturbation by the external linearly polarized vector potential for $\vec e$-direction, assuming that the perturbation only exits time between 0 and $2T_0$ under the Gaussian distribution:
+Under two-color linearly polarized light, here we consider the perturbation by the external linearly polarized vector potential for $\vec e$-direction, assuming $T_0$ is much larger than the width of the gaussian, and the gaussian can be approximately zero. 
 \begin{align}
 f(t)=e^{-\frac{(t-T_0)^2}{2\sigma^2}}    
 \end{align}
@@ -156,7 +158,7 @@ f(t)=e^{-\frac{(t-T_0)^2}{2\sigma^2}}
    \label{vector}
 \end{align}
 $w$ is the carrier frequency of the field,  $\vec{e}$ represents a unit vector along the polarization direction of the laser field
-We assume $T_0\gg0$ and $\sigma\gg0$ to make the approximation:
+We assume $\sigma\gg0$ to make the approximation the Gaussian term is a constant:
 \begin{align}
     \int_0^{t'} A_2 \vec e \cos[\omega(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}} dt = \frac{A_2 \vec e}{\omega} \sin[\omega(t'-T_0)]  e^{-\frac{(t'-T_0)^2}{2\sigma^2}}    
 \end{align}
@@ -213,7 +215,7 @@ This completes the derivation of the population of the conduction band after the
     &+c^{(2)}_{c,\mathbf k,dyn}(t)^* c^{(2)}_{c,\mathbf k,dip}(t)+c.c.
 \end{aligned}
 \end{equation}
-$c.c.$ represents complex conjugate. We consider a prototypical two-dimensional insulator, monolayer hexagonal boron-nitride (\gls{h-BN}). For the 2-band \gls{h-BN}-tight-binding model, the inversion symmetric is breaking:
+$c.c.$ represents complex conjugate. We consider a prototypical two-dimensional insulator, monolayer hexagonal boron-nitride (\gls{h-BN}). For the 2-band \gls{h-BN}-tight-binding model, the inversion symmetric is broken
 \begin{align}
 u_{\mathbf k}(-\vec r)\neq u_{-\mathbf k}(\vec r)    
 \end{align}
@@ -354,7 +356,7 @@ We consider the band gap between valence and conduction bands close to twice the
 \begin{align}
 \Delta \epsilon_{vc,\mathbf k}+2\omega \approx0    
 \end{align}
-Because $\sigma\gg 0$. In a nutshell, the population imbalance becomes:
+Because $\sigma\gg 0$, in a nutshell, the population imbalance becomes:
 
 \begin{equation}
     \begin{aligned}
@@ -381,7 +383,7 @@ next section.
 \section{Third-order Nonlinear Regime: $1+2$~QuIC \label{sec:perturbative}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-From perturbation analysis in Sec~\ref{sec:deriveperturbation}, the disruption of time-reversal symmetry can be achieved through the use of linearly polarized light featuring two distinct frequencies. This implies that the injection of dc-current and the generation of a substantial population imbalance can be efficiently realized without relying on the ellipticity of light. This principle is exemplified by employing two-color linearly polarized laser fields with frequencies $\omega$ and $2\omega$. In this configuration, the intrinsic properties of linear polarization and the dual frequencies are sufficient to break time-reversal symmetry, facilitating the desired outcomes of dc-current injection and the establishment of a pronounced population imbalance. This approach provides a adjiustable and simplified means to manipulate quantum interference and achieve specific optical responses in the system without the need for elliptically polarized light.\\
+From perturbation analysis in Sec~\ref{sec:deriveperturbation}, the breakdown of time-reversal symmetry can be achieved through the use of linearly polarized light featuring two distinct frequencies. This implies that the injection of dc-current and the generation of a substantial population imbalance can be efficiently realized without relying on the ellipticity of light. This principle is exemplified by employing two-color linearly polarized laser fields with frequencies $\omega$ and $2\omega$. In this configuration, the intrinsic properties of linear polarization and the dual frequencies are sufficient to break time-reversal symmetry, facilitating the desired outcomes of dc-current injection and the establishment of a pronounced population imbalance. This approach provides a adjiustable and simplified means to manipulate quantum interference and achieve specific optical responses in the system without the need for elliptically polarized light.\\
 
  For practical simulation, we examine the light-induced electron dynamics in a typical two-dimensional insulator, monolayer \gls{h-BN}, using a simple tight-binding approximation and \gls{TDSE} introduced in Chapter ~\ref{ch:ch2}. In the quantum dynamics simulation, we employ the following expression for the vector potential of the applied two-color fields within the interval $-\frac{\tau}{2} < t < \frac{\tau}{2}$ and zero outside this range:
 \begin{equation}
@@ -405,7 +407,7 @@ one can induce a population imbalance and, consequently, a dc-current by extrins
 \begin{figure}[htbp]
  \includegraphics[width=1.0\linewidth]{pic/electric.pdf}
 \caption{\label{fig:electricfield} 
-The time profiles of the electric field given by Eq.~(\ref{eq:ele-pot-w-2w}) are shown for (a) $\phi=0$ and (b) $\phi=\pi/2$.}
+The time profiles of the electric field given by Eq.~(\ref{eq:ele-pot-w-2w}) are shown for (a) $\phi=0$ and (b) $\phi=\pi/2$. The corresponding vector potential is shown in (c) $\phi=0$ and (d) $\phi=\pi/2$.}
 \end{figure}
 
 
