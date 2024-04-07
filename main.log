@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  1 APR 2024 15:22
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  7 APR 2024 22:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2205,14 +2205,14 @@ Overfull \hbox (14.40027pt too wide) in paragraph at lines 496--498
 [][][][]$ MV/cm and (c) $[][] [] [][][][][][]$ MV/cm.
  []
 
-[38] [39]
+[38] [39] [40]
 File: pic/nex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/nex_pop_E0_1e10.pdf>
 File: pic/dnex_pop_E0_1e10.pdf Graphic file (type pdf)
 <use pic/dnex_pop_E0_1e10.pdf>
 File: pic/current_off_resonant.pdf Graphic file (type pdf)
 <use pic/current_off_resonant.pdf>
- [40]
+ [41] [42]
 Overfull \hbox (1.86552pt too wide) in paragraph at lines 542--546
 \TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant 
 population imbalance through
@@ -2224,6 +2224,7 @@ Overfull \hbox (0.58885pt too wide) in paragraph at lines 547--548
 ]$ and $[][]$ two-color laser fields.
  []
 
+[43]
 File: pic/jdc_vs_phi_off_resonance.pdf Graphic file (type pdf)
 <use pic/jdc_vs_phi_off_resonance.pdf>
 
@@ -2231,12 +2232,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--571
 
  []
 
-[41]
+[44]
 File: pic/dc_current_vs_E0.pdf Graphic file (type pdf)
 <use pic/dc_current_vs_E0.pdf>
 File: pic/nex_vs_E0.pdf Graphic file (type pdf)
 <use pic/nex_vs_E0.pdf>
-
+ [45]
 Overfull \hbox (2.82887pt too wide) in paragraph at lines 584--587
 \TU/NotoSerif(1)/m/n/10 strength might initially seem inconsistent with the exp
 ected behavior of a straight-
@@ -2248,13 +2249,13 @@ Overfull \hbox (8.11552pt too wide) in paragraph at lines 588--589
 ng that indicates seventh-
  []
 
-[42]
+[46]
 Overfull \hbox (11.58885pt too wide) in paragraph at lines 600--601
 \TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under we
 ak applied field strength.
  []
 
-[43]) [44] [45] [46] [47] [48]
+[47]) [48]
 \openout2 = `chapter/chapter4.aux'.
 
  (./chapter/chapter4.tex

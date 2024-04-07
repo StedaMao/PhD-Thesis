@@ -21,7 +21,7 @@
 \contentsline {chapter}{\numberline {3}PHOTOVOLTAIC EFFECTS INDUCED BY CO-LINEAR POLARIZED LIGHT}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Time-dependent Perturbative Analysis on QuI }{22}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Third-order Nonlinear Regime: $1+2$\nobreakspace {}QuIC }{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Deeply Off-resonant Highly-nonlinear Regime }{40}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Deeply Off-resonant Highly-nonlinear Regime }{41}{section.3.3}%
 \contentsline {chapter}{\numberline {4}THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT }{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Fully Dynamical Simulations for THz Field}{50}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Quasi-static Approximation}{53}{section.4.2}%
