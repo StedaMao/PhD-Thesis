@@ -3,10 +3,10 @@
 %----------------------------------------------------------------------------------------
 \chapter{THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT \label{ch:ch4}}
 
-Researchers have probed HHG in graphene particularly within the terahertz (THz) regime \cite{hafez2018extremely,kovalev2021electrical}. THz-induced transparency of graphene, an interesting nonlinear optical effect, has been explored \cite{Hwang2013,Paul_2013,doi:10.1063/1.4902999}, often analyzed through a thermodynamic model emphasizing the reduction of electric conductivity \cite{mics2015thermodynamic,kovalev2021electrical}.
+Researchers have probed HHG in graphene particularly within the  THz regime \cite{hafez2018extremely,kovalev2021electrical}. THz-induced transparency of graphene, an interesting nonlinear optical effect, has been explored \cite{Hwang2013,Paul_2013,doi:10.1063/1.4902999}, often analyzed through a thermodynamic model emphasizing the reduction of electric conductivity \cite{mics2015thermodynamic,kovalev2021electrical}.
 Despite these advancements, a comprehensive understanding of the microscopic mechanisms controlling these nonlinear effects remains tricky. The existing studies predominantly rely on thermodynamic models, lacking a thorough exploration of nonequilibrium quantum dynamics under dissipation. This research gap highlights the need for a deeper exploration of the underlying microscopic processes to unravel the intricacies of HHG and related nonlinear optical effects in graphene.
 
-In this chapter, we investigate into the complex details of terahertz (THz)-induced high-order harmonic generation (HHG) and nonlinear electric transport in graphene. Our approach involves utilizing the quantum master equation with the relaxation time approximation to provide a comprehensive understanding of the underlying phenomena. To gain microscopic insights, we thoroughly compare the outcomes of fully dynamic calculations with those obtained through a quasi-static approximation,  the electronic system is treated as a nonequilibrium steady state.
+In this chapter, we investigate into the complex details of  THz-induced \gls{HHG} and nonlinear electric transport in graphene. Our approach involves utilizing the quantum master equation with the relaxation time approximation to provide a comprehensive understanding of the underlying phenomena in Chapter.~(\ref{sec:master}). To gain microscopic insights, we thoroughly compare the outcomes of fully dynamic calculations with those obtained through a quasi-static approximation,  the electronic system is treated as a nonequilibrium steady state.
 
 The key revelation from our investigation is that the THz-induced electron dynamics in graphene can be accurately represented by the nonequilibrium steady-state approach at each moment in time. Through a thorough population distribution analysis, we clarify that THz-induced HHG in graphene arises from the reduction of effective conductivity, attributed to a significant displacement of electrons in the Brillouin zone.
 
@@ -18,10 +18,9 @@ The comprehensive dynamical analysis derived from the quantum master equation pr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 In this section, we first give a brief introduction of recent Experiments and Thermodynamic model on
-graphene. Next we investigate into the microscopic intricacies controlling the THz-induced high-order
-harmonic generation (HHG) in graphene, the electronic structure is discriped by the tight-binding
+graphene. Next we investigate into the microscopic intricacies controlling the THz-induced \gls{HHG} in graphene, the electronic structure is discriped by the tight-binding
 model in Chapter\ref{ch:ch2}.
-We initiate our investigation by conducting a detailed electron dynamics simulation using \gls{TDSE},Eq.~(\ref{eqn:masterequation}). The focus of this simulation is to analyze the high-order harmonic generation (HHG) in graphene under the influence of a linearly polarized laser pulse. To promote this analysis, we adopt a specific form for the applied vector potential, described by the equation:
+We initiate our investigation by conducting a detailed electron dynamics simulation using \gls{TDSE},Eq.~(\ref{eqn:masterequation}). The focus of this simulation is to analyze the \gls{HHG} in graphene under the influence of a linearly polarized laser pulse. To promote this analysis, we adopt a specific form for the applied vector potential, described by the equation:
 
 \begin{align}
 	\mathbf A(t) = -\frac{E_0}{\omega_0}\mathbf{e_x} \sin(\omega_0 t)\cos^4 \left (\frac{\pi}{T_\mathrm{full}} t \right),
@@ -32,7 +31,7 @@ where the simulation is conducted in the domain $-T_\mathrm{full}/2 < t < T_\mat
 
 This detailed setup enables a thorough exploration of the electron dynamics under the influence of the specified laser pulse parameters, laying the groundwork for a comprehensive analysis of high-order harmonic generation in graphene.
 
-Following the electron dynamics simulation governed by the field in Eq.~(\ref{eqn:laser_pulse}), we proceed to compute the induced electric current, denoted as $\mathbf J(t)$. To unveil the frequency content embedded within the current dynamics, we employ a Fourier transform applied to the current, yielding the high-order harmonics spectrum described by the expression:
+Following the electron dynamics simulation governed by the field in Eq.~(\ref{eqn:laser_pulse}), solve the quantum master euation in Eq.~(\ref{eqn:masterequation}) with the vector potential given above, we obtain the time-dependent density matrix. Then we proceed to compute the induced electric current, denoted as $\mathbf J(t)$ given by Eq.~(\ref{eqn:totalcurrent}). To unveil the frequency content embedded within the current dynamics, we employ a Fourier transform applied to the current, yielding the high-order harmonics spectrum described by the expression:
 
 \begin{align}
 	I_{\mathrm{HHG}}(\omega)\sim \omega^2 \left | \int^{\infty}_{-\infty} dt , J(t) , e^{i\omega t} \right |^2.
@@ -46,12 +45,12 @@ Here, $I_{\mathrm{HHG}}(\omega)$ encapsulates the contribution of high-order har
 	\includegraphics[width=0.8\linewidth]{pic/hhg_mu.pdf}
 	\caption{\label{fig:hhg_mu}
 		Computed harmonic spectra $I_{\mathrm{HHG}}(\omega)$ with Eq.~(\ref{eqn:spectrum}) for different
-		chemical potentials, $\mu = 0$, $70$ and $170$~meV.}
+		chemical potentials, $\mu = 0$, $70$ and $170$~meV. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 In Figure~\ref{fig:hhg_mu}, we present the computed HHG spectra, denoted as $I_{\mathrm{HHG}}(\omega)$, corresponding to different chemical potentials $\mu$. Each chemical potential yields distinct harmonic peaks, and a noticeable trend emerges: the intensities of the induced harmonics systematically increase with the rise in the chemical potential. This observation combines with findings from a recent experiment \cite{kovalev2021electrical}, where an analogous increase in induced harmonic intensity was noted with an elevation in gate voltage.
 
-The results presented here reproduce the interpretations from former research, such as \cite{mics2015thermodynamic}, where THz-induced high-order harmonic generation in graphene was clarifyd through a thermodynamic framework. In contrast, our current study aims to advance the understanding of these THz-induced nonlinear phenomena by considering a comprehensive microscopic perspective. Specifically, we investigate into the nonequilibrium nature of electron dynamics to process our description of light-matter interactions and provide a more  interpretation of the observed trends in high-order harmonic spectra with varying chemical potentials.
+The observed trends in harmonic spectra intensities presented here depending on the chemical potential increasing reproduce the results from former research, such as \cite{mics2015thermodynamic}, where THz-induced high-order harmonic generation in graphene was clarifyd through a thermodynamic framework. In contrast, our current study aims to advance the understanding of these THz-induced nonlinear phenomena by considering a comprehensive microscopic perspective. Specifically, we investigate into the nonequilibrium nature of electron dynamics to process our description of light-matter interactions and provide a more  interpretation of the observed trends in high-order harmonic spectra with varying chemical potentials.
 
 Following the electron dynamics calculations under THz fields, our findings reveal that the induced harmonics experience enhancement with an increase in chemical potential. This theoretical insight combines with recent experimental observations, where high-order harmonic generation is similarly enhanced through the application of a gate bias voltage \cite{kovalev2021electrical}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,7 +85,7 @@ Figure\ref{fig:steady} illustrates the computed current as a function of time un
 	\centering
 	\includegraphics[width=0.8\linewidth]{pic/steady_current_appendix.pdf}
 	\caption{\label{fig:steady}
-		Electric current in graphene under a static electric field, $E_0=8.5$~MV/m.}
+		Electric current in graphene under a static electric field, $E_0=8.5$~MV/m. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 As observed in Fig.\ref{fig:steady}, the application of the electric field induces an electric current at $t=0$, and it steadily approaches the steady-state value, denoted as $\mathbf J_S(E_0)$. This observation confirms that the electronic system, evolving under Eq.(\ref{eqn:masterequation}) with a static electric field, eventually reaches a nonequilibrium steady state after a sufficiently extended period of time propagation. This validation supports the reliability of the quasi-static approximation in capturing the nonequilibrium dynamics induced by a slowly varying electric field.
@@ -94,7 +93,7 @@ As observed in Fig.\ref{fig:steady}, the application of the electric field induc
 	\centering
 	\includegraphics[width=0.8\linewidth]{pic/jsteady_interpolate.pdf}
 	\caption{\label{fig:insert}
-		Steady current $\mathbf J_S(E_0)$ as a function of field strength $E_0$. The results of the fully dynamical calculation are showns as the red points, while the interpolated result is shown as the blue-solid line.}
+		Steady current $\mathbf J_S(E_0)$ as a function of field strength $E_0$. The results of the fully dynamical calculation are showns as the red points, while the interpolated result is shown as the blue-solid line. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 In our practical simulations, we systematically vary the field strength $E_0$ and evaluate the resulting values of the steady current. Denoting the $k$th set of employed field strength and evaluated current as $E_k$ and $\mathbf J_k$ respectively, we represent the computed steady current $\mathbf J_k$ as red points in Figure~\ref{fig:insert} against the applied field strength $E_k$. To construct a continuous function $\mathbf J_S(E_0)$ from the discrete data points ${E_k, \mathbf J_k}$ in Figure~\ref{fig:insert}, we adopt a two-step interpolation procedure.
@@ -102,7 +101,7 @@ In our practical simulations, we systematically vary the field strength $E_0$ an
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\linewidth]{pic/current_comparison_appendix.pdf}
-	\caption{\label{fig:current} Comparison of the THz-induced current computed with the fully dynamical calculation and the quasi-static approximation.}
+	\caption{\label{fig:current} Comparison of the THz-induced current computed with the fully dynamical calculation and the quasi-static approximation. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 In the first step of constructing the continuous function, we employ a polynomial regression with the following odd function:
@@ -131,7 +130,7 @@ Subsequently, we apply spline interpolation to the data points ${E_k, \Delta \ma
 	\centering
 	\includegraphics[width=0.8\linewidth]{pic/hhg_qstatic.pdf}
 	\caption{\label{fig:hhg_qstatic}
-		Comparison of the HHG spectra computed with the fully dynamical simulations in Sec.~\ref{subsec:dynamical_simulation} and the quasi-static approximation Sec.~\ref{subsec:quasi-static}. Here, the chemical potential is set to $\mu =170$~meV.}
+		Comparison of the HHG spectra computed with the fully dynamical simulations in Sec.~\ref{subsec:dynamical_simulation} and the quasi-static approximation Sec.~\ref{subsec:quasi-static}. Here, the chemical potential is set to $\mu =170$~meV. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 Utilizing the approximated function in Eq.(\ref{eqn:approx}), we evaluate the THz-induced electric
@@ -140,14 +139,8 @@ The relationship between current and field as expressed in Eq.~(\ref{eq:steady-c
 Figure~\ref{fig:current} showcases the computed current as a function of time with the quasi-static
 approximation. To promote comparison, the result of the fully dynamical calculation is also
 presented. Applying a Fourier transform to the obtained current in Figure~\ref{fig:current} yields
-the high-order harmonic generation (HHG) spectra illustrated in Figure~\ref{fig:hhg_qstatic}.
-
-To measure the accuracy of the quasi-static approximation, we computed the high-order harmonic
-generation spectrum $I_{\mathrm{HHG}}(\omega)$ using the approximated current, $\mathbf J_S\left(
-	\mathbf E(t) \right)$. Figure~\ref{fig:hhg_qstatic} illustrates the computed spectrum $I_{\mathrm{HHG}}(\omega)$ with the quasi-static approximation, with $\mu$ set to $170$~meV. For reference, the corresponding result from the fully dynamical calculation is also presented. As evident from the figure, the quasi-static approximation successfully reproduces the results obtained from the fully dynamical calculation. Thus, we confirm that the quasi-static approximation well captures the electron dynamics in graphene under THz fields. This observation suggests that the microscopic mechanism of THz-induced high-order harmonic generation (HHG) in graphene can be effectively clarifyd based on the nonequilibrium steady state, considering the balance between field-induced excitation and relaxation. It is worth noting that the accuracy of the quasi-static approximation decreases for higher-order harmonics due to the rapid dynamics that cannot be adequately captured by the quasi-static picture.
-
-We have validated that the THz-induced high-order harmonic generation in graphene is effectively captured by the quasi-static approximation, highlighting the relevance of the nonequilibrium steady-state in portraying essential aspects of THz-induced electron dynamics. A detailed microscopic analysis has been conducted to examine the significance of the intraband current and the population distribution within the Brillouin zone in this steady-state.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+the \gls{HHG} spectra illustrated in Figure~\ref{fig:hhg_qstatic}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Nonlinear Charge Transport in Nonequilibrium Steady-state}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 To provide a broader context, we compare the nonequilibrium steady-state achieved within the quasi-static framework with insights collected from a recently developed thermodynamic model \cite{mics2015thermodynamic}. This comparative analysis aims to clarify the nonequilibrium mechanisms controlling nonlinear optical and transport phenomena within graphene in the THz regime. By contrasting the quasi-static nonequilibrium picture with the thermodynamic model, we endeavor to unravel the underlying dynamics driving the complex interplay between electron behavior and external THz fields in graphene systems.
@@ -171,7 +164,7 @@ Figure~\ref{fig:conductivity} illustrates the computed effective conductivities,
 	\centering
 	\includegraphics[width=0.8 \linewidth]{pic/sigma_vs_E0.pdf}
 	\caption{\label{fig:conductivity}
-		Nonlinear effective conductivities of graphene as a function of the static field strength $E_0$ evaluated with the total currents (solid lines) and intraband currents (dashed lines) for different values of the chemical potential, $\mu = 0$, $70$ and $170$~meV.}
+		Nonlinear effective conductivities of graphene as a function of the static field strength $E_0$ evaluated with the total currents (solid lines) and intraband currents (dashed lines) for different values of the chemical potential, $\mu = 0$, $70$ and $170$~meV. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 In Fig.~\ref{fig:conductivity}, the effective conductivities, $\sigma(E_0)$, show an initial
@@ -191,7 +184,7 @@ Given that the present work employs a more comprehensive electronic structure th
 	\centering
 	\includegraphics[width=1.0\linewidth]{pic/pop_fig.pdf}
 	\caption{\label{fig:pop_f}
-		(a) The equlibrium population distribution in the conduction band $f^{\mathrm{FD}}(\epsilon_{c,\mathbf k})$. (b-d) The field induced conduction population change for different field strengths, (b) $0.01$~MV/m, (c) $3$~MV/m, and (d) $10$~MV/m. (e) The population distribution in the conduction band in the nonequilibrium steady-state under a static field, $E_0=10$~MV/m.}
+		(a) The equlibrium population distribution in the conduction band $f^{\mathrm{FD}}(\epsilon_{c,\mathbf k})$. (b-d) The field induced conduction population change for different field strengths, (b) $0.01$~MV/m, (c) $3$~MV/m, and (d) $10$~MV/m. (e) The population distribution in the conduction band in the nonequilibrium steady-state under a static field, $E_0=10$~MV/m. Panels are reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 Given the ability of the quasi-static approximation in accurately describing THz-induced electron
@@ -235,12 +228,12 @@ Our investigation reveals a substantial decrease in the effective conductivity o
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Comparison with Thermodynamic Model \label{sec:thermo}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Having clarifyd the microscopic intricacies of THz-induced High-Order Harmonic Generation (HHG) in graphene within the framework of the none equilibrium steady-state, our focus now shifts to investigating the specific role played by the nonequilibrium nature of THz-induced electron dynamics. To accomplish this, we undertake a comparative analysis with the previously formulated thermodynamic model \cite{mics2015thermodynamic}. In contrast to the present nonequilibrium model, the thermodynamic model relies on the utilization of the thermal Fermi--Dirac distribution to delineate laser-excited electronic systems. This model operates under the assumption that electrons swiftly undergo thermalization, allowing them to be effectively treated as an equilibrium state characterized by a notably high electron temperature $T_e$.
+Having clarifyd the microscopic intricacies of THz-induced \gls{HHG} in graphene within the framework of the none equilibrium steady-state, our focus now shifts to investigating the specific role played by the nonequilibrium nature of THz-induced electron dynamics. To accomplish this, we undertake a comparative analysis with the previously formulated thermodynamic model \cite{mics2015thermodynamic}. In contrast to the present nonequilibrium model, the thermodynamic model relies on the utilization of the thermal Fermi--Dirac distribution to delineate laser-excited electronic systems. This model operates under the assumption that electrons swiftly undergo thermalization, allowing them to be effectively treated as an equilibrium state characterized by a notably high electron temperature $T_e$.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\linewidth]{pic/sigma_thermo.pdf}
-	\caption{\label{fig:compare} Computed effective conductivities are shown as a function of the excess energy. The results for the nonequilibrium steady-state (red-solid), the thermodynamic model (green-dashed), and the thermodynamic model plus the single-band approximation (blue-dotted) are shown.}
+	\caption{\label{fig:compare} Computed effective conductivities are shown as a function of the excess energy. The results for the nonequilibrium steady-state (red-solid), the thermodynamic model (green-dashed), and the thermodynamic model plus the single-band approximation (blue-dotted) are shown. Figure is reproduced with permission from ref.~(\cite{PhysRevB.106.024313}). Copyright 2022, Phys. Rev. B.}
 \end{figure}
 
 Within the thermodynamic model, equilibrium states find characterization through the electron

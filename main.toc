@@ -25,13 +25,13 @@
 \contentsline {chapter}{\numberline {4}THZ-INDUCED HHG AND NONLINEWAR CHARGE TRANSPORT }{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Fully Dynamical Simulations for THz Field}{50}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Quasi-static Approximation}{53}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Nonlinear Charge Transport in Nonequilibrium Steady-state}{58}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comparison with Thermodynamic Model }{64}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Nonlinear Charge Transport in Nonequilibrium Steady-state}{57}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparison with Thermodynamic Model }{63}{section.4.4}%
 \contentsline {chapter}{\numberline {5}ENHANCEMENT OF MIR-INDUCED HHG BY COHERENT COUPLING WITH THZ FIELD }{69}{chapter.5}%
 \contentsline {section}{\numberline {5.1}MIR-induced HHG in Graphene under THz Fields}{70}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Orientational Dependence of HHG}{77}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comparison of Nonequilibrium Steady State and Thermodynamic Model}{81}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Orientational Dependence of HHG}{78}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comparison of Nonequilibrium Steady State and Thermodynamic Model}{82}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Contribution of Nonequilibrium Population}{84}{section.5.4}%
 \contentsline {chapter}{\numberline {6}CONCLUSION AND OUTLOOK }{91}{chapter.6}%
-\contentsline {chapter}{\numberline {A}ADIABATIC BASIS REPRESENTATION }{93}{chapter.1}%
-\contentsline {chapter}{Bibliography}{97}{equation.1.0.17}%
+\contentsline {chapter}{\numberline {A}ADIABATIC BASIS REPRESENTATION }{95}{chapter.1}%
+\contentsline {chapter}{Bibliography}{99}{equation.1.0.17}%
