@@ -27,27 +27,41 @@ In such cases. the system's behavior is described by linear susceptibility ($\ch
 
 The electric susceptibility ($\chi^{(1)}$) describes the response of a material to an applied electric field ($\mathbf{E}$). The relationship between the induced polarization ($\mathbf{P}$) and the applied electric field can be expressed as:
 
-\[
-	\mathbf{P(t)} =\epsilon_0 \chi^{(1)} \cdot \mathbf{E}(t)
-\]
-j
+\begin{equation}
+	\mathbf{P^{(1)}(t)} =\epsilon_0 \int_{0}^{\infty}\mathbf R^{(1)} \cdot \mathbf{E}(t-\tau)d\tau
+	\label{eqn:linearresponse}
+\end{equation}
 Where:
 \begin{itemize}
 	\item $\mathbf{P}$ is the induced polarization vector,
-	\item $\chi^{(1)}$ is the electric susceptibility tensor, and
+	\item $\mathbf R^{(1)}$ is the linear response function, electric susceptibility tensor, and
 	\item $\mathbf{E}$ is the applied electric field vector.
-\end{itemize}
 
-In nonlinear response, the relationship can be expressed using a power series expansion:
+\end{itemize}
+Equation.~(\ref{eqn:linearresponse}) can be transformed to the frequency domain by intoducing the
+Fourier trasnform of electric field:
 \[
-	\mathbf{P}(t) =\epsilon_0( \chi^{(1)} \cdot \mathbf{E}(t)+\chi^{(2)} \cdot \mathbf{E}(t)^2 + \chi^{(3)}
-	\cdot \mathbf{E}(t)^3 + ...)
+	E(\omega) =\int_{-\infty'}^{\infty}E(t) \cdot e^{i\omega t} dt.
 \]
-For Second Harmonic Generation (SHG), the nonlinear polarization $P_i (t)$ in terms of tensor notation and write down the integral expression for time can be expressed as:
 \[
-	P_i(t) = \varepsilon_0 \chi^{(2)}_{ijk} E_j(t)E_k(t)
+	E(t) =\frac{1}{2\pi}\int_{-\infty'}^{\infty}E(\omega) \cdot e^{-i\omega t} d\omega.
 \]
-We can express the nonlinear polarization $P_i(t)$ as a convolution integral involving the electric field $E_j(t)$ and the time-dependent response function $\chi^{(2)}_{ijk}(t-t_1,t-t_2)$ for the second-order nonlinear process:
+By introducing above Fourier transform, we have:
+\[
+	\mathbf P^{(1)}(t) =\epsilon_0 \int_{-\infty}^{\infty} \frac{d\omega}{2\pi} \int_{0}^{\infty}\mathbf R^{(1)} e^{i\omega \tau} \cdot \mathbf{E}(\omega) e^{-i\omega t} d\tau
+\]
+we intoduce an explicit expression for the linear susceptibility is:
+\[
+	\chi^{(1)}(\omega;\omega) =\int_{0}^{\infty}\mathbf R^{(1)}(\tau) \cdot e^{i\omega \tau} d\tau.
+\]
+By noting that the equality must be maintained for each frequency $\omega$, we recover the usual
+frequency domain description of linear response:
+
+\begin{equation}
+	\mathbf{P}^{(1)}(\omega) =\epsilon_0 \chi^{(1)}(\omega;\omega) \cdot \mathbf{E}(\omega)
+	\label{eqn:linearresponse-W}
+\end{equation}
+In nonlinear response, the relationship can be described by analogous procedures. We can express the nonlinear polarization $P_i(t)$ as a convolution integral involving the electric field $E_j(t)$ and the time-dependent response function $\chi^{(2)}_{ijk}(t-t_1,t-t_2)$ for the second-order nonlinear process:
 \[
 	P_i(t) = \epsilon_0 \sum_{j=1}^{3} \sum_{k=1}^{3}\int_{-\infty}^t \int_{-\infty}^t \, \chi^{(2)}_{ijk}(t-t_1,t-t_2) E_j(t_1)E_k(t_2) dt_1 dt_2
 \]

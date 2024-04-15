@@ -1,0 +1,1806 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.27)  15 APR 2024 22:25
+ restricted system commands enabled.
+**chapter1.tex
+(./chapter1.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/maowen/.texlive2023/texmf-var
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/maowen/.texlive2023/texmf-var
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-02-22>
+Inserting `tracingstacklevels' in `input_level_string'.
+! Undefined control sequence.
+l.6 \chapter
+          {INTRODUCTION }
+? Q
+OK, entering \batchmode...
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \chapter{I
+            NTRODUCTION }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\citation{franken1961generation}
+luaotfload | db : Font names database loaded from /home/maowen/.texlive2023/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.13 ...mena by Franken~\cite{franken1961generation}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `franken1961generation' on page  undefined on input lin
+e 13.
+
+\citation{RevModPhys.72.545}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.15 ...ys.72.545, RevModPhys.81.163, MOUROU2012720}
+                                                  , have conducted in a new ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `RevModPhys.72.545' on page  undefined on input line 15
+.
+
+\citation{RevModPhys.81.163}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.15 ...ys.72.545, RevModPhys.81.163, MOUROU2012720}
+                                                  , have conducted in a new ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `RevModPhys.81.163' on page  undefined on input line 15
+.
+
+\citation{MOUROU2012720}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.15 ...ys.72.545, RevModPhys.81.163, MOUROU2012720}
+                                                  , have conducted in a new ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `MOUROU2012720' on page  undefined on input line 15.
+
+! Undefined control sequence.
+l.15 ...nces is High-order Harmonic Generation (\gls
+                                                  {HHG}), a process characte...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--16
+[]INTRODUCTION
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 6--16
+Franken[[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 6--16
+driven[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 6--16
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 6--16
+[]],
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 T
+    his thesis aims to provide a comprehensive overview of the nonlinear res...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.23 \section
+           {Nonlinear Optical Response}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--27
+[]This
+ []
+
+
+Overfull \hbox (16.99307pt too wide) in paragraph at lines 17--27
+($\OML/cmm/m/it/10 []$\nullfont ). 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 T
+    he electric susceptibility ($\chi^{(1)}$) describes the response of a ma...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--29
+[]The
+ []
+
+
+Overfull \hbox (16.99307pt too wide) in paragraph at lines 28--29
+($\OML/cmm/m/it/10 []$\nullfont )
+ []
+
+
+Overfull \hbox (7.55551pt too wide) in paragraph at lines 28--29
+($\OT1/cmr/bx/n/10 E$\nullfont ).
+ []
+
+
+Overfull \hbox (7.86107pt too wide) in paragraph at lines 28--29
+($\OT1/cmr/bx/n/10 P$\nullfont )
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \begin{equation}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 30--30
+[] 
+ []
+
+
+Overfull \hbox (140.1485pt too wide) detected at line 33
+[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 [] [][] \OT1/cmr/bx/n/10 R[] \OMS/cmsy/m
+/n/10  \OT1/cmr/bx/n/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OMS/cmsy/m/n/10 
+^^@ \OML/cmm/m/it/10 \OT1/cmr/m/n/10 )\OML/cmm/m/it/10 d[]
+ []
+
+
+Overfull \hbox (7.86107pt too wide) in paragraph at lines 36--37
+\OT1/cmr/bx/n/10 P$
+ []
+
+
+Overfull \hbox (19.36111pt too wide) in paragraph at lines 37--38
+\OT1/cmr/bx/n/10 R[]$
+ []
+
+
+Overfull \hbox (7.55551pt too wide) in paragraph at lines 38--39
+\OT1/cmr/bx/n/10 E$
+ []
+
+! Undefined control sequence.
+<write> ...eference `eqn:linearresponse' on page \thepage 
+                                                  \space undefined\on@line .
+l.41 Equation.~(\ref{eqn:linearresponse}
+                                      ) can be transformed to the frequency ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `eqn:linearresponse' on page  undefined on input line 
+41.
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 41--43
+Equation.([])
+ []
+
+
+Overfull \hbox (110.31609pt too wide) detected at line 45
+\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) = [][] \
+OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) \OMS/cmsy
+/m/n/10  \OML/cmm/m/it/10 e[]dt:
+ []
+
+
+Overfull \hbox (134.66399pt too wide) detected at line 48
+\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = [] [][
+] \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) \OMS/c
+msy/m/n/10  \OML/cmm/m/it/10 e[]d!:
+ []
+
+
+Overfull \hbox (206.54988pt too wide) detected at line 52
+\OT1/cmr/bx/n/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \OML
+/cmm/m/it/10 [] [][] [] [][] \OT1/cmr/bx/n/10 R[]\OML/cmm/m/it/10 e[] \OMS/cms
+y/m/n/10  \OT1/cmr/bx/n/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10
+ )\OML/cmm/m/it/10 e[]d
+ []
+
+
+Overfull \hbox (141.97615pt too wide) detected at line 56
+\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ; \OML/c
+mm/m/it/10 !\OT1/cmr/m/n/10 ) = [][] \OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 e[]d:
+ []
+
+
+Overfull \hbox (6.58331pt too wide) in paragraph at lines 56--59
+\OML/cmm/m/it/10 !$\nullfont ,
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--60
+[] 
+ []
+
+
+Overfull \hbox (121.91306pt too wide) detected at line 63
+\OT1/cmr/bx/n/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) = \OML
+/cmm/m/it/10 [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ; \OML/cm
+m/m/it/10 !\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  \OT1/cmr/bx/n/10 E\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 )[]
+ []
+
+
+Overfull \hbox (21.13834pt too wide) in paragraph at lines 63--65
+\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (22.98442pt too wide) in paragraph at lines 63--65
+\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (32.99774pt too wide) in paragraph at lines 63--65
+\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (23.93057pt too wide) in paragraph at lines 63--65
+\OML/cmm/m/it/10 t[]; t \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (11.98615pt too wide) in paragraph at lines 63--65
+\OML/cmm/m/it/10 t[]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (273.72821pt too wide) detected at line 67
+\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \OML
+/cmm/m/it/10 [] [] [] [][] [][]  []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OMS/c
+msy/m/n/10 ^^@ \OML/cmm/m/it/10 t[]; t \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 t[
+]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]\OT1
+/cmr/m/n/10 )\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]\OT1/cmr/
+m/n/10 )\OML/cmm/m/it/10 dt[]dt[]
+ []
+
+
+Overfull \hbox (7.80904pt too wide) in paragraph at lines 67--69
+($\OML/cmm/m/it/10 P$\nullfont )
+ []
+
+
+Overfull \hbox (7.95831pt too wide) in paragraph at lines 67--69
+($\OML/cmm/m/it/10 E$\nullfont )
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 70--70
+[][] 
+ []
+
+
+Overfull \hbox (261.7418pt too wide) detected at line 72
+\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) = \OML
+/cmm/m/it/10 [] [] [] [] [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !; ![]; ![]\O
+T1/cmr/m/n/10 )\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ![]\OT1/cm
+r/m/n/10 )\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ![]\OT1/cmr/m/n
+/10 ) \OML/cmm/m/it/10 d![] d![]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 74--75
+[]Where: 
+ []
+
+
+Overfull \hbox (24.11053pt too wide) in paragraph at lines 76--78
+\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (6.58331pt too wide) in paragraph at lines 76--78
+\OML/cmm/m/it/10 !$
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 76--78
+\OML/cmm/m/it/10 i$\nullfont , 
+ []
+
+
+Overfull \hbox (62.39119pt too wide) in paragraph at lines 78--79
+\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !; ![]; ![]\OT1/cmr/m/n/1
+0 )$
+ []
+
+
+Overfull \hbox (30.08397pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (30.79057pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (10.71066pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 ![]$
+ []
+
+
+Overfull \hbox (10.71066pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 ![]$
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 83--87
+[]In
+ []
+
+
+Overfull \hbox (17.95027pt too wide) in paragraph at lines 83--87
+($\OML/cmm/m/it/10 []$\nullfont )
+ []
+
+! Undefined control sequence.
+l.89 \section
+           {Photocarrier Injection}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\citation{PhysRevB.61.5337}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.90 ...fect, as explored in~\cite{PhysRevB.61.5337}
+                                                  , has garnered considerabl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevB.61.5337' on page  undefined on input line 90.
+
+
+\citation{PhysRevLett.107.126805}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.90 .../science.1168636,Yang2010,10.1063/5.0101513}
+                                                  , exemplify the significan...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.107.126805' on page  undefined on input li
+ne 90.
+
+\citation{doi:10.1126/science.1168636}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.90 .../science.1168636,Yang2010,10.1063/5.0101513}
+                                                  , exemplify the significan...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `doi:10.1126/science.1168636' on page  undefined on inp
+ut line 90.
+
+\citation{Yang2010}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.90 .../science.1168636,Yang2010,10.1063/5.0101513}
+                                                  , exemplify the significan...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Yang2010' on page  undefined on input line 90.
+
+\citation{10.1063/5.0101513}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.90 .../science.1168636,Yang2010,10.1063/5.0101513}
+                                                  , exemplify the significan...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `10.1063/5.0101513' on page  undefined on input line 90
+.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 89--91
+[]Photocarrier
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 89--91
+in[[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 89--91
+references[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 89--91
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 89--91
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 89--91
+[]],
+ []
+
+\citation{sipe2000second}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.94 ...1.125084,PhysRevB.61.5337,10.1063/1.2131191}
+                                                  . This current can be indu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `sipe2000second' on page  undefined on input line 94.
+
+\citation{laman2005ultrafast}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.94 ...1.125084,PhysRevB.61.5337,10.1063/1.2131191}
+                                                  . This current can be indu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `laman2005ultrafast' on page  undefined on input line 9
+4.
+
+\citation{10.1063/1.125084}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.94 ...1.125084,PhysRevB.61.5337,10.1063/1.2131191}
+                                                  . This current can be indu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `10.1063/1.125084' on page  undefined on input line 94.
+
+
+\citation{PhysRevB.61.5337}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.94 ...1.125084,PhysRevB.61.5337,10.1063/1.2131191}
+                                                  . This current can be indu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevB.61.5337' on page  undefined on input line 94.
+
+
+\citation{10.1063/1.2131191}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.94 ...1.125084,PhysRevB.61.5337,10.1063/1.2131191}
+                                                  . This current can be indu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `10.1063/1.2131191' on page  undefined on input line 94
+.
+
+! Undefined control sequence.
+l.97 imbalance induced by quantum interference (\gls
+                                                  {QuI}) between various exc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 92--103
+[]Another
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 92--103
+current"[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 92--103
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 92--103
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 92--103
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 92--103
+[]].
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--105
+[]It
+ []
+
+\citation{Schiffrin2013}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.108 ...57401,Higuchi2017,Heide_2020,Morimoto_2022}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Schiffrin2013' on page  undefined on input line 108.
+
+\citation{PhysRevLett.113.087401}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.108 ...57401,Higuchi2017,Heide_2020,Morimoto_2022}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.113.087401' on page  undefined on input li
+ne 108.
+
+\citation{PhysRevLett.116.057401}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.108 ...57401,Higuchi2017,Heide_2020,Morimoto_2022}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.116.057401' on page  undefined on input li
+ne 108.
+
+\citation{Higuchi2017}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.108 ...57401,Higuchi2017,Heide_2020,Morimoto_2022}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Higuchi2017' on page  undefined on input line 108.
+
+\citation{Heide_2020}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.108 ...57401,Higuchi2017,Heide_2020,Morimoto_2022}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Heide_2020' on page  undefined on input line 108.
+
+\citation{Morimoto_2022}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.108 ...57401,Higuchi2017,Heide_2020,Morimoto_2022}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Morimoto_2022' on page  undefined on input line 108.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--112
+[]Going,
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 106--112
+pulses[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 106--112
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 106--112
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 106--112
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 106--112
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 106--112
+[]].
+ []
+
+\citation{Schiffrin2013}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.114 ... the pulse~\cite{Schiffrin2013,Higuchi2017}
+                                                  . The exploration of these...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Schiffrin2013' on page  undefined on input line 114.
+
+\citation{Higuchi2017}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.114 ... the pulse~\cite{Schiffrin2013,Higuchi2017}
+                                                  . The exploration of these...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Higuchi2017' on page  undefined on input line 114.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 114--115
+[]The
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 114--115
+pulse[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 114--115
+[]].
+ []
+
+\citation{Jimenez-Galan2020}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.120 ... systems~\cite{Jimenez-Galan2020,Mrudul:21}
+                                                  . Individually, each circu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Jimenez-Galan2020' on page  undefined on input line 12
+0.
+
+\citation{Mrudul:21}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.120 ... systems~\cite{Jimenez-Galan2020,Mrudul:21}
+                                                  . Individually, each circu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Mrudul:21' on page  undefined on input line 120.
+
+\citation{PhysRevLett.127.126601}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.124 ...o bulk solids~\cite{PhysRevLett.127.126601}
+                                                  . The multifaceted approac...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.127.126601' on page  undefined on input li
+ne 124.
+
+! Undefined control sequence.
+l.126 \section
+            {High-order Harmonic Generation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.127 ...itional hgh-order harmonic generation (\gls
+                                                  {HHG}) is a phenomenon whe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\citation{gaumnitz2017streaking}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.128 ...netic spectrum \cite{gaumnitz2017streaking}
+                                                  .\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `gaumnitz2017streaking' on page  undefined on input lin
+e 128.
+
+\citation{McPherson:87}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ... specimens \cite{McPherson:87, Ferray_1988}
+                                                  ,  gas-phase HHG has been ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `McPherson:87' on page  undefined on input line 130.
+
+\citation{Ferray_1988}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ... specimens \cite{McPherson:87, Ferray_1988}
+                                                  ,  gas-phase HHG has been ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Ferray_1988' on page  undefined on input line 130.
+
+\citation{PhysRevLett.68.3535}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...535, PhysRevLett.70.1599, PhysRevA.49.2117}
+                                                   for investigating ultrafa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.68.3535' on page  undefined on input line 
+130.
+
+\citation{PhysRevLett.70.1599}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...535, PhysRevLett.70.1599, PhysRevA.49.2117}
+                                                   for investigating ultrafa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.70.1599' on page  undefined on input line 
+130.
+
+\citation{PhysRevA.49.2117}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...535, PhysRevLett.70.1599, PhysRevA.49.2117}
+                                                   for investigating ultrafa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevA.49.2117' on page  undefined on input line 130
+.
+
+\citation{baltuvska2003attosecond}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...ience.1260311, doi:10.1126/science.aag1268}
+                                                  . HHG provides a unique wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `baltuvska2003attosecond' on page  undefined on input l
+ine 130.
+
+\citation{Goulielmakis2010}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...ience.1260311, doi:10.1126/science.aag1268}
+                                                  . HHG provides a unique wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Goulielmakis2010' on page  undefined on input line 130
+.
+
+\citation{doi:10.1126/science.1260311}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...ience.1260311, doi:10.1126/science.aag1268}
+                                                  . HHG provides a unique wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `doi:10.1126/science.1260311' on page  undefined on inp
+ut line 130.
+
+\citation{doi:10.1126/science.aag1268}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.130 ...ience.1260311, doi:10.1126/science.aag1268}
+                                                  . HHG provides a unique wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `doi:10.1126/science.aag1268' on page  undefined on inp
+ut line 130.
+
+\citation{Goulielmakis2010}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ...sRevLett.105.143002,PhysRevLett.106.123601}
+                                                  , molecules~\cite{Warrick2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Goulielmakis2010' on page  undefined on input line 131
+.
+
+\citation{PhysRevLett.105.143002}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ...sRevLett.105.143002,PhysRevLett.106.123601}
+                                                  , molecules~\cite{Warrick2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.105.143002' on page  undefined on input li
+ne 131.
+
+\citation{PhysRevLett.106.123601}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ...sRevLett.105.143002,PhysRevLett.106.123601}
+                                                  , molecules~\cite{Warrick2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.106.123601' on page  undefined on input li
+ne 131.
+
+\citation{Warrick2016}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ...k2016,Reduzzi2016,PhysRevResearch.3.043222}
+                                                  , and solids~\cite{doi:10....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Warrick2016' on page  undefined on input line 131.
+
+\citation{Reduzzi2016}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ...k2016,Reduzzi2016,PhysRevResearch.3.043222}
+                                                  , and solids~\cite{doi:10....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Reduzzi2016' on page  undefined on input line 131.
+
+\citation{PhysRevResearch.3.043222}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ...k2016,Reduzzi2016,PhysRevResearch.3.043222}
+                                                  , and solids~\cite{doi:10....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevResearch.3.043222' on page  undefined on input 
+line 131.
+
+\citation{doi:10.1126/science.1260311}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ..., Mashiko2016,Siegrist2019, vampa2017merge}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `doi:10.1126/science.1260311' on page  undefined on inp
+ut line 131.
+
+\citation{doi:10.1126/science.aag1268}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ..., Mashiko2016,Siegrist2019, vampa2017merge}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `doi:10.1126/science.aag1268' on page  undefined on inp
+ut line 131.
+
+\citation{Mashiko2016}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ..., Mashiko2016,Siegrist2019, vampa2017merge}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Mashiko2016' on page  undefined on input line 131.
+
+\citation{Siegrist2019}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ..., Mashiko2016,Siegrist2019, vampa2017merge}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Siegrist2019' on page  undefined on input line 131.
+
+\citation{vampa2017merge}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.131 ..., Mashiko2016,Siegrist2019, vampa2017merge}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `vampa2017merge' on page  undefined on input line 131.
+
+\citation{Ghimire2011}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.132 ...frared (MIR) laser field~\cite{Ghimire2011}
+                                                  , and it has since garnere...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Ghimire2011' on page  undefined on input line 132.
+
+\citation{Ghimire2019}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.132 ...2022,gorlach2022high, neufeld2023universal}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Ghimire2019' on page  undefined on input line 132.
+
+\citation{Silva2019}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.132 ...2022,gorlach2022high, neufeld2023universal}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Silva2019' on page  undefined on input line 132.
+
+\citation{Nakagawa2022}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.132 ...2022,gorlach2022high, neufeld2023universal}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Nakagawa2022' on page  undefined on input line 132.
+
+\citation{gorlach2022high}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.132 ...2022,gorlach2022high, neufeld2023universal}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `gorlach2022high' on page  undefined on input line 132.
+
+
+\citation{neufeld2023universal}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.132 ...2022,gorlach2022high, neufeld2023universal}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `neufeld2023universal' on page  undefined on input line
+ 132.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 117--133
+[]In
+ []
+
+
+Overfull \hbox (6.58331pt too wide) in paragraph at lines 117--133
+\OML/cmm/m/it/10 !$
+ []
+
+
+Overfull \hbox (11.58333pt too wide) in paragraph at lines 117--133
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 !$\nullfont .
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+systems[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]].
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+solids[[]].
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[[]]. 
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+pulses[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]]
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+electrons.[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]].
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+molecules[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+solids[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]].
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+field[[]],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+solids[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 117--133
+[]]. 
+ []
+
+! Undefined control sequence.
+l.136 \section
+            {Review on Theoretical Models}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\citation{corkum1993plasma}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.140 	lewenstein1994theory}
+                          . This semi-classical framework delineates the gas...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `corkum1993plasma' on page  undefined on input line 140
+.
+
+\citation{lewenstein1994theory}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.140 	lewenstein1994theory}
+                          . This semi-classical framework delineates the gas...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `lewenstein1994theory' on page  undefined on input line
+ 140.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--141
+[]Review
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 136--141
+[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 136--141
+[]].
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 149--150
+[]However,
+ []
+
+! Undefined control sequence.
+l.153 Schrödinger equation (\gls
+                               {TDSE}) , semiconductor Bloch equations (\gls...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.153 ...DSE}) , semiconductor Bloch equations (\gls
+                                                  {SBE})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.154 ...e-dependent density-functional theory (\gls
+                                                  {TDDFT}).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 151--156
+[]The
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 157--157
+[] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+58.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for +lmr on input line 158.
+
+LaTeX Font Info:    No file lmr.fd. on input line 158.
+LaTeX Font Info:    Trying to load font information for +cmr on input line 158.
+
+LaTeX Font Info:    No file cmr.fd. on input line 158.
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 158.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 158.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.158 	\item The time-dependent-Schr\"o
+                                     dinger equation (\gls{TDSE}) model, uti...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 158.
+
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 158.
+
+! Undefined control sequence.
+l.158 ...time-dependent-Schr\"odinger equation (\gls
+                                                  {TDSE}) model, utilizing b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 158--159
+Schr\OT1/lmr/m/n/10 \/cmr/m/n/10 o\nullfont dinger
+ []
+
+! Undefined control sequence.
+l.159 	\item The semiconductor Bloch equations (\gls
+                                                  {SBE}), improving it from ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.160 ...e-dependent density-functional theory (\gls
+                                                  {TDDFT}) model appears to ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.164 \section
+            {Structure of the Thesis}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> ...X Warning: Reference `ch:ch2' on page \thepage 
+                                                  \space undefined\on@line .
+l.165 ...organized as follows: Chapter.~\ref{ch:ch2}
+                                                   first introduces the crys...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ch:ch2' on page  undefined on input line 165.
+
+! Undefined control sequence.
+<write> ...X Warning: Reference `ch:ch3' on page \thepage 
+                                                  \space undefined\on@line .
+l.168 In Chapter.~\ref{ch:ch3}
+                             we investigate light-induced electron dynamics ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ch:ch3' on page  undefined on input line 168.
+
+! Undefined control sequence.
+<write> ...X Warning: Reference `ch:ch4' on page \thepage 
+                                                  \space undefined\on@line .
+l.173 In Chapter.~\ref{ch:ch4}
+                            , we study THz-induced HHG in graphene with the ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ch:ch4' on page  undefined on input line 173.
+
+! Undefined control sequence.
+<write> ...X Warning: Reference `ch:ch5' on page \thepage 
+                                                  \space undefined\on@line .
+l.176 ...cal implementation in Chapter.~\ref{ch:ch5}
+                                                  . We further elucidate the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ch:ch5' on page  undefined on input line 176.
+
+\citation{mics2015thermodynamic}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.176 ... previous work \cite{mics2015thermodynamic}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `mics2015thermodynamic' on page  undefined on input lin
+e 176.
+
+! Undefined control sequence.
+<write> ...X Warning: Reference `ch:ch4' on page \thepage 
+                                                  \space undefined\on@line .
+l.179 ...knowledge gained from Chapter.~\ref{ch:ch4}
+                                                  . We investigate the dynam...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ch:ch4' on page  undefined on input line 179.
+
+! Undefined control sequence.
+<write> ...X Warning: Reference `ch:ch6' on page \thepage 
+                                                  \space undefined\on@line .
+l.180 ...s is summarized in in Chapter.~\ref{ch:ch6}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `ch:ch6' on page  undefined on input line 180.
+
+)
+! Emergency stop.
+<*> chapter1.tex
+             
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 92 strings out of 478285
+ 156265,1977958 words of node,token memory allocated 132714 words of node memory still in use:
+   427 hlist, 18 vlist, 2 rule, 64 disc, 39 local_par, 1 dir, 35 math, 2888 glue
+, 91 kern, 192 penalty, 14904 glyph, 414 attribute, 39 glue_spec, 414 attribute_
+list, 1 temp, 3 write nodes
+   avail lists: 2:2,3:1,4:242,5:9,8:49,9:1,10:241
+ 20401 multiletter control sequences out of 65536+600000
+ 30 fonts using 1746303 bytes
+ 24i,3n,32p,867b,154s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

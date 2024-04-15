@@ -85,8 +85,8 @@
       \strng{authorbibnamehash}{42a4081c7ce08e4d5bd4240a073fa137}
       \strng{authornamehash}{42a4081c7ce08e4d5bd4240a073fa137}
       \strng{authorfullhash}{42a4081c7ce08e4d5bd4240a073fa137}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -129,8 +129,8 @@
       \strng{authorbibnamehash}{26156a1d2baea53de268afa3bf589e45}
       \strng{authornamehash}{26156a1d2baea53de268afa3bf589e45}
       \strng{authorfullhash}{26156a1d2baea53de268afa3bf589e45}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -200,8 +200,8 @@
       \strng{authorbibnamehash}{44028ec3e4178324d7b43ec7ca78c8b1}
       \strng{authornamehash}{44028ec3e4178324d7b43ec7ca78c8b1}
       \strng{authorfullhash}{57357a728019c99a7d3579fa3ba343a0}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0030-4018}
@@ -1487,8 +1487,8 @@
       \strng{authorbibnamehash}{0dca4c2307fb9d791c630fa96c542c2d}
       \strng{authornamehash}{bab70f6f9d985bca0cd2d29829ae8bf7}
       \strng{authorfullhash}{0dca4c2307fb9d791c630fa96c542c2d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{24}
@@ -1541,8 +1541,8 @@
       \strng{authorbibnamehash}{b2d32d36ab06cb960ee1c1d6ed61e644}
       \strng{authornamehash}{c3cec93688d412242ea2d834efccae4b}
       \strng{authorfullhash}{b2d32d36ab06cb960ee1c1d6ed61e644}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{11}
@@ -1601,8 +1601,8 @@
       \strng{authornamehash}{d2f716eb04f7a7b74487df8615b3b486}
       \strng{authorfullhash}{32418dcd1d24c02ebadeafe9dc5c11d3}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -4870,7 +4870,6 @@
       \strng{authorbibnamehash}{e00f41ee2f8f289afa6c4a819289f5c4}
       \strng{authornamehash}{ab453ae4a11518693365fd157e486244}
       \strng{authorfullhash}{e00f41ee2f8f289afa6c4a819289f5c4}
-      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -5428,56 +5427,6 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.103.L041408
       \endverb
     \endentry
-    \entry{PhysRevB.109.045421}{article}{}
-      \name{author}{3}{}{%
-        {{hash=6479e78ed8f6f5f74a42d960d16c46c4}{%
-           family={Mao},
-           familyi={M\bibinitperiod},
-           given={Wenwen},
-           giveni={W\bibinitperiod}}}%
-        {{hash=a05b6c6d1062b5c142ffab8693708b21}{%
-           family={Rubio},
-           familyi={R\bibinitperiod},
-           given={Angel},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e7c9e35e2f090afb4a8e5a59a027b8d8}{%
-           family={Sato},
-           familyi={S\bibinitperiod},
-           given={Shunsuke\bibnamedelima A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{ab453ae4a11518693365fd157e486244}
-      \strng{fullhash}{e00f41ee2f8f289afa6c4a819289f5c4}
-      \strng{bibnamehash}{e00f41ee2f8f289afa6c4a819289f5c4}
-      \strng{authorbibnamehash}{e00f41ee2f8f289afa6c4a819289f5c4}
-      \strng{authornamehash}{ab453ae4a11518693365fd157e486244}
-      \strng{authorfullhash}{e00f41ee2f8f289afa6c4a819289f5c4}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{4}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{1}
-      \field{title}{Enhancement of high-order harmonic generation in graphene by mid-infrared and terahertz fields}
-      \field{volume}{109}
-      \field{year}{2024}
-      \field{pages}{045421}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.109.045421
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.109.045421
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.109.045421
-      \endverb
-    \endentry
     \entry{10.1063/1.3560062}{article}{}
       \name{author}{4}{}{%
         {{hash=f45d6b0cecfa9d0bbc0f5aa61f6fdecf}{%
@@ -5507,6 +5456,7 @@
       \strng{authorbibnamehash}{76297326a987ff8576057c331fb78abe}
       \strng{authornamehash}{8648341ae96fe180325d6c7db2009f38}
       \strng{authorfullhash}{76297326a987ff8576057c331fb78abe}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -5719,7 +5669,47 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0009261499006685
       \endverb
     \endentry
+    \entry{hirori2024high}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d95863a668f113fdf4ed21c321e648f0}{%
+           family={Hirori},
+           familyi={H\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e7c9e35e2f090afb4a8e5a59a027b8d8}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Shunsuke\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1b51d53d0d1a7d5447ecc5d405f49d3b}{%
+           family={Kanemitsu},
+           familyi={K\bibinitperiod},
+           given={Yoshihiko},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{421bca64a68df93b5457d5ce62b75cdb}
+      \strng{fullhash}{61dd62c3d5eb7b32bd7358d78a54ab20}
+      \strng{bibnamehash}{61dd62c3d5eb7b32bd7358d78a54ab20}
+      \strng{authorbibnamehash}{61dd62c3d5eb7b32bd7358d78a54ab20}
+      \strng{authornamehash}{421bca64a68df93b5457d5ce62b75cdb}
+      \strng{authorfullhash}{61dd62c3d5eb7b32bd7358d78a54ab20}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry Letters}
+      \field{title}{High-Order Harmonic Generation in Solids: The Role of Intraband Transitions in Extreme Nonlinear Optics}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{2184\bibrangedash 2192}
+      \range{pages}{9}
+    \endentry
   \enddatalist
+  \missing{PhysRevB.109.045421}
 \endrefsection
 \endinput
 

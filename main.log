@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  9 APR 2024 19:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  15 APR 2024 22:55
 entering extended mode
  \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -25,14 +24,18 @@ File: bk10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count190
@@ -47,9 +50,11 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen149
 \captionmargin=\dimen150
@@ -63,40 +68,57 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count193
 \c@continuedfloat=\count194
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count195
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -106,21 +128,27 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen157
 \Hy@linkcounter=\count197
 \Hy@pagecounter=\count198
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count199
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4060.
 Package hyperref Info: Option `psdextra' set `true' on input line 4060.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def
-File: puenc-greekbasic.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (greek block) (HO)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def
+File: puenc-greekbasic.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (
+greek block) (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/psdextra.def
 File: psdextra.def 2023-02-07 v7.00v Hyperref: Additions to PDF string support
@@ -134,16 +162,20 @@ Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count266
- (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen158
- (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count267
 \Field@Width=\dimen159
@@ -155,7 +187,8 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring ON on input line 6060.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -164,38 +197,48 @@ package with kernel methods
 \c@Hfootnote=\count270
 )
 Package hyperref Info: Driver (autodetected): hxetex.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
- (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \pdfm@box=\box51
 \c@Hy@AnnotLevel=\count271
 \HyField@AnnotCount=\count272
 \Fld@listcount=\count273
 \c@bookmark@seq@number=\count274
- (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
 \Hy@SectionHShift=\skip50
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 21.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 227.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
@@ -204,8 +247,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip51
 \f@nch@O@elh=\skip52
 \f@nch@O@erh=\skip53
@@ -215,14 +260,18 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip57
 \f@nch@O@olf=\skip58
 \f@nch@O@orf=\skip59
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count275
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@tabx@nest=\count276
@@ -284,7 +333,8 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \c@mincompwidth=\count321
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -375,15 +425,18 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip81
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count390
 \c@textcitetotal=\count391
@@ -401,26 +454,31 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'nature'...
 Package biblatex Info: ... file 'nature.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-nature/nature.bbx
 File: nature.bbx 2020/12/30 v1.3d biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count399
 \c@bbx:relatedtotal=\count400
 ))))
 Package biblatex Info: Trying to load citation style 'nature'...
 Package biblatex Info: ... file 'nature.cbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-nature/nature.cbx
 File: nature.cbx 2020/12/30 v1.3d biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -445,15 +503,18 @@ Package biblatex Info: Redefining '\smartcites'.
 ))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__graphics_track_int=\count405
 \l__pdf_internal_box=\box52
@@ -465,11 +526,14 @@ Package biblatex Info: ... and expl3
 (biblatex)             2023-02-22 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fncychap/fncychap.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip82
 \mylen=\skip83
@@ -483,18 +547,25 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \tl=\skip91
 \trr=\skip92
 \blrule=\skip93
-) (./pkg_def.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/foreign/foreign.sty
+)
+(./pkg_def.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/foreign/foreign.sty
 Package: foreign 2012/09/25 v2.7 type-setting package for foreign words (PGR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty
 Package: xpunctuate 2012/05/21 v1.0 trailing punctuation package (PGR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathbbol.sty
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathbbol.sty
 Package: mathbbol 1995/01/01
 \symbbold=\mathgroup4
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/mhchem/mhchem.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
@@ -508,21 +579,25 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count411
 \calc@Cskip=\skip96
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip97
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen163
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen164
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count412
@@ -572,15 +647,20 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
-Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
 \l__chemgreek_tmpa_int=\count424
 \g__chemgreek_tmpa_int=\count425
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
@@ -601,14 +681,17 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 \mhchem@option@minusmathsidebearingright=\dimen173
 \mhchem@option@minustextsidebearingleft=\dimen174
 \mhchem@option@minustextsidebearingright=\dimen175
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen176
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
 \l__siunitx_compound_count_int=\count428
- (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
 )
 \l__siunitx_number_exponent_fixed_int=\count429
 \l__siunitx_number_min_decimal_int=\count430
@@ -632,7 +715,8 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_tmp_int=\count438
 \l__siunitx_unit_position_int=\count439
 \l__siunitx_unit_total_int=\count440
- (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen181
 \ar@mcellbox=\box63
@@ -641,13 +725,15 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip110
 \backup@length=\skip111
 \ar@cellbox=\box64
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count441
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count442
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -660,24 +746,33 @@ LaTeX Info: Redefining \cpagerefrange on input line 2370.
 LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/commath/commath.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/commath/commath.sty
 Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/braket/braket.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/accents/accents.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/accents/accents.sty
 Package: accents 2006/05/12 v1.4 Math Accent Tools
 \cc@skew=\dimen183
 \cc@wd=\dimen184
 \cc@code=\count443
 \cc@group=\count444
 \cc@skewchar=\count445
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+ty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
 \l__fontspec_script_int=\count446
 \l__fontspec_language_int=\count447
 \l__fontspec_strnum_int=\count448
@@ -692,11 +787,15 @@ Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpa_dim=\dimen185
 \l__fontspec_tmpb_dim=\dimen186
 \l__fontspec_tmpc_dim=\dimen187
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
@@ -704,29 +803,38 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \g__um_fonts_used_int=\count458
 \l__um_primecount_int=\count459
 \g__um_primekern_muskip=\muskip22
- (/usr/local/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/local/texlive/2023/texmf-dist/tex/latex/noto/noto.sty
-Package: noto 2022/09/11 (Bob Tennent) Supports Noto fonts for all LaTeX engines.
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
+ex))) (/usr/local/texlive/2023/texmf-dist/tex/latex/noto/noto.sty
+Package: noto 2022/09/11 (Bob Tennent) Supports Noto fonts for all LaTeX engine
+s.
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 )
 \XKV@depth=\count460
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 
 Package fontspec Info: Font family 'NotoSans(0)' created for font 'NotoSans'
 (fontspec)             with options [Ligatures = TeX,Extension =
 (fontspec)             .ttf,Ligatures=TeX,Scale = 1,Numbers = {Monospaced,
-(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFont
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
 (fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
 (fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
 (fontspec)              
@@ -734,27 +842,36 @@ Package fontspec Info: Font family 'NotoSans(0)' created for font 'NotoSans'
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: Font family 'NotoSans(1)' created for font 'NotoSans'
 (fontspec)             with options [Ligatures = TeX,Extension = .ttf,Scale =
 (fontspec)             1,Numbers = {Monospaced,
-(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFont
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
 (fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
 (fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
 (fontspec)              
@@ -762,31 +879,41 @@ Package fontspec Info: Font family 'NotoSans(1)' created for font 'NotoSans'
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/NotoSans(1)/m/n on input line 170.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/NotoSans(1)/bx/n on input line 170.
+(Font)                  OT1/cmss/bx/n --> TU/NotoSans(1)/bx/n on input line 170
+.
 
 Package fontspec Info: Font family 'NotoSerif(0)' created for font 'NotoSerif'
 (fontspec)             with options [Ligatures = TeX,Extension =
 (fontspec)             .ttf,Ligatures=TeX,Numbers = {Monospaced,
-(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFont
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
 (fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
 (fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
 (fontspec)              
@@ -794,27 +921,36 @@ Package fontspec Info: Font family 'NotoSerif(0)' created for font 'NotoSerif'
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: Font family 'NotoSerif(1)' created for font 'NotoSerif'
 (fontspec)             with options [Ligatures = TeX,Extension = .ttf,Numbers
 (fontspec)             = {Monospaced,
-(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFont
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
 (fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
 (fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
 (fontspec)              
@@ -822,28 +958,38 @@ Package fontspec Info: Font family 'NotoSerif(1)' created for font 'NotoSerif'
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/NotoSerif(1)/m/n on input line 182.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/NotoSerif(1)/m/it on input line 182.
+(Font)                  OT1/cmr/m/it --> TU/NotoSerif(1)/m/it on input line 182
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/NotoSerif(1)/b/n on input line 182.
+
 
 
 Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
@@ -899,7 +1045,8 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
 Package fontspec Info: Font family 'NotoSansMono(0)' created for font
 (fontspec)             'NotoSansMono' with options [Ligatures = TeX,Extension
 (fontspec)             =
-(fontspec)             .ttf,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,Numbers
+(fontspec)             .ttf,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=
+WordSpace,Numbers
 (fontspec)             = {Monospaced, Lining},Scale =
 (fontspec)             1,HyphenChar=None,UprightFont = *-Regular,BoldFont =
 (fontspec)             *-Bold].
@@ -908,9 +1055,11 @@ Package fontspec Info: Font family 'NotoSansMono(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;+smcp;mapping=tex-text;"
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
@@ -918,9 +1067,11 @@ Package fontspec Info: Font family 'NotoSansMono(0)' created for font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop:
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;+smcp;mapping=tex-text;"
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
@@ -989,22 +1140,28 @@ Package fontspec Info: Font family 'NotoSansMono(1)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;+smcp;mapping=tex-text;"
 (fontspec)             and font adjustment code:
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;+smcp;mapping=tex-text;"
 (fontspec)             and font adjustment code:
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(1)/m/n on input line 193.
+(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(1)/m/n on input line 1
+93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(1)/b/n on input line 193.
+(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(1)/b/n on input line 1
+93.
 
 Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
 (fontspec)                not available for font 'NotoSansMono-Regular' with
@@ -1066,19 +1223,24 @@ Package fontspec Info: Font family 'NotoSansMono(2)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;language=dflt;"
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;+smcp;"
 (fontspec)             and font adjustment code:
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language=dflt;"
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;+smcp;"
 (fontspec)             and font adjustment code:
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box65
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -1100,7 +1262,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count463
 \@lastruleclass=\count464
 \@thisrulewidth=\dimen256
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip112
 \LTright=\skip113
@@ -1118,7 +1281,8 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@tables=\count468
 \c@LT@chunks=\count469
 \LT@p@ftn=\toks26
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen258
 \TX@old@table=\dimen259
@@ -1127,9 +1291,11 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen262
 \TX@cols=\count470
 \TX@ftn=\toks27
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
- (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 
@@ -1162,10 +1328,13 @@ Package: amsthm 2020/05/29 v2.20.6
 \c@definition=\count472
 \c@theorem=\count473
 \c@corollary=\count474
- (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count475
 \float@exts=\toks34
@@ -1175,9 +1344,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@algorithm=\toks36
 \c@algorithm=\count476
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -1193,29 +1364,41 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip122
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./thesis_sym.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
+) (./thesis_sym.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-extra/glossaries-extra
+.sty
 Package: glossaries-extra 2022/11/08 v1.50 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2022/11/03 v4.52 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
 \@glsmfirst=\toks37
 \@glsmrest=\toks38
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xfor/xfor.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-base.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/substr/substr.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count484
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-fp.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
- `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/defpattern.sty
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count485
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-basic.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count486
 \FP@xia=\count487
@@ -1226,24 +1409,33 @@ Package: fp-basic 1996/05/13
 \FP@regb=\count492
 \FP@regs=\count493
 \FP@times=\count494
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-addons.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-snap.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-exp.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-trigo.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-pas.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-random.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count495
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eqn.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-upn.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eval.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks39
@@ -1263,16 +1455,24 @@ Package: fp-eval 1995/04/03
 \glslabeltok=\toks42
 \glsshorttok=\toks43
 \glslongtok=\toks44
- (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
 Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
 Package: glossary-list 2022/11/03 v4.52 (NLCT)
 \glslistdottedwidth=\skip125
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
 Package: glossary-long 2022/11/03 v4.52 (NLCT)
 \glsdescwidth=\skip126
 \glspagelistwidth=\skip127
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
 Package: glossary-super 2022/11/03 v4.52 (NLCT)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
@@ -1291,7 +1491,9 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@toadd=\dimen279
 \ST@dimen=\dimen280
 \ST@pbox=\box74
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
 \glstreeindent=\skip131
 ))
@@ -1300,12 +1502,15 @@ Package: glossary-tree 2022/11/03 v4.52 (NLCT)
 \@glsxtrnewgls@inner=\count507
 \glsshortpltok=\toks45
 \glslongpltok=\toks46
- (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-extra/glossaries-extra-abbrstyles.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-extra/glossaries-extra
+-abbrstyles.def
 File: glossaries-extra-abbrstyles.def 2022/06/16 v1.48b (NLCT)
 )
 \mglselementindex=\count508
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-extra/glossaries-extra-stylemods.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-extra/glossaries-extra
+-stylemods.sty
 Package: glossaries-extra-stylemods 2022/11/08 v1.50 (NLCT)
 \glsxtrAltTreeIndent=\skip132
 \glsxtrtreetopindent=\skip133
@@ -1319,13 +1524,17 @@ Package glossaries Info: Writing glossary file main.glo on input line 3.
 \openout6 = `main.slo'.
 
 Package glossaries Info: Writing glossary file main.slo on input line 3.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fundus-calligra/calligra.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fundus-calligra/calligra.sty
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 )
 \@quotelevel=\count509
 \@quotereset=\count510
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 43.
- (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux) (./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 43.
+
+(./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
+(./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux
 
 LaTeX Warning: Label `eqn:laser_pulse' multiply defined.
 
@@ -1413,13 +1622,15 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 43.
- (./main.out) (./main.out)
+
+(./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: XeTeX detected.
@@ -1430,54 +1641,78 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+
+(./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PhysRevB.109.045421
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 43.
 Package biblatex Info: Reference segment=0 on input line 43.
 
 Package chemgreek Info: Activating mapping `fontspec' on line 43.
 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 43.
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 43.
 
 Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,BoldFont={latinmodern-math.otf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
+"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
+"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=Mat
+hScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={
+latinmodern-math.otf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <8.5->"[latinmodern-math.otf]/OT:script=math;language=df
+lt;"<6-8.5>"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>"[
+latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
+"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 43.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 43.
 
 Package fontspec Info: latinmodern-math scale = 1.0001.
 
@@ -1496,7 +1731,10 @@ Package fontspec Info: latinmodern-math scale = 1.0001.
 
 Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=Mat
+hScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={
+latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
 (fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
 (fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
 (fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
@@ -1512,7 +1750,10 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <8.5->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;l
+anguage=dflt;"<6-8.5>s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=
+dflt;+ssty=0;"<-6>s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=dfl
+t;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
@@ -1526,7 +1767,8 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
 (fontspec)             \fontdimen 21\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;lang
+uage=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
@@ -1543,11 +1785,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 43.
+(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 43.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 43.
+(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 43.
 
 Package fontspec Info: latinmodern-math scale = 0.9999.
 
@@ -1566,7 +1810,10 @@ Package fontspec Info: latinmodern-math scale = 0.9999.
 
 Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=Mat
+hScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={
+latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
 (fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
 (fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
 (fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
@@ -1576,7 +1823,10 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <8.5->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;l
+anguage=dflt;"<6-8.5>s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=
+dflt;+ssty=0;"<-6>s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=dfl
+t;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
@@ -1584,7 +1834,8 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;lang
+uage=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
@@ -1593,13 +1844,17 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 43.
+(Font)              `largesymbols' in the math version `normal' on input line 4
+3.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 43.
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 43.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `bold' on input line 43.
+
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 43.
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 43.
 
 
 Package unicode-math Warning: Using \overbracket and \underbracket from
@@ -1629,60 +1884,64 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 ]
 Overfull \hbox (6.29016pt too wide) in paragraph at lines 45--45
-\TU/NotoSerif(0)/m/n/12 Die Dissertation wurde in der vorgelegten oder einer ähnlichen Form
+\TU/NotoSerif(0)/m/n/12 Die Dissertation wurde in der vorgelegten oder einer äh
+nlichen Form
  []
 
 
 Overfull \hbox (16.45816pt too wide) in paragraph at lines 45--45
-\TU/NotoSerif(0)/m/n/12 nicht schon einmal in einem früheren Promotionsverfahren angenom-
+\TU/NotoSerif(0)/m/n/12 nicht schon einmal in einem früheren Promotionsverfahre
+n angenom-
  []
 
 File: pic/signature.pdf Graphic file (type pdf)
 <use pic/signature.pdf>
 [2
 
-] [1
-
-
-
 ]
-
-LaTeX Font Warning: Font shape `T1/calligra/m/it' undefined
-(Font)              using `T1/calligra/m/n' instead on input line 53.
-
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 14.40002pt on input line 53.
-LaTeX Font Info:    Font shape `T1/calligra/m/it' will be
-(Font)              scaled to size 17.28003pt on input line 53.
-[2
+Overfull \hbox (1.19798pt too wide) in paragraph at lines 50--51
+[]\TU/NotoSerif(0)/m/n/10 Completing this thesis and attaining my PhD would hav
+e been impossible with-
+ []
 
 
-]
+Overfull \hbox (1.09247pt too wide) in paragraph at lines 55--56
+[]\TU/NotoSerif(0)/m/n/10 I am indebted to the experimental cooperators Prof.Hi
+deki Hirori and Dr. Kenji
+ []
+
+[1
+
+
+
+] [2]
 LaTeX Font Info:    Font shape `TU/NotoSans(1)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 58.
+(Font)              scaled to size 20.74pt on input line 69.
 LaTeX Font Info:    Font shape `TU/NotoSans(1)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 58.
+(Font)              scaled to size 20.74pt on input line 69.
  (./main.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 8.
+(Font)              scaled to size 10.00107pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 8.
+(Font)              scaled to size 7.00075pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 8.
+(Font)              scaled to size 5.00053pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 8.
+(Font)              scaled to size 9.99893pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 8.
+(Font)              scaled to size 6.99925pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 8.
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 8.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/bbold/Ubbold.fd) [3
+(Font)              scaled to size 4.99947pt on input line 9.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 9
+.
 
+(/usr/local/texlive/2023/texmf-dist/tex/latex/bbold/Ubbold.fd) [3
 
 
 ]
-Overfull \hbox (7.81955pt too wide) in paragraph at lines 30--30
- [] [][][]\TU/NotoSerif(0)/b/n/10 ENHANCEMENT OF MIR-INDUCED HHG BY COHERENT COUPLING WITH 
+Overfull \hbox (7.81955pt too wide) in paragraph at lines 31--31
+ [] [][][]\TU/NotoSerif(0)/b/n/10 ENHANCEMENT OF MIR-INDUCED HHG BY COHERENT CO
+UPLING WITH 
  []
 
 )
@@ -1695,41 +1954,81 @@ Overfull \hbox (7.81955pt too wide) in paragraph at lines 30--30
 
 ] [6
 
+]
+Overfull \hbox (7.19217pt too wide) in paragraph at lines 76--78
+\TU/NotoSerif(0)/m/n/10 Diese Arbeit untersucht die nichtlineare optische Reakt
+ion in 2D-Materialien durch
+ []
+
+
+Overfull \hbox (31.79883pt too wide) in paragraph at lines 76--78
+\TU/NotoSerif(0)/m/n/10 Elektronendynamik durch einen Ansatz im Nichtgleichgewi
+chts-Gleichgewichtszustand
+ []
+
+
+Overfull \hbox (53.52882pt too wide) in paragraph at lines 76--78
+\TU/NotoSerif(0)/m/n/10 einer kohärenten Kopplung zwischen MIR- und THz-induzie
+rten Übergängen zugeschrieben.
+ []
+
+
+Overfull \hbox (26.56883pt too wide) in paragraph at lines 76--78
+\TU/NotoSerif(0)/m/n/10 nisse trägt diese Arbeit dazu bei, unser Verständnis ni
+chtlinearer optischer Phänomene
+ []
+
+
+Overfull \hbox (62.29884pt too wide) in paragraph at lines 76--78
+\TU/NotoSerif(0)/m/n/10 in 2D-Materialien zu verbessern und die Bedeutung der N
+ichtgleichgewichts-Quantendynamik
+ []
+
+[7
+
+] [8
+
 
 ] (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [7] [8
+ [9] [10
 
 
-] (./main.lof [9]
+] (./main.lof [11]
 Overfull \hbox (5.72221pt too wide) in paragraph at lines 16--16
- [][] [][][]\TU/NotoSerif(1)/m/n/10 Computed harmonic spectra $[][][][][]$ with Eq. (4.2) for different chem- 
+ [][] [][][]\TU/NotoSerif(1)/m/n/10 Computed harmonic spectra $[][][][][]$ with
+ Eq. (4.2) for different chem- 
  []
 
 
 Overfull \hbox (14.73795pt too wide) in paragraph at lines 17--17
- [][] [][][]\TU/NotoSerif(1)/m/n/10 Electric current in graphene under a static electric field, $[][] [] [][][]$ MV/m. 
+ [][] [][][]\TU/NotoSerif(1)/m/n/10 Electric current in graphene under a static
+ electric field, $[][] [] [][][]$ MV/m. 
  []
 
 
-LaTeX Warning: Reference `subsec:dynamical_simulation' on page x undefined on input line 20.
+LaTeX Warning: Reference `subsec:dynamical_simulation' on page xii undefined on
+ input line 20.
 
 
-LaTeX Warning: Reference `subsec:quasi-static' on page x undefined on input line 20.
-
-[10]
-Overfull \hbox (9.41557pt too wide) in paragraph at lines 22--22
- \TU/NotoSerif(1)/m/n/10 (e) The population distribution in the conduction band in the nonequi- 
- []
-
-[11]
-Overfull \hbox (5.55832pt too wide) in paragraph at lines 28--28
- \TU/NotoSerif(1)/m/n/10 using the perpendicular configuration ($[][] [] [][] [] [][]$) are shown 
- []
+LaTeX Warning: Reference `subsec:quasi-static' on page xii undefined on input l
+ine 20.
 
 [12]
+Overfull \hbox (9.41557pt too wide) in paragraph at lines 22--22
+ \TU/NotoSerif(1)/m/n/10 (e) The population distribution in the conduction band
+ in the nonequi- 
+ []
+
+[13]
+Overfull \hbox (5.55832pt too wide) in paragraph at lines 28--28
+ \TU/NotoSerif(1)/m/n/10 using the perpendicular configuration ($[][] [] [][] [
+] [][]$) are shown 
+ []
+
+[14]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
 (Font)              scaled to size 10.00107pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
@@ -1742,14 +2041,25 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
 (Font)              scaled to size 6.99925pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
 (Font)              scaled to size 4.99947pt on input line 30.
- [13])
+
+Overfull \hbox (15.90556pt too wide) in paragraph at lines 32--32
+ \TU/NotoSerif(1)/m/n/10 els are reproduced with permission from ref. ([[]]). 
+ []
+
+[15]
+Overfull \hbox (78.16336pt too wide) in paragraph at lines 33--33
+ \TU/NotoSerif(1)/m/n/10 spectively. Figure is reproduced with permission from 
+ref. ([[]]). 
+ []
+
+)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- (./main.sls [14]) [15
+ (./main.sls [16]) [17
 
 
-] [16
+] [18
 
 ]
 \openout2 = `chapter/chapter1.aux'.
@@ -1759,34 +2069,36 @@ Chapter 1.
 [1
 
 
-] [2] [3]
-Overfull \hbox (4.8822pt too wide) in paragraph at lines 92--98
-\TU/NotoSerif(1)/m/n/10 into the realm of photovoltaic effects induced by intense few-cycle laser pulses [[][]14[][]–
+] [2] [3] [4]
+Overfull \hbox (4.8822pt too wide) in paragraph at lines 106--112
+\TU/NotoSerif(1)/m/n/10 into the realm of photovoltaic effects induced by inten
+se few-cycle laser pulses [[][]14[][]–
  []
 
-[4]
-Overfull \hbox (4.47556pt too wide) in paragraph at lines 113--119
-\TU/NotoSerif(1)/m/n/10 tense laser light interacts with a gas, causing the generation of very high-frequency
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--119
-
- []
-
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
+[5]
+Overfull \hbox (4.47556pt too wide) in paragraph at lines 127--133
+\TU/NotoSerif(1)/m/n/10 tense laser light interacts with a gas, causing the gen
+eration of very high-frequency
  []
 
 
-Overfull \hbox (6.148pt too wide) in paragraph at lines 144--145
-[]\TU/NotoSerif(1)/m/n/10 The time-dependent-Schrödinger equation ([][][]TDSE[][]) model, utilizing both Bloch
+Underfull \hbox (badness 10000) in paragraph at lines 127--133
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
  []
 
 [7]
+Overfull \hbox (6.148pt too wide) in paragraph at lines 158--159
+[]\TU/NotoSerif(1)/m/n/10 The time-dependent-Schrödinger equation ([][][]TDSE[]
+[]) model, utilizing both Bloch
+ []
 
-LaTeX Warning: Reference `ch:ch3' on page 8 undefined on input line 154.
+
+LaTeX Warning: Reference `ch:ch3' on page 8 undefined on input line 168.
 
 ) [8] [9]
 \openout2 = `chapter/chapter2.aux'.
@@ -1807,12 +2119,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
 
 Overfull \hbox (25.31885pt too wide) in paragraph at lines 167--175
-[]\TU/NotoSerif(1)/m/n/10 To study the nonlinear photocarrier injection, we need to introduce time-dependent
+[]\TU/NotoSerif(1)/m/n/10 To study the nonlinear photocarrier injection, we nee
+d to introduce time-dependent
  []
 
 
 Overfull \hbox (7.86198pt too wide) in paragraph at lines 180--186
-$[][][][][][][]$ \TU/NotoSerif(1)/m/n/10 is a single-particle electroinc wavefunction at $[]$. Solving this time-dependent
+$[][][][][][][]$ \TU/NotoSerif(1)/m/n/10 is a single-particle electroinc wavefu
+nction at $[]$. Solving this time-dependent
  []
 
 [16] [17] [18] [19]) [20]
@@ -1837,7 +2151,8 @@ Overfull \hbox (20.9424pt too wide) detected at line 193
 
 [25]
 Overfull \hbox (3.7955pt too wide) in paragraph at lines 193--195
-\TU/NotoSerif(1)/m/n/10 Similarly to the first-order perturbation coefficient vector’s derivation, the second-
+\TU/NotoSerif(1)/m/n/10 Similarly to the first-order perturbation coefficient v
+ector’s derivation, the second-
  []
 
 
@@ -1907,12 +2222,14 @@ File: pic/population.pdf Graphic file (type pdf)
 <use pic/population.pdf>
 
 Overfull \hbox (4.41057pt too wide) in paragraph at lines 436--439
-\TU/NotoSerif(1)/m/n/10 Given the constraint $[] [] [][] [] []$, the population imbalance distribution is bounded
+\TU/NotoSerif(1)/m/n/10 Given the constraint $[] [] [][] [] []$, the population
+ imbalance distribution is bounded
  []
 
 [33] [34]
 Overfull \hbox (10.25185pt too wide) in paragraph at lines 441--442
-[]\TU/NotoSerif(1)/m/n/10 The temporal evolution of the corresponding electric current, denoted as $[][][][][]$,
+[]\TU/NotoSerif(1)/m/n/10 The temporal evolution of the corresponding electric 
+current, denoted as $[][][][][]$,
  []
 
 File: pic/initial_current.pdf Graphic file (type pdf)
@@ -1928,12 +2245,14 @@ File: pic/frequency.pdf Graphic file (type pdf)
 <use pic/frequency.pdf>
 
 Overfull \hbox (2.09883pt too wide) in paragraph at lines 496--498
-[]\TU/NotoSerif(1)/m/n/10 The investigation helps understand the complicated relationship between pho-
+[]\TU/NotoSerif(1)/m/n/10 The investigation helps understand the complicated re
+lationship between pho-
  []
 
 
 Overfull \hbox (14.40027pt too wide) in paragraph at lines 496--498
-\TU/NotoSerif(1)/m/n/10 lated for two distinct field strengths: (b) $[][] [] [][][][][]$ MV/cm and (c) $[][] [] [][][][][][]$ MV/cm.
+\TU/NotoSerif(1)/m/n/10 lated for two distinct field strengths: (b) $[][] [] []
+[][][][]$ MV/cm and (c) $[][] [] [][][][][][]$ MV/cm.
  []
 
 [38] [39] [40]
@@ -1945,12 +2264,14 @@ File: pic/current_off_resonant.pdf Graphic file (type pdf)
 <use pic/current_off_resonant.pdf>
  [41] [42]
 Overfull \hbox (1.86552pt too wide) in paragraph at lines 542--546
-\TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant population imbalance through
+\TU/NotoSerif(1)/m/n/10 This implies the potential for realizing a significant 
+population imbalance through
  []
 
 
 Overfull \hbox (0.58885pt too wide) in paragraph at lines 547--548
-\TU/NotoSerif(1)/m/n/10 posed using bi-circular fields with counter-rotating $[]$ and $[][]$ two-color laser fields.
+\TU/NotoSerif(1)/m/n/10 posed using bi-circular fields with counter-rotating $[
+]$ and $[][]$ two-color laser fields.
  []
 
 [43]
@@ -1968,17 +2289,20 @@ File: pic/nex_vs_E0.pdf Graphic file (type pdf)
 <use pic/nex_vs_E0.pdf>
  [45]
 Overfull \hbox (2.82887pt too wide) in paragraph at lines 584--587
-\TU/NotoSerif(1)/m/n/10 strength might initially seem inconsistent with the expected behavior of a straight-
+\TU/NotoSerif(1)/m/n/10 strength might initially seem inconsistent with the exp
+ected behavior of a straight-
  []
 
 
 Overfull \hbox (8.11552pt too wide) in paragraph at lines 588--589
-[]\TU/NotoSerif(1)/m/n/10 However, our experimental observations reveal a scaling that indicates seventh-
+[]\TU/NotoSerif(1)/m/n/10 However, our experimental observations reveal a scali
+ng that indicates seventh-
  []
 
 [46]
 Overfull \hbox (11.58885pt too wide) in paragraph at lines 600--601
-\TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under weak applied field strength.
+\TU/NotoSerif(1)/m/n/10 we observed an absence of population imbalance under we
+ak applied field strength.
  []
 
 [47]) [48]
@@ -1988,7 +2312,8 @@ Overfull \hbox (11.58885pt too wide) in paragraph at lines 600--601
 Chapter 4.
 
 Overfull \hbox (3.89885pt too wide) in paragraph at lines 6--8
-\TU/NotoSerif(1)/m/n/10 nantly rely on thermodynamic models, lacking a thorough exploration of nonequi-
+\TU/NotoSerif(1)/m/n/10 nantly rely on thermodynamic models, lacking a thorough
+ exploration of nonequi-
  []
 
 [49
@@ -1998,19 +2323,22 @@ Overfull \hbox (3.89885pt too wide) in paragraph at lines 6--8
 
 ] [50]
 Overfull \hbox (9.3255pt too wide) in paragraph at lines 32--33
-\TU/NotoSerif(1)/m/n/10 work for a comprehensive analysis of high-order harmonic generation in graphene. 
+\TU/NotoSerif(1)/m/n/10 work for a comprehensive analysis of high-order harmoni
+c generation in graphene. 
  []
 
 File: pic/hhg_mu.pdf Graphic file (type pdf)
 <use pic/hhg_mu.pdf>
 [51]
 Overfull \hbox (19.2622pt too wide) in paragraph at lines 53--54
-\TU/NotoSerif(1)/m/n/10 search, such as [[][]49[][]], where THz-induced high-order harmonic generation in graphene
+\TU/NotoSerif(1)/m/n/10 search, such as [[][]49[][]], where THz-induced high-or
+der harmonic generation in graphene
  []
 
 
 Overfull \hbox (1.2433pt too wide) in paragraph at lines 53--54
-\TU/NotoSerif(1)/m/n/10 was clarifyd through a thermodynamic framework. In contrast, our current study
+\TU/NotoSerif(1)/m/n/10 was clarifyd through a thermodynamic framework. In cont
+rast, our current study
  []
 
 [52]
@@ -2021,7 +2349,8 @@ File: pic/jsteady_interpolate.pdf Graphic file (type pdf)
 <use pic/jsteady_interpolate.pdf>
 
 Overfull \hbox (4.58551pt too wide) in paragraph at lines 91--98
-\TU/NotoSerif(1)/m/n/10 supports the reliability of the quasi-static approximation in capturing the nonequi-
+\TU/NotoSerif(1)/m/n/10 supports the reliability of the quasi-static approximat
+ion in capturing the nonequi-
  []
 
 File: pic/current_comparison_appendix.pdf Graphic file (type pdf)
@@ -2031,37 +2360,45 @@ File: pic/hhg_qstatic.pdf Graphic file (type pdf)
 <use pic/hhg_qstatic.pdf>
 
 
-LaTeX Warning: Reference `subsec:dynamical_simulation' on page 56 undefined on input line 133.
+LaTeX Warning: Reference `subsec:dynamical_simulation' on page 56 undefined on 
+input line 133.
 
 
-LaTeX Warning: Reference `subsec:quasi-static' on page 56 undefined on input line 133.
+LaTeX Warning: Reference `subsec:quasi-static' on page 56 undefined on input li
+ne 133.
 
 
-LaTeX Warning: Reference `subsec:dynamical_simulation' on page 56 undefined on input line 133.
+LaTeX Warning: Reference `subsec:dynamical_simulation' on page 56 undefined on 
+input line 133.
 
 
-LaTeX Warning: Reference `subsec:quasi-static' on page 56 undefined on input line 133.
+LaTeX Warning: Reference `subsec:quasi-static' on page 56 undefined on input li
+ne 133.
 
 
 Overfull \hbox (13.37885pt too wide) in paragraph at lines 146--150
-\TU/NotoSerif(1)/m/n/10 To provide a broader context, we compare the nonequilibrium steady-state achieved
+\TU/NotoSerif(1)/m/n/10 To provide a broader context, we compare the nonequilib
+rium steady-state achieved
  []
 
 
 Overfull \hbox (13.5033pt too wide) in paragraph at lines 146--150
-\TU/NotoSerif(1)/m/n/10 nomena within graphene in the THz regime. By contrasting the quasi-static nonequi-
+\TU/NotoSerif(1)/m/n/10 nomena within graphene in the THz regime. By contrastin
+g the quasi-static nonequi-
  []
 
 [56] [57]
 Overfull \hbox (3.56854pt too wide) in paragraph at lines 160--161
-[]\TU/NotoSerif(1)/m/n/10 Figure [][]4.6[][] illustrates the computed effective conductivities, $[][][][][]$ and $[][][][][][]$,
+[]\TU/NotoSerif(1)/m/n/10 Figure [][]4.6[][] illustrates the computed effective
+ conductivities, $[][][][][]$ and $[][][][][][]$,
  []
 
 File: pic/sigma_vs_E0.pdf Graphic file (type pdf)
 <use pic/sigma_vs_E0.pdf>
 
 Overfull \hbox (0.56218pt too wide) in paragraph at lines 170--175
-\TU/NotoSerif(1)/m/n/10 This reduction in conductivity combines with the field-induced transparency phe-
+\TU/NotoSerif(1)/m/n/10 This reduction in conductivity combines with the field-
+induced transparency phe-
  []
 
 [58]
@@ -2073,29 +2410,34 @@ LaTeX Warning: Reference `eqn:fd-dist' on page 61 undefined on input line 203.
 
 
 Overfull \hbox (3.9355pt too wide) in paragraph at lines 205--207
-[]\TU/NotoSerif(1)/m/n/10 We define the field-induced change in conduction population within a nonequi-
+[]\TU/NotoSerif(1)/m/n/10 We define the field-induced change in conduction popu
+lation within a nonequi-
  []
 
 [61] [62]
 Overfull \hbox (9.82466pt too wide) in paragraph at lines 231--232
-\TU/NotoSerif(1)/m/n/10 Having clarifyd the microscopic intricacies of THz-induced [][][]HHG[][] in graphene within
+\TU/NotoSerif(1)/m/n/10 Having clarifyd the microscopic intricacies of THz-indu
+ced [][][]HHG[][] in graphene within
  []
 
 File: pic/sigma_thermo.pdf Graphic file (type pdf)
 <use pic/sigma_thermo.pdf>
 
 Overfull \hbox (10.93285pt too wide) in paragraph at lines 239--244
-\TU/NotoSerif(1)/m/n/10 through the electron temperature $[][]$, while in the developed nonequilibrium model,
+\TU/NotoSerif(1)/m/n/10 through the electron temperature $[][]$, while in the d
+eveloped nonequilibrium model,
  []
 
 
 Overfull \hbox (6.07217pt too wide) in paragraph at lines 239--244
-\TU/NotoSerif(1)/m/n/10 nonequilibrium steady-states are essentialally defined by the applied field strength
+\TU/NotoSerif(1)/m/n/10 nonequilibrium steady-states are essentialally defined 
+by the applied field strength
  []
 
 [63] [64] [65]
 Overfull \hbox (10.92216pt too wide) in paragraph at lines 292--293
-\TU/NotoSerif(1)/m/n/10 approximation provided a more accurate picture within the thermodynamic model. 
+\TU/NotoSerif(1)/m/n/10 approximation provided a more accurate picture within t
+he thermodynamic model. 
  []
 
 [66]) [67]
@@ -2111,27 +2453,73 @@ Chapter 5.
 [69] [70]
 File: pic/polar_mir.pdf Graphic file (type pdf)
 <use pic/polar_mir.pdf>
- [71]
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 71 undefined on input lin
+e 53.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 71 undefined on input lin
+e 53.
+
+[71]
 File: pic/fig1.pdf Graphic file (type pdf)
 <use pic/fig1.pdf>
- [72] [73] [74]
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 72 undefined on input lin
+e 68.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 72 undefined on input lin
+e 68.
+
+[72] [73] [74]
 File: pic/SI_t1t2.pdf Graphic file (type pdf)
 <use pic/SI_t1t2.pdf>
- [75]
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 75 undefined on input lin
+e 96.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 75 undefined on input lin
+e 96.
+
+[75]
 File: pic/SI_hhg.pdf Graphic file (type pdf)
 <use pic/SI_hhg.pdf>
- [76]
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 76 undefined on input lin
+e 112.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 76 undefined on input lin
+e 112.
+
+[76]
 File: pic/polar.pdf Graphic file (type pdf)
 <use pic/polar.pdf>
  [77] [78]
 Overfull \hbox (6.07333pt too wide) in paragraph at lines 136--145
-\TU/NotoSerif(1)/m/n/10 ther static or THz fields (Fig.[][]5.5[][](d)). For instance, applying a static field of 0.5MV/cm
+\TU/NotoSerif(1)/m/n/10 ther static or THz fields (Fig.[][]5.5[][](d)). For ins
+tance, applying a static field of 0.5MV/cm
  []
 
 [79]
 File: pic/SI_polar.pdf Graphic file (type pdf)
 <use pic/SI_polar.pdf>
- [80] [81]
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 80 undefined on input lin
+e 177.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 80 undefined on input lin
+e 177.
+
+[80] [81]
 Overfull \hbox (1.04118pt too wide) in paragraph at lines 182--182
 []\TU/NotoSerif(1)/b/n/14.4 Comparison of Nonequilibrium Steady State and
  []
@@ -2143,27 +2531,69 @@ File: pic/5th_hh_vs_thermal.pdf Graphic file (type pdf)
 File: pic/7th_hh_vs_thermal.pdf Graphic file (type pdf)
 <use pic/7th_hh_vs_thermal.pdf>
 
-LaTeX Warning: Float too large for page by 21.63014pt on input line 192.
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 82 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 82 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 82 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 82 undefined on input lin
+e 191.
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 191--191
+\TU/NotoSerif(1)/m/n/10 for the nonequilibrium steady-states induced by a stati
+c field parallel (red
+ []
+
+
+LaTeX Warning: Float too large for page by 36.63014pt on input line 192.
 
 [82] [83]
 File: pic/pop_dist.pdf Graphic file (type pdf)
 <use pic/pop_dist.pdf>
 File: pic/pop_c.pdf Graphic file (type pdf)
 <use pic/pop_c.pdf>
- [84] [85]
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 84 undefined on input lin
+e 208.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 84 undefined on input lin
+e 208.
+
+[84] [85]
 Overfull \hbox (5.89551pt too wide) in paragraph at lines 233--234
-\TU/NotoSerif(1)/m/n/10 occupied by the field-induced population in the nonequilibrium steady-state, while
+\TU/NotoSerif(1)/m/n/10 occupied by the field-induced population in the nonequi
+librium steady-state, while
  []
 
-[86] [87]
+[86]
 File: pic/SI_pop.pdf Graphic file (type pdf)
 <use pic/SI_pop.pdf>
 
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 87 undefined on input lin
+e 247.
+
+
+LaTeX Warning: Citation 'PhysRevB.109.045421' on page 87 undefined on input lin
+e 247.
+
+
 Overfull \hbox (5.01883pt too wide) in paragraph at lines 241--249
-\TU/NotoSerif(1)/m/n/10 fully dynamical model is significantly higher than that obtained using the nonequi-
+\TU/NotoSerif(1)/m/n/10 fully dynamical model is significantly higher than that
+ obtained using the nonequi-
  []
 
-[88]) [89]
+[87] [88]) [89]
 \openout2 = `chapter/chapter6.aux'.
 
  (./chapter/chapter6.tex [90
@@ -2174,55 +2604,62 @@ Overfull \hbox (5.01883pt too wide) in paragraph at lines 241--249
 ]
 Chapter 6.
 
-Overfull \hbox (1.62886pt too wide) in paragraph at lines 7--8
-\TU/NotoSerif(1)/m/n/10 theoretical analysis and simulations, we gained insights into the microscpic mech-
+LaTeX Warning: Reference `ch:ch3' on page 91 undefined on input line 9.
+
+
+Overfull \hbox (6.19664pt too wide) in paragraph at lines 11--12
+\TU/NotoSerif(1)/m/n/10 provides a comprehensive understanding of these phenome
+na. Emphasis is placed
  []
 
-[91]
-Overfull \hbox (4.16217pt too wide) in paragraph at lines 20--21
-[]\TU/NotoSerif(1)/m/n/10 For further connecting the tight-binding model to time-dependent density func-
+[91] [92]
+Overfull \hbox (0.69218pt too wide) in paragraph at lines 32--33
+[]\TU/NotoSerif(1)/m/n/10 Experimental Validation: Experimental validation of t
+heoretical predictions
  []
 
 
-Overfull \hbox (4.73885pt too wide) in paragraph at lines 28--29
-[]\TU/NotoSerif(1)/m/n/10 Experimental Verification: Experimentalists can use the insights gained from
+Overfull \hbox (11.35216pt too wide) in paragraph at lines 34--35
+[]\TU/NotoSerif(1)/m/n/10 Multi-Physics Modeling: Integrating multi-physics eff
+ects like electron-phonon
  []
 
-[92]) [93]
+) [93] [94]
 \openout2 = `chapter/A_adiabatic.aux'.
 
- (./chapter/A_adiabatic.tex [94
+ (./chapter/A_adiabatic.tex
+Appendix A.
+
+Overfull \hbox (1.26883pt too wide) in paragraph at lines 3--4
+\TU/NotoSerif(1)/m/n/10 To study the mechanism behinde the nonlinear injection 
+of photocarriers in solids
+ []
+
+[95
 
 
 
 
 ]
-Appendix A.
-
-Overfull \hbox (11.51884pt too wide) in paragraph at lines 3--6
-\TU/NotoSerif(1)/m/n/10 The adiabatic approximation is used almost all the time in solving time-propagation,
- []
-
-
-Overfull \hbox (5.64803pt too wide) detected at line 24
+Overfull \hbox (5.64803pt too wide) detected at line 26
 []
  []
 
-[95]
-
-LaTeX Warning: Reference `eq:tdse00' on page 96 undefined on input line 27.
-
 [96] [97]) [98]
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 97.
 
-Overfull \hbox (37.36943pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(0)/m/it/10 tics Communications \TU/NotoSerif(1)/b/n/10 285, \TU/NotoSerif(1)/m/n/10 720–724. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 : 0030-4018. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] []
+Overfull \hbox (37.36943pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(0)/m/it/10 tics Communications \TU/NotoSerif(1)/b/n/10 285, \TU/N
+otoSerif(1)/m/n/10 720–724. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/1
+0 : 0030-4018. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] []
+
  []
 
 
-Overfull \hbox (3.9128pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Sipe, J. & Shkrebtii, A. Second-order optical response in semiconductors. \TU/NotoSerif(0)/m/it/10 Phys-
+Overfull \hbox (3.9128pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Sipe, J. & Shkrebtii, A. Second-order optical respons
+e in semiconductors. \TU/NotoSerif(0)/m/it/10 Phys-
  []
 
 [99
@@ -2231,109 +2668,136 @@ Overfull \hbox (3.9128pt too wide) in paragraph at lines 82--82
 
 
 ] [100]
-Overfull \hbox (1.51169pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 McPherson, A. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSerif(1)/m/n/10 Studies of multiphoton production of vacuum-ultraviolet
+Overfull \hbox (1.51169pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 McPherson, A. \TU/NotoSerif(0)/m/it/10 et al. \TU/Not
+oSerif(1)/m/n/10 Studies of multiphoton production of vacuum-ultraviolet
  []
 
 
-Overfull \hbox (13.7861pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(0)/m/it/10 ture \TU/NotoSerif(1)/b/n/10 466, \TU/NotoSerif(1)/m/n/10 739–743. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 : 1476-4687. [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][]$[][]
+Overfull \hbox (13.7861pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(0)/m/it/10 ture \TU/NotoSerif(1)/b/n/10 466, \TU/NotoSerif(1)/m/n
+/10 739–743. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 : 1476-4687. 
+[][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][]
+[][][][]$[][]
  []
 
 [101]
-Overfull \hbox (5.86505pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Reduzzi, M. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSerif(1)/m/n/10 Observation of autoionization dynamics and sub-cycle quan-
+Overfull \hbox (5.86505pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Reduzzi, M. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoS
+erif(1)/m/n/10 Observation of autoionization dynamics and sub-cycle quan-
  []
 
 
-Overfull \hbox (9.39835pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 tum beating in electronic molecular wave packets. \TU/NotoSerif(0)/m/it/10 Journal of Physics B: Atomic,
+Overfull \hbox (9.39835pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 tum beating in electronic molecular wave packets. \TU/N
+otoSerif(0)/m/it/10 Journal of Physics B: Atomic,
  []
 
 
-Overfull \hbox (4.19832pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 solids and its implications for attosecond science. \TU/NotoSerif(0)/m/it/10 Journal of Physics B: Atomic,
+Overfull \hbox (4.19832pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 solids and its implications for attosecond science. \TU
+/NotoSerif(0)/m/it/10 Journal of Physics B: Atomic,
  []
 
 
-Overfull \hbox (4.92787pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Ghimire, S. & Reis, D. A. High-harmonic generation from solids. \TU/NotoSerif(0)/m/it/10 Nature Physics
+Overfull \hbox (4.92787pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Ghimire, S. & Reis, D. A. High-harmonic generation fr
+om solids. \TU/NotoSerif(0)/m/it/10 Nature Physics
  []
 
 
-Overfull \hbox (1.92734pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 band transitions on high-order harmonic generation in solids. \TU/NotoSerif(0)/m/it/10 Nature Physics
+Overfull \hbox (1.92734pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 band transitions on high-order harmonic generation in s
+olids. \TU/NotoSerif(0)/m/it/10 Nature Physics
  []
 
 [102]
-Overfull \hbox (12.64835pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Mics, Z. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSerif(1)/m/n/10 Thermodynamic picture of ultrafast charge transport in graphene.
+Overfull \hbox (12.64835pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Mics, Z. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSeri
+f(1)/m/n/10 Thermodynamic picture of ultrafast charge transport in graphene.
  []
 
 
-Overfull \hbox (0.42616pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Sławi ńska, J., Zasada, I. & Klusek, Z. Energy gap tuning in graphene on hexag-
+Overfull \hbox (0.42616pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Sławi ńska, J., Zasada, I. & Klusek, Z. Energy gap tu
+ning in graphene on hexag-
  []
 
 
-Overfull \hbox (4.42343pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Sato, S. A. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoSerif(1)/m/n/10 Light-induced anomalous Hall effect in massless Dirac fermion
+Overfull \hbox (4.42343pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Sato, S. A. \TU/NotoSerif(0)/m/it/10 et al. \TU/NotoS
+erif(1)/m/n/10 Light-induced anomalous Hall effect in massless Dirac fermion
  []
 
 
-Overfull \hbox (4.07272pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Sato, S. A. & Rubio, A. Nonlinear electric conductivity and THz-induced charge
+Overfull \hbox (4.07272pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Sato, S. A. & Rubio, A. Nonlinear electric conductivi
+ty and THz-induced charge
  []
 
 [103]
-Overfull \hbox (5.56721pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 Controlled Currents in Semiconductors. \TU/NotoSerif(0)/m/it/10 Phys. Rev. Lett. \TU/NotoSerif(1)/b/n/10 74, \TU/NotoSerif(1)/m/n/10 3596–3599. [][]$[][][][][] []
+Overfull \hbox (5.56721pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 Controlled Currents in Semiconductors. \TU/NotoSerif(0)
+/m/it/10 Phys. Rev. Lett. \TU/NotoSerif(1)/b/n/10 74, \TU/NotoSerif(1)/m/n/10 3
+596–3599. [][]$[][][][][] []
  []
 
 
-Overfull \hbox (3.52695pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 98, \TU/NotoSerif(1)/m/n/10 035202. [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][] []
+Overfull \hbox (3.52695pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 98, \TU/NotoSerif
+(1)/m/n/10 035202. [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][
+][] [] [][] [] [][][][] [] [][][][][][][][] []
  []
 
 
-Overfull \hbox (1.56943pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(0)/m/it/10 highly nonlinear optical excitations and valley polarization \TU/NotoSerif(1)/m/n/10 2023. arXiv: [][]$[][][][] []
+Overfull \hbox (1.56943pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(0)/m/it/10 highly nonlinear optical excitations and valley polari
+zation \TU/NotoSerif(1)/m/n/10 2023. arXiv: [][]$[][][][] []
  []
 
 [104]
-Overfull \hbox (0.94846pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 Grown Graphene. \TU/NotoSerif(0)/m/it/10 The Journal of Physical Chemistry B \TU/NotoSerif(1)/b/n/10 117, \TU/NotoSerif(1)/m/n/10 15819–15824. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 :
+Overfull \hbox (0.94846pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 Grown Graphene. \TU/NotoSerif(0)/m/it/10 The Journal of
+ Physical Chemistry B \TU/NotoSerif(1)/b/n/10 117, \TU/NotoSerif(1)/m/n/10 1581
+9–15824. \TU/NotoSerif(0)/m/sc/10 issn\TU/NotoSerif(1)/m/n/10 :
  []
 
 
-Overfull \hbox (1.68697pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 eration and nonlinear charge transport in graphene. \TU/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 106, \TU/NotoSerif(1)/m/n/10 024313.
+Overfull \hbox (1.68697pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 eration and nonlinear charge transport in graphene. \TU
+/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 106, \TU/NotoSerif(1
+)/m/n/10 024313.
  []
 
 
-Overfull \hbox (14.65547pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 in two-dimensional hexagonal nanostructures. \TU/NotoSerif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 100, \TU/NotoSerif(1)/m/n/10 035434. [][]$[][][][][] []
+Overfull \hbox (14.65547pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 in two-dimensional hexagonal nanostructures. \TU/NotoSe
+rif(0)/m/it/10 Phys. Rev. B \TU/NotoSerif(1)/b/n/10 100, \TU/NotoSerif(1)/m/n/1
+0 035434. [][]$[][][][][] []
  []
 
 
-Overfull \hbox (7.7228pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Yoshikawa, N., Tamaya, T. & Tanaka, K. High-harmonic generation in graphene
+Overfull \hbox (7.7228pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Yoshikawa, N., Tamaya, T. & Tanaka, K. High-harmonic 
+generation in graphene
  []
 
 
-Overfull \hbox (14.19513pt too wide) in paragraph at lines 82--82
-\TU/NotoSerif(1)/m/n/10 enhanced by elliptically polarized light excitation. \TU/NotoSerif(0)/m/it/10 Science \TU/NotoSerif(1)/b/n/10 356, \TU/NotoSerif(1)/m/n/10 736–738. [][]$[][][][][] []
+Overfull \hbox (14.19513pt too wide) in paragraph at lines 97--97
+\TU/NotoSerif(1)/m/n/10 enhanced by elliptically polarized light excitation. \T
+U/NotoSerif(0)/m/it/10 Science \TU/NotoSerif(1)/b/n/10 356, \TU/NotoSerif(1)/m/
+n/10 736–738. [][]$[][][][][] []
  []
 
 [105]
-Overfull \hbox (11.67801pt too wide) in paragraph at lines 82--82
-[]\TU/NotoSerif(1)/m/n/10 Cook, D., Chen, J., Morlino, E. & Hochstrasser, R. Terahertz-field-induced second-
+Overfull \hbox (11.67801pt too wide) in paragraph at lines 97--97
+[]\TU/NotoSerif(1)/m/n/10 Cook, D., Chen, J., Morlino, E. & Hochstrasser, R. Te
+rahertz-field-induced second-
  []
 
-[106] (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux) (./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux) (./chapter/chapter6.aux) (./chapter/A_adiabatic.aux))
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+[106] (./main.aux (./chapter/chapter1.aux) (./chapter/chapter2.aux)
+(./chapter/chapter3.aux) (./chapter/chapter4.aux) (./chapter/chapter5.aux)
+(./chapter/chapter6.aux) (./chapter/A_adiabatic.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2341,18 +2805,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 55F5C28C5D20D8646DA77E1724A1A6E9;7803.
+(rerunfilecheck)             Checksum: C49DC1B0AD7A3B1D7F3ECEC84B13E73F;7903.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42538 strings out of 476683
- 869950 string characters out of 5804046
- 1906018 words of memory out of 5000000
- 62157 multiletter control sequences out of 15000+600000
- 517358 words of font info for 103 fonts, out of 8000000 for 9000
+ 42540 strings out of 476683
+ 869983 string characters out of 5804046
+ 1905018 words of memory out of 5000000
+ 62160 multiletter control sequences out of 15000+600000
+ 516490 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 121i,19n,139p,2317b,7079s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,19n,139p,2317b,7077s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (124 pages).
+Output written on main.pdf (126 pages).

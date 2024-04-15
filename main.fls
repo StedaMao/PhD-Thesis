@@ -1611,8 +1611,6 @@ OUTPUT main.ist
 INPUT ./pic/signature.pdf
 INPUT ./pic/signature.pdf
 INPUT pic/signature.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 INPUT ./main.toc
 INPUT main.toc
 INPUT main.toc

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.27)  10 MAR 2024 17:31
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.27)  15 APR 2024 22:25
  restricted system commands enabled.
 **background_theory.tex
 (./background_theory.tex
@@ -43,7 +43,8 @@ Inserting `tracingstacklevels' in `input_level_string'.
 ! Undefined control sequence.
 l.1 \chapter
           {Background and Theory}
-? 
+? Q
+OK, entering \batchmode...
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -53,17 +54,26 @@ Type  H <return>  for immediate help.
                                                   
 l.1 \chapter{B
             ackground and Theory}
-? 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ! Undefined control sequence.
 l.5 (\cref
         {fig:SPI_experiment}).
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Missing $ inserted.
 <inserted text> 
 $
 l.5 (\cref{fig:SPI_
                  experiment}).
-? 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -71,7 +81,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Extra }, or forgotten $.
 l.5 (\cref{fig:SPI_experiment}
                             ).
-? 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 \citation{lohReconstructionAlgorithmSingleparticle2009}
 luaotfload | db : Font names database loaded from /home/maowen/.texlive2023/texm
 f-var/luatex-cache/generic/names/luaotfload-names.luc.gz
@@ -80,7 +95,12 @@ f-var/luatex-cache/generic/names/luaotfload-names.luc.gz
                                                   \space undefined\on@line .
 l.6 ...lohReconstructionAlgorithmSingleparticle2009}
                                                    in a sparse diffraction p...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `lohReconstructionAlgorithmSingleparticle2009' on page 
  undefined on input line 6.
@@ -90,7 +110,9 @@ LaTeX Warning: Citation `lohReconstructionAlgorithmSingleparticle2009' on page
 $
 l.8 
   
-? 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--8
 []Background
@@ -129,7 +151,9 @@ Type  H <return>  for immediate help.
                                                   
 l.9 T
    he XFEL SPI is an inverse problem of this encoding procedure and typicall...
-? 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 9--11
 []The
@@ -138,13 +162,12 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 9--11
 ! Undefined control sequence.
 l.24 \section
            {Basics of X-ray scalar diffraction theory}
-? 
-! Interruption.
-<to be read again> 
-{
-l.24 \section{
-            Basics of X-ray scalar diffraction theory}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 24--26
 []Basics
@@ -158,24 +181,33 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 27--30
 ! Undefined control sequence.
 l.33 \SI
       {200}{eV} to \SI{500}{keV} \cite{raubenheimerLCLSIIStatusCW2015}:
-? 
-! Interruption.
-<to be read again> 
-{
-l.33 \SI{
-       200}{eV} to \SI{500}{keV} \cite{raubenheimerLCLSIIStatusCW2015}:
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.33 \SI{200}{eV} to \SI
                       {500}{keV} \cite{raubenheimerLCLSIIStatusCW2015}:
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \citation{raubenheimerLCLSIIStatusCW2015}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.33 ...}{keV} \cite{raubenheimerLCLSIIStatusCW2015}
                                                   :
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `raubenheimerLCLSIIStatusCW2015' on page  undefined on 
 input line 33.
@@ -281,7 +313,12 @@ Overfull \hbox (13.76001pt too wide) in paragraph at lines 41--42
                                                   \space undefined\on@line .
 l.44 ...example\cite{raubenheimerLCLSIIStatusCW2015}
                                                   ,
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `raubenheimerLCLSIIStatusCW2015' on page  undefined on 
 input line 44.
@@ -289,18 +326,33 @@ input line 44.
 ! Undefined control sequence.
 l.45 ...ge of SPI experiment with XFEL is around \SI
                                                   {200}{eV} and
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.46 \SI
       {25}{keV}. In this range, the recorded photons are mainly from coherent
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \citation{hubbellReviewPhotonInteraction1999}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.47 ...ing\cite{hubbellReviewPhotonInteraction1999}
                                                   . The fluorescence photons
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `hubbellReviewPhotonInteraction1999' on page  undefined
  on input line 47.
@@ -325,17 +377,32 @@ scattering[[]].
       
 l.53 ... incident plane electromagnetic wave, $\bvec
                                                    E_\text{in}$,
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.53 ...t plane electromagnetic wave, $\bvec E_\text
                                                   {in}$,
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.54 ...e electric field part at the position $\bvec
                                                    x$ could be expressed as
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 51--55
 []A
@@ -354,55 +421,105 @@ Overfull \hbox (5.71527pt too wide) in paragraph at lines 51--55
 ! Undefined control sequence.
 l.56     \bvec
             {E}_\text{e}(\bvec x)=\frac{e^2}{4 \pi \varepsilon_{0} m_\text{e...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.56     \bvec{E}_\text
                      {e}(\bvec x)=\frac{e^2}{4 \pi \varepsilon_{0} m_\text{e...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.56     \bvec{E}_\text{e}(\bvec
                                x)=\frac{e^2}{4 \pi \varepsilon_{0} m_\text{e...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> 4 \pi \varepsilon _{0} m_\text 
                                {e} c^{2}
 l.56 ...e^2}{4 \pi \varepsilon_{0} m_\text{e} c^{2}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec 
       {x} \times (\bvec {x} \times \bvec {E}_{\text {in}})
 l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
                                              \text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec {x} \times (\bvec 
                         {x} \times \bvec {E}_{\text {in}})
 l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
                                              \text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec {x} \times (\bvec {x} \times \bvec 
                                          {E}_{\text {in}})
 l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
                                              \text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> ... {x} \times (\bvec {x} \times \bvec {E}_{\text 
                                                   {in}})
 l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
                                              \text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> |\bvec 
        {x}|^{3}
 l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}
                                              \text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.58     \bvec{E}_{\text{in}})}{|\bvec{x}|^{3}}\text
                                                   {,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (147.48361pt too wide) detected at line 60
 \OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][]
@@ -412,14 +529,24 @@ Overfull \hbox (147.48361pt too wide) detected at line 60
 ! Undefined control sequence.
 l.61 ...is the vacuum permittivity, $e$ and $m_\text
                                                   {e}$ represent the charge ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \citation{griffithsIntroductionQuantumMechanics2014}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.62 ...e{griffithsIntroductionQuantumMechanics2014}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `griffithsIntroductionQuantumMechanics2014' on page  un
 defined on input line 62.
@@ -447,17 +574,32 @@ radius[[]]
 ! Undefined control sequence.
 l.64     r_\text
               {e}=\frac{e^{2}}{4 \pi \varepsilon_{0} m_\text{e} c^{2}} \appr...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> 4 \pi \varepsilon _{0} m_\text 
                                {e} c^{2}
 l.64 ...{2}}{4 \pi \varepsilon_{0} m_\text{e} c^{2}}
                                                    \approx \SI{2.818e-15}{m}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.64 ...varepsilon_{0} m_\text{e} c^{2}} \approx \SI
                                                   {2.818e-15}{m}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (138.40486pt too wide) detected at line 66
 \OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10  []\OML/cmm/m/it/10
@@ -467,14 +609,24 @@ Overfull \hbox (138.40486pt too wide) detected at line 66
 ! Undefined control sequence.
 l.67 is introduced to simplify \cref
                                   {eq:Esc}.
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \citation{thibaultAlgorithmicMethodsDiffraction2007}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.69 ...e{thibaultAlgorithmicMethodsDiffraction2007}
                                                   .
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `thibaultAlgorithmicMethodsDiffraction2007' on page  un
 defined on input line 69.
@@ -487,32 +639,59 @@ thin[[]].
 ! Undefined control sequence.
 l.71 In the XFEL SPI experiment (\cref
                                     {fig:lab_frame}), the distance between t...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Missing $ inserted.
 <inserted text> 
 $
 l.71 In the XFEL SPI experiment (\cref{fig:lab_
                                              frame}), the distance between t...
-? 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Extra }, or forgotten $.
 l.71 ...he XFEL SPI experiment (\cref{fig:lab_frame}
                                                   ), the distance between th...
-? 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
 l.72 on the detector, $R \sim \SI
                                {1}{m}$, is several orders of magnitudes larg...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.73 the scale of a nano-sized particle ($\sim\SI
                                                {10}{nm}$). Therefore, under ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \citation{jacksonClassicalElectrodynamics2007}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.73 ...on\cite{jacksonClassicalElectrodynamics2007}
                                                   ,
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation `jacksonClassicalElectrodynamics2007' on page  undefine
 d on input line 73.
@@ -520,27 +699,49 @@ d on input line 73.
 ! Undefined control sequence.
 l.75 density $\rho(\bvec
                        x_\text{p})$ at $\bvec x_\text{d}$ (usually the posit...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Missing $ inserted.
 <inserted text> 
 $
 l.75 density $\rho(\bvec x_
                          \text{p})$ at $\bvec x_\text{d}$ (usually the posit...
-? 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Undefined control sequence.
 l.75 density $\rho(\bvec x_\text
                               {p})$ at $\bvec x_\text{d}$ (usually the posit...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.75 density $\rho(\bvec x_\text{p})$ at $\bvec
                                               x_\text{d}$ (usually the posit...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.75 ...y $\rho(\bvec x_\text{p})$ at $\bvec x_\text
                                                   {d}$ (usually the position...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 71--77
 []In
@@ -574,115 +775,235 @@ Overfull \hbox (10.37814pt too wide) in paragraph at lines 71--77
 ! Undefined control sequence.
 l.78     \bvec
             {E}(\bvec x_\text{d})=r_\text{e} \frac{\bvec x_\text{d} \times\l...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.78     \bvec{E}(\bvec
                       x_\text{d})=r_\text{e} \frac{\bvec x_\text{d} \times\l...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.78     \bvec{E}(\bvec x_\text
                              {d})=r_\text{e} \frac{\bvec x_\text{d} \times\l...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.78     \bvec{E}(\bvec x_\text{d})=r_\text
                                          {e} \frac{\bvec x_\text{d} \times\l...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec 
       x_\text {d} \times \left (\bvec x_\text {d} \times \bvec {E}_{\text {in}}
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec x_\text 
               {d} \times \left (\bvec x_\text {d} \times \bvec {E}_{\text {in}}
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec x_\text {d} \times \left (\bvec 
                                       x_\text {d} \times \bvec {E}_{\text {in}}
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \bvec x_\text {d} \times \left (\bvec x_\text 
                                               {d} \times \bvec {E}_{\text {in}}
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> ...} \times \left (\bvec x_\text {d} \times \bvec 
                                                   {E}_{\text {in}}\right )
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> ...eft (\bvec x_\text {d} \times \bvec {E}_{\text 
                                                   {in}}\right )
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> |\bvec 
        x_\text {d}|^{3}
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> |\bvec x_\text 
                {d}|^{3}
 l.79 ..._{\text{in}}\right)}{|\bvec x_\text{d}|^{3}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80     \int \rho(\bvec
                        x_\text{p}) \exp\bigl[-2 \pi \img(\bvec k_\text{out} ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80     \int \rho(\bvec x_\text
                               {p}) \exp\bigl[-2 \pi \img(\bvec k_\text{out} ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80 ...\rho(\bvec x_\text{p}) \exp\bigl[-2 \pi \img
                                                   (\bvec k_\text{out} - \bve...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80 ...bvec x_\text{p}) \exp\bigl[-2 \pi \img(\bvec
                                                    k_\text{out} - \bvec k_\t...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80 ...text{p}) \exp\bigl[-2 \pi \img(\bvec k_\text
                                                   {out} - \bvec k_\text{in})
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80 ...\bigl[-2 \pi \img(\bvec k_\text{out} - \bvec
                                                    k_\text{in})
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.80 ... \pi \img(\bvec k_\text{out} - \bvec k_\text
                                                   {in})
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.81     \cdot \bvec
                    x_\text{p}\bigr] \dif \bvec x_\text{p}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.81     \cdot \bvec x_\text
                           {p}\bigr] \dif \bvec x_\text{p}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.81     \cdot \bvec x_\text{p}\bigr] \dif
                                          \bvec x_\text{p}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.81     \cdot \bvec x_\text{p}\bigr] \dif \bvec
                                                x_\text{p}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.81 ...ot \bvec x_\text{p}\bigr] \dif \bvec x_\text
                                                   {p}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (269.90904pt too wide) detected at line 83
 \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = \OML
@@ -697,101 +1018,211 @@ S/cmsy/m/n/10  \OML/cmm/m/it/10 x[][]x[][]
       
 l.84 where $\bvec
                 k_\text{out}$ and $\bvec k_\text{in}$ are the scattered and ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.84 where $\bvec k_\text
                        {out}$ and $\bvec k_\text{in}$ are the scattered and ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.84 where $\bvec k_\text{out}$ and $\bvec
                                          k_\text{in}$ are the scattered and ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.84 where $\bvec k_\text{out}$ and $\bvec k_\text
                                                 {in}$ are the scattered and ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.85 $(\bvec
            k_\text{out} - \bvec k_\text{in}) \cdot \bvec x_\text{p}$ is the ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.85 $(\bvec k_\text
                   {out} - \bvec k_\text{in}) \cdot \bvec x_\text{p}$ is the ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.85 $(\bvec k_\text{out} - \bvec
                                 k_\text{in}) \cdot \bvec x_\text{p}$ is the ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.85 $(\bvec k_\text{out} - \bvec k_\text
                                        {in}) \cdot \bvec x_\text{p}$ is the ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.85 ..._\text{out} - \bvec k_\text{in}) \cdot \bvec
                                                    x_\text{p}$ is the differ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.85 ...ut} - \bvec k_\text{in}) \cdot \bvec x_\text
                                                   {p}$ is the difference bet...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.86 optical paths passing the origin and $\bvec
                                                x_\text{p}$.
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.86 ... paths passing the origin and $\bvec x_\text
                                                   {p}$.
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \envert 
         
 l.88 is the same as the incident photon, or $\envert
                                                   {\bvec k_\text{out}} = \en...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.88 ...me as the incident photon, or $\envert{\bvec
                                                    k_\text{out}} = \envert{\...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.88 ...e incident photon, or $\envert{\bvec k_\text
                                                   {out}} = \envert{\bvec k_\...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.88 ...n, or $\envert{\bvec k_\text{out}} = \envert
                                                   {\bvec k_\text{in}}=
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.88 ...$\envert{\bvec k_\text{out}} = \envert{\bvec
                                                    k_\text{in}}=
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.88 ...{\bvec k_\text{out}} = \envert{\bvec k_\text
                                                   {in}}=
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.89 ...length of X-ray, and the direction of $\bvec
                                                    k_\text{out}$
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.89 ...f X-ray, and the direction of $\bvec k_\text
                                                   {out}$
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.90 is the same as the direction $\bvec
                                        x_\text{d}$. By introducing a new vec...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.90 is the same as the direction $\bvec x_\text
                                               {d}$. By introducing a new vec...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (17.40216pt too wide) in paragraph at lines 83--91
 \OML/cmm/m/it/10 k[]$
@@ -855,63 +1286,138 @@ Overfull \hbox (10.37814pt too wide) in paragraph at lines 83--91
 ! Undefined control sequence.
 l.92     \bvec
              k = \gls{torec}(\bvec x_\text{d}) = \bvec k_\text{out} - \bvec ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92     \bvec k = \gls
                      {torec}(\bvec x_\text{d}) = \bvec k_\text{out} - \bvec ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92     \bvec k = \gls{torec}(\bvec
                                    x_\text{d}) = \bvec k_\text{out} - \bvec ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92     \bvec k = \gls{torec}(\bvec x_\text
                                           {d}) = \bvec k_\text{out} - \bvec ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...ec k = \gls{torec}(\bvec x_\text{d}) = \bvec
                                                    k_\text{out} - \bvec k_\t...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...gls{torec}(\bvec x_\text{d}) = \bvec k_\text
                                                   {out} - \bvec k_\text{in} ...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...vec x_\text{d}) = \bvec k_\text{out} - \bvec
                                                    k_\text{in} = \envert{\bv...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...ext{d}) = \bvec k_\text{out} - \bvec k_\text
                                                   {in} = \envert{\bvec k_\te...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...c k_\text{out} - \bvec k_\text{in} = \envert
                                                   {\bvec k_\text{in}}\hat{\b...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...ext{out} - \bvec k_\text{in} = \envert{\bvec
                                                    k_\text{in}}\hat{\bvec x}...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ... - \bvec k_\text{in} = \envert{\bvec k_\text
                                                   {in}}\hat{\bvec x}_\text{d...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...t{in} = \envert{\bvec k_\text{in}}\hat{\bvec
                                                    x}_\text{d} - \bvec k_\te...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...envert{\bvec k_\text{in}}\hat{\bvec x}_\text
                                                   {d} - \bvec k_\text{in}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...c k_\text{in}}\hat{\bvec x}_\text{d} - \bvec
                                                    k_\text{in}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.92 ...t{in}}\hat{\bvec x}_\text{d} - \bvec k_\text
                                                   {in}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (169.67986pt too wide) detected at line 94
 \OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 = [][] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k[][]
@@ -920,17 +1426,32 @@ Overfull \hbox (169.67986pt too wide) detected at line 94
 ! Undefined control sequence.
 l.95 where $\hat{\bvec
                     {a}}$ indicates the direction unit vector of a vector $\...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <recently read> \bvec 
       
 l.95 ...the direction unit vector of a vector $\bvec
                                                   {a}$,
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.96 and the Fourier transform of $\rho(\bvec
                                             x)$,
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (5.28589pt too wide) in paragraph at lines 94--97
 []$
@@ -950,55 +1471,120 @@ t ,
 ! Undefined control sequence.
 l.98     \tilde{\rho}(\bvec
                           k) = \Fourier[\rho](\bvec k)= \int \rho(\bvec x_\t...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.98     \tilde{\rho}(\bvec k) = \Fourier
                                        [\rho](\bvec k)= \int \rho(\bvec x_\t...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.98 ...\tilde{\rho}(\bvec k) = \Fourier[\rho](\bvec
                                                    k)= \int \rho(\bvec x_\te...
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.98 ...) = \Fourier[\rho](\bvec k)= \int \rho(\bvec
                                                    x_\text{p}) \exp(- 2 \pi
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.98 ...rier[\rho](\bvec k)= \int \rho(\bvec x_\text
                                                   {p}) \exp(- 2 \pi
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99     \img
            \bvec{k} \cdot \bvec x_\text{p}) \dif \bvec x_\text{p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99     \img\bvec
                 {k} \cdot \bvec x_\text{p}) \dif \bvec x_\text{p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99     \img\bvec{k} \cdot \bvec
                                 x_\text{p}) \dif \bvec x_\text{p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99     \img\bvec{k} \cdot \bvec x_\text
                                        {p}) \dif \bvec x_\text{p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99     \img\bvec{k} \cdot \bvec x_\text{p}) \dif
                                                  \bvec x_\text{p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99 ...g\bvec{k} \cdot \bvec x_\text{p}) \dif \bvec
                                                    x_\text{p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99 ...} \cdot \bvec x_\text{p}) \dif \bvec x_\text
                                                   {p}\text{,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 l.99 ...\bvec x_\text{p}) \dif \bvec x_\text{p}\text
                                                   {,}
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (179.42258pt too wide) detected at line 101
 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 ) = [\OML/cmm/m/it/10 \OT
@@ -1011,9 +1597,117 @@ m/n/10 )\OML/cmm/m/it/10 x[][][]
 ! Undefined control sequence.
 l.102 \cref
          {eq:Esc_int} could be rewritten as
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Missing $ inserted.
 <inserted text> 
 $
 l.102 \cref{eq:Esc_
-                 int} could be 
+                 int} could be rewritten as
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.102 \cref{eq:Esc_int}
+                      could be rewritten as
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+\endgroup 
+l.103 \begin{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.104     \bvec
+              E(\bvec x_\text{d}) = \bvec E_\text{e} (\bvec x_\text{d})\cdot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104     \bvec E(\bvec
+                      x_\text{d}) = \bvec E_\text{e} (\bvec x_\text{d})\cdot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104     \bvec E(\bvec x_\text
+                             {d}) = \bvec E_\text{e} (\bvec x_\text{d})\cdot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104     \bvec E(\bvec x_\text{d}) = \bvec
+                                          E_\text{e} (\bvec x_\text{d})\cdot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104     \bvec E(\bvec x_\text{d}) = \bvec E_\text
+                                                 {e} (\bvec x_\text{d})\cdot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 ...\bvec x_\text{d}) = \bvec E_\text{e} (\bvec
+                                                   x_\text{d})\cdot \tilde{\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 ...\text{d}) = \bvec E_\text{e} (\bvec x_\text
+                                                  {d})\cdot \tilde{\rho}\circ
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.105     \torec
+              (\bvec x_\text{d})\text{,}
+(That makes 100 errors; please try again.)
+
+Here is how much of LuaTeX's memory you used:
+ 29 strings out of 478285
+ 100000,1977958 words of node,token memory allocated
+ 36855 words of node memory still in use:
+   251 hlist, 9 vlist, 4 rule, 18 disc, 19 local_par, 2 dir, 33 math, 820 glue, 
+132 kern, 90 penalty, 11 noad, 1 accent, 16 math_char, 3698 glyph, 235 attribute
+, 39 glue_spec, 235 attribute_list, 2 temp, 7 write nodes
+   avail lists: 3:126,4:42,5:1,8:226,9:1,10:41
+ 20353 multiletter control sequences out of 65536+600000
+ 27 fonts using 1608431 bytes
+ 18i,5n,19p,333b,146s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

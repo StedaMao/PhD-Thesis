@@ -71,8 +71,4 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
 INPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc
 INPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf
-INPUT /usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/luaotfload-glyphlist.lua
-OUTPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.lua
-INPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.lua
-OUTPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
+INPUT /home/maowen/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
