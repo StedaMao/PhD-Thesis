@@ -1,81 +1,82 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[53] biber:340> INFO - === Mon Apr 15, 2024, 22:55:28
-[63] Biber.pm:419> INFO - Reading 'main.bcf'
-[123] Biber.pm:979> INFO - Found 92 citekeys in bib section 0
-[131] Biber.pm:4419> INFO - Processing section 0
-[138] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[143] bibtex.pm:1713> INFO - LaTeX decoding ...
-[282] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[930] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[930] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[930] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[930] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[972] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1029] bbl.pm:763> INFO - Output to main.bbl
-[1029] Biber.pm:131> WARN - Duplicate entry key: 'Mrudul:21' in file 'references.bib', skipping ...
-[1029] Biber.pm:131> WARN - Duplicate entry key: 'PhysRev.57.184' in file 'references.bib', skipping ...
-[1029] Biber.pm:131> WARN - Duplicate entry key: 'PhysRevB.33.5494' in file 'references.bib', skipping ...
-[1029] Biber.pm:131> WARN - Duplicate entry key: 'PhysRev.57.184' in file 'references.bib', skipping ...
-[1029] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'RevModPhys.72.545' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'RevModPhys.81.163' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRevB.61.5337' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'PhysRevLett.107.126805' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'Yang2010' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Schiffrin2013' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'PhysRevLett.113.087401' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRevLett.116.057401' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'Higuchi2017' is not an integer - this will probably not sort properly.
-[1029] Biber.pm:131> WARN - legacy month field 'apr' in entry 'Heide_2020' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'mar' in entry 'Morimoto_2022' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'Jimenez-Galan2020' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'Mrudul:21' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'PhysRevLett.127.126601' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'McPherson:87' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'feb' in entry 'Ferray_1988' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PhysRevLett.68.3535' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevLett.70.1599' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevA.49.2117' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'Goulielmakis2010' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'PhysRevLett.105.143002' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevLett.106.123601' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'May' in entry 'Warrick2016' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'PhysRevResearch.3.043222' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'Mashiko2016' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'Siegrist2019' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'Ghimire2011' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Ghimire2019' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'Silva2019' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'Nakagawa2022' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'mics2015thermodynamic' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'PhysRevB.81.155433' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevB.51.6868' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'hofstadter1976energy' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'sep' in entry 'sato2019light' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'sato2019microscopic' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'sato2021high' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'jun' in entry 'sato2021nonlinear' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'meier1994coherent' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRev.57.184' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'PhysRevB.33.5494' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PhysRevB.99.214302' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'May' in entry 'PhysRevLett.74.3596' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevLett.76.1703' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'PhysRevLett.78.306' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'Sun2010' is not an integer - this will probably not sort properly.
-[1030] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'PhysRevB.100.075202' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'PhysRevLett.123.067402' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevB.98.035202' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'hafez2018extremely' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'Hwang2013' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Paul_2013' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevB.106.024313' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevB.100.035434' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'May' in entry 'PhysRevB.105.195405' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'Hafez2018' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'PhysRevB.103.L041408' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'May' in entry 'PhysRevLett.8.404' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRev.137.A801' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Nahata:98' is not an integer - this will probably not sort properly.
-[1031] Biber.pm:131> WARN - I didn't find a database entry for 'PhysRevB.109.045421' (section 0)
-[1031] Biber.pm:133> INFO - WARNINGS: 65
+[121] biber:340> INFO - === Sun Apr 28, 2024, 15:30:07
+[141] Biber.pm:419> INFO - Reading 'main.bcf'
+[288] Biber.pm:979> INFO - Found 125 citekeys in bib section 0
+[307] Biber.pm:4419> INFO - Processing section 0
+[323] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[335] bibtex.pm:1713> INFO - LaTeX decoding ...
+[693] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[2549] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2549] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2549] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2549] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2672] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2844] bbl.pm:763> INFO - Output to main.bbl
+[2844] Biber.pm:131> WARN - Duplicate entry key: 'Mrudul:21' in file 'references.bib', skipping ...
+[2844] Biber.pm:131> WARN - Duplicate entry key: 'PhysRev.57.184' in file 'references.bib', skipping ...
+[2845] Biber.pm:131> WARN - Duplicate entry key: 'PhysRevB.33.5494' in file 'references.bib', skipping ...
+[2845] Biber.pm:131> WARN - Duplicate entry key: 'PhysRev.57.184' in file 'references.bib', skipping ...
+[2845] Biber.pm:131> WARN - Duplicate entry key: 'tancogne2017ellipticity' in file 'references.bib', skipping ...
+[2845] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'RevModPhys.72.545' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'RevModPhys.81.163' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'Higuchi2017' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRevB.61.5337' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'PhysRevLett.107.126805' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'Yang2010' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Schiffrin2013' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'PhysRevLett.113.087401' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRevLett.116.057401' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'apr' in entry 'Heide_2020' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'mar' in entry 'Morimoto_2022' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'Jimenez-Galan2020' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'Mrudul:21' is not an integer - this will probably not sort properly.
+[2845] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'PhysRevLett.127.126601' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'McPherson:87' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'feb' in entry 'Ferray_1988' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PhysRevLett.68.3535' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevLett.70.1599' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevA.49.2117' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'Goulielmakis2010' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'PhysRevLett.105.143002' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevLett.106.123601' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'May' in entry 'Warrick2016' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'PhysRevResearch.3.043222' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'Mashiko2016' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'Siegrist2019' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'Ghimire2011' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Ghimire2019' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'Silva2019' is not an integer - this will probably not sort properly.
+[2846] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'Nakagawa2022' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'hafez2018extremely' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'mics2015thermodynamic' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'PhysRevB.81.155433' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevB.51.6868' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'hofstadter1976energy' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRev.57.184' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'PhysRevB.33.5494' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'sep' in entry 'sato2019light' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'sato2019microscopic' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'sato2021high' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'jun' in entry 'sato2021nonlinear' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'meier1994coherent' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PhysRevB.99.214302' is not an integer - this will probably not sort properly.
+[2847] Biber.pm:131> WARN - legacy month field 'May' in entry 'PhysRevLett.74.3596' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'PhysRevLett.76.1703' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'PhysRevLett.78.306' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'Sun2010' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'PhysRevB.100.075202' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'PhysRevLett.123.067402' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevB.98.035202' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'Hwang2013' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Paul_2013' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevB.106.024313' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevB.100.035434' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'May' in entry 'PhysRevB.105.195405' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'Hafez2018' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'PhysRevB.103.L041408' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'PhysRevB.109.045421' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'May' in entry 'PhysRevLett.8.404' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'PhysRev.137.A801' is not an integer - this will probably not sort properly.
+[2848] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Nahata:98' is not an integer - this will probably not sort properly.
+[2849] Biber.pm:133> INFO - WARNINGS: 66

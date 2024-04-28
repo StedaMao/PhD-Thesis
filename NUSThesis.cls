@@ -262,6 +262,10 @@
 	\phantomsection\addcontentsline{toc}{chapter}{List of Tables}
 	\chapter*{List of Tables}\vspace{2em}\makeatletter\@starttoc{lot}\makeatother}
 
+\newcommand{\listofpublications}{
+	\intendclearpage
+	\phantomsection\addcontentsline{toc}{chapter}{List of Publications}
+	\chapter*{List of Publications}\vspace{2em}\makeatletter\@starttoc{lot}\makeatother}
 
 \newenvironment{dedication}
 {\clearpage           % we want a new page

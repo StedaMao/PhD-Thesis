@@ -1,4 +1,9 @@
-\chapter{PHOTOVOLTAIC EFFECTS INDUCED BY CO-LINEAR POLARIZED LIGHT} 
+\chapter{PHOTOVOLTAIC EFFECTS INDUCED BY CO-LINEAR POLARIZED LIGHT \label{ch:ch3}} 
+ The discussion and results presented in this chapter ar an adaptation of the article by Wenwen Mao \emph{et al.},  Nonlinear current injection in hexagonal boron nitride using linearly polarized light in a deeply off-resonant regime. (2024) {\it Advanced Optical Materials}, (Under Review)
+\color{red}
+Photovoltaic effect involves the generation of electric current in response to incident light in photovoltaic materials. To describe and analyze this phenomenon, one must consider the absorption of light as we introduced in Section.~(\ref{sec:intro_photocarrier}) in introduction, generation and recombination of charge carriers, establishment of built-in potential and electric field, extraction of charge carriers, and efficiency and power conversion of the photovoltaic device. The conduction band population distribution plays a crucial role in the operation of photovoltaic devices by influencing the movement of charge carriers and the efficiency of light-to-electricity conversion. When photons with energy greater than the bandgap of the semiconductor material are absorbed, electrons in the valence band are excited to the conduction band, creating electron-hole pairs. These photogenerated electrons contribute to the population of the conduction band. All these terms provide a comprehensive framework for understanding the operation and optimization of photovoltaic devices.
+\color{black}
+
 Addressing the photovoltaic effect within the perturbative regime has garnered significant
 attention, particularly in the exploration of dc current injection using two-color linearly
 polarized light~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}.
@@ -20,12 +25,12 @@ polarized light, opening new avenues for exploring the frontiers of quantum dyna
 optoelectronic applications. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Time-dependent Perturbative Analysis on QuI \label{sec:deriveperturbation}}
+\section{Time-dependent Perturbative Analysis \label{sec:deriveperturbation}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Time-dependent perturbation theory provides a form for describing the response of quantum systems to time-varying external fields, makes it well-suited for analyzing the interaction of materials with intense electromagnetic radiation. 
 Exploring the photovoltaic effect within the perturbative regime has led to a notable focus on elucidating the injection of dc-current through the use of two-color linearly polarized light ~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306,Sun2010,PhysRevB.100.075202,HeideBoolakeeEcksteinHommelhoff+2021+3701+3707,PhysRevLett.123.067402}. 
 Here, we investigate the nonlinear photocarrier injection process via the time-dependent perturbation analysis.
-Under adiabatic basis representation described in Appendix ~\ref{ch:Adiabatic}, one can rewrite the equation of motion for the coefficient vector $c_{\mathbf k} (t)$ after expansion as
+Under adiabatic basis (also named as Houston basis Eq.~(\ref{eq:eigenstates-h0}) and Eq.~(\ref{eqn:Houston})) representation described in Appendix ~\ref{ch:Adiabatic}, one can rewrite the equation of motion for the coefficient vector $c_{\mathbf k} (t)$ after expansion as
 
 \begin{align}
 &i\frac{d}{dt} \mathbf c_{\mathbf k}(t) = \mathcal{H}(t) \mathbf c_{\mathbf k}(t).
@@ -162,7 +167,7 @@ We assume $\sigma\gg0$ to make the approximation the Gaussian term is a constant
 \begin{align}
     \int_0^{t'} A_2 \vec e \cos[\omega(t-T_0)]  e^{-\frac{(t-T_0)^2}{2\sigma^2}} dt = \frac{A_2 \vec e}{\omega} \sin[\omega(t'-T_0)]  e^{-\frac{(t'-T_0)^2}{2\sigma^2}}    
 \end{align}
-The corresponding external electric field $\mathbf E(t)=-d\mathbf A(t)/dt$ can be written as the following pulsed form:
+The corresponding external dipolar electric field $\mathbf E(t)=-d\mathbf A(t)/dt$ can be written as the following pulsed form:
 
 \begin{align}
    \mathbf E_1(t)=2\omega A_1 \vec e \sin[2\omega (t-T_0)+\phi]  e^{-\frac{(t-T_0)^2}{2\sigma^2}}, \\
@@ -326,7 +331,7 @@ The interference terms are:
 \end{aligned}
 \end{equation}
 
-To summarize the steps, the asymmetric population distribution between $\mathbf k$ and $\mathbf {-k}$  can be understood by the quantum interference (\gls{QuI}) of different excitation paths:
+To summarize the steps, the asymmetric population distribution between $\mathbf k$ and $\mathbf {-k}$  can be understood by the quantum interference (\gls{QuI}) \cite{roos2003characterization} of different excitation paths:
 
 \begin{equation}
     \begin{aligned}
@@ -379,13 +384,16 @@ quantum interference control (\gls{QuIC}). By manipulating the relative phase of
 at frequencies  $\omega$ and $2\omega$, \gls{QuIC} can be applied to achieve control over one- and
 two-photon absorption processes, often referred to as ($1+2$~QuIC), we will further discuss in the
 next section.
+\color{red}
+We need to emphasize the population imbalance of the quantum interference between different excitation paths ($1+2$~QuIC), is different from the second order nonlinear current, so-called "injection current" \cite{laman2005ultrafast}. The injection current occurs due to the quantum interference between absorption pathways associated with orthogonal components of the beam polarization. This leads to a polar distribution of electrons or holes in momentum space, resulting in current injection that temporally follows the optical intensity but whose decay characteristics are related to momentum scattering\cite{laman2005ultrafast}. One may see that the non-oscillating current due to the quantum interference may exist even after the perturbation ends. Ref.\cite{sipe2000second} also discussed the interference of one-photon absorption processes associated with different linear polarizations of light for the injection current induced by the circularly polarized light. Furthermore,  they discuss the interference of the one - and two-photon absorption processed with the two color laser fields.\\
+\color{black}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Third-order Nonlinear Regime: $1+2$~QuIC \label{sec:perturbative}}
+\section{Third-order Nonlinear Regime \label{sec:perturbative}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 From perturbation analysis in Sec~\ref{sec:deriveperturbation}, the breakdown of time-reversal symmetry can be achieved through the use of linearly polarized light featuring two distinct frequencies. This implies that the injection of dc-current and the generation of a substantial population imbalance can be efficiently realized without relying on the ellipticity of light. This principle is exemplified by employing two-color linearly polarized laser fields with frequencies $\omega$ and $2\omega$. In this configuration, the intrinsic properties of linear polarization and the dual frequencies are sufficient to break time-reversal symmetry, facilitating the desired outcomes of dc-current injection and the establishment of a pronounced population imbalance. This approach provides a adjiustable and simplified means to manipulate quantum interference and achieve specific optical responses in the system without the need for elliptically polarized light.\\
 
- For practical simulation, we examine the light-induced electron dynamics in a typical two-dimensional insulator, monolayer \gls{h-BN}, using a simple tight-binding approximation and \gls{TDSE} introduced in Chapter ~\ref{ch:ch2}. In the quantum dynamics simulation, we employ the following expression for the vector potential of the applied two-color fields within the interval $-\frac{\tau}{2} < t < \frac{\tau}{2}$ and zero outside this range:
+ In the simulations to be presented below, we examine the light-induced electron dynamics in a typical two-dimensional insulator, monolayer \gls{h-BN}, using a simple tight-binding approximation and \gls{TDSE} introduced in Chapter ~\ref{ch:ch2}. In the quantum dynamics simulation, we employ the following expression for the vector potential of the applied two-color fields within the interval $-\frac{\tau}{2} < t < \frac{\tau}{2}$ and zero outside this range:
 \begin{equation}
 \mathbf{A}(t) = -\mathbf{e}_p \frac{E_0}{\omega} \left [
 \cos \left (\omega t \right ) + \frac{1}{4}\cos
@@ -411,7 +419,7 @@ The time profiles of the electric field given by Eq.~(\ref{eq:ele-pot-w-2w}) are
 \end{figure}
 
 
-To comprehensively determine the persistent dc-current following laser irradiation, we conduct an in-depth analysis utilizing the photo-excited conduction population $n_{c\mathbf{k}}$ computed from Eq.~(\ref{eq:population_tdse}): 
+To comprehensively determine the observed persistent dc-current following laser irradiation, we conduct an in-depth analysis utilizing the photo-excited conduction population $n_{c\mathbf{k}}$ computed from Eq.~(\ref{eq:population_tdse}): 
 \begin{align}
 n_{c\vecb{k}} = \left | \langle \phi_{c \vecb{k}} | \psi_{\vecb{k}}(t_F) \right |^2,
 \end{align}
@@ -493,7 +501,7 @@ This behavior aligns with the expected characteristics of the $1+2$~\gls{QuIC} p
 The current after the laser irradiation is shown as a function of the fundamental photon energy $\hbar \omega$. The results computed different field strengths: (a) $E_0=1.03$~MV/cm, (b) $51.43$~MV/cm, and (c) $E_0=102.84$~MV/cm.}
 \end{figure}
 
- The investigation helps understand the complicated relationship between photon energy, field strength, and the nonlinear processes. It is essencial to investigate the photon energy dependence of the dc-current after laser irradiation while varying the field strength, $E_0$, to unravel the intricacies of this highly nonlinear optical phenomenon. 
+ Previous results helps understand the complicated relationship between photon energy, field strength, and the nonlinear processes. It is essencial to investigate the photon energy dependence of the dc-current after laser irradiation while varying the field strength, $E_0$, to unravel the intricacies of this highly nonlinear optical phenomenon. 
  Figures~\ref{fig:fig4}~(b) and (c) throughly illustrate the photon-energy dependence of the persistent current following laser irradiation, calculated for two distinct field strengths: (b) $E_0=51.42$~MV/cm and (c) $E_0=102.84$~MV/cm. In contrast to the weak field regime dominated by the $1+2$~\gls{QuIC}, the direct current (dc) can be induced even under deeply off-resonant conditions, where the photon energy is smaller than half of the band gap ($\hbar \omega \le E_g/2$), as evident in Figure\ref{fig:fig4}(b). This convincing observation suggests that potent laser fields introduce additional pathways for electron excitation that extend beyond two-photon absorption. These additional processes, involving multiple photons, contribute to the creation of a population imbalance and a dc-current, even in the deeply off-resonant regime. The interaction between laser field strength and photon energy unveiled in these results provides invaluable insights into the complex dynamics governing persistent currents in strong-field regimes.
 
  Illustrated in Figure~\ref{fig:fig4}~(c), a noteworthy observation emerges the magnitude of the direct current (dc) after laser irradiation in the deeply off-resonant regime ($\hbar \omega \le E_g/2$) surpasses that in the $1+2$~\gls{QuIC} regime ($\hbar \omega \ge E_g/2$) as the applied field strength reaches exceptionally large values. This interesting behavior finds its explanation in the ponderomotive energy, denoted as:
@@ -504,7 +512,7 @@ The current after the laser irradiation is shown as a function of the fundamenta
 Our initial investigation focused on analyzing the electric current induced by these two-color laser fields within the weak field regime. We confirmed that the dc-component of the induced current persists even after laser irradiation when the fundamental photon energy $\hbar \omega$ exceeds the optical gap, $E_g/2$. This ballistic current phenomenon originates from a population imbalance in the Brillouin zone, arising from quantum interference between two distinct excitation paths: one involving one-photon absorption at the photon energy of $2\hbar \omega$, and the other involving a two-photon absorption path at the photon energy of $\hbar \omega$~\cite{PhysRevLett.74.3596,PhysRevLett.76.1703,PhysRevLett.78.306}.
 
 
- This discovery sets the stage for a more in-depth exploration in the subsequent section, where we will study into the involvements of efficiently inducing dc-current through highly nonlinear optical processes in the deeply off-resonant regime.
+ This discovery sets the stage for a more in-depth exploration of the efficiently inducing dc-current through highly nonlinear optical processes in the deeply off-resonant regime in the next section.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -597,8 +605,8 @@ Figure~\ref{fig:dc_current_vs_E0}~(b) presents the number of excited electrons a
 
 In contrast to the $|E_0|^6$-dependence of the number of photo-excited carriers in the weak field regime, the injected current and the corresponding population imbalance follow a $|E_0|^7$ scaling, as illustrateed in Figure~\ref{fig:dc_current_vs_E0}~(a). The difference in nonlinearities between the absolute photo-carrier population and the population imbalance implies that the population imbalance is negligible concerning the absolute photo-carrier population in the weak field regime. However, in a strong field regime, the relative significance of the population imbalance becomes substantial as it grows more rapidly than the absolute photo-carrier population. Therefore, the distinction in nonlinearities between the total photocarrier population and the population imbalance indicates the potential for large-amplitude valley carrier population control.
 
-Expanding our analysis to the deeply off-resonant regime, where $\hbar \omega \ll E_g/2$, we observed an absence of population imbalance under weak applied field strength. However, as the field strength increased, a population imbalance in the Brillouin zone is formed, leading to the injection of the persistent dc-current after the laser irradiation. Scaling analysis of the ballistic current injection with respect to the applied field strength $E_0$ revealed that the population imbalance and the ballistic current result from an interference between three-photon absorption process with three photons of energy $2\hbar \omega$ and a four-photon absorption process with two photons of energy $2\hbar \omega$ and two photons of energy $\hbar \omega$. Consequently, we demonstrated that a multi-photon absorption process, incorporating photons with different energies, plays a pivotal role in addition to the multi-photon absorption process involving single-color photons.
+Expanding our analysis to the deeply off-resonant regime, where $\hbar \omega \ll E_g/2$, we observed an absence of population imbalance under weak field strength. However, as the field strength increased, a population imbalance in the Brillouin zone is formed, leading to the injection of the persistent dc-current after the laser irradiation. Scaling analysis of the ballistic current injection with respect to the applied field strength $E_0$ revealed that the population imbalance and the ballistic current result from an interference between three-photon absorption process with three photons of energy $2\hbar \omega$ and a four-photon absorption process with two photons of energy $2\hbar \omega$ and two photons of energy $\hbar \omega$. Consequently, we demonstrated that a multi-photon absorption process, incorporating photons with different energies, plays a pivotal role in addition to the multi-photon absorption process involving single-color photons.
 
 
-In previous works~\cite{Jimenez-Galan2020,Mrudul:21,PhysRevLett.127.126601}, the formation of substantial population imbalance and valley-population control has been discussed in monolayer systems such as monolayer $h$-BN and graphene, using bi-circular laser fields with frequencies $\omega$ and $2\omega$. Recently, valley-population control with bi-circular fields has been extended to multi-layer and bulk systems~\cite{tyulnev2023valleytronics} without relying on intrinsic inversion symmetry breaking and the Berry curvature at the valleys. In contrast to these works, our study demonstrates the induction of a large population imbalance and ballistic current injection without relying on the ellipticity of light. Instead, we rely on time-reversal symmetry breaking achieved through relative phase control between two-color linearly-polarized fields at frequencies $\omega$ and $2\omega$. Furthermore, similar to Ref.~\cite{tyulnev2023valleytronics}, the injection mechanism with bi-color linearly polarized light does not rely on intrinsic inversion symmetry breaking, indicating an efficient dc current injection and population control with the scheme using linearly-polarized light. The potential of population control and the photovoltaic effect with linearly polarized light, in addition to circularly/elliptically polarized light, unveils novel avenues for realizing ultrafast opto-electronics, marked by precise control of current and population dynamics on the femtosecond time scale.
+In previous works~\cite{PhysRevLett.127.126601, sato2019microscopic}, the formation of substantial population imbalance and valley-population control has been discussed in monolayer systems such as monolayer $h$-BN and graphene, using bi-circular laser fields with frequencies $\omega$ and $2\omega$. Recently, valley-population control with bi-circular fields has been extended to multi-layer and bulk systems~\cite{tyulnev2023valleytronics} without relying on intrinsic inversion symmetry breaking and the Berry curvature at the valleys. In contrast to these works, our study demonstrates the induction of a large population imbalance and ballistic current injection without relying on the ellipticity of light. Instead, we rely on time-reversal symmetry breaking achieved through relative phase control between two-color linearly-polarized fields at frequencies $\omega$ and $2\omega$. Furthermore, similar to Ref.~\cite{tyulnev2023valleytronics}, the injection mechanism with bi-color linearly polarized light does not rely on intrinsic inversion symmetry breaking, indicating an efficient dc current injection and population control with the scheme using linearly-polarized light. The potential of population control and the photovoltaic effect with linearly polarized light, in addition to circularly/elliptically polarized light, unveils novel avenues for realizing ultrafast opto-electronics, marked by precise control of current and population dynamics on the femtosecond time scale.
 

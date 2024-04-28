@@ -1622,10 +1622,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bbold/bbold10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bbold/bbold7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bbold/bbold5.tfm
 OUTPUT main.toc
-INPUT ./main.lot
-INPUT main.lot
-INPUT main.lot
-OUTPUT main.lot
 INPUT ./main.lof
 INPUT main.lof
 INPUT main.lof
@@ -1633,6 +1629,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 OUTPUT main.lof
+INPUT ./main.lot
+INPUT main.lot
+INPUT main.lot
+OUTPUT main.lot
 INPUT ./main.sls
 INPUT main.sls
 INPUT ./main.sls
@@ -1649,6 +1649,15 @@ INPUT ./chapter/chapter1.tex
 INPUT chapter/chapter1.tex
 INPUT ./chapter/chapter1.tex
 INPUT chapter/chapter1.tex
+INPUT ./pic/photocarrier_intro.pdf
+INPUT ./pic/photocarrier_intro.pdf
+INPUT pic/photocarrier_intro.pdf
+INPUT ./pic/HHG_intro.pdf
+INPUT ./pic/HHG_intro.pdf
+INPUT pic/HHG_intro.pdf
+INPUT ./pic/3step.pdf
+INPUT ./pic/3step.pdf
+INPUT pic/3step.pdf
 INPUT ./chapter/chapter2.tex
 INPUT ./chapter/chapter2.tex
 INPUT ./chapter/chapter2.tex
@@ -1672,8 +1681,6 @@ INPUT ./chapter/chapter3.tex
 INPUT chapter/chapter3.tex
 INPUT ./chapter/chapter3.tex
 INPUT chapter/chapter3.tex
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bbold/bbold12.tfm
 INPUT ./pic/electric.pdf
 INPUT ./pic/electric.pdf
 INPUT pic/electric.pdf
@@ -1720,6 +1727,9 @@ INPUT ./chapter/chapter4.tex
 INPUT chapter/chapter4.tex
 INPUT ./chapter/chapter4.tex
 INPUT chapter/chapter4.tex
+INPUT ./pic/compare.pdf
+INPUT ./pic/compare.pdf
+INPUT pic/compare.pdf
 INPUT ./pic/hhg_mu.pdf
 INPUT ./pic/hhg_mu.pdf
 INPUT pic/hhg_mu.pdf

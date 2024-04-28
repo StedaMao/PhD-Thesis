@@ -1,12 +1,25 @@
 %----------------------------------------------------------------------------------------
+%
 % CHAPTER TWO
 %----------------------------------------------------------------------------------------
 \chapter{THEORETICAL FOUNDATIONS}
 \label{ch:ch2}
+\textcolor{red}{ In recent years, 2D materials have emerged as a fascinating class of materials with unique properties and promising applications in various fields ranging from electronics and photonics to energy and biotechnology. These materials, which exhibit extraordinary properties due to their ultrathin nature, are reshaping the landscape of materials science and engineering. Among the diverse array of 2D materials, graphene, transition metal dichalcogenides (TMDs), hexagonal boron nitride (\gls{h-BN}), and other emerging candidates stand out for their exceptional characteristics and potential applications. We introduce most popular 2D materials with hexagonal lattice nanostructure and their crystallography properties in this chapter. We then introduce the tight-binding approach, which is basic for understanding the electronic properties of materials, with a particular focus on the nearest neighbor tight-binding model. We also discuss the electron dynamics in 2D materials, including the time-dependent Schrödinger equation and quantum master equation, which are fundamental for studying the nonlinear optical response in these materials.}
+
+\textcolor{red}{	Graphene: a single layer of carbon atoms arranged in a honeycomb lattice, is the archetype of 2D materials. Graphene exhibits extraordinary mechanical strength, electrical conductivity, and thermal conductivity. Its unique electronic band structure and optical properties make it a versatile material for various applications in electronics, such as high-speed transistors and flexible displays, as well as in energy storage, sensors, and biomedical devices.}
+
+\textcolor{red}{Hexagonal Boron Nitride (\gls{h-BN}):  a structural analog of graphene, consists of alternating boron and nitrogen atoms arranged in a hexagonal lattice. \gls{h-BN} exhibits excellent thermal and chemical stability, as well as a large bandgap, making it an insulating material. Its flat and atomically smooth surface makes it an ideal substrate for 2D materials and a protective coating in electronic devices. It is widely used as a dielectric material in transistors, tunneling barriers in spintronics.}
+
+\textcolor{red}{Transition Metal Dichalcogenides (TMDs): a class of 2D materials composed of transition metal atoms sandwiched between two layers of chalcogen atoms (e.g., sulfur, selenium, or tellurium). TMDs exhibit intriguing electronic, optical, and mechanical properties, which can be tuned by varying the composition and layer thickness. They often possess a direct bandgap, making them suitable for optoelectronic applications. They are used in field-effect transistors, photodetectors, light-emitting diodes (LEDs), and other optoelectronic devices. They also hold promise in catalysis, sensing, and flexible electronics.}
+
+\textcolor{red}{Other Emerging 2D Materials like Black Phosphorus: a layered semiconductor, offers tunable bandgap and high carrier mobility, making it suitable for electronic and optoelectronic applications. MXenes are a family of 2D transition metal carbides, nitrides, and carbonitrides with metallic conductivity and excellent mechanical properties, holding promise in energy storage, catalysis, and electromagnetic shielding. Perovskite Nanosheets: Perovskite nanosheets exhibit remarkable photophysical properties and are being explored for applications in solar cells, photodetectors, and light-emitting devices.}
+
+\textcolor{red}{In summary, 2D materials, including graphene, TMDs, \gls{h-BN}, and other emerging candidates, offer a rich platform for exploring novel physical phenomena and developing advanced technologies with unprecedented performance and functionality. Their diverse properties and potential applications make them a vibrant area of research in materials science and engineering. The inclusion of artificial 2D materials based on moiré superlattices underscores the dynamic nature of this field and the potential for groundbreaking discoveries \cite{kennes2021moire}.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Crystallography Properties}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The hexagonal lattice nanostructure, a fundamental Bravais lattice, manifests as a distinctive geometric arrangement prevalent across a spectrum of materials, owing to its highly efficient packing characteristics. This lattice's spatial configuration profoundly influences the mechanical, electrical, and thermal properties of materials. Understanding lattice structures is crucial for deciphering material behavior across diverse conditions, spanning from semimetals to topological insulators. This significance is particularly noteworthy in the realm of two-dimensional materials. We have selected graphene, exemplifying a semimetal, and hexagonal boron nitride (h-BN), recognized as an insulator, for our discussion on nonlinear optical response on 2d materials.\\
+\textcolor{red}{Hexagonal lattice nanostructures are fundamental building blocks in the realm of 2D materials, encompassing a diverse range of materials with hexagonal symmetry. From natural materials like graphene and \gls{h-BN} to artificial structures based on moiré physics \cite{kennes2021moire}, the crystallographic properties of hexagonal lattices underpin the rich and varied behavior observed in 2D materials, offering ample opportunities for scientific exploration and technological innovation.}
+As a fundamental Bravais lattice, it manifests as a distinctive geometric arrangement prevalent across a spectrum of materials, owing to its highly efficient packing characteristics. This lattice's spatial configuration profoundly influences the mechanical, electrical, and thermal properties of materials. Understanding lattice structures is crucial for deciphering material behavior across diverse conditions, spanning from semimetals to topological insulators. This significance is particularly noteworthy in the realm of two-dimensional materials. We have selected graphene, exemplifying a semimetal, and hexagonal boron nitride (h-BN), recognized as an insulator, for our discussion on nonlinear optical response on 2d materials.\\
 \begin{figure}[htpb]
 	\centering
 	\includegraphics[width=0.96\textwidth]{pic/lattice.pdf}
@@ -22,8 +35,6 @@ arrangement plays a important role in the formation of Dirac cone, making monola
 finding applications in electronic devices, sensors, and various fields~\cite{sarma2011electronic}.
 
 Similar to graphene, \gls{h-BN} also features a hexagonal lattice structure, but with alternating boron and nitrogen atoms forming the hexagons, making it a wide-gap insulator due to inversion symmetry breaking, which is used as a dielectric material in electronics, a substrate for graphene-based devices, and as a solid lubricant.
-% Example Subsubsection
-\subsection{Structural Parameters}
 % begin{figure}[tb] % t = top, b = bottom, etc.
 We define the basis of hexagonal lattice primitive vectors $E = (\vec{a}_{1}, \vec{a}_{2})$ as shown in Fig \ref{fig: lattice} (a):
 $$
@@ -45,7 +56,6 @@ $$
 		\vec{\delta}_{3}=a\left(\begin{array}{l} -\frac{1}{2 \sqrt{3}}\\ -\frac{1}{2}\end{array}\right)
 	\end{array}
 $$
-\subsection{Reciprocal Space}
 The reciprocal basis $B=\left(b_{1}, b_{2}, b_{3}\right)$ is generated using the formula:
 $$
 	\overrightarrow{b_{k}}=\frac{2 \pi \cdot \overrightarrow{a_{i}} \times \overrightarrow{a_{j}}}{V}
@@ -75,14 +85,25 @@ $$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 In this section, we delve into the fundamental principles of the tight-binding approach, with a particular focus on the nearest neighbor tight-binding model. This approach is essential for understanding the electronic properties of materials and is a crucial component of graphene's electronic structure analysis.
-
-The foundation of the tight-binding approach is rooted in the Bloch theorem, which is satisfied by the tight-binding function
+\textcolor{red}{In solid-state physics, the tight-binding model is a theoretical framework used to describe the electronic structure of crystalline materials. It treats each atomic orbital as a basis function and describes the electronic wavefunction as an expansion in terms of these basis functions. One common approach is to expand the wavefunction using Linear Combination of Atomic Orbitals (\gls{LCAO}). In this method, the wavefunction at each point in the crystal lattice is expressed as a linear combination of atomic orbitals centered on individual atoms:}
+\textcolor{red}{
+	\begin{equation}
+		\phi_{\beta}(\mathbf{r})=\sum_{\mathbf{R}_{\alpha}} b_{\beta}\left(\mathbf{R}_{\alpha}\right) \varphi_{\beta}\left(\mathbf{r}-\mathbf{R}_{\alpha}\right)
+		\label{eq:lcao}
+	\end{equation}
+	Here, $\beta$ is the general atomic orbitals index, $\varphi_{\beta}$ is the atomic orbitals which are eigenfunctions of the Hamiltonian $H_{\alpha}$ of a single isolated atom $\alpha$.
+	The Bloch theorem states that the wave function in a crystal can change under translation only by a phase factor:
+	\begin{equation}
+		\phi\left(\mathbf{r}+\mathbf{R}_{\ell}\right)=e^{i \mathbf{k} \cdot \mathbf{R}_{\ell}} \psi(\mathbf{r})
+		\label{eqn:bloch}
+	\end{equation}
+}
+The foundation of the tight-binding approach is rooted in the Bloch theorem, which is satisfied by the tight-binding function by combining Eq.~(\ref{eq:lcao}) and Eq.~(\ref{eqn:Bloch}):
 \begin{equation}
 	\Phi_{\alpha,\beta}(\mathbf{r}, \mathbf{k})=\frac{1}{\sqrt{N}} \sum_{\mathbf{R}} e^{i \mathbf{k}
 			\cdot \mathbf{R}} \phi_{\alpha,\beta}\left(\mathbf{r}-\mathbf{R}_{\alpha,\beta}\right), \alpha=A \text { or } B
 	\label{eqn:Bloch}
 \end{equation}
-Here, $\beta$ is the general atomic orbitals index,
 For simplicity, we only consider the contribution from the outermost valence band electron's
 orbital and omit $\beta$ in the following discussion. $N$ represents the number of unit cells, and $\phi_{\alpha}(\mathbf{r} - \mathbf{R}_{\alpha})$ denotes the orbital function of an electron at cell $\mathbf{R}$ in sublattice $\alpha$.
 In the context of a honeycomb lattice, we focus on the nearest neighbor approximation. This approximation asserts that an atom in sublattice A only interacts with its three closest neighbor atoms in sublattice B. This simplification is particularly useful for understanding the interactions between electrons bound to non-equivalent atoms.
@@ -147,6 +168,58 @@ Their corresponding eigenvectors are:
 		\end{array}\right)
 	\label{eqn:eigenvector}
 \end{equation}
+\color{red}
+In 2D materials, quantum effects become prominent due to the reduced dimensionality, leading to the emergence of novel electronic states and phenomena. Understanding how topological obstruction influences the electronic structure of 2D materials sheds light on the quantum behavior that governs their properties.For 2D systems, the quantity of topological index as a surface integral over the Brillouin Zone is defined as the Chern number:
+
+\begin{align}
+	W_{n}=\frac{1}{2 \pi} \iint_{B Z} d ^{2} \boldsymbol{k} \cdot \vec{\Omega}_{n}
+\end{align}
+Quantized Hall conductance $\sigma_{xy}$ can be calculated using the Chern number and the TKNN formula\cite{thouless1982quantized}:
+\begin{align}
+	\sigma_{xy}=\frac{e^2}{h}W_n
+\end{align}
+$\vec{\Omega}_n$ is the Berry curvature, which is defined as the rotational of the Berry connection or the
+Berry vector potential $\mathcal{A}(\boldsymbol{k})=\left\langle n(\boldsymbol{k})\left|i \nabla_{\boldsymbol{k}}\right|n(\boldsymbol{k})\right\rangle
+$\cite{berry1984quantal}. Barry phase $\gamma_n$ is expressed as a closed path $\mathcal{C}$ integral in the $\boldsymbol{k}$-space $\gamma_{n}=\oint_{\mathcal{C}} d \boldsymbol{k} \cdot \mathcal{A}_{n}(\boldsymbol{k})=\int_{\mathcal{S}} d \boldsymbol{k} \cdot \vec{\Omega}_{n}(\boldsymbol{k})$.
+$n(\boldsymbol{k})$ denotes the $n^{th}$ eigenstate of the Bloch
+Hamiltonian $H(\boldsymbol{k})$ for general systems. The Berry curvature $\vec{\Omega}_n$ is an intrinsic property of the
+band structure because it only depends on the wave
+function, which can be nonzero in crystals with broken time-reversal or inversion symmetry.\cite{xiao2010berry}
+\begin{align}
+	\vec{\Omega}_{n}(\boldsymbol{k})=\nabla_{\boldsymbol{k}} \times\mathcal{A}(\boldsymbol{k})
+\end{align}
+
+Using $\left\langle n|\partial H / \partial \boldsymbol{k}| n^{\prime}\right\rangle=\left\langle\partial n / \partial \boldsymbol{k} \mid n^{\prime}\right\rangle\left(E_{n}-E_{n^{\prime}}\right) \text { for } n^{\prime} \neq n$, the Berry curvature can be also written as a summation over the eigenstates:
+\begin{align}
+	\vec{\Omega}_{n}(\boldsymbol{k})=\operatorname{Im} \sum_{n^\prime \neq n} \frac{\left\langle n(\boldsymbol{k})\left|\nabla_{\boldsymbol{k}} H(\boldsymbol{k})\right| n^\prime(\boldsymbol{k})\right\rangle \times\left\langle n^\prime(\boldsymbol{k})\left|\nabla_{\boldsymbol{k}} H(\boldsymbol{k})\right| n(\boldsymbol{k})\right\rangle}{\left(E_{n^\prime}(\boldsymbol{k})-E_{n}(\boldsymbol{k})\right)^{2}}
+\end{align}
+which is useful to calculate the numerically the integral.\\
+
+Hereafter, for two-band tight-binding model, $n(\boldsymbol{k})$ is the instantaneous eigenstates of the time-dependent Hamiltonian $H$ from Eq.~(\ref{eqn:vTD}) under the vector potential $\mathbf{A(t)}$.
+$n(\boldsymbol{k})$ equals to $\phi_{v,\boldsymbol k+\mathbf A(t)}$ and $\phi_{c,\boldsymbol k+\mathbf A(t)}$ for the valence band and the conduction band.  One get the Berry curvature for conduction band of 2D-systems:
+\begin{align}
+	 & \vec{\Omega}_{c,k_xk_y}(\boldsymbol{k})=i  \frac{\left\langle \phi_c(\boldsymbol{k})\left|\partial H(\boldsymbol{k}) / \partial k_x\right| \phi_v(\boldsymbol{k})\right\rangle\left\langle \phi_v(\boldsymbol{k})\left|\partial H(\boldsymbol{k}) / \partial k_y\right| \phi_c(\boldsymbol{k})\right\rangle-(k_y \leftrightarrow k_x)}{\left(\epsilon_{c}(\boldsymbol{k})-\epsilon_{v}(\boldsymbol{k})\right)^{2}}
+\end{align}
+Normally, for monolayer graphene, inversion symmetry hodes $\Omega_n(\boldsymbol{-k})=\Omega_n(\boldsymbol{k})$. Also, the Berry curvature and momentum change sign under time-reversal, so that the Berry curvature at one momentum becomes opposite to the Berry curvature at opposite momentum $\Omega_n(\boldsymbol{-k})=-\Omega_n(\boldsymbol{k})$, so $\Omega_n(\boldsymbol{k})=0$ and $\sigma_{xy}=0$. \cite{xiao2010berry}. For non-centrosymmetric crystals, for instance monolayer hBN, inversion symmetry is broken but time reversal symmetry holds, we have $\Omega_n(\boldsymbol{k})\neq0$ and $\sigma_{xy}=0$. And if only time reversal symmetry broken but inversion symmetry holds, for instance magnetic materials, we have $\Omega_n(\boldsymbol{k})\neq0$ and $\sigma_{xy}\neq0$.
+
+For graphene/hBN:
+\begin{align}
+	\frac{\partial H}{\partial \boldsymbol k}=
+	\left(\begin{array}{cc}
+			      0                                                                            & t_{0} \frac{\partial f(\boldsymbol{k}+\mathbf{A})}{\partial \boldsymbol k} \\
+			      t_{0} \frac{\partial f^*(\boldsymbol{k}+\mathbf{A})}{\partial \boldsymbol k} & 0
+		      \end{array}\right),
+\end{align}
+
+
+\begin{align}
+	\frac{\partial f(\boldsymbol{k}+\mathbf{A})}{\partial \boldsymbol k}
+	=i\vec {\delta}_1 e^{i\left (\boldsymbol k+\mathbf A \right ) \cdot \vec\delta_1}
+	+i\vec{\delta}_2 e^{i\left (\boldsymbol k+\mathbf A \right ) \cdot \vec\delta_2}
+	+i\vec{\delta}_3 e^{i\left (\boldsymbol k+\mathbf A \right ) \cdot \vec \delta_3}
+\end{align}
+Exploring the theoretical foundations of light-induced topological phase transitions in 2D systems presents interests for research. However, in this thesis, our focus will be specifically on studing the properties and dynamics of nonlinear excited states. While the broader theoretical framework of light-induced topological phase transitions merits attention, our emphasis on nonlinear excited states allows for a deeper understanding of the complex interactions and phenomena that arise in 2D materials under optical excitation. By narrowing our scope in this manner, we aim to provide a comprehensive analysis of the nonlinear dynamics within the context of the broader field of topological photonics, shedding light on the intricate interplay between light, topology, and material properties.
+\color{black}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Electron Dynamics}
@@ -163,14 +236,11 @@ Transforming to the $\mathbf{k}$ -space representation, we have
 	\label{eqn:vTD}
 \end{equation}
 where $\mathbf k$ denotes the Bloch wavevector, The vector potential $\mathbf A(t)$ is related to the applied electric field $\mathbf E(t)$ as $\mathbf E(t)=-d\mathbf A(t)/dt$, and it is included in the Hamiltonian as the wavevector shift $\mathbf k \rightarrow \mathbf k + e\mathbf A(t)/\hbar$ via the Peierls substitution  \cite{hofstadter1976energy}.\\
-
-To study the nonlinear photocarrier injection, we need to introduce time-dependent Schr\"odinger
-equation (\gls {TDSE}) for close quantum systems since the injection carriers need to be discussed
-without considering dissipation. On the other stage, HHG induced by intensied THz or MIR laser has
-strong relaxation which can not be ignored so we introduce quantum master equation for HHG progress
-under intensed long-term pulse. We will discuss the progress solving quantum dynamics in close and
-open system seperated in the next sections to get nonlinear response current, which is the main
-observable for both theory and experiment.
+\color{red}
+\gls{TDSE} allows for the direct simulation of the dynamics of photoexcited carriers in the presence of external fields, accounting for their interaction with the lattice and other carriers.
+However, the nonlinear optical response processes involve the dealing with open quantum systems involves accounting for the interactions between the system of interest and its surrounding environment, which leads to decoherence, dissipation, and loss of quantum coherence. Instead of working with pure quantum states, open quantum systems are described using density matrices. The density matrix incorporates both the system's state and the effects of its interaction with the environment, allowing for the representation of mixed states and accounting for decoherence. The dynamics of open quantum systems are typically governed by master equations. These equations describe the time evolution of the density matrix and capture the effects of dissipation and decoherence induced by the environment.
+HHG induced by intensied THz or MIR laser has strong relaxation which can not be ignored so we introduce quantum master equation for HHG progress under intensed long-term pulse. This allows for the study of \gls{HHG} phenomena and the prediction of experimental observables in more realistic conditions.
+\color{black}
 %===================================================================================================================================
 \subsection{Time-dependent Schr\"odinger Equation}
 The light-induced electron dynamics can be described by solving the following \gls {TDSE} at each $\mathbf k$-point:
@@ -189,7 +259,7 @@ Various numerical methods can be chosen for doing the time propagation, here we 
 \end{equation}
 which means:
 \begin{align}
-	\left|\psi_{\mathbf{k}}(t')\right\rangle=\left\{\sum_{n=0}^{\infty} \frac{(-i)^n}{n !} \int_t^{t^{\prime}} \mathrm{d} \tau_1 \ldots \int_t^{t^{\prime}} \mathrm{d} \tau_n \hat{T} \hat{H}\left(\tau_1\right) \ldots \hat{H}\left(\tau_n\right)\right\} \left|\psi_{\mathbf{k}+\mathbf{A}(t)}\right\rangle
+	\left|\psi_{\mathbf{k}}(t')\right\rangle=\hat{T} \left\{\sum_{n=0}^{\infty} \frac{(-i)^n}{n !} \int_t^{t^{\prime}} \mathrm{d} \tau_1 \ldots \int_t^{t^{\prime}} \mathrm{d} \tau_n \hat{H}\left(\tau_1\right) \ldots \hat{H}\left(\tau_n\right)\right\} \left|\psi_{\mathbf{k}+\mathbf{A}(t)}\right\rangle
 \end{align}
 If the Hamiltonian commutes with itself at different times:
 \begin{align}
@@ -197,7 +267,7 @@ If the Hamiltonian commutes with itself at different times:
 \end{align}
 Since $\Delta t$ is sufficiently small, the exponential mid-point propagator:
 \begin{align}
-	\hat{T}	\exp \left[-i \int_{t}^{t'} d \tau \hat{H}(\tau) \right] \approx \hat{T} \exp \{-\mathrm{i} \Delta t \hat{H}(t+\Delta t / 2)\}
+	\hat{T}	\exp \left[-i \int_{t}^{t'} d \tau \hat{H}(\tau) \right] \approx \exp \{-\mathrm{i} \Delta t \hat{H}(t+\Delta t / 2)\}
 \end{align}
 We approximate the exponential using a Taylor expansion to infinit-order:
 \begin{align}
@@ -230,7 +300,10 @@ We can also analyze the population distribution of photocarriers induced by the 
 	\hat{H}_{\vecb{k}}|\phi_{b \vecb{k}}\rangle = \epsilon_{b\vecb{k}}|\phi_{b \vecb{k}}\rangle,
 	\label{eq:eigenstates-h0}
 \end{align}
-where $b$ is a band index, $|\phi_{b \vecb{k}}\rangle$ is an eigenstate, and $\epsilon_{b\vecb{k}}$ corresponds to the eigenvalue. As the Hamiltonian is a $2$-by-$2$ matrix in this work, the band index $b$ denotes either a conduction ($b=c$) or valence ($b=v$) state.
+where $b$ is a band index, $|\phi_{b \vecb{k}}\rangle$ is an eigenstate, and $\epsilon_{b\vecb{k}}$ corresponds to the eigenvalue.
+$|u^H_{b\mathbf k}(t)\rangle $ are also defined as Houston states \cite{PhysRev.57.184, PhysRevB.33.5494}, are characterized as eigenstates of the instantaneous Hamiltonian, expressed as instantaneous adiabatic eigenstates, which will be also discussed in the later sections in relaxation approximation in Eq.~(\ref{eqn:Houston}) and in Appendix.~\ref{ch:A_ADIABATIC} for adiabatic expansion.
+
+As the Hamiltonian is a $2$-by-$2$ matrix in this work, the band index $b$ denotes either a conduction ($b=c$) or valence ($b=v$) state.
 
 Using eigenstates defined with Eq.~(\ref{eq:eigenstates-h0}), the conduction population distribution $n_{c \vecb{k}}$ after the laser irradiation can be evaluated as:
 \begin{align}
@@ -241,7 +314,7 @@ where $t$ can be an instantaneous time during or after the laser field. By impos
 
 %==================================================================================================================================
 \subsection{Quantum Master Equation \label{sec:master}}
-In contrast to closed quantum systems, which are entirely isolated from external influences and can be adequately described by the Schrödinger equation, the quantum master equation is typically used in the context of the time evolution of an open quantum system, where the system of interest is susceptible to exchanges of energy, particles, or information with its external environment.
+In contrast to closed quantum systems, which can be adequately described by the Schrödinger equation, the quantum master equation is typically used in the context of the time evolution of an open quantum system, where the system of interest is susceptible to exchanges of energy, particles with its external environment.
 To expound processes such as relaxation, dephasing, and thermalization of the nonlinear response experiments, the quantum master equation is predominantly employed which is salient in the realm of open quantum systems.\\
 We describe the light-induced electron dynamics in graphene with the following quantum master equation \cite{sato2019light,sato2019microscopic,sato2021high,sato2021nonlinear}:
 \begin{equation}
@@ -253,7 +326,7 @@ $\rho_{\mathbf k}(t)$ is the reduced density matrix at $\mathbf k$. The quantum 
 To elucidate the impact of dissipation, we formulate the relaxation operator, denoted as
 $\hat{D}\left[\rho_{\mathbf{k}} (t)\right]$, within the framework of Eq.(\ref{eqn:masterequation})
 employing the relaxation time approximation\cite{meier1994coherent} and employing the Houston basis
-\cite{PhysRev.57.184, PhysRevB.33.5494}. The Houston states, $|u^H_{b\mathbf k}(t)\rangle $,  are characterized as eigenstates of the instantaneous Hamiltonian, expressed as:
+\cite{PhysRev.57.184, PhysRevB.33.5494}:
 \begin{align}
 	\hat{H}_{\mathbf{k}+e\mathbf{A}(t)/\hbar} |u^H_{b\mathbf k}(t)\rangle = \epsilon_{b,\mathbf k + e\mathbf A(t)/\hbar}|u^H_{b\mathbf k}(t)\rangle
 	\label{eqn:Houston}

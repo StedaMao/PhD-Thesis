@@ -77,3 +77,5 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+OUTPUT chapter1.pdf
+INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
